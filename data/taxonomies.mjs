@@ -46,6 +46,7 @@ export const GENRES = {
 	party: "パーティー・対戦",
 	online: "オンライン・MMO",
 	"visual-novel": "ノベル・物語",
+	"beat-em-up": "ベルトスクロール",
 };
 
 export const PLATFORMS = {
@@ -56,6 +57,7 @@ export const PLATFORMS = {
 	fds: "ディスクシステム",
 	msx: "MSX",
 	pc88: "PC-8801",
+	sms: "セガ・マークIII/マスターシステム",
 	sfc: "スーパーファミコン",
 	md: "メガドライブ",
 	pce: "PCエンジン",

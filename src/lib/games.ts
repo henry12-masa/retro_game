@@ -24,6 +24,7 @@ export interface Game {
 	cover: unknown;
 	content: unknown;
 	officialUrl: string;
+	amazonQuery: string;
 	era: Term | null;
 	genres: Term[];
 	platforms: Term[];
@@ -64,6 +65,7 @@ export async function loadGames() {
 			cover: d.cover ?? null,
 			content: d.content ?? null,
 			officialUrl: d.official_url ?? "",
+			amazonQuery: d.amazon_query ?? "",
 			era: terms.era?.[0] ? pick(terms.era[0]) : null,
 			genres: (terms.genre ?? []).map(pick),
 			platforms: (terms.platform ?? []).map(pick),

@@ -2,6 +2,8 @@
 import { PortableText, Image } from "emdash/ui";
 import Base from "../../layouts/Base.astro";
 import GameCard from "../../components/GameCard.astro";
+import AmazonBox from "../../components/AmazonBox.astro";
+import { amazonForGame, hardwareInfo } from "../../lib/amazon";
 import { TIERS, eraBySlug, gamesUrl, loadGames, relatedGames } from "../../lib/games";
 
 const { slug } = Astro.params;
@@ -18,6 +20,16 @@ const sameYear = games.filter((g) => g.year === game.year && g.slug !== game.slu
 const prev = games[index - 1];
 const next = games[index + 1];
 const hasContent = Array.isArray(game.content) && game.content.length > 0;
+const amazonSoft = amazonForGame(game);
+// 対応機種の本体・関連機器(重複と「扱いなし」を除いて最大3件)
+// アーケード・PC・スマホ・VRは本体の案内として不自然なので、作品ページでは出さない(機種ガイドには出す)
+const NO_HARDWARE_LINK = new Set(["arcade", "pc", "mobile", "vr"]);
+const hardwareLinks = game.platforms
+	.filter((p) => !NO_HARDWARE_LINK.has(p.slug))
+	.map((p) => hardwareInfo(p.slug))
+	.filter((h): h is NonNullable<typeof h> => !!h?.amazon)
+	.slice(0, 3)
+	.map((h) => h.amazon!);
 ---
 
 <Base
@@ -93,7 +105,7 @@ const hasContent = Array.isArray(game.content) && game.content.length > 0;
 								<li><a href={gamesUrl({ platform: p.slug })} class="chip">{p.label}</a></li>
 							))}
 						</ul>
-						<p class="facts__note">初出機種+主な移植先</p>
+						<p class="facts__note">初出機種+主な移植先 · <a href="/hardware">機種ガイド</a></p>
 					</dd>
 				</div>
 				{
@@ -117,11 +129,19 @@ const hasContent = Array.isArray(game.content) && game.content.length > 0;
 				}
 				{
 					hasContent && (
-						<div class="prose">
-							<PortableText value={game.content as any} />
-						</div>
+						<section class="review" aria-labelledby="review-heading">
+							<h2 id="review-heading" class="sub-title">解説</h2>
+							<div class="prose">
+								<PortableText value={game.content as any} />
+							</div>
+						</section>
 					)
 				}
+				<AmazonBox
+					title={amazonSoft ? `『${game.title}』をAmazonで探す` : "対応機種をAmazonで探す"}
+					primary={amazonSoft}
+					links={hardwareLinks}
+				/>
 				{
 					sameYear.length > 0 && (
 						<div class="same-year">
@@ -315,6 +335,16 @@ const hasContent = Array.isArray(game.content) && game.content.length > 0;
 		font-size: var(--font-size-xl);
 		font-weight: 500;
 		line-height: 1.7;
+	}
+
+	.review :global(p) {
+		font-size: var(--font-size-base);
+		line-height: 1.95;
+		color: var(--color-text);
+	}
+
+	.review :global(p + p) {
+		margin-top: var(--spacing-4);
 	}
 
 	.sub-title {

@@ -3,11 +3,9 @@
 // seed は「空のデータベース」にだけ適用される。作り直すときは data.db を消してから dev を起動する。
 import { writeFileSync } from "node:fs";
 import { ERAS, GENRES, PLATFORMS, TIERS, eraForYear } from "../data/taxonomies.mjs";
-import classic from "../data/games-classic.mjs";
-import modern from "../data/games-modern.mjs";
+import { games, bodyToPortableText } from "../data/catalog.mjs";
 import { features, aboutPage } from "../data/features.mjs";
 
-const games = [...classic, ...modern];
 
 // ---- 検証: slug重複・未定義のジャンル/機種・年代の判定漏れ
 const seen = new Set();
@@ -18,6 +16,7 @@ for (const game of games) {
 	for (const p of game.platforms) if (!PLATFORMS[p]) throw new Error(`${game.slug}: 未定義の機種 ${p}`);
 	if (!TIERS[game.tier]) throw new Error(`${game.slug}: 未定義の推し度 ${game.tier}`);
 	if (!eraForYear(game.year)) throw new Error(`${game.slug}: 年代が判定できない ${game.year}`);
+	if (!game.body) throw new Error(`${game.slug}: 解説本文がない`);
 }
 for (const f of features) {
 	for (const slug of f.mentions ?? []) if (!seen.has(slug)) throw new Error(`特集 ${f.slug}: 存在しないゲーム ${slug}`);
@@ -58,6 +57,7 @@ const seed = {
 				{ slug: "cover", label: "カバー画像", type: "image" },
 				{ slug: "content", label: "レビュー本文", type: "portableText", searchable: true },
 				{ slug: "official_url", label: "公式サイト", type: "url" },
+				{ slug: "amazon_query", label: "Amazon検索語(空なら自動、none でリンクなし)", type: "string" },
 			],
 		},
 		{
@@ -124,6 +124,7 @@ const seed = {
 			items: [
 				{ type: "custom", label: "ゲーム一覧", url: "/games" },
 				{ type: "custom", label: "年表", url: "/timeline" },
+				{ type: "custom", label: "機種ガイド", url: "/hardware" },
 				{ type: "custom", label: "特集", url: "/posts" },
 				{ type: "custom", label: "このサイトについて", url: "/pages/about" },
 			],
@@ -174,6 +175,8 @@ const seed = {
 				tier: game.tier,
 				summary: game.summary,
 				curator_note: game.note,
+				content: bodyToPortableText(game.slug, game.body),
+				amazon_query: game.amazonQuery,
 			},
 			taxonomies: {
 				era: [eraForYear(game.year).slug],

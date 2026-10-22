@@ -1,6 +1,8 @@
 ---
 import Base from "../../layouts/Base.astro";
 import GameCard from "../../components/GameCard.astro";
+import AmazonBox from "../../components/AmazonBox.astro";
+import { hardwareInfo } from "../../lib/amazon";
 import {
 	ERAS,
 	GENRES,
@@ -46,6 +48,7 @@ const grouped =
 
 // 選択中の条件の説明(見出し用)
 const era = eraBySlug(filters.era);
+const hw = filters.platform ? hardwareInfo(filters.platform) : null;
 const active = [
 	era && { key: "era", label: era.label },
 	filters.genre && { key: "genre", label: GENRES[filters.genre as keyof typeof GENRES] },
@@ -80,8 +83,18 @@ const without = (key: string) =>
 			<p class="eyebrow">Games</p>
 			<h1 class="intro__title">{heading}</h1>
 			<p class="intro__lead">
-				{era ? era.lead : "年代・ジャンル・機種を組み合わせて、次に遊ぶ1本を探してください。"}
+				{era ? era.lead : hw ? hw.desc : "年代・ジャンル・機種を組み合わせて、次に遊ぶ1本を探してください。"}
 			</p>
+			{
+				hw && (
+					<div class="hw-box">
+						<p class="hw-box__meta">
+							{hw.maker}{hw.year && ` · ${hw.year}年発売`} · <a href={`/hardware#${filters.platform}`}>機種ガイドで見る</a>
+						</p>
+						{hw.amazon && <AmazonBox title="本体・関連機器をAmazonで探す" links={[hw.amazon]} compact />}
+					</div>
+				)
+			}
 		</div>
 	</header>
 
@@ -213,6 +226,19 @@ const without = (key: string) =>
 </script>
 
 <style>
+	.hw-box {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-3);
+		margin-top: var(--spacing-5);
+		max-width: 640px;
+	}
+
+	.hw-box__meta {
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+	}
+
 	.filters {
 		display: grid;
 		grid-template-columns: repeat(5, minmax(0, 1fr)) auto;

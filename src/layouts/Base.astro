@@ -344,6 +344,9 @@ const year = new Date().getFullYear();
 			</div>
 			<div class="band site-footer__bottom">
 				<div class="frame site-footer__bottom-inner">
+					<p class="site-footer__meta site-footer__disclosure">
+						Amazonのアソシエイトとして、{siteTitle}は適格販売により収入を得ています。当サイトのAmazonへのリンクは広告(PR)を含みます。
+					</p>
 					<p class="site-footer__meta">
 						{`© ${year} ${siteTitle}.`} Powered by{" "}
 						<a href="https://emdashcms.com">EmDash</a>
@@ -1359,6 +1362,10 @@ const year = new Date().getFullYear();
 				display: grid;
 				gap: var(--spacing-3);
 				list-style: none;
+			}
+
+			.site-footer__disclosure {
+				flex-basis: 100%;
 			}
 
 			.site-footer__bottom-inner {
