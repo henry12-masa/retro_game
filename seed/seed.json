@@ -1,0 +1,9410 @@
+{
+	"$schema": "https://emdashcms.com/seed.schema.json",
+	"version": "1",
+	"meta": {
+		"name": "遊び継ぐ",
+		"description": "レトロから新作まで、年代・ジャンル・機種で横断するゲームキュレーションサイト",
+		"author": "遊び継ぐ編集部"
+	},
+	"settings": {
+		"title": "遊び継ぐ",
+		"tagline": "1972年の『ポン』から最新作まで。いま遊ぶ価値のあるゲームを、年代・ジャンル・機種で横断するキュレーションサイト。"
+	},
+	"collections": [
+		{
+			"slug": "games",
+			"label": "ゲーム",
+			"labelSingular": "ゲーム",
+			"urlPattern": "/games/{slug}",
+			"supports": [
+				"drafts",
+				"revisions",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "タイトル",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "title_en",
+					"label": "英語タイトル",
+					"type": "string",
+					"searchable": true
+				},
+				{
+					"slug": "release_year",
+					"label": "初出年",
+					"type": "integer",
+					"required": true
+				},
+				{
+					"slug": "developer",
+					"label": "開発",
+					"type": "string",
+					"searchable": true
+				},
+				{
+					"slug": "tier",
+					"label": "推し度",
+					"type": "select",
+					"required": true,
+					"validation": {
+						"options": [
+							"essential",
+							"recommended",
+							"deep"
+						]
+					}
+				},
+				{
+					"slug": "summary",
+					"label": "ひとこと紹介",
+					"type": "text",
+					"searchable": true
+				},
+				{
+					"slug": "curator_note",
+					"label": "キュレーターの一言",
+					"type": "text",
+					"searchable": true
+				},
+				{
+					"slug": "cover",
+					"label": "カバー画像",
+					"type": "image"
+				},
+				{
+					"slug": "content",
+					"label": "レビュー本文",
+					"type": "portableText",
+					"searchable": true
+				},
+				{
+					"slug": "official_url",
+					"label": "公式サイト",
+					"type": "url"
+				}
+			]
+		},
+		{
+			"slug": "posts",
+			"label": "特集",
+			"labelSingular": "特集",
+			"urlPattern": "/posts/{slug}",
+			"supports": [
+				"drafts",
+				"revisions",
+				"preview",
+				"scheduling",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "タイトル",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "featured_image",
+					"label": "アイキャッチ",
+					"type": "image"
+				},
+				{
+					"slug": "content",
+					"label": "本文",
+					"type": "portableText",
+					"searchable": true
+				},
+				{
+					"slug": "excerpt",
+					"label": "抜粋",
+					"type": "text"
+				}
+			]
+		},
+		{
+			"slug": "pages",
+			"label": "固定ページ",
+			"labelSingular": "固定ページ",
+			"urlPattern": "/pages/{slug}",
+			"supports": [
+				"drafts",
+				"revisions",
+				"preview",
+				"search",
+				"seo"
+			],
+			"fields": [
+				{
+					"slug": "title",
+					"label": "タイトル",
+					"type": "string",
+					"required": true,
+					"searchable": true
+				},
+				{
+					"slug": "content",
+					"label": "本文",
+					"type": "portableText",
+					"searchable": true
+				}
+			]
+		}
+	],
+	"taxonomies": [
+		{
+			"name": "era",
+			"label": "年代",
+			"labelSingular": "年代",
+			"hierarchical": false,
+			"collections": [
+				"games"
+			],
+			"terms": [
+				{
+					"slug": "dawn",
+					"label": "黎明期(〜1982)"
+				},
+				{
+					"slug": "8bit",
+					"label": "8ビット時代(1983〜1989)"
+				},
+				{
+					"slug": "16bit",
+					"label": "16ビット時代(1990〜1994)"
+				},
+				{
+					"slug": "polygon",
+					"label": "ポリゴン革命(1995〜1999)"
+				},
+				{
+					"slug": "ps2",
+					"label": "PS2・GC時代(2000〜2005)"
+				},
+				{
+					"slug": "hd",
+					"label": "HD・携帯機時代(2006〜2012)"
+				},
+				{
+					"slug": "indie",
+					"label": "インディー&オープンワールド(2013〜2019)"
+				},
+				{
+					"slug": "now",
+					"label": "現行世代(2020〜)"
+				}
+			]
+		},
+		{
+			"name": "genre",
+			"label": "ジャンル",
+			"labelSingular": "ジャンル",
+			"hierarchical": false,
+			"collections": [
+				"games"
+			],
+			"terms": [
+				{
+					"slug": "action",
+					"label": "アクション"
+				},
+				{
+					"slug": "platformer",
+					"label": "横スクロール・プラットフォーマー"
+				},
+				{
+					"slug": "action-adventure",
+					"label": "アクションアドベンチャー"
+				},
+				{
+					"slug": "rpg",
+					"label": "RPG"
+				},
+				{
+					"slug": "action-rpg",
+					"label": "アクションRPG"
+				},
+				{
+					"slug": "srpg",
+					"label": "シミュレーションRPG"
+				},
+				{
+					"slug": "adventure",
+					"label": "アドベンチャー"
+				},
+				{
+					"slug": "shooter",
+					"label": "シューティング(STG)"
+				},
+				{
+					"slug": "fps",
+					"label": "FPS・TPS"
+				},
+				{
+					"slug": "fighting",
+					"label": "対戦格闘"
+				},
+				{
+					"slug": "puzzle",
+					"label": "パズル"
+				},
+				{
+					"slug": "simulation",
+					"label": "シミュレーション"
+				},
+				{
+					"slug": "strategy",
+					"label": "ストラテジー"
+				},
+				{
+					"slug": "racing",
+					"label": "レース"
+				},
+				{
+					"slug": "sports",
+					"label": "スポーツ"
+				},
+				{
+					"slug": "horror",
+					"label": "ホラー"
+				},
+				{
+					"slug": "rhythm",
+					"label": "リズム・音楽"
+				},
+				{
+					"slug": "roguelike",
+					"label": "ローグライク"
+				},
+				{
+					"slug": "metroidvania",
+					"label": "メトロイドヴァニア"
+				},
+				{
+					"slug": "sandbox",
+					"label": "サンドボックス・クラフト"
+				},
+				{
+					"slug": "stealth",
+					"label": "ステルス"
+				},
+				{
+					"slug": "open-world",
+					"label": "オープンワールド"
+				},
+				{
+					"slug": "party",
+					"label": "パーティー・対戦"
+				},
+				{
+					"slug": "online",
+					"label": "オンライン・MMO"
+				},
+				{
+					"slug": "visual-novel",
+					"label": "ノベル・物語"
+				}
+			]
+		},
+		{
+			"name": "platform",
+			"label": "機種",
+			"labelSingular": "機種",
+			"hierarchical": false,
+			"collections": [
+				"games"
+			],
+			"terms": [
+				{
+					"slug": "arcade",
+					"label": "アーケード"
+				},
+				{
+					"slug": "pc",
+					"label": "PC"
+				},
+				{
+					"slug": "atari2600",
+					"label": "Atari 2600"
+				},
+				{
+					"slug": "fc",
+					"label": "ファミコン"
+				},
+				{
+					"slug": "fds",
+					"label": "ディスクシステム"
+				},
+				{
+					"slug": "msx",
+					"label": "MSX"
+				},
+				{
+					"slug": "pc88",
+					"label": "PC-8801"
+				},
+				{
+					"slug": "sfc",
+					"label": "スーパーファミコン"
+				},
+				{
+					"slug": "md",
+					"label": "メガドライブ"
+				},
+				{
+					"slug": "pce",
+					"label": "PCエンジン"
+				},
+				{
+					"slug": "neogeo",
+					"label": "ネオジオ"
+				},
+				{
+					"slug": "gb",
+					"label": "ゲームボーイ"
+				},
+				{
+					"slug": "n64",
+					"label": "NINTENDO64"
+				},
+				{
+					"slug": "ps1",
+					"label": "PlayStation"
+				},
+				{
+					"slug": "saturn",
+					"label": "セガサターン"
+				},
+				{
+					"slug": "dc",
+					"label": "ドリームキャスト"
+				},
+				{
+					"slug": "ps2",
+					"label": "PlayStation 2"
+				},
+				{
+					"slug": "gc",
+					"label": "ゲームキューブ"
+				},
+				{
+					"slug": "xbox",
+					"label": "Xbox"
+				},
+				{
+					"slug": "gba",
+					"label": "ゲームボーイアドバンス"
+				},
+				{
+					"slug": "ds",
+					"label": "ニンテンドーDS"
+				},
+				{
+					"slug": "psp",
+					"label": "PSP"
+				},
+				{
+					"slug": "wii",
+					"label": "Wii"
+				},
+				{
+					"slug": "ps3",
+					"label": "PlayStation 3"
+				},
+				{
+					"slug": "x360",
+					"label": "Xbox 360"
+				},
+				{
+					"slug": "3ds",
+					"label": "ニンテンドー3DS"
+				},
+				{
+					"slug": "vita",
+					"label": "PS Vita"
+				},
+				{
+					"slug": "wiiu",
+					"label": "Wii U"
+				},
+				{
+					"slug": "ps4",
+					"label": "PlayStation 4"
+				},
+				{
+					"slug": "xone",
+					"label": "Xbox One"
+				},
+				{
+					"slug": "switch",
+					"label": "Nintendo Switch"
+				},
+				{
+					"slug": "ps5",
+					"label": "PlayStation 5"
+				},
+				{
+					"slug": "xsx",
+					"label": "Xbox Series X|S"
+				},
+				{
+					"slug": "switch2",
+					"label": "Nintendo Switch 2"
+				},
+				{
+					"slug": "mobile",
+					"label": "スマートフォン"
+				},
+				{
+					"slug": "vr",
+					"label": "VR"
+				}
+			]
+		},
+		{
+			"name": "category",
+			"label": "特集カテゴリ",
+			"labelSingular": "特集カテゴリ",
+			"hierarchical": true,
+			"collections": [
+				"posts"
+			],
+			"terms": [
+				{
+					"slug": "guide",
+					"label": "入門ガイド"
+				},
+				{
+					"slug": "history",
+					"label": "系譜を読む"
+				},
+				{
+					"slug": "review",
+					"label": "年間ベスト"
+				}
+			]
+		},
+		{
+			"name": "tag",
+			"label": "タグ",
+			"labelSingular": "タグ",
+			"hierarchical": false,
+			"collections": [
+				"posts"
+			],
+			"terms": [
+				{
+					"slug": "retro",
+					"label": "レトロ"
+				},
+				{
+					"slug": "indie",
+					"label": "インディー"
+				},
+				{
+					"slug": "new",
+					"label": "新作"
+				},
+				{
+					"slug": "beginner",
+					"label": "はじめての人へ"
+				}
+			]
+		}
+	],
+	"bylines": [
+		{
+			"id": "byline-editorial",
+			"slug": "editorial",
+			"displayName": "遊び継ぐ編集部"
+		}
+	],
+	"menus": [
+		{
+			"name": "primary",
+			"label": "メインメニュー",
+			"items": [
+				{
+					"type": "custom",
+					"label": "ゲーム一覧",
+					"url": "/games"
+				},
+				{
+					"type": "custom",
+					"label": "年表",
+					"url": "/timeline"
+				},
+				{
+					"type": "custom",
+					"label": "特集",
+					"url": "/posts"
+				},
+				{
+					"type": "custom",
+					"label": "このサイトについて",
+					"url": "/pages/about"
+				}
+			]
+		}
+	],
+	"widgetAreas": [
+		{
+			"name": "sidebar",
+			"label": "サイドバー",
+			"description": "特集記事ページに表示",
+			"widgets": [
+				{
+					"type": "component",
+					"componentId": "core:search",
+					"title": "検索"
+				},
+				{
+					"type": "component",
+					"componentId": "core:categories",
+					"title": "特集カテゴリ"
+				},
+				{
+					"type": "component",
+					"componentId": "core:recent-posts",
+					"title": "新しい特集",
+					"props": {
+						"count": 5,
+						"showDate": false
+					}
+				}
+			]
+		},
+		{
+			"name": "footer",
+			"label": "フッター",
+			"description": "フッターに表示",
+			"widgets": [
+				{
+					"type": "content",
+					"title": "編集方針",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "f0",
+							"style": "normal",
+							"children": [
+								{
+									"_type": "span",
+									"_key": "f1",
+									"text": "点数はつけません。いま遊ぶ理由をひとことで添えて、年代・ジャンル・機種のどこからでも次の1本に出会えるようにしています。"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"content": {
+		"games": [
+			{
+				"id": "game-pong",
+				"slug": "pong",
+				"status": "published",
+				"data": {
+					"title": "ポン",
+					"title_en": "Pong",
+					"release_year": 1972,
+					"developer": "Atari",
+					"tier": "recommended",
+					"summary": "2本のバーで玉を打ち返すだけの卓球ゲーム。業務用ビデオゲームを商売として成立させた最初のヒット作。",
+					"curator_note": "ルールの説明がいらない、という一点がどれだけ強いかを教えてくれる。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"sports"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-space-invaders",
+				"slug": "space-invaders",
+				"status": "published",
+				"data": {
+					"title": "スペースインベーダー",
+					"title_en": "Space Invaders",
+					"release_year": 1978,
+					"developer": "タイトー",
+					"tier": "essential",
+					"summary": "迫ってくる敵の隊列を砲台で撃ち落とす。日本中の喫茶店にテーブル筐体が並んだ社会現象。",
+					"curator_note": "敵が減るほど速くなる、という偶然の仕様がゲームの緊張感の原点になった。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-asteroids",
+				"slug": "asteroids",
+				"status": "published",
+				"data": {
+					"title": "アステロイド",
+					"title_en": "Asteroids",
+					"release_year": 1979,
+					"developer": "Atari",
+					"tier": "deep",
+					"summary": "慣性で漂う自機を操り、割れていく小惑星を撃つ。ベクタースキャンの光る線が美しい。",
+					"curator_note": "慣性操作の気持ちよさは、40年以上たった今の宇宙ゲームにもそのまま残っている。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-galaxian",
+				"slug": "galaxian",
+				"status": "published",
+				"data": {
+					"title": "ギャラクシアン",
+					"title_en": "Galaxian",
+					"release_year": 1979,
+					"developer": "ナムコ",
+					"tier": "deep",
+					"summary": "隊列から敵が編隊で急降下してくるシューティング。カラー表示でインベーダーとの差をつけた。",
+					"curator_note": "『ギャラガ』の前にこれを触ると、編隊攻撃という発明の大きさがわかる。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-pac-man",
+				"slug": "pac-man",
+				"status": "published",
+				"data": {
+					"title": "パックマン",
+					"title_en": "Pac-Man",
+					"release_year": 1980,
+					"developer": "ナムコ",
+					"tier": "essential",
+					"summary": "迷路のエサを食べ尽くすドットイート。4匹のモンスターにそれぞれ違う追跡ルールがある。",
+					"curator_note": "敵AIに「性格」を与えた最初期の例。アカ・ピンク・アオ・オレンジの動き分けを意識すると別物になる。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-rogue",
+				"slug": "rogue",
+				"status": "published",
+				"data": {
+					"title": "ローグ",
+					"title_en": "Rogue",
+					"release_year": 1980,
+					"developer": "Michael Toy / Glenn Wichman",
+					"tier": "recommended",
+					"summary": "入るたびに形が変わるダンジョンを潜る。死んだらやり直しの、ローグライクという言葉の語源。",
+					"curator_note": "『シレン』『Hades』『Balatro』まで続く系譜の始点。文字だけの画面でも緊張感は本物。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"roguelike",
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-zork",
+				"slug": "zork",
+				"status": "published",
+				"data": {
+					"title": "ゾーク",
+					"title_en": "Zork",
+					"release_year": 1977,
+					"developer": "MITの学生たち(のちのInfocom)",
+					"tier": "deep",
+					"summary": "文章で状況が語られ、英語で命令を打ち込むテキストアドベンチャーの代表作。1977年に大型計算機で生まれ、1980年に家庭用PC版が発売された。",
+					"curator_note": "グラフィックがない分、想像力が全部の描画を担当する。今のノベルゲームの遠い祖先。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-missile-command",
+				"slug": "missile-command",
+				"status": "published",
+				"data": {
+					"title": "ミサイルコマンド",
+					"title_en": "Missile Command",
+					"release_year": 1980,
+					"developer": "Atari",
+					"tier": "deep",
+					"summary": "降ってくる核ミサイルから6つの都市を守る。最後は必ず負ける設計の、冷戦期らしい一本。",
+					"curator_note": "「勝てないゲーム」が何を語れるか、という問いを最初に投げた作品。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-donkey-kong",
+				"slug": "donkey-kong",
+				"status": "published",
+				"data": {
+					"title": "ドンキーコング",
+					"title_en": "Donkey Kong",
+					"release_year": 1981,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "樽をジャンプでかわしながら塔を登る。のちのマリオ(当時はジャンプマン)のデビュー作。",
+					"curator_note": "「ジャンプする」という動詞をゲームの中心に置いた。すべてのアクションゲームの起点。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-galaga",
+				"slug": "galaga",
+				"status": "published",
+				"data": {
+					"title": "ギャラガ",
+					"title_en": "Galaga",
+					"release_year": 1981,
+					"developer": "ナムコ",
+					"tier": "recommended",
+					"summary": "『ギャラクシアン』の続編。捕まった自機を取り返すと2機合体のデュアルファイターになる。",
+					"curator_note": "あえて自機を捕まらせる、というリスクとリターンの設計が今見ても鮮やか。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-frogger",
+				"slug": "frogger",
+				"status": "published",
+				"data": {
+					"title": "フロッガー",
+					"title_en": "Frogger",
+					"release_year": 1981,
+					"developer": "コナミ",
+					"tier": "deep",
+					"summary": "車の行き交う道路と丸太の流れる川を渡ってカエルを巣に帰す。",
+					"curator_note": "『Crossy Road』など、今のスマホゲームにも同じ骨格がそのまま生きている。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-defender",
+				"slug": "defender",
+				"status": "published",
+				"data": {
+					"title": "ディフェンダー",
+					"title_en": "Defender",
+					"release_year": 1981,
+					"developer": "Williams Electronics",
+					"tier": "deep",
+					"summary": "横に広い惑星表面をスクロールしながら、さらわれる人々を守る。ボタンの多さで有名。",
+					"curator_note": "レーダー画面で全体を把握させるという発想は、のちのストラテジーにも通じる。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-wizardry",
+				"slug": "wizardry",
+				"status": "published",
+				"data": {
+					"title": "ウィザードリィ",
+					"title_en": "Wizardry: Proving Grounds of the Mad Overlord",
+					"release_year": 1981,
+					"developer": "Sir-Tech",
+					"tier": "essential",
+					"summary": "6人パーティで地下10階の迷宮を潜る3DダンジョンRPG。日本のRPGに最も深い影響を与えた一作。",
+					"curator_note": "ワイヤーフレームの迷宮は想像の余地そのもの。日本で独自に愛され続けた理由がわかる。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-ultima",
+				"slug": "ultima",
+				"status": "published",
+				"data": {
+					"title": "ウルティマ",
+					"title_en": "Ultima I: The First Age of Darkness",
+					"release_year": 1981,
+					"developer": "Richard Garriott",
+					"tier": "deep",
+					"summary": "フィールドを歩き回り、町やダンジョンを巡るRPGの原型。シリーズはオンラインRPGにまで続いた。",
+					"curator_note": "「世界を歩き回る」RPGの手触りはここから。『ドラクエ』の地図画面の源流のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-pitfall",
+				"slug": "pitfall",
+				"status": "published",
+				"data": {
+					"title": "ピットフォール!",
+					"title_en": "Pitfall!",
+					"release_year": 1982,
+					"developer": "Activision",
+					"tier": "deep",
+					"summary": "ジャングルを走り、ツタで池を越え、20分で財宝を集める。家庭用の横スクロールアクションの先駆け。",
+					"curator_note": "家庭用ゲーム機に「冒険」を持ち込んだ一本。サードパーティという仕組みの象徴でもある。"
+				},
+				"taxonomies": {
+					"era": [
+						"dawn"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"atari2600"
+					]
+				}
+			},
+			{
+				"id": "game-xevious",
+				"slug": "xevious",
+				"status": "published",
+				"data": {
+					"title": "ゼビウス",
+					"title_en": "Xevious",
+					"release_year": 1983,
+					"developer": "ナムコ",
+					"tier": "essential",
+					"summary": "空中と地上の敵を撃ち分ける縦スクロールシューティング。世界観と隠し要素が熱狂を呼んだ。",
+					"curator_note": "ゲームに「設定」と「秘密」を持ち込み、攻略情報を語り合う文化を作った。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-lode-runner",
+				"slug": "lode-runner",
+				"status": "published",
+				"data": {
+					"title": "ロードランナー",
+					"title_en": "Lode Runner",
+					"release_year": 1983,
+					"developer": "Broderbund",
+					"tier": "recommended",
+					"summary": "穴を掘って敵をはめながら金塊を集めるアクションパズル。ステージエディットもできた。",
+					"curator_note": "「自分で面を作る」楽しさを広めた、『スーパーマリオメーカー』の大先輩。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"puzzle",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-nobunaga",
+				"slug": "nobunaga",
+				"status": "published",
+				"data": {
+					"title": "信長の野望",
+					"title_en": "Nobunaga's Ambition",
+					"release_year": 1983,
+					"developer": "光栄(現コーエーテクモ)",
+					"tier": "recommended",
+					"summary": "戦国大名として内政と合戦を繰り返し天下統一を目指す。歴史シミュレーションというジャンルを作った。",
+					"curator_note": "数字を動かして国を育てる面白さは、今の4Xやグランドストラテジーと地続き。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"strategy",
+						"simulation"
+					],
+					"platform": [
+						"pc",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-portopia",
+				"slug": "portopia",
+				"status": "published",
+				"data": {
+					"title": "ポートピア連続殺人事件",
+					"title_en": "The Portopia Serial Murder Case",
+					"release_year": 1983,
+					"developer": "エニックス(堀井雄二)",
+					"tier": "recommended",
+					"summary": "刑事として部下のヤスに命令を出し、神戸の事件を捜査するコマンド選択式アドベンチャー。",
+					"curator_note": "結末はあまりにも有名だが、コマンド選択式アドベンチャーの型を作った功績は色あせない。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"pc",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-tower-of-druaga",
+				"slug": "tower-of-druaga",
+				"status": "published",
+				"data": {
+					"title": "ドルアーガの塔",
+					"title_en": "The Tower of Druaga",
+					"release_year": 1984,
+					"developer": "ナムコ",
+					"tier": "deep",
+					"summary": "60階の塔を登るアクションRPG。各階に隠された宝箱の出し方が誰にもわからない。",
+					"curator_note": "攻略ノートと口コミで遊ぶ、という日本のゲーム文化の始まりのひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-hydlide",
+				"slug": "hydlide",
+				"status": "published",
+				"data": {
+					"title": "ハイドライド",
+					"title_en": "Hydlide",
+					"release_year": 1984,
+					"developer": "T&E SOFT",
+					"tier": "deep",
+					"summary": "体当たりで戦い、立ち止まると体力が回復するアクションRPG。国産ARPGの草分け。",
+					"curator_note": "『イース』『ゼルダ』へ至る道の途中にある、粗削りで大事な一歩。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc",
+						"pc88",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-tetris",
+				"slug": "tetris",
+				"status": "published",
+				"data": {
+					"title": "テトリス",
+					"title_en": "Tetris",
+					"release_year": 1984,
+					"developer": "アレクセイ・パジトノフ",
+					"tier": "essential",
+					"summary": "落ちてくるブロックを並べて消す。1989年のゲームボーイ版で世界中に広まった。",
+					"curator_note": "完成されすぎていて、40年たっても誰も「改良」しきれていないゲーム。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"gb",
+						"fc",
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-elite",
+				"slug": "elite",
+				"status": "published",
+				"data": {
+					"title": "エリート",
+					"title_en": "Elite",
+					"release_year": 1984,
+					"developer": "David Braben / Ian Bell",
+					"tier": "deep",
+					"summary": "宇宙船で星系を渡り歩き、交易と戦闘で稼ぐ。ワイヤーフレーム3Dで8つの銀河を描いた。",
+					"curator_note": "何をしてもいい宇宙、という自由の概念はここから。『No Man's Sky』の祖先。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-bros",
+				"slug": "super-mario-bros",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオブラザーズ",
+					"title_en": "Super Mario Bros.",
+					"release_year": 1985,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "走ってジャンプしてクッパを倒す。横スクロールアクションの教科書であり、家庭用ゲームを世界に広めた。",
+					"curator_note": "1-1は「説明なしで遊び方を教える」設計の最高のお手本。今遊んでも操作が気持ちいい。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-gradius",
+				"slug": "gradius",
+				"status": "published",
+				"data": {
+					"title": "グラディウス",
+					"title_en": "Gradius",
+					"release_year": 1985,
+					"developer": "コナミ",
+					"tier": "essential",
+					"summary": "カプセルを集めて好きな順番で自機を強化する横スクロールシューティング。",
+					"curator_note": "パワーアップを「選ばせる」という発想が革命だった。モアイとオプションの元祖。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-ghosts-n-goblins",
+				"slug": "ghosts-n-goblins",
+				"status": "published",
+				"data": {
+					"title": "魔界村",
+					"title_en": "Ghosts 'n Goblins",
+					"release_year": 1985,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "鎧を剥がされパンツ一丁になる騎士アーサーの冒険。理不尽なまでの難しさで知られる。",
+					"curator_note": "死に覚えの快感の源流。ちゃんと手強く、ちゃんと公平。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-xanadu",
+				"slug": "xanadu",
+				"status": "published",
+				"data": {
+					"title": "ザナドゥ",
+					"title_en": "Xanadu: Dragon Slayer II",
+					"release_year": 1985,
+					"developer": "日本ファルコム",
+					"tier": "deep",
+					"summary": "装備と経験値の管理が奥深い横視点のARPG。当時のPCゲームとして異例の大ヒット。",
+					"curator_note": "ファルコムの源流。リソース管理型ARPGの面白さが詰まっている。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc",
+						"pc88"
+					]
+				}
+			},
+			{
+				"id": "game-dragon-quest",
+				"slug": "dragon-quest",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエスト",
+					"title_en": "Dragon Quest",
+					"release_year": 1986,
+					"developer": "エニックス / チュンソフト",
+					"tier": "essential",
+					"summary": "勇者がたったひとりで竜王を倒す旅に出る。コマンド選択式RPGを日本の国民的遊びにした。",
+					"curator_note": "難しいRPGをファミコンの子どもに届けるための、徹底した「やさしさ」の設計が今も学びになる。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-zelda",
+				"slug": "zelda",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説",
+					"title_en": "The Legend of Zelda",
+					"release_year": 1986,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "広い地上を自由に歩き、9つのダンジョンを探す見下ろし型アクションアドベンチャー。",
+					"curator_note": "何も教えずに放り出す、という勇気。のちの『ブレス オブ ザ ワイルド』はここへの回帰だった。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"fds",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-metroid",
+				"slug": "metroid",
+				"status": "published",
+				"data": {
+					"title": "メトロイド",
+					"title_en": "Metroid",
+					"release_year": 1986,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "惑星ゼーベスの迷宮を、手に入れた能力で少しずつ広げていく探索アクション。",
+					"curator_note": "「メトロイドヴァニア」の半分はこの作品の名前。ラストの驚きも含めて歴史的。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"metroidvania",
+						"action"
+					],
+					"platform": [
+						"fds",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-castlevania",
+				"slug": "castlevania",
+				"status": "published",
+				"data": {
+					"title": "悪魔城ドラキュラ",
+					"title_en": "Castlevania",
+					"release_year": 1986,
+					"developer": "コナミ",
+					"tier": "recommended",
+					"summary": "ムチ一本でドラキュラの城を進むゴシックアクション。重い操作と緻密なステージが特徴。",
+					"curator_note": "不自由な操作を前提にした厳密なレベルデザインが、緊張感を生み出している。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"fds",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-out-run",
+				"slug": "out-run",
+				"status": "published",
+				"data": {
+					"title": "アウトラン",
+					"title_en": "Out Run",
+					"release_year": 1986,
+					"developer": "セガ",
+					"tier": "recommended",
+					"summary": "真っ赤なオープンカーで海沿いを走り、分岐を選んでゴールを目指す。音楽も選べる。",
+					"curator_note": "順位より「気持ちいいドライブ」を売りにしたレースゲーム。BGMの名曲ぶりも必聴。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"racing"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-final-fantasy",
+				"slug": "final-fantasy",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジー",
+					"title_en": "Final Fantasy",
+					"release_year": 1987,
+					"developer": "スクウェア",
+					"tier": "essential",
+					"summary": "4人の光の戦士がクリスタルの輝きを取り戻す旅。ジョブ選択とサイドビュー戦闘が特徴。",
+					"curator_note": "『ドラクエ』とは別の方向、つまり「演出とドラマ」でRPGを進化させた流れの出発点。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-mega-man",
+				"slug": "mega-man",
+				"status": "published",
+				"data": {
+					"title": "ロックマン",
+					"title_en": "Mega Man",
+					"release_year": 1987,
+					"developer": "カプコン",
+					"tier": "essential",
+					"summary": "好きな順番でボスを倒し、その武器を奪って次に挑む横スクロールアクション。",
+					"curator_note": "ボスの相性を考える「攻略の順番」そのものが遊びになっている。2作目から入るのもあり。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-metal-gear",
+				"slug": "metal-gear",
+				"status": "published",
+				"data": {
+					"title": "メタルギア",
+					"title_en": "Metal Gear",
+					"release_year": 1987,
+					"developer": "コナミ(小島秀夫)",
+					"tier": "recommended",
+					"summary": "敵に見つからないことが目的のアクション。ステルスゲームの始まり。",
+					"curator_note": "MSX2版がオリジナル。「戦わない」ゲームデザインの先見性は驚異的。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"stealth",
+						"action"
+					],
+					"platform": [
+						"msx",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-ys",
+				"slug": "ys",
+				"status": "published",
+				"data": {
+					"title": "イース",
+					"title_en": "Ys I: Ancient Ys Vanished",
+					"release_year": 1987,
+					"developer": "日本ファルコム",
+					"tier": "recommended",
+					"summary": "体当たりでテンポよく戦う爽快なARPG。音楽の評価も極めて高い。",
+					"curator_note": "「半キャラずらし」の気持ちよさは唯一無二。シリーズは今も新作が出続けている。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc",
+						"pc88"
+					]
+				}
+			},
+			{
+				"id": "game-contra",
+				"slug": "contra",
+				"status": "published",
+				"data": {
+					"title": "魂斗羅",
+					"title_en": "Contra",
+					"release_year": 1987,
+					"developer": "コナミ",
+					"tier": "recommended",
+					"summary": "2人同時プレイで敵陣を突破するランアンドガン。ファミコン版の完成度が特に高い。",
+					"curator_note": "二人で肩を並べて遊ぶ協力アクションの原点のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"action",
+						"shooter"
+					],
+					"platform": [
+						"arcade",
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-famista",
+				"slug": "famista",
+				"status": "published",
+				"data": {
+					"title": "プロ野球ファミリースタジアム",
+					"title_en": "Family Stadium",
+					"release_year": 1986,
+					"developer": "ナムコ",
+					"tier": "deep",
+					"summary": "実在球団をもじったチームで戦う野球ゲーム。シンプルな操作で対戦が熱い。",
+					"curator_note": "家庭用スポーツゲームの「友だちと対戦」文化はここから広がった。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"sports"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-dragon-quest-3",
+				"slug": "dragon-quest-3",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエストIII そして伝説へ…",
+					"title_en": "Dragon Quest III",
+					"release_year": 1988,
+					"developer": "エニックス / ハートビート",
+					"tier": "essential",
+					"summary": "仲間を酒場で集め、職業を選んで世界を巡る。発売日に行列ができ、社会現象になった。",
+					"curator_note": "転職システムと昼夜の切り替え、そしてタイトルの意味がわかる終盤。シリーズ最高傑作に推す声も多い。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"fc",
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-bros-3",
+				"slug": "super-mario-bros-3",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオブラザーズ3",
+					"title_en": "Super Mario Bros. 3",
+					"release_year": 1988,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "ワールドマップを歩き、しっぽマリオで空を飛ぶ。ファミコンの横スクロールの到達点。",
+					"curator_note": "アイデアの密度が異常。ステージごとに新しい遊びがあり、今でも古びない。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-ninja-gaiden",
+				"slug": "ninja-gaiden",
+				"status": "published",
+				"data": {
+					"title": "忍者龍剣伝",
+					"title_en": "Ninja Gaiden",
+					"release_year": 1988,
+					"developer": "テクモ",
+					"tier": "deep",
+					"summary": "壁に張りつく素早い忍者アクション。ステージの合間に映画的なカットシーンが入る。",
+					"curator_note": "ファミコンで「映画のように語る」試み。難しさも伝説級。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-simcity",
+				"slug": "simcity",
+				"status": "published",
+				"data": {
+					"title": "シムシティー",
+					"title_en": "SimCity",
+					"release_year": 1989,
+					"developer": "Maxis(ウィル・ライト)",
+					"tier": "essential",
+					"summary": "道路と区画を敷き、税金を決めて街を育てる。勝ち負けのない「おもちゃ」としてのゲーム。",
+					"curator_note": "ゴールのないゲームがここまで面白い、という発見。『シティーズ:スカイライン』まで続く系譜。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pc",
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-prince-of-persia",
+				"slug": "prince-of-persia",
+				"status": "published",
+				"data": {
+					"title": "プリンス・オブ・ペルシャ",
+					"title_en": "Prince of Persia",
+					"release_year": 1989,
+					"developer": "Broderbund(ジョーダン・メックナー)",
+					"tier": "recommended",
+					"summary": "ロトスコープによる人間らしいアニメーションで、60分以内に姫を救う。",
+					"curator_note": "キャラクターが「重さを持って動く」ことの感動。今のアクションのモーションの祖。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"platformer",
+						"action"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-mother",
+				"slug": "mother",
+				"status": "published",
+				"data": {
+					"title": "MOTHER",
+					"title_en": "EarthBound Beginnings",
+					"release_year": 1989,
+					"developer": "任天堂 / エイプ(糸井重里)",
+					"tier": "recommended",
+					"summary": "アメリカの田舎町を舞台に、少年がバットとPSIで戦う現代RPG。",
+					"curator_note": "ファンタジーではない日常の不思議を描いたRPG。言葉選びのセンスが唯一無二。"
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-world",
+				"slug": "super-mario-world",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオワールド",
+					"title_en": "Super Mario World",
+					"release_year": 1990,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "ヨッシーに乗って恐竜ランドを冒険する。隠しゴールとスターロードで探索も深い。",
+					"curator_note": "スーファミのロンチにしてシリーズの完成形。ヨッシーの登場もここから。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-f-zero",
+				"slug": "f-zero",
+				"status": "published",
+				"data": {
+					"title": "F-ZERO",
+					"title_en": "F-ZERO",
+					"release_year": 1990,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "回転拡大縮小機能で奥行きを表現した超高速レース。",
+					"curator_note": "スピード感の表現の原点。BGMの「ビッグブルー」は今もファンが多い。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"racing"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-fire-emblem",
+				"slug": "fire-emblem",
+				"status": "published",
+				"data": {
+					"title": "ファイアーエムブレム 暗黒竜と光の剣",
+					"title_en": "Fire Emblem: Shadow Dragon and the Blade of Light",
+					"release_year": 1990,
+					"developer": "インテリジェントシステムズ",
+					"tier": "recommended",
+					"summary": "マス目の戦場で仲間を動かすシミュレーションRPG。倒れた仲間は二度と戻らない。",
+					"curator_note": "喪失を前提にした緊張感。SRPGというジャンルを決定づけた。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"srpg"
+					],
+					"platform": [
+						"fc"
+					]
+				}
+			},
+			{
+				"id": "game-street-fighter-2",
+				"slug": "street-fighter-2",
+				"status": "published",
+				"data": {
+					"title": "ストリートファイターII",
+					"title_en": "Street Fighter II",
+					"release_year": 1991,
+					"developer": "カプコン",
+					"tier": "essential",
+					"summary": "8人から選んで1対1で戦う対戦格闘。ゲームセンターを熱狂させた社会現象。",
+					"curator_note": "コンボ、キャラ選択、対戦文化。今の格闘ゲームはほぼすべてこの作品の子ども。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade",
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-sonic",
+				"slug": "sonic",
+				"status": "published",
+				"data": {
+					"title": "ソニック・ザ・ヘッジホッグ",
+					"title_en": "Sonic the Hedgehog",
+					"release_year": 1991,
+					"developer": "セガ(ソニックチーム)",
+					"tier": "essential",
+					"summary": "超高速で駆け抜けるハリネズミのアクション。メガドライブの象徴。",
+					"curator_note": "「速さ」をそのまま気持ちよさにした設計。マリオとは正反対の哲学が面白い。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"md"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-alttp",
+				"slug": "zelda-alttp",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 神々のトライフォース",
+					"title_en": "The Legend of Zelda: A Link to the Past",
+					"release_year": 1991,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "光と闇の二つの世界を行き来して謎を解く。見下ろし型ゼルダの完成形。",
+					"curator_note": "「表と裏の世界」という仕掛けの見事さ。2Dアクションアドベンチャーの到達点。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"sfc",
+						"gba"
+					]
+				}
+			},
+			{
+				"id": "game-final-fantasy-4",
+				"slug": "final-fantasy-4",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーIV",
+					"title_en": "Final Fantasy IV",
+					"release_year": 1991,
+					"developer": "スクウェア",
+					"tier": "recommended",
+					"summary": "暗黒騎士セシルの贖罪の物語。リアルタイムに時間が流れる「ATB」バトルを導入。",
+					"curator_note": "RPGが「物語を見せるメディア」になった転換点。ATBは今もシリーズの基本。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-civilization",
+				"slug": "civilization",
+				"status": "published",
+				"data": {
+					"title": "シヴィライゼーション",
+					"title_en": "Sid Meier's Civilization",
+					"release_year": 1991,
+					"developer": "MicroProse(シド・マイヤー)",
+					"tier": "essential",
+					"summary": "石器時代から宇宙時代まで、ひとつの文明を導くターン制ストラテジー。",
+					"curator_note": "「あと1ターンだけ」の魔力の元祖。4Xというジャンルの原点。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"strategy"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-puyo-puyo",
+				"slug": "puyo-puyo",
+				"status": "published",
+				"data": {
+					"title": "ぷよぷよ",
+					"title_en": "Puyo Puyo",
+					"release_year": 1991,
+					"developer": "コンパイル",
+					"tier": "essential",
+					"summary": "同じ色を4つつなげて消す落ち物パズル。1992年のアーケード版で対戦ブームに。",
+					"curator_note": "連鎖を組んでおじゃまぷよを送る対戦は、パズルを「格闘技」にした。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"msx",
+						"fds",
+						"arcade",
+						"md"
+					]
+				}
+			},
+			{
+				"id": "game-romancing-saga",
+				"slug": "romancing-saga",
+				"status": "published",
+				"data": {
+					"title": "ロマンシング サ・ガ",
+					"title_en": "Romancing SaGa",
+					"release_year": 1992,
+					"developer": "スクウェア",
+					"tier": "deep",
+					"summary": "8人の主人公から選び、自由な順番でイベントをこなす「フリーシナリオ」RPG。",
+					"curator_note": "自由度の高さが今のゲームの先取り。リマスター版で遊びやすくなっている。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-shin-megami-tensei",
+				"slug": "shin-megami-tensei",
+				"status": "published",
+				"data": {
+					"title": "真・女神転生",
+					"title_en": "Shin Megami Tensei",
+					"release_year": 1992,
+					"developer": "アトラス",
+					"tier": "recommended",
+					"summary": "崩壊した東京で悪魔を仲魔にし、合体させて戦う。ロウ・ニュートラル・カオスの選択が結末を分ける。",
+					"curator_note": "『ペルソナ』の源流。善悪ではなく「秩序と自由」を問うRPG。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-kart",
+				"slug": "super-mario-kart",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオカート",
+					"title_en": "Super Mario Kart",
+					"release_year": 1992,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "マリオたちがアイテムを投げ合ってレースする。カートレースというジャンルの始まり。",
+					"curator_note": "下手でも勝てるかもしれない、というアイテムの設計が、みんなで遊ぶ文化を作った。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"racing",
+						"party"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-dragon-quest-5",
+				"slug": "dragon-quest-5",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエストV 天空の花嫁",
+					"title_en": "Dragon Quest V",
+					"release_year": 1992,
+					"developer": "エニックス / チュンソフト",
+					"tier": "essential",
+					"summary": "少年時代から父親になるまで、ひとりの人生を描く。モンスターを仲間にもできる。",
+					"curator_note": "結婚相手を選ぶ場面は、多くの人にとって初めての「ゲームでの人生の選択」だった。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-kirby",
+				"slug": "kirby",
+				"status": "published",
+				"data": {
+					"title": "星のカービィ",
+					"title_en": "Kirby's Dream Land",
+					"release_year": 1992,
+					"developer": "HAL研究所",
+					"tier": "recommended",
+					"summary": "空を飛べるピンクの丸い主人公の、初心者にやさしいアクション。",
+					"curator_note": "「誰でもクリアできる」を本気で設計した名作。吸い込みコピーは次作から。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"gb"
+					]
+				}
+			},
+			{
+				"id": "game-wolfenstein-3d",
+				"slug": "wolfenstein-3d",
+				"status": "published",
+				"data": {
+					"title": "ウルフェンシュタイン3D",
+					"title_en": "Wolfenstein 3D",
+					"release_year": 1992,
+					"developer": "id Software",
+					"tier": "deep",
+					"summary": "一人称視点で城塞を進むシューティング。FPSというジャンルを形にした。",
+					"curator_note": "FPSの文法がこの1本でほぼ揃っている。速さに驚くはず。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-mortal-kombat",
+				"slug": "mortal-kombat",
+				"status": "published",
+				"data": {
+					"title": "モータルコンバット",
+					"title_en": "Mortal Kombat",
+					"release_year": 1992,
+					"developer": "Midway",
+					"tier": "deep",
+					"summary": "実写取り込みのキャラクターと過激な演出で話題になった対戦格闘。",
+					"curator_note": "レーティング制度が作られるきっかけになった、ゲーム史の重要な一作。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-links-awakening",
+				"slug": "zelda-links-awakening",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 夢をみる島",
+					"title_en": "The Legend of Zelda: Link's Awakening",
+					"release_year": 1993,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "謎の島コホリントで目覚めたリンクの冒険。携帯機とは思えない密度。",
+					"curator_note": "切なさの残る物語はシリーズでも異色。2019年のリメイクで入るのもおすすめ。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"gb",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-secret-of-mana",
+				"slug": "secret-of-mana",
+				"status": "published",
+				"data": {
+					"title": "聖剣伝説2",
+					"title_en": "Secret of Mana",
+					"release_year": 1993,
+					"developer": "スクウェア",
+					"tier": "recommended",
+					"summary": "3人同時プレイもできるリアルタイムバトルのARPG。リングコマンドが特徴。",
+					"curator_note": "友だちとコントローラーを分け合うRPG。菊田裕樹の音楽も名作。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-doom",
+				"slug": "doom",
+				"status": "published",
+				"data": {
+					"title": "DOOM",
+					"title_en": "DOOM",
+					"release_year": 1993,
+					"developer": "id Software",
+					"tier": "essential",
+					"summary": "火星の基地で悪魔を撃ちまくる。ネット対戦とMODでPCゲーム文化を変えた。",
+					"curator_note": "今の「ブーマーシューター」はみなこの子孫。速さと音楽の気持ちよさは不変。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-myst",
+				"slug": "myst",
+				"status": "published",
+				"data": {
+					"title": "MYST",
+					"title_en": "Myst",
+					"release_year": 1993,
+					"developer": "Cyan",
+					"tier": "recommended",
+					"summary": "無人の島をクリックで探索し、仕掛けの意味を自分で解き明かす。CD-ROM時代の象徴。",
+					"curator_note": "説明を一切しないパズルの元祖。『The Witness』『Outer Wilds』の祖先。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"adventure",
+						"puzzle"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-virtua-fighter",
+				"slug": "virtua-fighter",
+				"status": "published",
+				"data": {
+					"title": "バーチャファイター",
+					"title_en": "Virtua Fighter",
+					"release_year": 1993,
+					"developer": "セガ(AM2研)",
+					"tier": "recommended",
+					"summary": "ポリゴンで描かれた初の本格3D対戦格闘。リングアウトのある現実的な格闘。",
+					"curator_note": "3Dゲームの時代を告げた一本。PlayStation誕生のきっかけにもなったと言われる。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade",
+						"saturn"
+					]
+				}
+			},
+			{
+				"id": "game-ogre-battle",
+				"slug": "ogre-battle",
+				"status": "published",
+				"data": {
+					"title": "伝説のオウガバトル",
+					"title_en": "Ogre Battle: The March of the Black Queen",
+					"release_year": 1993,
+					"developer": "クエスト(松野泰己)",
+					"tier": "deep",
+					"summary": "部隊を編成してマップに放つリアルタイムストラテジー。カリスマとアライメントが結末を変える。",
+					"curator_note": "重厚な群像劇と戦略性。のちの『タクティクスオウガ』『FFT』へ続く。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"strategy",
+						"srpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-super-metroid",
+				"slug": "super-metroid",
+				"status": "published",
+				"data": {
+					"title": "スーパーメトロイド",
+					"title_en": "Super Metroid",
+					"release_year": 1994,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "惑星ゼーベスを探索するアクション。マップと能力が噛み合った探索の完成形。",
+					"curator_note": "「メトロイドヴァニア」の教科書。『Hollow Knight』を遊んだ人にこそ。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"metroidvania",
+						"action"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-final-fantasy-6",
+				"slug": "final-fantasy-6",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーVI",
+					"title_en": "Final Fantasy VI",
+					"release_year": 1994,
+					"developer": "スクウェア",
+					"tier": "essential",
+					"summary": "魔導の力をめぐる群像劇。主人公が決まっていない、ドット絵RPGの頂点。",
+					"curator_note": "オペラのシーンと崩壊後の世界。2DのRPGでここまでの演出ができた。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-donkey-kong-country",
+				"slug": "donkey-kong-country",
+				"status": "published",
+				"data": {
+					"title": "スーパードンキーコング",
+					"title_en": "Donkey Kong Country",
+					"release_year": 1994,
+					"developer": "Rare",
+					"tier": "recommended",
+					"summary": "プリレンダリングCGで描かれたリッチな映像の横スクロールアクション。",
+					"curator_note": "スーファミの限界を超えた映像。音楽(デビッド・ワイズ)の評価も高い。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-tokimemo",
+				"slug": "tokimemo",
+				"status": "published",
+				"data": {
+					"title": "ときめきメモリアル",
+					"title_en": "Tokimeki Memorial",
+					"release_year": 1994,
+					"developer": "コナミ",
+					"tier": "deep",
+					"summary": "高校3年間でパラメータを上げ、卒業式の日に告白を待つ恋愛シミュレーション。",
+					"curator_note": "「恋愛シミュレーション」という日本独自のジャンルを確立した。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pce",
+						"ps1",
+						"saturn"
+					]
+				}
+			},
+			{
+				"id": "game-kof-94",
+				"slug": "kof-94",
+				"status": "published",
+				"data": {
+					"title": "ザ・キング・オブ・ファイターズ'94",
+					"title_en": "The King of Fighters '94",
+					"release_year": 1994,
+					"developer": "SNK",
+					"tier": "deep",
+					"summary": "3人1組のチーム戦で戦う対戦格闘。SNKの人気キャラがクロスオーバー。",
+					"curator_note": "チーム戦という発明。毎年の新作がゲームセンターの風物詩になった。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade",
+						"neogeo"
+					]
+				}
+			},
+			{
+				"id": "game-tekken",
+				"slug": "tekken",
+				"status": "published",
+				"data": {
+					"title": "鉄拳",
+					"title_en": "Tekken",
+					"release_year": 1994,
+					"developer": "ナムコ",
+					"tier": "recommended",
+					"summary": "四肢をボタンに割り当てた直感的な3D格闘。PlayStationの普及を牽引した。",
+					"curator_note": "「右パンチ・左キック」の直感操作で、格闘ゲームの入り口を広げた。"
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade",
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-chrono-trigger",
+				"slug": "chrono-trigger",
+				"status": "published",
+				"data": {
+					"title": "クロノ・トリガー",
+					"title_en": "Chrono Trigger",
+					"release_year": 1995,
+					"developer": "スクウェア",
+					"tier": "essential",
+					"summary": "時代を行き来して世界の滅亡を防ぐ。ドリームチームが作った、無駄のないRPG。",
+					"curator_note": "20時間台で終わる密度の高さと、多数のエンディング。迷ったらまずこれ。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"sfc",
+						"ds"
+					]
+				}
+			},
+			{
+				"id": "game-shiren",
+				"slug": "shiren",
+				"status": "published",
+				"data": {
+					"title": "不思議のダンジョン2 風来のシレン",
+					"title_en": "Mystery Dungeon: Shiren the Wanderer",
+					"release_year": 1995,
+					"developer": "チュンソフト",
+					"tier": "essential",
+					"summary": "入るたびに変わるダンジョンを潜り、死ねばレベル1から。日本のローグライクの金字塔。",
+					"curator_note": "「運が悪かった」を「判断が悪かった」に変える設計。何百回でも遊べる。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"roguelike",
+						"rpg"
+					],
+					"platform": [
+						"sfc",
+						"ds",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-suikoden",
+				"slug": "suikoden",
+				"status": "published",
+				"data": {
+					"title": "幻想水滸伝",
+					"title_en": "Suikoden",
+					"release_year": 1995,
+					"developer": "コナミ",
+					"tier": "deep",
+					"summary": "108人の宿星を仲間に集め、本拠地を育てる群像劇RPG。",
+					"curator_note": "仲間集めがそのまま物語になる設計。初期PSを代表するRPG。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-64",
+				"slug": "super-mario-64",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオ64",
+					"title_en": "Super Mario 64",
+					"release_year": 1996,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "城の絵の中の世界を自由に駆け回る3Dアクション。3Dゲームの操作とカメラの基準を作った。",
+					"curator_note": "アナログスティックで「走る」こと自体が楽しい。3Dアクションの教科書。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"platformer",
+						"action-adventure"
+					],
+					"platform": [
+						"n64"
+					]
+				}
+			},
+			{
+				"id": "game-pokemon-red-green",
+				"slug": "pokemon-red-green",
+				"status": "published",
+				"data": {
+					"title": "ポケットモンスター 赤・緑",
+					"title_en": "Pokémon Red and Green",
+					"release_year": 1996,
+					"developer": "ゲームフリーク",
+					"tier": "essential",
+					"summary": "151匹のポケモンを捕まえて育て、通信ケーブルで交換・対戦する。",
+					"curator_note": "「友だちと交換しないと全部集まらない」設計が、世界的な現象を生んだ。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"gb"
+					]
+				}
+			},
+			{
+				"id": "game-resident-evil",
+				"slug": "resident-evil",
+				"status": "published",
+				"data": {
+					"title": "バイオハザード",
+					"title_en": "Resident Evil",
+					"release_year": 1996,
+					"developer": "カプコン",
+					"tier": "essential",
+					"summary": "洋館に閉じ込められ、限られた弾と回復で生き延びるサバイバルホラー。",
+					"curator_note": "アイテム欄の狭さそのものが恐怖になる。2002年のリメイク版も傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"horror",
+						"action-adventure"
+					],
+					"platform": [
+						"ps1",
+						"saturn",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-tomb-raider",
+				"slug": "tomb-raider",
+				"status": "published",
+				"data": {
+					"title": "トゥームレイダー",
+					"title_en": "Tomb Raider",
+					"release_year": 1996,
+					"developer": "Core Design",
+					"tier": "recommended",
+					"summary": "考古学者ララ・クロフトが遺跡を探索する3Dアクションアドベンチャー。",
+					"curator_note": "グリッド状に設計された3D遺跡の緻密さ。ゲームキャラクターがアイコンになった最初期の例。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"saturn",
+						"ps1",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-quake",
+				"slug": "quake",
+				"status": "published",
+				"data": {
+					"title": "Quake",
+					"title_en": "Quake",
+					"release_year": 1996,
+					"developer": "id Software",
+					"tier": "recommended",
+					"summary": "完全な3Dポリゴンで描かれたFPS。インターネット対戦とeスポーツの源流。",
+					"curator_note": "マウスで照準を合わせる遊び方を定着させた。ネット対戦の文化はここから。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-parappa",
+				"slug": "parappa",
+				"status": "published",
+				"data": {
+					"title": "パラッパラッパー",
+					"title_en": "PaRappa the Rapper",
+					"release_year": 1996,
+					"developer": "ソニー / 七音社",
+					"tier": "recommended",
+					"summary": "紙のようにペラペラな犬のパラッパが、師匠に合わせてラップする。",
+					"curator_note": "音楽ゲームというジャンルを家庭用で切り開いた。アートの個性も強烈。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rhythm"
+					],
+					"platform": [
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-diablo",
+				"slug": "diablo",
+				"status": "published",
+				"data": {
+					"title": "ディアブロ",
+					"title_en": "Diablo",
+					"release_year": 1996,
+					"developer": "Blizzard North",
+					"tier": "recommended",
+					"summary": "クリックで戦い、ランダムな装備を集めながら地下へ潜るハクスラARPG。",
+					"curator_note": "「ドロップ品」の中毒性の元祖。ハクスラというジャンルの原点。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-final-fantasy-7",
+				"slug": "final-fantasy-7",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーVII",
+					"title_en": "Final Fantasy VII",
+					"release_year": 1997,
+					"developer": "スクウェア",
+					"tier": "essential",
+					"summary": "巨大企業神羅に立ち向かうクラウドたちの物語。3DCGとムービーで世界にRPGを広めた。",
+					"curator_note": "リメイク三部作を遊ぶ前に、原作の大胆さを知っておくと何倍も楽しめる。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps1",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-goldeneye",
+				"slug": "goldeneye",
+				"status": "published",
+				"data": {
+					"title": "ゴールデンアイ 007",
+					"title_en": "GoldenEye 007",
+					"release_year": 1997,
+					"developer": "Rare",
+					"tier": "recommended",
+					"summary": "映画007を題材にした家庭用FPS。4人の画面分割対戦が伝説に。",
+					"curator_note": "家庭用でFPSが成立することを証明した。ステージごとの任務設計も見事。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"n64"
+					]
+				}
+			},
+			{
+				"id": "game-gran-turismo",
+				"slug": "gran-turismo",
+				"status": "published",
+				"data": {
+					"title": "グランツーリスモ",
+					"title_en": "Gran Turismo",
+					"release_year": 1997,
+					"developer": "ポリフォニー・デジタル",
+					"tier": "recommended",
+					"summary": "実在の車を買い、チューンし、ライセンスを取って走る「リアルドライビングシミュレーター」。",
+					"curator_note": "車好きの世界を丸ごとゲームにした。収集と育成のRPG的な面白さもある。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"racing",
+						"simulation"
+					],
+					"platform": [
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-fallout",
+				"slug": "fallout",
+				"status": "published",
+				"data": {
+					"title": "フォールアウト",
+					"title_en": "Fallout",
+					"release_year": 1997,
+					"developer": "Interplay",
+					"tier": "recommended",
+					"summary": "核戦争後の荒野を生き抜くRPG。会話や選択で多くの解決法がある。",
+					"curator_note": "ブラックユーモアと自由度。今のオープンワールドRPGの精神的な祖先。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-ultima-online",
+				"slug": "ultima-online",
+				"status": "published",
+				"data": {
+					"title": "ウルティマ オンライン",
+					"title_en": "Ultima Online",
+					"release_year": 1997,
+					"developer": "Origin Systems",
+					"tier": "deep",
+					"summary": "数千人が同じ世界で暮らすオンラインRPG。家を建て、商売をし、PKもいる。",
+					"curator_note": "プレイヤー同士が社会を作るMMOの原点。今も運営が続いている。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"online",
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-beatmania",
+				"slug": "beatmania",
+				"status": "published",
+				"data": {
+					"title": "beatmania",
+					"title_en": "beatmania",
+					"release_year": 1997,
+					"developer": "コナミ",
+					"tier": "deep",
+					"summary": "DJになりきって鍵盤とターンテーブルで曲を演奏する音楽ゲーム。",
+					"curator_note": "「BEMANI」シリーズの始まり。日本のゲームセンターの音ゲー文化はここから。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rhythm"
+					],
+					"platform": [
+						"arcade",
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-ocarina",
+				"slug": "zelda-ocarina",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 時のオカリナ",
+					"title_en": "The Legend of Zelda: Ocarina of Time",
+					"release_year": 1998,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "少年と大人の時代を行き来するゼルダ初の3D作品。Z注目で3Dの戦闘を解決した。",
+					"curator_note": "「3Dで剣で戦う」の正解を出した作品。今の3Dアクションの多くがこの仕組みを使っている。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"n64",
+						"3ds"
+					]
+				}
+			},
+			{
+				"id": "game-metal-gear-solid",
+				"slug": "metal-gear-solid",
+				"status": "published",
+				"data": {
+					"title": "メタルギアソリッド",
+					"title_en": "Metal Gear Solid",
+					"release_year": 1998,
+					"developer": "コナミ(小島プロダクション)",
+					"tier": "essential",
+					"summary": "孤島の核兵器施設に潜入するステルスアクション。映画的な演出で世界に衝撃を与えた。",
+					"curator_note": "コントローラーの差し替えを求めるボスなど、メタ的な仕掛けの宝庫。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"stealth",
+						"action"
+					],
+					"platform": [
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-half-life",
+				"slug": "half-life",
+				"status": "published",
+				"data": {
+					"title": "ハーフライフ",
+					"title_en": "Half-Life",
+					"release_year": 1998,
+					"developer": "Valve",
+					"tier": "essential",
+					"summary": "ムービーを挟まず、すべてを一人称視点のまま語るFPS。",
+					"curator_note": "「ゲームの中で物語を見せる」手法の決定版。MODから『Counter-Strike』も生まれた。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-starcraft",
+				"slug": "starcraft",
+				"status": "published",
+				"data": {
+					"title": "スタークラフト",
+					"title_en": "StarCraft",
+					"release_year": 1998,
+					"developer": "Blizzard",
+					"tier": "recommended",
+					"summary": "性質の異なる3種族が戦うリアルタイムストラテジー。韓国でeスポーツの原点に。",
+					"curator_note": "3種族の非対称なのに釣り合うバランス。競技ゲームの教科書。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"strategy"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-baldurs-gate",
+				"slug": "baldurs-gate",
+				"status": "published",
+				"data": {
+					"title": "バルダーズ・ゲート",
+					"title_en": "Baldur's Gate",
+					"release_year": 1998,
+					"developer": "BioWare",
+					"tier": "deep",
+					"summary": "D&Dのルールをもとにした、仲間との会話が豊かなパーティRPG。",
+					"curator_note": "2023年の『3』の大ヒットを経て、源流としての価値が再評価されている。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-thief",
+				"slug": "thief",
+				"status": "published",
+				"data": {
+					"title": "シーフ",
+					"title_en": "Thief: The Dark Project",
+					"release_year": 1998,
+					"developer": "Looking Glass Studios",
+					"tier": "deep",
+					"summary": "光と音で敵に気づかれるかが決まる一人称ステルス。",
+					"curator_note": "「暗闇に隠れる」ことをシステムにした。『Dishonored』の祖先。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"stealth"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-ddr",
+				"slug": "ddr",
+				"status": "published",
+				"data": {
+					"title": "ダンスダンスレボリューション",
+					"title_en": "Dance Dance Revolution",
+					"release_year": 1998,
+					"developer": "コナミ",
+					"tier": "recommended",
+					"summary": "足元のパネルを矢印に合わせて踏むダンスゲーム。ゲームセンターを社交場にした。",
+					"curator_note": "体を動かすゲームの元祖。見せるプレイという文化も作った。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"rhythm"
+					],
+					"platform": [
+						"arcade",
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-soulcalibur",
+				"slug": "soulcalibur",
+				"status": "published",
+				"data": {
+					"title": "ソウルキャリバー",
+					"title_en": "Soulcalibur",
+					"release_year": 1998,
+					"developer": "ナムコ",
+					"tier": "deep",
+					"summary": "武器を手に戦う3D格闘。ドリームキャスト版はアーケードを超える映像だった。",
+					"curator_note": "8方向への移動を自然に取り入れた3D格闘の完成形のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"arcade",
+						"dc"
+					]
+				}
+			},
+			{
+				"id": "game-smash-bros",
+				"slug": "smash-bros",
+				"status": "published",
+				"data": {
+					"title": "ニンテンドウオールスター!大乱闘スマッシュブラザーズ",
+					"title_en": "Super Smash Bros.",
+					"release_year": 1999,
+					"developer": "HAL研究所",
+					"tier": "essential",
+					"summary": "任天堂のキャラクターが戦い、場外に吹っ飛ばした方が勝つ。",
+					"curator_note": "体力ではなく「吹っ飛びやすさ」で勝負させる発想で、格闘ゲームの入口を広げた。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fighting",
+						"party"
+					],
+					"platform": [
+						"n64"
+					]
+				}
+			},
+			{
+				"id": "game-silent-hill",
+				"slug": "silent-hill",
+				"status": "published",
+				"data": {
+					"title": "サイレントヒル",
+					"title_en": "Silent Hill",
+					"release_year": 1999,
+					"developer": "コナミ",
+					"tier": "recommended",
+					"summary": "霧に包まれた町で行方不明の娘を探す。見えないことの恐怖を描いた心理ホラー。",
+					"curator_note": "ハードの限界の霧を、恐怖の演出に変えた発想の転換。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"horror"
+					],
+					"platform": [
+						"ps1"
+					]
+				}
+			},
+			{
+				"id": "game-shenmue",
+				"slug": "shenmue",
+				"status": "published",
+				"data": {
+					"title": "シェンムー 一章 横須賀",
+					"title_en": "Shenmue",
+					"release_year": 1999,
+					"developer": "セガ(鈴木裕)",
+					"tier": "deep",
+					"summary": "父の仇を追う青年の日常を、天候や時間が流れる町で細かく描く。",
+					"curator_note": "オープンワールドの先駆けとも言われる。何でも触れる町の作り込みは今見ても異様。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"adventure",
+						"open-world"
+					],
+					"platform": [
+						"dc",
+						"ps4",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-age-of-empires-2",
+				"slug": "age-of-empires-2",
+				"status": "published",
+				"data": {
+					"title": "エイジ オブ エンパイア II",
+					"title_en": "Age of Empires II",
+					"release_year": 1999,
+					"developer": "Ensemble Studios",
+					"tier": "recommended",
+					"summary": "中世の文明を率いて資源を集め、城を建てて戦うRTS。",
+					"curator_note": "20年以上遊ばれ続けている。Definitive Editionから入るのが今は一番いい。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"strategy"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-system-shock-2",
+				"slug": "system-shock-2",
+				"status": "published",
+				"data": {
+					"title": "システムショック2",
+					"title_en": "System Shock 2",
+					"release_year": 1999,
+					"developer": "Irrational Games / Looking Glass",
+					"tier": "deep",
+					"summary": "宇宙船で暴走したAIと戦う、RPG要素のある一人称ホラー。",
+					"curator_note": "『BioShock』の源流。音声ログで物語を拾う手法を広めた。"
+				},
+				"taxonomies": {
+					"era": [
+						"polygon"
+					],
+					"genre": [
+						"fps",
+						"horror",
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-deus-ex",
+				"slug": "deus-ex",
+				"status": "published",
+				"data": {
+					"title": "デウスエクス",
+					"title_en": "Deus Ex",
+					"release_year": 2000,
+					"developer": "Ion Storm",
+					"tier": "recommended",
+					"summary": "陰謀渦巻く近未来で、戦闘・潜入・ハッキング・会話のどれでも任務を解決できる。",
+					"curator_note": "「解決方法をプレイヤーが選ぶ」イマーシブシムの代表作。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"fps",
+						"rpg",
+						"stealth"
+					],
+					"platform": [
+						"pc",
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-the-sims",
+				"slug": "the-sims",
+				"status": "published",
+				"data": {
+					"title": "ザ・シムズ",
+					"title_en": "The Sims",
+					"release_year": 2000,
+					"developer": "Maxis",
+					"tier": "essential",
+					"summary": "家を建て、住人の暮らしを見守る生活シミュレーション。PC史上屈指のヒット。",
+					"curator_note": "ドラマを作るのはプレイヤー自身。人形遊びをゲームにした発明。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-counter-strike",
+				"slug": "counter-strike",
+				"status": "published",
+				"data": {
+					"title": "カウンターストライク",
+					"title_en": "Counter-Strike",
+					"release_year": 2000,
+					"developer": "Valve(原作:Minh Le / Jess Cliffe)",
+					"tier": "recommended",
+					"summary": "テロリストと特殊部隊に分かれて戦うチーム対戦FPS。『Half-Life』のMODから生まれた。",
+					"curator_note": "1ラウンド1命の緊張感。四半世紀たっても競技シーンの中心にいる。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-ico",
+				"slug": "ico",
+				"status": "published",
+				"data": {
+					"title": "ICO",
+					"title_en": "Ico",
+					"release_year": 2001,
+					"developer": "ソニー(上田文人)",
+					"tier": "essential",
+					"summary": "角の生えた少年が、白い少女ヨルダの手を引いて古城から脱出する。",
+					"curator_note": "「手をつなぐ」ことがゲームの核。言葉がほとんどないのに忘れられない。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-adventure",
+						"puzzle"
+					],
+					"platform": [
+						"ps2",
+						"ps3"
+					]
+				}
+			},
+			{
+				"id": "game-gta3",
+				"slug": "gta3",
+				"status": "published",
+				"data": {
+					"title": "グランド・セフト・オートIII",
+					"title_en": "Grand Theft Auto III",
+					"release_year": 2001,
+					"developer": "Rockstar North",
+					"tier": "recommended",
+					"summary": "犯罪都市リバティーシティを自由に走り回る3Dオープンワールド。",
+					"curator_note": "「街そのものが遊び場」という今のオープンワールドの型を作った。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps2",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-halo",
+				"slug": "halo",
+				"status": "published",
+				"data": {
+					"title": "Halo",
+					"title_en": "Halo: Combat Evolved",
+					"release_year": 2001,
+					"developer": "Bungie",
+					"tier": "recommended",
+					"summary": "謎の環状惑星で戦うSF FPS。家庭用FPSの操作の基準を作った。",
+					"curator_note": "武器2つ持ち・シールド自動回復など、今の当たり前の多くがここから。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"xbox",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-final-fantasy-10",
+				"slug": "final-fantasy-10",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーX",
+					"title_en": "Final Fantasy X",
+					"release_year": 2001,
+					"developer": "スクウェア",
+					"tier": "recommended",
+					"summary": "召喚士ユウナの旅を守るティーダの物語。シリーズ初のフルボイス。",
+					"curator_note": "ターン順が見えるCTBバトルは今も評価が高い。HDリマスター版が遊びやすい。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-metal-gear-solid-2",
+				"slug": "metal-gear-solid-2",
+				"status": "published",
+				"data": {
+					"title": "メタルギアソリッド2 サンズ・オブ・リバティ",
+					"title_en": "Metal Gear Solid 2: Sons of Liberty",
+					"release_year": 2001,
+					"developer": "コナミ(小島プロダクション)",
+					"tier": "recommended",
+					"summary": "情報の操作をテーマにした、極めて先見的な物語のステルスアクション。",
+					"curator_note": "SNSとフェイクニュースの時代に読むと、予言書のように感じる。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"stealth",
+						"action"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-pikmin",
+				"slug": "pikmin",
+				"status": "published",
+				"data": {
+					"title": "ピクミン",
+					"title_en": "Pikmin",
+					"release_year": 2001,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "小さな生き物ピクミンを率いて、30日以内に宇宙船の部品を集める。",
+					"curator_note": "かわいさと残酷さが同居するリアルタイムストラテジー。限られた日数の緊張感が絶妙。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"strategy",
+						"action"
+					],
+					"platform": [
+						"gc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-animal-crossing",
+				"slug": "animal-crossing",
+				"status": "published",
+				"data": {
+					"title": "どうぶつの森",
+					"title_en": "Animal Crossing",
+					"release_year": 2001,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "どうぶつたちの村で、現実と同じ時間が流れるスローライフ。",
+					"curator_note": "「何もしなくていいゲーム」の元祖。現実の時計と連動する発想が画期的だった。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"n64",
+						"gc"
+					]
+				}
+			},
+			{
+				"id": "game-ace-attorney",
+				"slug": "ace-attorney",
+				"status": "published",
+				"data": {
+					"title": "逆転裁判",
+					"title_en": "Phoenix Wright: Ace Attorney",
+					"release_year": 2001,
+					"developer": "カプコン(巧舟)",
+					"tier": "essential",
+					"summary": "新米弁護士・成歩堂龍一が、証言のムジュンを突いて逆転無罪を勝ち取る法廷バトル。",
+					"curator_note": "「異議あり!」の気持ちよさは唯一無二。推理ADVの入口として最適。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"gba",
+						"ds",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-ikaruga",
+				"slug": "ikaruga",
+				"status": "published",
+				"data": {
+					"title": "斑鳩",
+					"title_en": "Ikaruga",
+					"release_year": 2001,
+					"developer": "トレジャー",
+					"tier": "deep",
+					"summary": "白と黒の属性を切り替えて、同じ色の弾を吸収する縦スクロールシューティング。",
+					"curator_note": "シューティングがパズルにもなる、という発見。極めるほど美しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"arcade",
+						"dc",
+						"gc",
+						"switch",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-taiko",
+				"slug": "taiko",
+				"status": "published",
+				"data": {
+					"title": "太鼓の達人",
+					"title_en": "Taiko no Tatsujin",
+					"release_year": 2001,
+					"developer": "ナムコ",
+					"tier": "recommended",
+					"summary": "本物のような太鼓を叩いて曲に合わせる音楽ゲーム。",
+					"curator_note": "子どもから大人まで、ゲームセンターで最も間口の広い音ゲー。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"rhythm"
+					],
+					"platform": [
+						"arcade",
+						"ps2",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-kingdom-hearts",
+				"slug": "kingdom-hearts",
+				"status": "published",
+				"data": {
+					"title": "キングダム ハーツ",
+					"title_en": "Kingdom Hearts",
+					"release_year": 2002,
+					"developer": "スクウェア",
+					"tier": "recommended",
+					"summary": "ディズニーの世界をソラ、ドナルド、グーフィーが旅するアクションRPG。",
+					"curator_note": "異色のコラボが一大シリーズに。宇多田ヒカルの主題歌も印象的。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-wind-waker",
+				"slug": "zelda-wind-waker",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 風のタクト",
+					"title_en": "The Legend of Zelda: The Wind Waker",
+					"release_year": 2002,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "トゥーンレンダリングの大海原を船で渡るゼルダ。",
+					"curator_note": "発表時は賛否あったアニメ調グラフィックが、今では最も古びない絵になった。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"gc",
+						"wiiu"
+					]
+				}
+			},
+			{
+				"id": "game-metroid-prime",
+				"slug": "metroid-prime",
+				"status": "published",
+				"data": {
+					"title": "メトロイドプライム",
+					"title_en": "Metroid Prime",
+					"release_year": 2002,
+					"developer": "Retro Studios",
+					"tier": "recommended",
+					"summary": "一人称視点で惑星を探索するメトロイド。スキャンで世界を読み解く。",
+					"curator_note": "2D探索の面白さを3Dに移植した奇跡的な作品。Switchのリマスター版が出ている。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"metroidvania",
+						"fps"
+					],
+					"platform": [
+						"gc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-touhou-eosd",
+				"slug": "touhou-eosd",
+				"status": "published",
+				"data": {
+					"title": "東方紅魔郷",
+					"title_en": "Touhou Koumakyou: The Embodiment of Scarlet Devil",
+					"release_year": 2002,
+					"developer": "上海アリス幻樂団(ZUN)",
+					"tier": "recommended",
+					"summary": "幻想郷を覆う紅い霧の異変を、霊夢と魔理沙が弾幕で解決する。",
+					"curator_note": "個人制作の弾幕シューティングが、二次創作の巨大な文化圏を生んだ。同人ゲームの象徴。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-higurashi",
+				"slug": "higurashi",
+				"status": "published",
+				"data": {
+					"title": "ひぐらしのなく頃に",
+					"title_en": "Higurashi When They Cry",
+					"release_year": 2002,
+					"developer": "07th Expansion(竜騎士07)",
+					"tier": "deep",
+					"summary": "昭和58年の寒村・雛見沢で起きる連続怪死事件を描くサウンドノベル。",
+					"curator_note": "同人ノベルから一大メディアミックスへ。謎を読者に解かせる構成が見事。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"visual-novel",
+						"horror"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-call-of-duty",
+				"slug": "call-of-duty",
+				"status": "published",
+				"data": {
+					"title": "コール オブ デューティ",
+					"title_en": "Call of Duty",
+					"release_year": 2003,
+					"developer": "Infinity Ward",
+					"tier": "deep",
+					"summary": "仲間の兵士と共に戦場を進む第二次世界大戦FPS。",
+					"curator_note": "現在まで続く世界最大級のシリーズの第1作。「ひとりではない戦場」の演出が新しかった。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-katamari",
+				"slug": "katamari",
+				"status": "published",
+				"data": {
+					"title": "塊魂",
+					"title_en": "Katamari Damacy",
+					"release_year": 2004,
+					"developer": "ナムコ(高橋慶太)",
+					"tier": "recommended",
+					"summary": "王子が塊を転がして何でも巻き込み、星を作る。最後は街も雲も巻き込む。",
+					"curator_note": "説明不要の楽しさと、とんでもない音楽。リマスター版で手軽に遊べる。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action",
+						"puzzle"
+					],
+					"platform": [
+						"ps2",
+						"switch",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-world-of-warcraft",
+				"slug": "world-of-warcraft",
+				"status": "published",
+				"data": {
+					"title": "ワールド オブ ウォークラフト",
+					"title_en": "World of Warcraft",
+					"release_year": 2004,
+					"developer": "Blizzard",
+					"tier": "recommended",
+					"summary": "アゼロスの大陸を冒険するMMORPG。最盛期には1000万人以上が遊んだ。",
+					"curator_note": "MMOを大衆化した作品。「クラシック」サーバーで当時の手触りも味わえる。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"online",
+						"rpg"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-half-life-2",
+				"slug": "half-life-2",
+				"status": "published",
+				"data": {
+					"title": "ハーフライフ2",
+					"title_en": "Half-Life 2",
+					"release_year": 2004,
+					"developer": "Valve",
+					"tier": "essential",
+					"summary": "物理演算をパズルと戦闘に取り込んだFPS。グラビティガンが象徴的。",
+					"curator_note": "物理演算を「遊び」にした最初の大作。Steamの普及もこの作品から。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-cave-story",
+				"slug": "cave-story",
+				"status": "published",
+				"data": {
+					"title": "洞窟物語",
+					"title_en": "Cave Story",
+					"release_year": 2004,
+					"developer": "開発室Pixel",
+					"tier": "essential",
+					"summary": "ひとりの作者が5年かけて作った、記憶を失ったロボットの探索アクション。",
+					"curator_note": "インディーゲームという言葉が広まる前の、その象徴。今のインディー開発者の多くが影響を公言している。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"metroidvania",
+						"platformer"
+					],
+					"platform": [
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-monster-hunter",
+				"slug": "monster-hunter",
+				"status": "published",
+				"data": {
+					"title": "モンスターハンター",
+					"title_en": "Monster Hunter",
+					"release_year": 2004,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "仲間と巨大なモンスターを狩り、素材で装備を作る。",
+					"curator_note": "シリーズはPSPで大ブームに。「協力して強大な相手に挑む」体験の原点。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-rpg",
+						"online"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-resident-evil-4",
+				"slug": "resident-evil-4",
+				"status": "published",
+				"data": {
+					"title": "バイオハザード4",
+					"title_en": "Resident Evil 4",
+					"release_year": 2005,
+					"developer": "カプコン(三上真司)",
+					"tier": "essential",
+					"summary": "肩越し視点のTPSで、不気味な村から大統領の娘を救い出す。",
+					"curator_note": "今のTPSのカメラはほぼこの作品が起源。2023年のリメイク版も傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"horror",
+						"fps"
+					],
+					"platform": [
+						"gc",
+						"ps2",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-shadow-of-the-colossus",
+				"slug": "shadow-of-the-colossus",
+				"status": "published",
+				"data": {
+					"title": "ワンダと巨像",
+					"title_en": "Shadow of the Colossus",
+					"release_year": 2005,
+					"developer": "ソニー(上田文人)",
+					"tier": "essential",
+					"summary": "16体の巨像だけがいる大地で、その体によじ登って急所を探す。",
+					"curator_note": "雑魚敵がいない、という引き算の美学。倒すたびに胸が痛む物語。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps2",
+						"ps4"
+					]
+				}
+			},
+			{
+				"id": "game-god-of-war",
+				"slug": "god-of-war",
+				"status": "published",
+				"data": {
+					"title": "ゴッド・オブ・ウォー",
+					"title_en": "God of War",
+					"release_year": 2005,
+					"developer": "Santa Monica Studio",
+					"tier": "deep",
+					"summary": "ギリシャ神話の世界で、復讐に燃えるクレイトスが神々に挑む。",
+					"curator_note": "派手なアクションと巨大なスケール。2018年からの北欧編の前史として。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-brain-age",
+				"slug": "brain-age",
+				"status": "published",
+				"data": {
+					"title": "脳を鍛える大人のDSトレーニング",
+					"title_en": "Brain Age",
+					"release_year": 2005,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "計算や音読で「脳年齢」を測るトレーニングソフト。",
+					"curator_note": "ゲームを遊ばない大人に、ゲーム機を手に取らせた。ゲーム人口拡大の象徴。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"ds"
+					]
+				}
+			},
+			{
+				"id": "game-guitar-hero",
+				"slug": "guitar-hero",
+				"status": "published",
+				"data": {
+					"title": "ギターヒーロー",
+					"title_en": "Guitar Hero",
+					"release_year": 2005,
+					"developer": "Harmonix",
+					"tier": "deep",
+					"summary": "ギター型コントローラーでロックの名曲を演奏する。",
+					"curator_note": "欧米で音楽ゲームブームを起こし、のちの『Rock Band』へつながった。"
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"rhythm",
+						"party"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-okami",
+				"slug": "okami",
+				"status": "published",
+				"data": {
+					"title": "大神",
+					"title_en": "Ōkami",
+					"release_year": 2006,
+					"developer": "クローバースタジオ",
+					"tier": "essential",
+					"summary": "白い狼の姿をした太陽神アマテラスが、筆で描いて世界に命を戻す。",
+					"curator_note": "墨絵のグラフィックは20年近くたっても全く古びない。HD版で気軽に遊べる。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps2",
+						"wii",
+						"ps4",
+						"switch",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-persona-3",
+				"slug": "persona-3",
+				"status": "published",
+				"data": {
+					"title": "ペルソナ3",
+					"title_en": "Persona 3",
+					"release_year": 2006,
+					"developer": "アトラス",
+					"tier": "recommended",
+					"summary": "昼は高校生活、夜は影時間に塔を登る。日常と非日常を往復するRPG。",
+					"curator_note": "「カレンダーで過ごす学校生活」というシリーズの型を作った。リメイク『リロード』もある。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps2"
+					]
+				}
+			},
+			{
+				"id": "game-wii-sports",
+				"slug": "wii-sports",
+				"status": "published",
+				"data": {
+					"title": "Wii Sports",
+					"title_en": "Wii Sports",
+					"release_year": 2006,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "リモコンを振ってテニスやボウリングをする。家族全員がプレイヤーになった。",
+					"curator_note": "リビングの風景を変えたゲーム。直感操作の究極形。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"sports",
+						"party"
+					],
+					"platform": [
+						"wii"
+					]
+				}
+			},
+			{
+				"id": "game-gears-of-war",
+				"slug": "gears-of-war",
+				"status": "published",
+				"data": {
+					"title": "ギアーズ・オブ・ウォー",
+					"title_en": "Gears of War",
+					"release_year": 2006,
+					"developer": "Epic Games",
+					"tier": "deep",
+					"summary": "遮蔽物に隠れながら撃ち合うカバーシューターの代表作。",
+					"curator_note": "「カバーアクション」を標準にした作品。Xbox 360時代の顔。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-professor-layton",
+				"slug": "professor-layton",
+				"status": "published",
+				"data": {
+					"title": "レイトン教授と不思議な町",
+					"title_en": "Professor Layton and the Curious Village",
+					"release_year": 2007,
+					"developer": "レベルファイブ",
+					"tier": "recommended",
+					"summary": "謎解きが大好きな英国紳士が、町の秘密をナゾトキで解き明かす。",
+					"curator_note": "パズルと物語を絶妙につないだ作品。家族で遊べる知的なDSソフト。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"adventure"
+					],
+					"platform": [
+						"ds"
+					]
+				}
+			},
+			{
+				"id": "game-bioshock",
+				"slug": "bioshock",
+				"status": "published",
+				"data": {
+					"title": "バイオショック",
+					"title_en": "BioShock",
+					"release_year": 2007,
+					"developer": "2K Boston / 2K Australia",
+					"tier": "essential",
+					"summary": "海底都市ラプチャーの崩壊を、銃とプラスミドで探索する。",
+					"curator_note": "「選択とは何か」をゲームそのものに問わせた名作。後半の展開は必見。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"fps",
+						"horror"
+					],
+					"platform": [
+						"x360",
+						"pc",
+						"ps3"
+					]
+				}
+			},
+			{
+				"id": "game-portal",
+				"slug": "portal",
+				"status": "published",
+				"data": {
+					"title": "ポータル",
+					"title_en": "Portal",
+					"release_year": 2007,
+					"developer": "Valve",
+					"tier": "essential",
+					"summary": "2つの穴をつなぐポータル銃で、テスト施設を突破していく一人称パズル。",
+					"curator_note": "数時間で終わるのに完璧。続編『2』の協力プレイも傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"fps"
+					],
+					"platform": [
+						"pc",
+						"x360",
+						"ps3"
+					]
+				}
+			},
+			{
+				"id": "game-cod4",
+				"slug": "cod4",
+				"status": "published",
+				"data": {
+					"title": "コール オブ デューティ4 モダン・ウォーフェア",
+					"title_en": "Call of Duty 4: Modern Warfare",
+					"release_year": 2007,
+					"developer": "Infinity Ward",
+					"tier": "recommended",
+					"summary": "現代戦を描いたFPS。レベルアップと装備開放のオンライン対戦が爆発的に広がった。",
+					"curator_note": "今のオンライン対戦ゲームの「成長の仕組み」は、ほぼこの作品が起点。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"x360",
+						"ps3",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-galaxy",
+				"slug": "super-mario-galaxy",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオギャラクシー",
+					"title_en": "Super Mario Galaxy",
+					"release_year": 2007,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "重力の向きがくるくる変わる小惑星を飛び回る3Dマリオ。",
+					"curator_note": "アイデアを出しては惜しげもなく捨てる、贅沢な作り。オーケストラ音楽も素晴らしい。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"wii",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-persona-4",
+				"slug": "persona-4",
+				"status": "published",
+				"data": {
+					"title": "ペルソナ4",
+					"title_en": "Persona 4",
+					"release_year": 2008,
+					"developer": "アトラス",
+					"tier": "recommended",
+					"summary": "田舎町の連続殺人事件を、テレビの中の世界で追う高校生たちの物語。",
+					"curator_note": "仲間たちとの1年間が愛おしい。『P4G』が今最も遊びやすい。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps2",
+						"vita",
+						"switch",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-braid",
+				"slug": "braid",
+				"status": "published",
+				"data": {
+					"title": "ブレイド",
+					"title_en": "Braid",
+					"release_year": 2008,
+					"developer": "Number None(ジョナサン・ブロウ)",
+					"tier": "recommended",
+					"summary": "時間を巻き戻せる横スクロールパズル。ワールドごとに時間のルールが変わる。",
+					"curator_note": "インディーゲームの評価を一気に押し上げた作品のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"platformer"
+					],
+					"platform": [
+						"x360",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-spelunky",
+				"slug": "spelunky",
+				"status": "published",
+				"data": {
+					"title": "スペランキー",
+					"title_en": "Spelunky",
+					"release_year": 2008,
+					"developer": "Derek Yu",
+					"tier": "recommended",
+					"summary": "毎回形の変わる洞窟を降りるローグライクアクション。",
+					"curator_note": "ローグライクを2Dアクションに持ち込んだ。続編『2』もさらに深い。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"roguelike",
+						"platformer"
+					],
+					"platform": [
+						"pc",
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-demons-souls",
+				"slug": "demons-souls",
+				"status": "published",
+				"data": {
+					"title": "デモンズソウル",
+					"title_en": "Demon's Souls",
+					"release_year": 2009,
+					"developer": "フロム・ソフトウェア",
+					"tier": "recommended",
+					"summary": "楔の神殿から5つの世界へ挑む、死にながら学ぶアクションRPG。",
+					"curator_note": "「ソウルライク」の始まり。他のプレイヤーの血痕やメッセージも新しかった。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"ps3",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-dragon-quest-9",
+				"slug": "dragon-quest-9",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエストIX 星空の守り人",
+					"title_en": "Dragon Quest IX",
+					"release_year": 2009,
+					"developer": "レベルファイブ / スクウェア・エニックス",
+					"tier": "deep",
+					"summary": "自分で作ったキャラクターで、すれちがい通信を使って冒険するDQ。",
+					"curator_note": "すれちがい通信で全国の駅前に人が集まった。携帯機ならではの社会現象。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ds"
+					]
+				}
+			},
+			{
+				"id": "game-steins-gate",
+				"slug": "steins-gate",
+				"status": "published",
+				"data": {
+					"title": "STEINS;GATE",
+					"title_en": "Steins;Gate",
+					"release_year": 2009,
+					"developer": "5pb. / ニトロプラス",
+					"tier": "recommended",
+					"summary": "秋葉原の自称狂気のマッドサイエンティストが、偶然タイムマシンを作ってしまう。",
+					"curator_note": "前半の日常が後半すべて伏線に変わる。科学ADVの傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"visual-novel",
+						"adventure"
+					],
+					"platform": [
+						"x360",
+						"pc",
+						"ps3",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-bayonetta",
+				"slug": "bayonetta",
+				"status": "published",
+				"data": {
+					"title": "ベヨネッタ",
+					"title_en": "Bayonetta",
+					"release_year": 2009,
+					"developer": "プラチナゲームズ",
+					"tier": "deep",
+					"summary": "魔女ベヨネッタが天使と戦うハイスピードアクション。回避で時間が遅くなる「ウィッチタイム」が爽快。",
+					"curator_note": "スタイリッシュアクションの頂点のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"ps3",
+						"x360",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-league-of-legends",
+				"slug": "league-of-legends",
+				"status": "published",
+				"data": {
+					"title": "リーグ・オブ・レジェンド",
+					"title_en": "League of Legends",
+					"release_year": 2009,
+					"developer": "Riot Games",
+					"tier": "recommended",
+					"summary": "5対5で相手の本拠地を目指すMOBA。世界最大級のeスポーツタイトル。",
+					"curator_note": "無料で遊べるオンライン対戦ゲームの成功例。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"strategy",
+						"online"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-angry-birds",
+				"slug": "angry-birds",
+				"status": "published",
+				"data": {
+					"title": "アングリーバード",
+					"title_en": "Angry Birds",
+					"release_year": 2009,
+					"developer": "Rovio",
+					"tier": "deep",
+					"summary": "パチンコで鳥を飛ばして豚の砦を壊す物理パズル。スマホゲームを一般化した。",
+					"curator_note": "指一本で遊べる設計の分かりやすさ。スマホゲーム時代の入口。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-super-meat-boy",
+				"slug": "super-meat-boy",
+				"status": "published",
+				"data": {
+					"title": "スーパーミートボーイ",
+					"title_en": "Super Meat Boy",
+					"release_year": 2010,
+					"developer": "Team Meat",
+					"tier": "deep",
+					"summary": "死んでも一瞬で再開する、超高難度の精密アクション。",
+					"curator_note": "死のペナルティを極限まで軽くすることで難しさを楽しさに変えた。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"x360",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-limbo",
+				"slug": "limbo",
+				"status": "published",
+				"data": {
+					"title": "LIMBO",
+					"title_en": "Limbo",
+					"release_year": 2010,
+					"developer": "Playdead",
+					"tier": "recommended",
+					"summary": "白黒の影絵の世界で、少年が姉を探して進むパズルアクション。",
+					"curator_note": "言葉なしで語る作品の代表。同じ開発者の『INSIDE』も必遊。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"platformer"
+					],
+					"platform": [
+						"x360",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-red-dead-redemption",
+				"slug": "red-dead-redemption",
+				"status": "published",
+				"data": {
+					"title": "レッド・デッド・リデンプション",
+					"title_en": "Red Dead Redemption",
+					"release_year": 2010,
+					"developer": "Rockstar San Diego",
+					"tier": "recommended",
+					"summary": "西部開拓時代の終わりを生きる元ならず者ジョン・マーストンの物語。",
+					"curator_note": "エンディングの余韻は今も語り草。『2』の後に遊ぶのもおすすめ。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps3",
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-xenoblade",
+				"slug": "xenoblade",
+				"status": "published",
+				"data": {
+					"title": "ゼノブレイド",
+					"title_en": "Xenoblade Chronicles",
+					"release_year": 2010,
+					"developer": "モノリスソフト",
+					"tier": "essential",
+					"summary": "2体の巨神の亡骸の上に生きる人々の冒険。広大なフィールドを歩くRPG。",
+					"curator_note": "JRPGとオープンワールドの融合を実現した。Switchの『ディフィニティブ・エディション』で遊べる。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"rpg",
+						"open-world"
+					],
+					"platform": [
+						"wii",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-ghost-trick",
+				"slug": "ghost-trick",
+				"status": "published",
+				"data": {
+					"title": "ゴースト トリック",
+					"title_en": "Ghost Trick: Phantom Detective",
+					"release_year": 2010,
+					"developer": "カプコン(巧舟)",
+					"tier": "deep",
+					"summary": "死んでしまった主人公が、霊の力で物に取り憑いて人の死の運命を変える。",
+					"curator_note": "『逆転裁判』の作者による伏線回収の傑作。2023年のリマスターで遊べる。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"adventure"
+					],
+					"platform": [
+						"ds",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-minecraft",
+				"slug": "minecraft",
+				"status": "published",
+				"data": {
+					"title": "マインクラフト",
+					"title_en": "Minecraft",
+					"release_year": 2011,
+					"developer": "Mojang",
+					"tier": "essential",
+					"summary": "四角いブロックでできた世界を掘り、集め、何でも作る。史上最も売れたゲームのひとつ。",
+					"curator_note": "ゲームを「遊ぶ場所」から「作る場所」にした。教育現場でも使われる。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"sandbox"
+					],
+					"platform": [
+						"pc",
+						"mobile",
+						"switch",
+						"ps4"
+					]
+				}
+			},
+			{
+				"id": "game-skyrim",
+				"slug": "skyrim",
+				"status": "published",
+				"data": {
+					"title": "スカイリム",
+					"title_en": "The Elder Scrolls V: Skyrim",
+					"release_year": 2011,
+					"developer": "Bethesda Game Studios",
+					"tier": "recommended",
+					"summary": "ドラゴンが復活した北の大地で、自由に生きる。MODで今も遊ばれ続ける。",
+					"curator_note": "何をしてもいい世界の代表格。メインを無視して寄り道するのが正しい遊び方。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"open-world",
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps3",
+						"x360",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-dark-souls",
+				"slug": "dark-souls",
+				"status": "published",
+				"data": {
+					"title": "ダークソウル",
+					"title_en": "Dark Souls",
+					"release_year": 2011,
+					"developer": "フロム・ソフトウェア",
+					"tier": "essential",
+					"summary": "立体的につながる世界を、死を繰り返して切り開くアクションRPG。",
+					"curator_note": "ショートカットが開いたときの「つながった!」という感動は、レベルデザインの到達点。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"ps3",
+						"x360",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-terraria",
+				"slug": "terraria",
+				"status": "published",
+				"data": {
+					"title": "テラリア",
+					"title_en": "Terraria",
+					"release_year": 2011,
+					"developer": "Re-Logic",
+					"tier": "recommended",
+					"summary": "2Dの世界を掘り、作り、ボスに挑むサンドボックスアクション。",
+					"curator_note": "「2Dのマイクラ」では収まらない、ボス戦とアイテム収集の深さ。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"sandbox",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-journey",
+				"slug": "journey",
+				"status": "published",
+				"data": {
+					"title": "風ノ旅ビト",
+					"title_en": "Journey",
+					"release_year": 2012,
+					"developer": "thatgamecompany",
+					"tier": "essential",
+					"summary": "砂漠を山の頂上へ向かって歩く。言葉を交わせない誰かと偶然一緒に旅をする。",
+					"curator_note": "オンラインの他人を「旅の道連れ」にした発想が美しい。2時間で終わる体験。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"ps3",
+						"ps4",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-the-walking-dead",
+				"slug": "the-walking-dead",
+				"status": "published",
+				"data": {
+					"title": "ウォーキング・デッド",
+					"title_en": "The Walking Dead",
+					"release_year": 2012,
+					"developer": "Telltale Games",
+					"tier": "deep",
+					"summary": "ゾンビ禍の世界で、少女クレメンタインを守る男リーの物語。",
+					"curator_note": "選択によって人間関係が変わるドラマ型アドベンチャーの代表作。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"pc",
+						"ps3",
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-ftl",
+				"slug": "ftl",
+				"status": "published",
+				"data": {
+					"title": "FTL: Faster Than Light",
+					"title_en": "FTL: Faster Than Light",
+					"release_year": 2012,
+					"developer": "Subset Games",
+					"tier": "recommended",
+					"summary": "宇宙船の艦長として乗組員と区画を管理し、追っ手から逃れながら星系を進む。",
+					"curator_note": "「1プレイ1時間のローグライク」を広めた。のちの『Into the Breach』の開発元。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"roguelike",
+						"strategy"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-fez",
+				"slug": "fez",
+				"status": "published",
+				"data": {
+					"title": "FEZ",
+					"title_en": "Fez",
+					"release_year": 2012,
+					"developer": "Polytron",
+					"tier": "deep",
+					"summary": "2Dの世界を90度回転させると、隠された3D構造が見えてくる。",
+					"curator_note": "暗号を解くようなメタパズルが仕込まれている。コミュニティで解かれた謎も多い。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"platformer"
+					],
+					"platform": [
+						"x360",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-dishonored",
+				"slug": "dishonored",
+				"status": "published",
+				"data": {
+					"title": "ディスオナード",
+					"title_en": "Dishonored",
+					"release_year": 2012,
+					"developer": "Arkane Studios",
+					"tier": "recommended",
+					"summary": "疫病に冒された都市で、超常の力を使って暗殺(または非殺傷)を行う。",
+					"curator_note": "殺すか殺さないか、の選択で世界が変わる。イマーシブシムの現代版。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"stealth",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"ps3",
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-xcom",
+				"slug": "xcom",
+				"status": "published",
+				"data": {
+					"title": "XCOM: Enemy Unknown",
+					"title_en": "XCOM: Enemy Unknown",
+					"release_year": 2012,
+					"developer": "Firaxis Games",
+					"tier": "recommended",
+					"summary": "地球に侵攻する異星人と、ターン制の戦術バトルで戦う。",
+					"curator_note": "命中率95%でも外れる。それでも続けたくなる戦術ゲームの名作。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"strategy"
+					],
+					"platform": [
+						"pc",
+						"ps3",
+						"x360"
+					]
+				}
+			},
+			{
+				"id": "game-hotline-miami",
+				"slug": "hotline-miami",
+				"status": "published",
+				"data": {
+					"title": "ホットライン・マイアミ",
+					"title_en": "Hotline Miami",
+					"release_year": 2012,
+					"developer": "Dennaton Games",
+					"tier": "deep",
+					"summary": "一撃死の見下ろし型アクション。死んでは即やり直し、を繰り返す。",
+					"curator_note": "80年代のネオンと暴力。爆音のサウンドトラックが体験の半分を作っている。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-puzzle-and-dragons",
+				"slug": "puzzle-and-dragons",
+				"status": "published",
+				"data": {
+					"title": "パズル&ドラゴンズ",
+					"title_en": "Puzzle & Dragons",
+					"release_year": 2012,
+					"developer": "ガンホー",
+					"tier": "deep",
+					"summary": "ドロップを動かしてそろえ、モンスターで攻撃するパズルRPG。",
+					"curator_note": "日本のスマホゲームの時代を開いた一本。"
+				},
+				"taxonomies": {
+					"era": [
+						"hd"
+					],
+					"genre": [
+						"puzzle",
+						"rpg"
+					],
+					"platform": [
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-the-last-of-us",
+				"slug": "the-last-of-us",
+				"status": "published",
+				"data": {
+					"title": "The Last of Us",
+					"title_en": "The Last of Us",
+					"release_year": 2013,
+					"developer": "Naughty Dog",
+					"tier": "essential",
+					"summary": "感染爆発から20年後のアメリカを、ジョエルと少女エリーが旅する。",
+					"curator_note": "ゲームでしか描けない「選択を奪われる」エンディング。ドラマ版の原作。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-adventure",
+						"horror"
+					],
+					"platform": [
+						"ps3",
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-gta5",
+				"slug": "gta5",
+				"status": "published",
+				"data": {
+					"title": "グランド・セフト・オートV",
+					"title_en": "Grand Theft Auto V",
+					"release_year": 2013,
+					"developer": "Rockstar North",
+					"tier": "recommended",
+					"summary": "3人の主人公を切り替えて、ロスサントスで大胆な強盗計画を実行する。",
+					"curator_note": "10年以上売れ続ける超ロングセラー。オンライン版も巨大な遊び場になっている。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps3",
+						"x360",
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-papers-please",
+				"slug": "papers-please",
+				"status": "published",
+				"data": {
+					"title": "Papers, Please",
+					"title_en": "Papers, Please",
+					"release_year": 2013,
+					"developer": "Lucas Pope",
+					"tier": "recommended",
+					"summary": "架空の共産国家の入国審査官として、パスポートを審査し続ける。",
+					"curator_note": "書類仕事がこんなに重い物語になる。ゲームでしか作れない倫理の問い。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pc",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-shovel-knight",
+				"slug": "shovel-knight",
+				"status": "published",
+				"data": {
+					"title": "ショベルナイト",
+					"title_en": "Shovel Knight",
+					"release_year": 2014,
+					"developer": "Yacht Club Games",
+					"tier": "recommended",
+					"summary": "ショベルを武器にした騎士の横スクロールアクション。ファミコン風の現代作品。",
+					"curator_note": "レトロの「良いところだけ」を抽出した理想形。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"pc",
+						"3ds",
+						"wiiu",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-monument-valley",
+				"slug": "monument-valley",
+				"status": "published",
+				"data": {
+					"title": "モニュメントバレー",
+					"title_en": "Monument Valley",
+					"release_year": 2014,
+					"developer": "ustwo games",
+					"tier": "recommended",
+					"summary": "エッシャーの騙し絵のような建物を回転させて、王女を道へ導く。",
+					"curator_note": "スマホでしか成立しない美しさ。1時間ほどで終わる短編。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-bloodborne",
+				"slug": "bloodborne",
+				"status": "published",
+				"data": {
+					"title": "Bloodborne",
+					"title_en": "Bloodborne",
+					"release_year": 2015,
+					"developer": "フロム・ソフトウェア",
+					"tier": "essential",
+					"summary": "獣の病が蔓延する古都ヤーナムで、狩人として夜を明かす。",
+					"curator_note": "盾を捨てて攻め続けるアクション。ゴシックからコズミックホラーへ変わる世界観も圧巻。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-rpg",
+						"horror"
+					],
+					"platform": [
+						"ps4"
+					]
+				}
+			},
+			{
+				"id": "game-witcher-3",
+				"slug": "witcher-3",
+				"status": "published",
+				"data": {
+					"title": "ウィッチャー3 ワイルドハント",
+					"title_en": "The Witcher 3: Wild Hunt",
+					"release_year": 2015,
+					"developer": "CD PROJEKT RED",
+					"tier": "essential",
+					"summary": "怪物狩りのゲラルトが、養女シリを探して戦乱の大陸を旅する。",
+					"curator_note": "サブクエストひとつひとつが短編小説並み。オープンワールドRPGの到達点のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"open-world",
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone",
+						"switch",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-undertale",
+				"slug": "undertale",
+				"status": "published",
+				"data": {
+					"title": "UNDERTALE",
+					"title_en": "Undertale",
+					"release_year": 2015,
+					"developer": "Toby Fox",
+					"tier": "essential",
+					"summary": "地底に落ちた子どもが、モンスターを「殺さずに」進むこともできるRPG。",
+					"curator_note": "プレイヤーの行動をゲームが覚えている。RPGの約束事を逆手に取った傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-splatoon",
+				"slug": "splatoon",
+				"status": "published",
+				"data": {
+					"title": "スプラトゥーン",
+					"title_en": "Splatoon",
+					"release_year": 2015,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "インクを塗った面積で勝敗が決まるチーム対戦シューター。",
+					"curator_note": "撃ち合いが苦手でも塗れば勝てる、という発明。最新作は『3』。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"fps",
+						"online",
+						"party"
+					],
+					"platform": [
+						"wiiu"
+					]
+				}
+			},
+			{
+				"id": "game-rocket-league",
+				"slug": "rocket-league",
+				"status": "published",
+				"data": {
+					"title": "ロケットリーグ",
+					"title_en": "Rocket League",
+					"release_year": 2015,
+					"developer": "Psyonix",
+					"tier": "recommended",
+					"summary": "ロケットで飛ぶ車でサッカーをする。シンプルで、極めると果てしない。",
+					"curator_note": "誰でも30秒で理解でき、一生上達し続けられる。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"sports",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-ori-blind-forest",
+				"slug": "ori-blind-forest",
+				"status": "published",
+				"data": {
+					"title": "Ori and the Blind Forest",
+					"title_en": "Ori and the Blind Forest",
+					"release_year": 2015,
+					"developer": "Moon Studios",
+					"tier": "recommended",
+					"summary": "森の精霊オリの探索アクション。絵画のような映像と音楽が美しい。",
+					"curator_note": "冒頭10分で泣かせにくる。続編『Will of the Wisps』も素晴らしい。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"metroidvania",
+						"platformer"
+					],
+					"platform": [
+						"xone",
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-stardew-valley",
+				"slug": "stardew-valley",
+				"status": "published",
+				"data": {
+					"title": "スターデューバレー",
+					"title_en": "Stardew Valley",
+					"release_year": 2016,
+					"developer": "ConcernedApe(エリック・バロン)",
+					"tier": "essential",
+					"summary": "祖父の農場を継いで、畑と村の人々との暮らしを楽しむ。たったひとりの開発者による作品。",
+					"curator_note": "『牧場物語』へのラブレターが世界的なヒットに。無料アップデートが今も続く。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone",
+						"switch",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-inside",
+				"slug": "inside",
+				"status": "published",
+				"data": {
+					"title": "INSIDE",
+					"title_en": "Inside",
+					"release_year": 2016,
+					"developer": "Playdead",
+					"tier": "recommended",
+					"summary": "謎めいた施設へ潜り込んでいく少年の、横スクロールのパズルアクション。",
+					"curator_note": "一切の説明なしで忘れられない結末へ連れていく。3時間の体験。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"puzzle",
+						"platformer"
+					],
+					"platform": [
+						"xone",
+						"pc",
+						"ps4",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-overwatch",
+				"slug": "overwatch",
+				"status": "published",
+				"data": {
+					"title": "オーバーウォッチ",
+					"title_en": "Overwatch",
+					"release_year": 2016,
+					"developer": "Blizzard",
+					"tier": "deep",
+					"summary": "個性的なヒーローを選んで戦うチーム対戦シューター。",
+					"curator_note": "「ヒーローシューター」を定着させた。現在は基本無料の『2』に移行。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-persona-5",
+				"slug": "persona-5",
+				"status": "published",
+				"data": {
+					"title": "ペルソナ5",
+					"title_en": "Persona 5",
+					"release_year": 2016,
+					"developer": "アトラス",
+					"tier": "essential",
+					"summary": "昼は高校生、夜は「怪盗団」として歪んだ大人の心を盗むRPG。",
+					"curator_note": "メニュー画面までスタイリッシュ。『ザ・ロイヤル』版が決定版。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps3",
+						"ps4"
+					]
+				}
+			},
+			{
+				"id": "game-pokemon-go",
+				"slug": "pokemon-go",
+				"status": "published",
+				"data": {
+					"title": "Pokémon GO",
+					"title_en": "Pokémon GO",
+					"release_year": 2016,
+					"developer": "Niantic",
+					"tier": "deep",
+					"summary": "現実の街を歩いてポケモンを捕まえる位置情報ゲーム。",
+					"curator_note": "世界中の人を外に連れ出した。ゲームと現実の境界を変えた作品。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"sandbox",
+						"online"
+					],
+					"platform": [
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-botw",
+				"slug": "zelda-botw",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 ブレス オブ ザ ワイルド",
+					"title_en": "The Legend of Zelda: Breath of the Wild",
+					"release_year": 2017,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "見えている場所すべてに行ける、ハイラルの大地を自由に冒険する。",
+					"curator_note": "化学と物理のルールで遊ばせるオープンワールド。ゲームの「自由」を再定義した。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"open-world",
+						"action-adventure"
+					],
+					"platform": [
+						"switch",
+						"wiiu"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-odyssey",
+				"slug": "super-mario-odyssey",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオ オデッセイ",
+					"title_en": "Super Mario Odyssey",
+					"release_year": 2017,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "帽子を投げて敵に「キャプチャー」し、その能力で国々を巡る。",
+					"curator_note": "箱庭型3Dマリオの集大成。どこを触っても何かがある密度。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-nier-automata",
+				"slug": "nier-automata",
+				"status": "published",
+				"data": {
+					"title": "NieR:Automata",
+					"title_en": "NieR:Automata",
+					"release_year": 2017,
+					"developer": "スクウェア・エニックス / プラチナゲームズ",
+					"tier": "essential",
+					"summary": "機械生命体と戦うアンドロイド2Bと9Sの物語。周回するたびに真実が見えてくる。",
+					"curator_note": "1周目で終わらないのがポイント。エンディングEまで見届けてほしい。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"ps4",
+						"pc",
+						"xone",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-hollow-knight",
+				"slug": "hollow-knight",
+				"status": "published",
+				"data": {
+					"title": "Hollow Knight",
+					"title_en": "Hollow Knight",
+					"release_year": 2017,
+					"developer": "Team Cherry",
+					"tier": "essential",
+					"summary": "滅びた虫の王国ハロウネストを探索する、手描きのメトロイドヴァニア。",
+					"curator_note": "3人のチームが作った圧倒的なボリューム。続編『Silksong』は2025年に発売。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"metroidvania",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-cuphead",
+				"slug": "cuphead",
+				"status": "published",
+				"data": {
+					"title": "Cuphead",
+					"title_en": "Cuphead",
+					"release_year": 2017,
+					"developer": "Studio MDHR",
+					"tier": "recommended",
+					"summary": "1930年代のカートゥーン風の手描きアニメで描かれたボスラッシュアクション。",
+					"curator_note": "すべて手描きのアニメーション。見て楽しい、遊んで手強い。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action",
+						"shooter"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"switch",
+						"ps4"
+					]
+				}
+			},
+			{
+				"id": "game-pubg",
+				"slug": "pubg",
+				"status": "published",
+				"data": {
+					"title": "PUBG: BATTLEGROUNDS",
+					"title_en": "PUBG: Battlegrounds",
+					"release_year": 2017,
+					"developer": "PUBG Corporation",
+					"tier": "deep",
+					"summary": "100人が島に降り立ち、最後の1人(1チーム)まで生き残るバトルロイヤル。",
+					"curator_note": "バトルロイヤルを世界的ジャンルに押し上げた。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"ps4",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-fortnite",
+				"slug": "fortnite",
+				"status": "published",
+				"data": {
+					"title": "フォートナイト",
+					"title_en": "Fortnite",
+					"release_year": 2017,
+					"developer": "Epic Games",
+					"tier": "recommended",
+					"summary": "建築要素のあるバトルロイヤル。ライブイベントやコラボで巨大な「場所」になった。",
+					"curator_note": "ゲームがSNSや遊び場の役割を持った代表例。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"fps",
+						"online",
+						"sandbox"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone",
+						"switch",
+						"mobile",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-dragon-quest-11",
+				"slug": "dragon-quest-11",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエストXI 過ぎ去りし時を求めて",
+					"title_en": "Dragon Quest XI",
+					"release_year": 2017,
+					"developer": "スクウェア・エニックス",
+					"tier": "recommended",
+					"summary": "勇者の生まれ変わりの青年が、悪魔の子と呼ばれながら世界を救う。",
+					"curator_note": "シリーズ30年分の集大成。『S』版なら3Dと2Dの切り替えもできる。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"ps4",
+						"3ds",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-celeste",
+				"slug": "celeste",
+				"status": "published",
+				"data": {
+					"title": "Celeste",
+					"title_en": "Celeste",
+					"release_year": 2018,
+					"developer": "Maddy Makes Games",
+					"tier": "essential",
+					"summary": "不安と向き合いながらセレステ山を登る、精密な横スクロールアクション。",
+					"curator_note": "難しいのにやさしい。アシストモードの思想も含めて、現代の模範。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-god-of-war-2018",
+				"slug": "god-of-war-2018",
+				"status": "published",
+				"data": {
+					"title": "ゴッド・オブ・ウォー(2018)",
+					"title_en": "God of War",
+					"release_year": 2018,
+					"developer": "Santa Monica Studio",
+					"tier": "essential",
+					"summary": "北欧神話の世界で、クレイトスと息子アトレウスが旅をする。全編ワンカットの演出。",
+					"curator_note": "親子の物語として生まれ変わったシリーズ。続編『ラグナロク』まで一気に。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps4",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-red-dead-redemption-2",
+				"slug": "red-dead-redemption-2",
+				"status": "published",
+				"data": {
+					"title": "レッド・デッド・リデンプション2",
+					"title_en": "Red Dead Redemption 2",
+					"release_year": 2018,
+					"developer": "Rockstar Games",
+					"tier": "essential",
+					"summary": "ギャング団の一員アーサー・モーガンの、時代に取り残されていく日々。",
+					"curator_note": "世界の作り込みが常軌を逸している。物語のラストまでぜひ。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps4",
+						"xone",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-monster-hunter-world",
+				"slug": "monster-hunter-world",
+				"status": "published",
+				"data": {
+					"title": "モンスターハンター:ワールド",
+					"title_en": "Monster Hunter: World",
+					"release_year": 2018,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "新大陸の生態系の中でモンスターを狩る。シリーズを世界的ヒットにした作品。",
+					"curator_note": "シリーズ入門に最適。生態系の作り込みが狩りを特別にしている。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-rpg",
+						"online"
+					],
+					"platform": [
+						"ps4",
+						"xone",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-obra-dinn",
+				"slug": "obra-dinn",
+				"status": "published",
+				"data": {
+					"title": "Return of the Obra Dinn",
+					"title_en": "Return of the Obra Dinn",
+					"release_year": 2018,
+					"developer": "Lucas Pope",
+					"tier": "essential",
+					"summary": "消息を絶った商船の乗組員60人の運命を、死の瞬間の記憶から推理する。",
+					"curator_note": "推理ゲームの最高峰。答え合わせが3人ずつというルールが絶妙。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"adventure",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-into-the-breach",
+				"slug": "into-the-breach",
+				"status": "published",
+				"data": {
+					"title": "Into the Breach",
+					"title_en": "Into the Breach",
+					"release_year": 2018,
+					"developer": "Subset Games",
+					"tier": "recommended",
+					"summary": "巨大な怪獣の次の行動がすべて見える、8×8マスの戦術パズル。",
+					"curator_note": "運の要素を排除した戦術ゲーム。1手1手が詰将棋のよう。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"strategy",
+						"roguelike"
+					],
+					"platform": [
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-dead-cells",
+				"slug": "dead-cells",
+				"status": "published",
+				"data": {
+					"title": "Dead Cells",
+					"title_en": "Dead Cells",
+					"release_year": 2018,
+					"developer": "Motion Twin",
+					"tier": "recommended",
+					"summary": "ローグライクとメトロイドヴァニアを掛け合わせた高速アクション。",
+					"curator_note": "「ローグヴァニア」の代表作。手触りの気持ちよさが抜群。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"roguelike",
+						"metroidvania"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-among-us",
+				"slug": "among-us",
+				"status": "published",
+				"data": {
+					"title": "Among Us",
+					"title_en": "Among Us",
+					"release_year": 2018,
+					"developer": "Innersloth",
+					"tier": "recommended",
+					"summary": "宇宙船の乗組員に紛れ込んだインポスターを、話し合いで見つけ出す。",
+					"curator_note": "2020年に爆発的にヒット。人狼ゲームを手軽なオンラインゲームにした。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"party",
+						"online"
+					],
+					"platform": [
+						"mobile",
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-sekiro",
+				"slug": "sekiro",
+				"status": "published",
+				"data": {
+					"title": "SEKIRO: SHADOWS DIE TWICE",
+					"title_en": "Sekiro: Shadows Die Twice",
+					"release_year": 2019,
+					"developer": "フロム・ソフトウェア",
+					"tier": "essential",
+					"summary": "戦国末期の日本で、隻腕の忍びが主のために戦う。体幹を崩す剣戟が中心。",
+					"curator_note": "弾きが決まり続けたときの剣戟の快感は唯一無二。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"ps4",
+						"xone",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-outer-wilds",
+				"slug": "outer-wilds",
+				"status": "published",
+				"data": {
+					"title": "Outer Wilds",
+					"title_en": "Outer Wilds",
+					"release_year": 2019,
+					"developer": "Mobius Digital",
+					"tier": "essential",
+					"summary": "22分で太陽が爆発する小さな太陽系を、ループしながら探検する。",
+					"curator_note": "知識だけが次のループに持ち越せる。ネタバレを踏む前に遊んでほしい作品の筆頭。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"adventure",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"ps4",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-disco-elysium",
+				"slug": "disco-elysium",
+				"status": "published",
+				"data": {
+					"title": "ディスコ エリジウム",
+					"title_en": "Disco Elysium",
+					"release_year": 2019,
+					"developer": "ZA/UM",
+					"tier": "essential",
+					"summary": "記憶を失った刑事として、港町の殺人事件を捜査する。戦闘のないRPG。",
+					"curator_note": "自分の「スキル」が頭の中で話しかけてくる。文学としてのゲームの頂点。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-death-stranding",
+				"slug": "death-stranding",
+				"status": "published",
+				"data": {
+					"title": "DEATH STRANDING",
+					"title_en": "Death Stranding",
+					"release_year": 2019,
+					"developer": "コジマプロダクション",
+					"tier": "recommended",
+					"summary": "分断されたアメリカを、荷物を背負って歩いてつなぐ。",
+					"curator_note": "他のプレイヤーが残した道具や橋に助けられる、ゆるやかなつながり。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps4",
+						"pc",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-13-sentinels",
+				"slug": "13-sentinels",
+				"status": "published",
+				"data": {
+					"title": "十三機兵防衛圏",
+					"title_en": "13 Sentinels: Aegis Rim",
+					"release_year": 2019,
+					"developer": "ヴァニラウェア",
+					"tier": "essential",
+					"summary": "13人の少年少女の視点が絡み合い、時代をまたぐ謎が解き明かされていくSF群像劇。",
+					"curator_note": "バラバラの断片が一枚の絵になる瞬間の衝撃。物語好きに真っ先に勧めたい。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"adventure",
+						"strategy"
+					],
+					"platform": [
+						"ps4",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-apex-legends",
+				"slug": "apex-legends",
+				"status": "published",
+				"data": {
+					"title": "Apex Legends",
+					"title_en": "Apex Legends",
+					"release_year": 2019,
+					"developer": "Respawn Entertainment",
+					"tier": "recommended",
+					"summary": "能力を持つレジェンドで3人1組になって戦うバトルロイヤル。",
+					"curator_note": "ピン機能でボイスチャットなしでも連携できる、という画期的な発明。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"xone",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-baba-is-you",
+				"slug": "baba-is-you",
+				"status": "published",
+				"data": {
+					"title": "Baba Is You",
+					"title_en": "Baba Is You",
+					"release_year": 2019,
+					"developer": "Hempuli",
+					"tier": "recommended",
+					"summary": "「BABA IS YOU」のような単語ブロックを並べ替えて、ルールそのものを書き換えるパズル。",
+					"curator_note": "発想を何度もひっくり返される。パズル好きなら必修。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-slay-the-spire",
+				"slug": "slay-the-spire",
+				"status": "published",
+				"data": {
+					"title": "Slay the Spire",
+					"title_en": "Slay the Spire",
+					"release_year": 2019,
+					"developer": "Mega Crit",
+					"tier": "essential",
+					"summary": "カードを集めてデッキを組み、塔を登るローグライクデッキ構築。",
+					"curator_note": "「デッキ構築ローグライク」の元祖で決定版。続編『2』も2026年3月に早期アクセスが始まった。"
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"roguelike",
+						"strategy"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-animal-crossing-nh",
+				"slug": "animal-crossing-nh",
+				"status": "published",
+				"data": {
+					"title": "あつまれ どうぶつの森",
+					"title_en": "Animal Crossing: New Horizons",
+					"release_year": 2020,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "無人島に移住して、島を自由にデザインしながら暮らす。",
+					"curator_note": "外に出られなかった2020年に、多くの人の「居場所」になった。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"simulation"
+					],
+					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-hades",
+				"slug": "hades",
+				"status": "published",
+				"data": {
+					"title": "Hades",
+					"title_en": "Hades",
+					"release_year": 2020,
+					"developer": "Supergiant Games",
+					"tier": "essential",
+					"summary": "冥界の王子ザグレウスが、父ハデスの館から地上を目指して脱出を繰り返す。",
+					"curator_note": "死ぬたびに物語が進む、ローグライクと物語の理想的な融合。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"roguelike",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"xone"
+					]
+				}
+			},
+			{
+				"id": "game-genshin-impact",
+				"slug": "genshin-impact",
+				"status": "published",
+				"data": {
+					"title": "原神",
+					"title_en": "Genshin Impact",
+					"release_year": 2020,
+					"developer": "miHoYo(HoYoverse)",
+					"tier": "recommended",
+					"summary": "7つの国からなる大陸テイワットを旅する、基本無料のオープンワールドARPG。",
+					"curator_note": "スマホでもここまでできる、を示した。運営型ゲームの代表例。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"action-rpg",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"mobile",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-ff7-remake",
+				"slug": "ff7-remake",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーVII リメイク",
+					"title_en": "Final Fantasy VII Remake",
+					"release_year": 2020,
+					"developer": "スクウェア・エニックス",
+					"tier": "recommended",
+					"summary": "原作のミッドガル編を、アクションとコマンドを融合したバトルで描き直す。",
+					"curator_note": "ただのリメイクではない。原作を知っているほど驚く仕掛けがある。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-ghost-of-tsushima",
+				"slug": "ghost-of-tsushima",
+				"status": "published",
+				"data": {
+					"title": "Ghost of Tsushima",
+					"title_en": "Ghost of Tsushima",
+					"release_year": 2020,
+					"developer": "Sucker Punch Productions",
+					"tier": "recommended",
+					"summary": "元寇の対馬で、武士・境井仁が誇りと勝利の間で揺れる。",
+					"curator_note": "風が行き先を教えてくれる、UIを減らした美しいオープンワールド。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-half-life-alyx",
+				"slug": "half-life-alyx",
+				"status": "published",
+				"data": {
+					"title": "Half-Life: Alyx",
+					"title_en": "Half-Life: Alyx",
+					"release_year": 2020,
+					"developer": "Valve",
+					"tier": "recommended",
+					"summary": "VR専用のハーフライフ。物を掴み、覗き込み、手で触って進む。",
+					"curator_note": "VRゲームの到達点。VR機材を持っているなら必修。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"fps"
+					],
+					"platform": [
+						"pc",
+						"vr"
+					]
+				}
+			},
+			{
+				"id": "game-fall-guys",
+				"slug": "fall-guys",
+				"status": "published",
+				"data": {
+					"title": "Fall Guys",
+					"title_en": "Fall Guys",
+					"release_year": 2020,
+					"developer": "Mediatonic",
+					"tier": "deep",
+					"summary": "ゼリービーンズのようなキャラが、障害物レースで最後の1人を目指す。",
+					"curator_note": "バトルロイヤルを誰でも笑える遊びにした。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"party",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"switch",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-valheim",
+				"slug": "valheim",
+				"status": "published",
+				"data": {
+					"title": "Valheim",
+					"title_en": "Valheim",
+					"release_year": 2026,
+					"developer": "Iron Gate",
+					"tier": "recommended",
+					"summary": "死んだヴァイキングが第10の世界で生き抜く、協力型サバイバルクラフト。2021年の早期アクセス開始を経て、2026年9月に正式版(1.0)になった。",
+					"curator_note": "少人数のチームで作られたヒット作。仲間と家を建てるのが最高に楽しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"sandbox",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-it-takes-two",
+				"slug": "it-takes-two",
+				"status": "published",
+				"data": {
+					"title": "It Takes Two",
+					"title_en": "It Takes Two",
+					"release_year": 2021,
+					"developer": "Hazelight Studios",
+					"tier": "essential",
+					"summary": "人形にされてしまった離婚寸前の夫婦が、2人で協力して元に戻ろうとする。",
+					"curator_note": "ステージごとに遊びが変わる、2人協力プレイ専用の傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-adventure",
+						"party"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-inscryption",
+				"slug": "inscryption",
+				"status": "published",
+				"data": {
+					"title": "Inscryption",
+					"title_en": "Inscryption",
+					"release_year": 2021,
+					"developer": "Daniel Mullins Games",
+					"tier": "recommended",
+					"summary": "不気味な小屋で謎の男とカードゲームをする。それだけでは終わらない。",
+					"curator_note": "情報を入れずに遊ぶべき一本。カードゲームの皮をかぶった何か。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"roguelike",
+						"horror",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-resident-evil-village",
+				"slug": "resident-evil-village",
+				"status": "published",
+				"data": {
+					"title": "バイオハザード ヴィレッジ",
+					"title_en": "Resident Evil Village",
+					"release_year": 2021,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "妻を殺され娘を奪われたイーサンが、雪深い村で真相を追う。",
+					"curator_note": "館・人形屋敷・工場とテーマパークのように変わる恐怖。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"horror",
+						"fps"
+					],
+					"platform": [
+						"ps5",
+						"ps4",
+						"xsx",
+						"xone",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-metroid-dread",
+				"slug": "metroid-dread",
+				"status": "published",
+				"data": {
+					"title": "メトロイド ドレッド",
+					"title_en": "Metroid Dread",
+					"release_year": 2021,
+					"developer": "MercurySteam / 任天堂",
+					"tier": "recommended",
+					"summary": "19年ぶりの2Dメトロイド新作。無敵のロボット「E.M.M.I.」から逃げる緊張感。",
+					"curator_note": "2D探索アクションの最新形。スピード感ある操作が素晴らしい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"metroidvania",
+						"action"
+					],
+					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-vampire-survivors",
+				"slug": "vampire-survivors",
+				"status": "published",
+				"data": {
+					"title": "Vampire Survivors",
+					"title_en": "Vampire Survivors",
+					"release_year": 2022,
+					"developer": "poncle",
+					"tier": "recommended",
+					"summary": "移動だけで自動攻撃し、押し寄せる大群を生き延びる。",
+					"curator_note": "数百円で中毒になる。「サバイバーライク」という新ジャンルを生んだ。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"roguelike",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"xsx",
+						"mobile",
+						"switch",
+						"ps4",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-elden-ring",
+				"slug": "elden-ring",
+				"status": "published",
+				"data": {
+					"title": "ELDEN RING",
+					"title_en": "Elden Ring",
+					"release_year": 2022,
+					"developer": "フロム・ソフトウェア",
+					"tier": "essential",
+					"summary": "狭間の地を自由に旅し、エルデンリングを修復するためデミゴッドたちに挑む。",
+					"curator_note": "ソウルシリーズの難しさを、自由に迂回できる広さで包み込んだ。2025年には『NIGHTREIGN』も。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"action-rpg"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-tunic",
+				"slug": "tunic",
+				"status": "published",
+				"data": {
+					"title": "TUNIC",
+					"title_en": "Tunic",
+					"release_year": 2022,
+					"developer": "Andrew Shouldice",
+					"tier": "recommended",
+					"summary": "小さなキツネが、謎の言語で書かれたゲームの説明書のページを集めながら冒険する。",
+					"curator_note": "説明書を読む楽しさを、そのままゲームにした。初代ゼルダへの愛に満ちている。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-adventure",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"xsx",
+						"switch",
+						"ps4",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-stray",
+				"slug": "stray",
+				"status": "published",
+				"data": {
+					"title": "Stray",
+					"title_en": "Stray",
+					"release_year": 2022,
+					"developer": "BlueTwelve Studio",
+					"tier": "deep",
+					"summary": "人類が消えたサイバーパンクの都市を、猫になって冒険する。",
+					"curator_note": "猫の気持ちになれる。爪とぎボタンがある。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-god-of-war-ragnarok",
+				"slug": "god-of-war-ragnarok",
+				"status": "published",
+				"data": {
+					"title": "ゴッド・オブ・ウォー ラグナロク",
+					"title_en": "God of War Ragnarök",
+					"release_year": 2022,
+					"developer": "Santa Monica Studio",
+					"tier": "recommended",
+					"summary": "終末ラグナロクに向かう北欧の九つの世界で、クレイトス親子の旅が完結する。",
+					"curator_note": "前作の続きとして遊ぶべき物語。親子の関係の変化が見どころ。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-xenoblade-3",
+				"slug": "xenoblade-3",
+				"status": "published",
+				"data": {
+					"title": "ゼノブレイド3",
+					"title_en": "Xenoblade Chronicles 3",
+					"release_year": 2022,
+					"developer": "モノリスソフト",
+					"tier": "recommended",
+					"summary": "10年の命しか持たない兵士たちが、永遠に続く戦争の真実に迫る。",
+					"curator_note": "シリーズの集大成。『1』『2』を経て遊ぶと感慨深い。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg",
+						"open-world"
+					],
+					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-pentiment",
+				"slug": "pentiment",
+				"status": "published",
+				"data": {
+					"title": "Pentiment",
+					"title_en": "Pentiment",
+					"release_year": 2022,
+					"developer": "Obsidian Entertainment",
+					"tier": "deep",
+					"summary": "16世紀バイエルンの修道院で起きた殺人事件を、写本の挿絵のような世界で追う。",
+					"curator_note": "答え合わせのない推理。歴史と信仰を描いた知的な一本。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"adventure"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"xsx",
+						"switch",
+						"ps4",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-zelda-totk",
+				"slug": "zelda-totk",
+				"status": "published",
+				"data": {
+					"title": "ゼルダの伝説 ティアーズ オブ ザ キングダム",
+					"title_en": "The Legend of Zelda: Tears of the Kingdom",
+					"release_year": 2023,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "空・地上・地底に広がるハイラルで、物をくっつけて何でも作れる。",
+					"curator_note": "「ウルトラハンド」で乗り物も兵器も自作できる。前作を超える自由度。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"action-adventure"
+					],
+					"platform": [
+						"switch",
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-baldurs-gate-3",
+				"slug": "baldurs-gate-3",
+				"status": "published",
+				"data": {
+					"title": "バルダーズ・ゲート3",
+					"title_en": "Baldur's Gate 3",
+					"release_year": 2023,
+					"developer": "Larian Studios",
+					"tier": "essential",
+					"summary": "脳に寄生生物を植えつけられた仲間たちと、フォーゴトン・レルムを旅するRPG。",
+					"curator_note": "「できそうなことは大体できる」。TRPGの自由をそのままゲームにした傑作。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg",
+						"strategy"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-super-mario-wonder",
+				"slug": "super-mario-wonder",
+				"status": "published",
+				"data": {
+					"title": "スーパーマリオブラザーズ ワンダー",
+					"title_en": "Super Mario Bros. Wonder",
+					"release_year": 2023,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "ワンダーフラワーに触れるとステージが思いもよらない形に変わる2Dマリオ。",
+					"curator_note": "毎ステージに驚きがある。2Dマリオの久しぶりの大胆な刷新。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-street-fighter-6",
+				"slug": "street-fighter-6",
+				"status": "published",
+				"data": {
+					"title": "ストリートファイター6",
+					"title_en": "Street Fighter 6",
+					"release_year": 2023,
+					"developer": "カプコン",
+					"tier": "essential",
+					"summary": "初心者向けの「モダン操作」を導入したシリーズ最新作。",
+					"curator_note": "格ゲーを始めるなら今これ。ワールドツアーモードで一人でも楽しめる。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"fighting"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"xsx",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-pizza-tower",
+				"slug": "pizza-tower",
+				"status": "published",
+				"data": {
+					"title": "Pizza Tower",
+					"title_en": "Pizza Tower",
+					"release_year": 2023,
+					"developer": "Tour De Pizza",
+					"tier": "deep",
+					"summary": "90年代のカートゥーン風に描かれた、超高速の横スクロールアクション。",
+					"curator_note": "『ワリオランド』の血を引く、勢いと笑いのアクション。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-dave-the-diver",
+				"slug": "dave-the-diver",
+				"status": "published",
+				"data": {
+					"title": "デイヴ・ザ・ダイバー",
+					"title_en": "Dave the Diver",
+					"release_year": 2023,
+					"developer": "MINTROCKET",
+					"tier": "recommended",
+					"summary": "昼は海に潜って魚を獲り、夜は寿司屋を経営する。",
+					"curator_note": "ジャンルが次々と変わる遊びのごった煮。どこまでも楽しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"adventure",
+						"simulation"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-cocoon",
+				"slug": "cocoon",
+				"status": "published",
+				"data": {
+					"title": "COCOON",
+					"title_en": "Cocoon",
+					"release_year": 2023,
+					"developer": "Geometric Interactive",
+					"tier": "recommended",
+					"summary": "世界の中に世界が入った「球」を持ち運び、入れ子の世界を行き来するパズル。",
+					"curator_note": "『LIMBO』『INSIDE』のデザイナーの独立作。発想に震える。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"puzzle",
+						"adventure"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"xsx",
+						"switch",
+						"ps4",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-sea-of-stars",
+				"slug": "sea-of-stars",
+				"status": "published",
+				"data": {
+					"title": "Sea of Stars",
+					"title_en": "Sea of Stars",
+					"release_year": 2023,
+					"developer": "Sabotage Studio",
+					"tier": "recommended",
+					"summary": "太陽と月の力を持つ2人の子どもの冒険。90年代のRPGへのオマージュに満ちている。",
+					"curator_note": "『クロノ・トリガー』に影響を受けた現代のドット絵RPG。光田康典も参加。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-armored-core-6",
+				"slug": "armored-core-6",
+				"status": "published",
+				"data": {
+					"title": "ARMORED CORE VI FIRES OF RUBICON",
+					"title_en": "Armored Core VI: Fires of Rubicon",
+					"release_year": 2023,
+					"developer": "フロム・ソフトウェア",
+					"tier": "recommended",
+					"summary": "惑星ルビコンで、傭兵としてロボット(AC)を組み上げて戦う。",
+					"curator_note": "パーツを組み替えてボスに挑む、試行錯誤の楽しさ。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action"
+					],
+					"platform": [
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-alan-wake-2",
+				"slug": "alan-wake-2",
+				"status": "published",
+				"data": {
+					"title": "Alan Wake 2",
+					"title_en": "Alan Wake 2",
+					"release_year": 2023,
+					"developer": "Remedy Entertainment",
+					"tier": "recommended",
+					"summary": "FBI捜査官と小説家、2人の視点で現実と悪夢の境界を描くサバイバルホラー。",
+					"curator_note": "実写映像やミュージカルまで飛び出す、表現の実験場。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"horror"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-lies-of-p",
+				"slug": "lies-of-p",
+				"status": "published",
+				"data": {
+					"title": "Lies of P",
+					"title_en": "Lies of P",
+					"release_year": 2023,
+					"developer": "Round8 Studio / NEOWIZ",
+					"tier": "deep",
+					"summary": "ピノッキオをモチーフにしたソウルライク。武器の刃と柄を組み替えられる。",
+					"curator_note": "本家に迫る完成度のソウルライク。ベル・エポックの街並みが美しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-hi-fi-rush",
+				"slug": "hi-fi-rush",
+				"status": "published",
+				"data": {
+					"title": "Hi-Fi RUSH",
+					"title_en": "Hi-Fi Rush",
+					"release_year": 2023,
+					"developer": "Tango Gameworks",
+					"tier": "recommended",
+					"summary": "世界のすべてが音楽に合わせて動く、リズムアクション。",
+					"curator_note": "リズムに乗るとすべてが気持ちいい。カートゥーン調の映像も楽しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action",
+						"rhythm"
+					],
+					"platform": [
+						"xsx",
+						"pc",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-palworld",
+				"slug": "palworld",
+				"status": "published",
+				"data": {
+					"title": "パルワールド",
+					"title_en": "Palworld",
+					"release_year": 2026,
+					"developer": "ポケットペア",
+					"tier": "deep",
+					"summary": "不思議な生き物「パル」を捕まえて働かせ、拠点を作るサバイバルクラフト。2024年1月の早期アクセス開始を経て、2026年7月に正式版(1.0)になった。",
+					"curator_note": "早期アクセス開始直後に爆発的ヒット。良くも悪くも2024年を象徴した話題作が、2年半かけて完成した。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"sandbox",
+						"open-world",
+						"online"
+					],
+					"platform": [
+						"pc",
+						"xone",
+						"xsx",
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-helldivers-2",
+				"slug": "helldivers-2",
+				"status": "published",
+				"data": {
+					"title": "HELLDIVERS 2",
+					"title_en": "Helldivers 2",
+					"release_year": 2024,
+					"developer": "Arrowhead Game Studios",
+					"tier": "recommended",
+					"summary": "最大4人で異星の敵と戦う協力型TPS。味方への誤射も当たり前。",
+					"curator_note": "全プレイヤーの戦果で戦況が動く。笑えるハプニング製造機。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"fps",
+						"online"
+					],
+					"platform": [
+						"ps5",
+						"pc",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-ff7-rebirth",
+				"slug": "ff7-rebirth",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジーVII リバース",
+					"title_en": "Final Fantasy VII Rebirth",
+					"release_year": 2024,
+					"developer": "スクウェア・エニックス",
+					"tier": "recommended",
+					"summary": "ミッドガルを出たクラウドたちの旅を描く、リメイク三部作の第2作。",
+					"curator_note": "ミニゲームの量が尋常ではない。原作の「旅」を最も大きく膨らませた作品。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg",
+						"open-world"
+					],
+					"platform": [
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-balatro",
+				"slug": "balatro",
+				"status": "published",
+				"data": {
+					"title": "Balatro",
+					"title_en": "Balatro",
+					"release_year": 2024,
+					"developer": "LocalThunk",
+					"tier": "essential",
+					"summary": "ポーカーの役で点数を稼ぎ、ジョーカーで倍率を跳ね上げるデッキ構築ローグライク。",
+					"curator_note": "ひとりの開発者が作った2024年最大のサプライズ。数字が爆発する快感。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"roguelike",
+						"strategy"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"switch",
+						"xone",
+						"xsx",
+						"mobile"
+					]
+				}
+			},
+			{
+				"id": "game-animal-well",
+				"slug": "animal-well",
+				"status": "published",
+				"data": {
+					"title": "ANIMAL WELL",
+					"title_en": "Animal Well",
+					"release_year": 2024,
+					"developer": "Shared Memory(Billy Basso)",
+					"tier": "recommended",
+					"summary": "謎めいた井戸の底を、武器を持たない生き物が探索する。",
+					"curator_note": "表面のクリアは入り口にすぎない。コミュニティ総出で謎を解く設計。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"metroidvania",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"switch",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-ufo-50",
+				"slug": "ufo-50",
+				"status": "published",
+				"data": {
+					"title": "UFO 50",
+					"title_en": "UFO 50",
+					"release_year": 2024,
+					"developer": "Mossmouth",
+					"tier": "essential",
+					"summary": "架空の80年代のゲーム会社が出した50本のゲームを収録した作品集。",
+					"curator_note": "レトロゲームの「ありえたかもしれない歴史」を体験できる。このサイトと一番相性のいいゲーム。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action",
+						"puzzle"
+					],
+					"platform": [
+						"pc",
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-black-myth-wukong",
+				"slug": "black-myth-wukong",
+				"status": "published",
+				"data": {
+					"title": "黒神話:悟空",
+					"title_en": "Black Myth: Wukong",
+					"release_year": 2024,
+					"developer": "Game Science",
+					"tier": "recommended",
+					"summary": "『西遊記』の孫悟空となって、妖怪たちと戦うアクションRPG。",
+					"curator_note": "中国の大作ゲームの世界的なブレイクスルー。圧倒的な映像美。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-astro-bot",
+				"slug": "astro-bot",
+				"status": "published",
+				"data": {
+					"title": "アストロボット",
+					"title_en": "Astro Bot",
+					"release_year": 2024,
+					"developer": "Team ASOBI",
+					"tier": "essential",
+					"summary": "小さなロボットのアストロが、PlayStationの歴史をめぐる3Dアクション。",
+					"curator_note": "任天堂以外の3Dアクションの最高峰。DualSenseの使い方が見事。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"platformer"
+					],
+					"platform": [
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-metaphor",
+				"slug": "metaphor",
+				"status": "published",
+				"data": {
+					"title": "メタファー:リファンタジオ",
+					"title_en": "Metaphor: ReFantazio",
+					"release_year": 2024,
+					"developer": "アトラス(スタジオ・ゼロ)",
+					"tier": "recommended",
+					"summary": "王の座をかけた選挙の旅をする、ファンタジー世界のRPG。",
+					"curator_note": "『ペルソナ』のチームによる新たなファンタジー。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps4",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-monster-hunter-wilds",
+				"slug": "monster-hunter-wilds",
+				"status": "published",
+				"data": {
+					"title": "モンスターハンターワイルズ",
+					"title_en": "Monster Hunter Wilds",
+					"release_year": 2025,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "天候が激変する禁足地で狩りをする、シリーズ最新作。",
+					"curator_note": "シームレスなフィールドと移動の快適さで、狩りの間口が広がった。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg",
+						"online"
+					],
+					"platform": [
+						"ps5",
+						"xsx",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-split-fiction",
+				"slug": "split-fiction",
+				"status": "published",
+				"data": {
+					"title": "Split Fiction",
+					"title_en": "Split Fiction",
+					"release_year": 2025,
+					"developer": "Hazelight Studios",
+					"tier": "recommended",
+					"summary": "SFとファンタジー作家の2人が、互いの物語の世界に閉じ込められる2人協力アクション。",
+					"curator_note": "『It Takes Two』のチームの新作。アイデアの量が前作以上。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-adventure",
+						"party"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx",
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-clair-obscur",
+				"slug": "clair-obscur",
+				"status": "published",
+				"data": {
+					"title": "Clair Obscur: Expedition 33",
+					"title_en": "Clair Obscur: Expedition 33",
+					"release_year": 2025,
+					"developer": "Sandfall Interactive",
+					"tier": "essential",
+					"summary": "毎年ひとつずつ年齢を消していく「ペイントレス」を倒すため、33歳の遠征隊が旅立つ。",
+					"curator_note": "JRPGのコマンドバトルにリアルタイムの回避とパリィを融合。2025年最大の話題作のひとつ。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-blue-prince",
+				"slug": "blue-prince",
+				"status": "published",
+				"data": {
+					"title": "Blue Prince",
+					"title_en": "Blue Prince",
+					"release_year": 2025,
+					"developer": "Dogubomb",
+					"tier": "recommended",
+					"summary": "毎日間取りが変わる屋敷で、存在しないはずの46番目の部屋を探す。",
+					"curator_note": "部屋を「引いて」屋敷を作る謎解き。手帳が必要になるタイプの深い謎。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"puzzle",
+						"roguelike"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx",
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-kingdom-come-2",
+				"slug": "kingdom-come-2",
+				"status": "published",
+				"data": {
+					"title": "キングダムカム・デリバランス II",
+					"title_en": "Kingdom Come: Deliverance II",
+					"release_year": 2025,
+					"developer": "Warhorse Studios",
+					"tier": "deep",
+					"summary": "15世紀のボヘミアを舞台にした、徹底的にリアルな中世RPG。",
+					"curator_note": "ファンタジーなしの中世を生きる。剣の練習から始まる没入感。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"rpg"
+					],
+					"platform": [
+						"pc",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-mario-kart-world",
+				"slug": "mario-kart-world",
+				"status": "published",
+				"data": {
+					"title": "マリオカート ワールド",
+					"title_en": "Mario Kart World",
+					"release_year": 2025,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "コースがつながった広い世界を走る、Switch 2のローンチタイトル。",
+					"curator_note": "最大24人のレースと、世界を自由に走る「フリーラン」が新しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"racing",
+						"party"
+					],
+					"platform": [
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-death-stranding-2",
+				"slug": "death-stranding-2",
+				"status": "published",
+				"data": {
+					"title": "DEATH STRANDING 2: ON THE BEACH",
+					"title_en": "Death Stranding 2: On the Beach",
+					"release_year": 2025,
+					"developer": "コジマプロダクション",
+					"tier": "recommended",
+					"summary": "オーストラリア大陸へ渡り、再び世界をつなぐ旅に出る。",
+					"curator_note": "前作より遊びやすく、戦闘や移動の選択肢が大幅に増えた。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-adventure"
+					],
+					"platform": [
+						"ps5",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-donkey-kong-bananza",
+				"slug": "donkey-kong-bananza",
+				"status": "published",
+				"data": {
+					"title": "ドンキーコング バナンザ",
+					"title_en": "Donkey Kong Bananza",
+					"release_year": 2025,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "地面も壁も何でも壊しながら地底を進む、3Dドンキーコング。",
+					"curator_note": "「壊す」ことが全部遊びになる、破壊の気持ちよさに振り切った作品。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"platformer",
+						"action-adventure"
+					],
+					"platform": [
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-hollow-knight-silksong",
+				"slug": "hollow-knight-silksong",
+				"status": "published",
+				"data": {
+					"title": "Hollow Knight: Silksong",
+					"title_en": "Hollow Knight: Silksong",
+					"release_year": 2025,
+					"developer": "Team Cherry",
+					"tier": "essential",
+					"summary": "ホーネットを主人公に、糸と歌の王国ファールームを登る。",
+					"curator_note": "6年以上待たれた続編。前作以上に手強く、前作以上に広い。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"metroidvania",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"switch2",
+						"ps4",
+						"ps5",
+						"xone",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-hades-2",
+				"slug": "hades-2",
+				"status": "published",
+				"data": {
+					"title": "Hades II",
+					"title_en": "Hades II",
+					"release_year": 2025,
+					"developer": "Supergiant Games",
+					"tier": "recommended",
+					"summary": "冥界の王女メリノエが、時の巨神クロノスを倒すため戦う続編。2025年9月に正式版が出て、2026年4月にPS5・Xbox版も登場した。",
+					"curator_note": "前作の完成度をさらに押し広げた。魔法と武器の組み合わせが豊富。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"roguelike",
+						"action"
+					],
+					"platform": [
+						"pc",
+						"switch",
+						"switch2",
+						"ps5",
+						"xsx"
+					]
+				}
+			},
+			{
+				"id": "game-ghost-of-yotei",
+				"slug": "ghost-of-yotei",
+				"status": "published",
+				"data": {
+					"title": "Ghost of Yōtei",
+					"title_en": "Ghost of Yōtei",
+					"release_year": 2025,
+					"developer": "Sucker Punch Productions",
+					"tier": "recommended",
+					"summary": "1603年の蝦夷地を舞台に、家族を奪われた女性・篤の復讐を描く。",
+					"curator_note": "『Ghost of Tsushima』の精神的続編。羊蹄山を望む風景が美しい。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"open-world",
+						"action"
+					],
+					"platform": [
+						"ps5"
+					]
+				}
+			},
+			{
+				"id": "game-pokemon-legends-za",
+				"slug": "pokemon-legends-za",
+				"status": "published",
+				"data": {
+					"title": "Pokémon LEGENDS Z-A",
+					"title_en": "Pokémon Legends: Z-A",
+					"release_year": 2025,
+					"developer": "ゲームフリーク",
+					"tier": "deep",
+					"summary": "ミアレシティの再開発計画を舞台にした、リアルタイムバトルのポケモン。",
+					"curator_note": "街ひとつに凝縮した舞台と、リアルタイムで動くバトルという新しい試み。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"action-rpg"
+					],
+					"platform": [
+						"switch",
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-dq-1-2-hd2d",
+				"slug": "dq-1-2-hd2d",
+				"status": "published",
+				"data": {
+					"title": "ドラゴンクエストI&II HD-2D",
+					"title_en": "Dragon Quest I & II HD-2D Remake",
+					"release_year": 2025,
+					"developer": "スクウェア・エニックス",
+					"tier": "recommended",
+					"summary": "ロト三部作の始まりの2作を、HD-2Dの映像で作り直したリメイク。",
+					"curator_note": "『III』のHD-2D版から続けて遊ぶと、伝説が一本の線につながる。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"switch",
+						"switch2",
+						"ps5",
+						"xsx",
+						"pc"
+					]
+				}
+			},
+			{
+				"id": "game-metroid-prime-4",
+				"slug": "metroid-prime-4",
+				"status": "published",
+				"data": {
+					"title": "メトロイドプライム4 ビヨンド",
+					"title_en": "Metroid Prime 4: Beyond",
+					"release_year": 2025,
+					"developer": "Retro Studios",
+					"tier": "deep",
+					"summary": "長い開発期間を経て登場した、サイコキネシスの力を持つサムスの新たな冒険。",
+					"curator_note": "シリーズファンが長く待ち続けた作品。Switch 2版の高解像度が映える。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"metroidvania",
+						"fps"
+					],
+					"platform": [
+						"switch",
+						"switch2"
+					]
+				}
+			},
+			{
+				"id": "game-resident-evil-requiem",
+				"slug": "resident-evil-requiem",
+				"status": "published",
+				"data": {
+					"title": "バイオハザード レクイエム",
+					"title_en": "Resident Evil Requiem",
+					"release_year": 2026,
+					"developer": "カプコン",
+					"tier": "recommended",
+					"summary": "FBIの分析官グレース・アッシュクロフトと、レオン・S・ケネディの2人を操作するサバイバルホラー。2026年2月27日発売。",
+					"curator_note": "グレースの母が亡くなった因縁の場所から始まる、シリーズの節目となる新作。"
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"horror"
+					],
+					"platform": [
+						"ps5",
+						"xsx",
+						"pc",
+						"switch2"
+					]
+				}
+			}
+		],
+		"posts": [
+			{
+				"id": "post-start-here",
+				"slug": "start-here",
+				"status": "published",
+				"data": {
+					"title": "まずはこの12本:半世紀のゲーム史を一気に横断する",
+					"excerpt": "どこから手をつければいいか迷ったら。年代ごとに「その時代の答え」になった作品を1〜2本ずつ選びました。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k0",
+									"text": "このサイトには200本以上のゲームが載っています。全部を遊ぶ必要はありません。ここでは、それぞれの時代に「ゲームとはこういうものだ」という答えを出した作品を、時代順に12本だけ選びました。上から順に遊ぶと、ゲームという表現がどう育ってきたのかが体でわかります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2",
+									"text": "原型の時代",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k8",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k5",
+									"href": "/games/pac-man"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k4",
+									"text": "最初の1本は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k6",
+									"text": "『パックマン』",
+									"marks": [
+										"k5"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k7",
+									"text": "です。迷路と追いかけっこというシンプルな構造の中で、4匹の敵にそれぞれ違う「性格」が与えられています。敵の動きを読むという、今のゲームにも通じる遊びの原型がここにあります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kd",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "ka",
+									"href": "/games/super-mario-bros"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k9",
+									"text": "次に",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kb",
+									"text": "『スーパーマリオブラザーズ』",
+									"marks": [
+										"ka"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kc",
+									"text": "。1-1は、説明書を読まなくても遊び方がわかるように設計されています。最初のクリボーとの出会いから、ジャンプの意味が自然と伝わってきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kf",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ke",
+									"text": "2Dの完成と3Dへの跳躍",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kn",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kh",
+									"href": "/games/street-fighter-2"
+								},
+								{
+									"_type": "link",
+									"_key": "kk",
+									"href": "/games/final-fantasy-6"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kg",
+									"text": "16ビット時代からは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "ki",
+									"text": "『ストリートファイターII』",
+									"marks": [
+										"kh"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kj",
+									"text": "と",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kl",
+									"text": "『ファイナルファンタジーVI』",
+									"marks": [
+										"kk"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "km",
+									"text": "を。前者は対戦の文化を、後者は「ゲームで物語を語る」ことの可能性を、2Dの表現の頂点で見せてくれます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kv",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kp",
+									"href": "/games/super-mario-64"
+								},
+								{
+									"_type": "link",
+									"_key": "ks",
+									"href": "/games/zelda-ocarina"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ko",
+									"text": "そして",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kq",
+									"text": "『スーパーマリオ64』",
+									"marks": [
+										"kp"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "kr",
+									"text": "と",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "kt",
+									"text": "『ゼルダの伝説 時のオカリナ』",
+									"marks": [
+										"ks"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "ku",
+									"text": "。この2本が、3D空間でキャラクターを動かすときの「カメラ」と「狙い」の問題に答えを出しました。今遊んでもまったく迷わないのは、この2本の答えがそのまま業界標準になったからです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "kx",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "kw",
+									"text": "映画とインディーのあいだ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k15",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "kz",
+									"href": "/games/shadow-of-the-colossus"
+								},
+								{
+									"_type": "link",
+									"_key": "k12",
+									"href": "/games/portal"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ky",
+									"text": "2000年代からは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k10",
+									"text": "『ワンダと巨像』",
+									"marks": [
+										"kz"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k11",
+									"text": "。敵が巨像だけという大胆な引き算が、遊びの手触りと物語を一体にしています。続く",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k13",
+									"text": "『ポータル』",
+									"marks": [
+										"k12"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k14",
+									"text": "は、数時間で終わるのに一切の無駄がありません。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1d",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k17",
+									"href": "/games/dark-souls"
+								},
+								{
+									"_type": "link",
+									"_key": "k1a",
+									"href": "/games/undertale"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k16",
+									"text": "2010年代は",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k18",
+									"text": "『ダークソウル』",
+									"marks": [
+										"k17"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k19",
+									"text": "と",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1b",
+									"text": "『UNDERTALE』",
+									"marks": [
+										"k1a"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1c",
+									"text": "を並べたいと思います。前者は「死んで覚える」ことに新しい意味を与え、後者は個人制作のゲームがRPGの約束事そのものを問い直せることを示しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1f",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1e",
+									"text": "いま",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1n",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1h",
+									"href": "/games/zelda-totk"
+								},
+								{
+									"_type": "link",
+									"_key": "k1k",
+									"href": "/games/balatro"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1g",
+									"text": "現行世代からは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1i",
+									"text": "『ゼルダの伝説 ティアーズ オブ ザ キングダム』",
+									"marks": [
+										"k1h"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1j",
+									"text": "と",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1l",
+									"text": "『Balatro』",
+									"marks": [
+										"k1k"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1m",
+									"text": "。巨大な予算をかけた自由の極みと、ひとりの開発者が作ったポーカーのローグライク。この両極が同じ年代に並んでいることこそが、今のゲームの豊かさです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1p",
+							"style": "blockquote",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1o",
+									"text": "12本を遊び終えたら、気になった作品の年代ページから「同じ時代の別の答え」を探してみてください。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": [
+						"beginner",
+						"retro",
+						"new"
+					]
+				}
+			},
+			{
+				"id": "post-roguelike-lineage",
+				"slug": "roguelike-lineage",
+				"status": "published",
+				"data": {
+					"title": "ローグライクの45年:『ローグ』から『Balatro』まで",
+					"excerpt": "死んだら最初から、それでもまた潜りたくなる。ランダム生成と永久死のゲームが、どうやって現代の主役になったのか。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k1u",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1r",
+									"href": "/games/rogue"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1q",
+									"text": "「ローグライク」という言葉は、1980年の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1s",
+									"text": "『ローグ』",
+									"marks": [
+										"k1r"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k1t",
+									"text": "に由来します。文字だけで描かれたダンジョンは入るたびに形を変え、死ねばすべてを失う。この二つのルールが、半世紀近くたった今も新作を生み続けています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k1w",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1v",
+									"text": "日本での独自進化",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k21",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k1y",
+									"href": "/games/shiren"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k1x",
+									"text": "日本でこのジャンルを決定づけたのは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k1z",
+									"text": "『不思議のダンジョン2 風来のシレン』",
+									"marks": [
+										"k1y"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k20",
+									"text": "です。チュンソフトは「運が悪かった」と感じる死を徹底的に減らし、「判断を誤った」と納得できる死に作り変えました。アイテムの組み合わせと知識が、そのまま強さになるのです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k23",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k22",
+									"text": "インディーによる再発明",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2b",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k25",
+									"href": "/games/spelunky"
+								},
+								{
+									"_type": "link",
+									"_key": "k28",
+									"href": "/games/ftl"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k24",
+									"text": "2000年代後半、インディー開発者たちがローグライクの骨格を別のジャンルに移植し始めます。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k26",
+									"text": "『スペランキー』",
+									"marks": [
+										"k25"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k27",
+									"text": "は2Dアクションに、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k29",
+									"text": "『FTL: Faster Than Light』",
+									"marks": [
+										"k28"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2a",
+									"text": "は宇宙船の管理シミュレーションに、ランダム生成と永久死を持ち込みました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2m",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k2d",
+									"href": "/games/slay-the-spire"
+								},
+								{
+									"_type": "link",
+									"_key": "k2g",
+									"href": "/games/dead-cells"
+								},
+								{
+									"_type": "link",
+									"_key": "k2j",
+									"href": "/games/hades"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2c",
+									"text": "そして",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2e",
+									"text": "『Slay the Spire』",
+									"marks": [
+										"k2d"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2f",
+									"text": "がカードゲームと結びつき、「デッキ構築ローグライク」という巨大な流れを作ります。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2h",
+									"text": "『Dead Cells』",
+									"marks": [
+										"k2g"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2i",
+									"text": "は探索アクションと、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2k",
+									"text": "『Hades』",
+									"marks": [
+										"k2j"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2l",
+									"text": "は物語と結びつきました。Hadesは「死ぬたびに物語が進む」ことで、ジャンル最大の弱点だった繰り返しの退屈さを、物語の推進力に変えてしまいました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2o",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2n",
+									"text": "数字が爆発する快感",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2w",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k2q",
+									"href": "/games/vampire-survivors"
+								},
+								{
+									"_type": "link",
+									"_key": "k2t",
+									"href": "/games/balatro"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2p",
+									"text": "2020年代に入ると、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2r",
+									"text": "『Vampire Survivors』",
+									"marks": [
+										"k2q"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2s",
+									"text": "が操作を移動だけに絞り込み、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k2u",
+									"text": "『Balatro』",
+									"marks": [
+										"k2t"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k2v",
+									"text": "がポーカーの役を倍率の連鎖に変えました。どちらも、ビルドが噛み合った瞬間に数字が桁違いに跳ね上がる快感を中心に据えています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k2y",
+							"style": "blockquote",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2x",
+									"text": "『ローグ』の画面は文字だけでした。それでも、次の階段を降りるときの胸の高鳴りは、45年後の『Balatro』でジョーカーを引くときと同じです。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"history"
+					],
+					"tag": [
+						"retro",
+						"indie"
+					]
+				}
+			},
+			{
+				"id": "post-metroidvania-lineage",
+				"slug": "metroidvania-lineage",
+				"status": "published",
+				"data": {
+					"title": "メトロイドヴァニアの系譜:探索アクションはなぜ廃れないのか",
+					"excerpt": "行けなかった場所に、新しい能力で行けるようになる。その単純な喜びを40年かけて磨いてきた作品たち。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k39",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k30",
+									"href": "/games/metroid"
+								},
+								{
+									"_type": "link",
+									"_key": "k33",
+									"href": "/games/castlevania"
+								},
+								{
+									"_type": "link",
+									"_key": "k36",
+									"href": "/games/super-metroid"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k2z",
+									"text": "メトロイドヴァニアは、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k31",
+									"text": "『メトロイド』",
+									"marks": [
+										"k30"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k32",
+									"text": "と",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k34",
+									"text": "『悪魔城ドラキュラ』",
+									"marks": [
+										"k33"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k35",
+									"text": "の名前を合わせた言葉です。ただし本当の意味で型が完成したのは、1994年の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k37",
+									"text": "『スーパーメトロイド』",
+									"marks": [
+										"k36"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k38",
+									"text": "だと言われています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3b",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3a",
+									"text": "「鍵」は能力そのもの",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3d",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3c",
+									"text": "このジャンルの核は、新しい能力が地図の「鍵」になることです。高くジャンプできるようになれば、あの崖の上へ。壁を壊せるようになれば、あの通路の先へ。プレイヤーは頭の中に地図を描きながら、まだ開いていない扉の場所を覚えていきます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3f",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3e",
+									"text": "インディーが受け継いだ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3t",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k3h",
+									"href": "/games/cave-story"
+								},
+								{
+									"_type": "link",
+									"_key": "k3k",
+									"href": "/games/hollow-knight"
+								},
+								{
+									"_type": "link",
+									"_key": "k3n",
+									"href": "/games/ori-blind-forest"
+								},
+								{
+									"_type": "link",
+									"_key": "k3q",
+									"href": "/games/animal-well"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3g",
+									"text": "2004年の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k3i",
+									"text": "『洞窟物語』",
+									"marks": [
+										"k3h"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k3j",
+									"text": "は、ひとりの開発者がこの形式で何ができるかを示しました。2010年代には",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k3l",
+									"text": "『Hollow Knight』",
+									"marks": [
+										"k3k"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k3m",
+									"text": "が、3人のチームで本家をしのぐほどの広さと深さを実現します。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k3o",
+									"text": "『Ori and the Blind Forest』",
+									"marks": [
+										"k3n"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k3p",
+									"text": "は手描きの美しさと移動の気持ちよさを、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k3r",
+									"text": "『ANIMAL WELL』",
+									"marks": [
+										"k3q"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k3s",
+									"text": "は「隠された層の謎」を加えました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k3v",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3u",
+									"text": "本家も進化を続ける",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k42",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k3w",
+									"href": "/games/metroid-dread"
+								},
+								{
+									"_type": "link",
+									"_key": "k3z",
+									"href": "/games/hollow-knight-silksong"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k3x",
+									"text": "『メトロイド ドレッド』",
+									"marks": [
+										"k3w"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k3y",
+									"text": "は、19年ぶりの2D新作として、高速な移動と追いかけられる緊張感を持ち込みました。そして2025年、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k40",
+									"text": "『Hollow Knight: Silksong』",
+									"marks": [
+										"k3z"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k41",
+									"text": "が長い沈黙を破って登場しています。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k44",
+							"style": "blockquote",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k43",
+									"text": "探索アクションが廃れないのは、「わかった!」という発見の瞬間が、どんな時代のプレイヤーにも同じように訪れるからです。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"history"
+					],
+					"tag": [
+						"retro",
+						"indie"
+					]
+				}
+			},
+			{
+				"id": "post-best-of-2025",
+				"slug": "best-of-2025",
+				"status": "published",
+				"data": {
+					"title": "2025年のゲームを振り返る:Switch 2の年、そしてインディーの年",
+					"excerpt": "新しいハードが出て、大作が並び、それでも話題をさらったのは小さなチームの作品だった。2025年の注目作をまとめます。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k4c",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k46",
+									"href": "/games/mario-kart-world"
+								},
+								{
+									"_type": "link",
+									"_key": "k49",
+									"href": "/games/donkey-kong-bananza"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k45",
+									"text": "2025年は、6月にNintendo Switch 2が発売された年として記憶されるでしょう。ローンチの",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k47",
+									"text": "『マリオカート ワールド』",
+									"marks": [
+										"k46"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k48",
+									"text": "はコースをひとつの世界につなげ、7月の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4a",
+									"text": "『ドンキーコング バナンザ』",
+									"marks": [
+										"k49"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4b",
+									"text": "は「壊す」ことを遊びの中心に据えました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k4e",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k4d",
+									"text": "大作の当たり年",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k4v",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k4g",
+									"href": "/games/monster-hunter-wilds"
+								},
+								{
+									"_type": "link",
+									"_key": "k4j",
+									"href": "/games/death-stranding-2"
+								},
+								{
+									"_type": "link",
+									"_key": "k4m",
+									"href": "/games/ghost-of-yotei"
+								},
+								{
+									"_type": "link",
+									"_key": "k4p",
+									"href": "/games/dq-1-2-hd2d"
+								},
+								{
+									"_type": "link",
+									"_key": "k4s",
+									"href": "/games/metroid-prime-4"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k4f",
+									"text": "2月の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4h",
+									"text": "『モンスターハンターワイルズ』",
+									"marks": [
+										"k4g"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4i",
+									"text": "、6月の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4k",
+									"text": "『DEATH STRANDING 2: ON THE BEACH』",
+									"marks": [
+										"k4j"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4l",
+									"text": "、10月の",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4n",
+									"text": "『Ghost of Yōtei』",
+									"marks": [
+										"k4m"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4o",
+									"text": "と、シリーズの最新作が続きました。10月には",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4q",
+									"text": "『ドラゴンクエストI&II HD-2D』",
+									"marks": [
+										"k4p"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4r",
+									"text": "でロト三部作のHD-2Dリメイクが完結し、12月には長く待たれた",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k4t",
+									"text": "『メトロイドプライム4 ビヨンド』",
+									"marks": [
+										"k4s"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k4u",
+									"text": "も登場しました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k4x",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k4w",
+									"text": "新しい名前",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k52",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k4z",
+									"href": "/games/clair-obscur"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k4y",
+									"text": "それでも、この年いちばん語られたのは",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k50",
+									"text": "『Clair Obscur: Expedition 33』",
+									"marks": [
+										"k4z"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k51",
+									"text": "かもしれません。フランスの新しいスタジオが、JRPGのコマンドバトルにリアルタイムの回避とパリィを組み合わせ、大作に引けを取らない物語を作り上げました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k54",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k53",
+									"text": "インディーの年",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5e",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k55",
+									"href": "/games/blue-prince"
+								},
+								{
+									"_type": "link",
+									"_key": "k58",
+									"href": "/games/hades-2"
+								},
+								{
+									"_type": "link",
+									"_key": "k5b",
+									"href": "/games/hollow-knight-silksong"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k56",
+									"text": "『Blue Prince』",
+									"marks": [
+										"k55"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k57",
+									"text": "は毎日間取りが変わる屋敷で、ノートを取りながら解く深い謎を用意しました。",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k59",
+									"text": "『Hades II』",
+									"marks": [
+										"k58"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k5a",
+									"text": "は早期アクセスを経て正式版に。そして9月、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k5c",
+									"text": "『Hollow Knight: Silksong』",
+									"marks": [
+										"k5b"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k5d",
+									"text": "が発表から6年以上を経てついに発売されました。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5g",
+							"style": "blockquote",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5f",
+									"text": "大作とインディーが同じ棚に並び、同じように語られる。それが今のゲームの一番いいところだと思います。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"review"
+					],
+					"tag": [
+						"new",
+						"indie"
+					]
+				}
+			},
+			{
+				"id": "post-how-to-play-retro",
+				"slug": "how-to-play-retro",
+				"status": "published",
+				"data": {
+					"title": "レトロゲームを今遊ぶための4つの考え方",
+					"excerpt": "古いゲームは難しい、わかりにくい、と感じたときに。昔の作品と気持ちよく付き合うための視点をまとめました。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k5i",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5h",
+									"text": "レトロゲームを遊ぶと、思っていたより難しかったり、何をすればいいのかわからなかったりすることがあります。それは作品が悪いのではなく、当時と今とで「前提」が違うからです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5k",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5j",
+									"text": "1. 当時の遊ばれ方を想像する",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5o",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k5l",
+									"href": "/games/tower-of-druaga"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5m",
+									"text": "『ドルアーガの塔』",
+									"marks": [
+										"k5l"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k5n",
+									"text": "のように、ひとりでは解けないことを前提にしたゲームがあります。当時は友だちや雑誌と情報を交換しながら遊ぶのが普通でした。攻略情報を見ることは「ずる」ではなく、当時の遊び方の再現だと考えましょう。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5q",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5p",
+									"text": "2. 公式の復刻・移植を選ぶ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5s",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5r",
+									"text": "多くの名作は、メーカー自身による復刻版、リマスター、リメイクで遊べます。巻き戻しや途中セーブがついた復刻版も増えました。正規の手段で遊ぶことが、次の復刻につながります。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k5u",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5t",
+									"text": "3. リメイクから入ってもいい",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k61",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k5v",
+									"href": "/games/zelda-links-awakening"
+								},
+								{
+									"_type": "link",
+									"_key": "k5y",
+									"href": "/games/resident-evil-4"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k5w",
+									"text": "『ゼルダの伝説 夢をみる島』",
+									"marks": [
+										"k5v"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k5x",
+									"text": "や",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k5z",
+									"text": "『バイオハザード4』",
+									"marks": [
+										"k5y"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k60",
+									"text": "のように、リメイク版が原作の魅力をうまく伝えている作品もあります。リメイクで好きになってから原作に戻ると、変わったところと変わらないところがよく見えます。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k63",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k62",
+									"text": "4. 子孫と並べて遊ぶ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6g",
+							"style": "normal",
+							"markDefs": [
+								{
+									"_type": "link",
+									"_key": "k64",
+									"href": "/games/super-metroid"
+								},
+								{
+									"_type": "link",
+									"_key": "k67",
+									"href": "/games/hollow-knight"
+								},
+								{
+									"_type": "link",
+									"_key": "k6a",
+									"href": "/games/rogue"
+								},
+								{
+									"_type": "link",
+									"_key": "k6d",
+									"href": "/games/slay-the-spire"
+								}
+							],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k65",
+									"text": "『スーパーメトロイド』",
+									"marks": [
+										"k64"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k66",
+									"text": "を遊んでから",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k68",
+									"text": "『Hollow Knight』",
+									"marks": [
+										"k67"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k69",
+									"text": "を、",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k6b",
+									"text": "『ローグ』",
+									"marks": [
+										"k6a"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k6c",
+									"text": "を遊んでから",
+									"marks": []
+								},
+								{
+									"_type": "span",
+									"_key": "k6e",
+									"text": "『Slay the Spire』",
+									"marks": [
+										"k6d"
+									]
+								},
+								{
+									"_type": "span",
+									"_key": "k6f",
+									"text": "を。このサイトの年代とジャンルの絞り込みを使えば、同じ系譜の作品をすぐに見つけられます。並べて遊ぶと、どちらの作品もより面白くなります。",
+									"marks": []
+								}
+							]
+						}
+					]
+				},
+				"bylines": [
+					{
+						"byline": "byline-editorial"
+					}
+				],
+				"taxonomies": {
+					"category": [
+						"guide"
+					],
+					"tag": [
+						"retro",
+						"beginner"
+					]
+				}
+			}
+		],
+		"pages": [
+			{
+				"id": "about",
+				"slug": "about",
+				"status": "published",
+				"data": {
+					"title": "このサイトについて",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "k6i",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6h",
+									"text": "「遊び継ぐ」は、1970年代のアーケードから最新作までを、年代・ジャンル・機種で横断できるゲームのキュレーションサイトです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6k",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6j",
+									"text": "編集方針",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6m",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6l",
+									"text": "点数やランキングはつけません。それぞれの作品に、どんなゲームかを伝える「ひとこと紹介」と、いま遊ぶ理由を伝える「キュレーターの一言」を添えています。推し度は「必修」「推薦」「通好み」の3段階です。必修は、その時代やジャンルを語るうえで外せない作品です。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6o",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6n",
+									"text": "掲載の基準",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6q",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6p",
+									"text": "発売から時間がたっても語られ続けている作品、ジャンルの型を作った作品、そして後の作品に大きな影響を与えた作品を中心に選んでいます。新作は発売から評価が固まるまで少し時間を置いて追加します。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6s",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6r",
+									"text": "年代の区切り",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6u",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6t",
+									"text": "年代は初出の年で分けています。機種の世代とは必ずしも一致しませんが、「その年に何が起きていたか」で比べられるようにするためです。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6w",
+							"style": "h2",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6v",
+									"text": "情報について",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "k6y",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "k6x",
+									"text": "発売年や機種は初出時の情報と主要な移植先を記載しています。誤りに気づいたら、ぜひ教えてください。",
+									"marks": []
+								}
+							]
+						}
+					]
+				}
+			}
+		]
+	}
+}

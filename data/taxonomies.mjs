@@ -1,0 +1,98 @@
+// 年代・ジャンル・機種の定義。seed/seed.json は scripts/build-seed.mjs がここから生成する。
+
+// 年代は「初出年」で自動判定する(from〜to を含む)
+export const ERAS = [
+	{ slug: "dawn", label: "黎明期(〜1982)", short: "黎明期", from: 1970, to: 1982,
+		lead: "アーケードとメインフレームから始まった時代。ジャンルの「原型」がほぼすべてここで生まれた。" },
+	{ slug: "8bit", label: "8ビット時代(1983〜1989)", short: "8ビット", from: 1983, to: 1989,
+		lead: "ファミコンとPC-88/MSXの時代。横スクロール、RPG、アドベンチャーの文法が家庭に定着した。" },
+	{ slug: "16bit", label: "16ビット時代(1990〜1994)", short: "16ビット", from: 1990, to: 1994,
+		lead: "スーファミとメガドライブの黄金期。2Dゲームの表現が頂点に達し、対戦格闘が社会現象になった。" },
+	{ slug: "polygon", label: "ポリゴン革命(1995〜1999)", short: "ポリゴン", from: 1995, to: 1999,
+		lead: "PlayStation・NINTENDO64・PCの3D化。カメラ、ムービー、FPSという新しい言語が生まれた。" },
+	{ slug: "ps2", label: "PS2・GC時代(2000〜2005)", short: "PS2世代", from: 2000, to: 2005,
+		lead: "家庭用が映画的な表現とオープンワールドを手に入れ、オンライン対戦が当たり前になり始めた。" },
+	{ slug: "hd", label: "HD・携帯機時代(2006〜2012)", short: "HD世代", from: 2006, to: 2012,
+		lead: "Wii・DS・PS3/Xbox 360、そしてスマホ。インディーゲームが流通網を手に入れた転換期。" },
+	{ slug: "indie", label: "インディー&オープンワールド(2013〜2019)", short: "2010年代", from: 2013, to: 2019,
+		lead: "個人制作の傑作と巨大オープンワールドが並び立った時代。Switchの登場で遊ぶ場所も変わった。" },
+	{ slug: "now", label: "現行世代(2020〜)", short: "現行", from: 2020, to: 2100,
+		lead: "PS5・Xbox Series X|S・Switch 2。リメイク、ライブサービス、小規模インディーの大ヒットが共存する今。" },
+];
+
+export const GENRES = {
+	action: "アクション",
+	platformer: "横スクロール・プラットフォーマー",
+	"action-adventure": "アクションアドベンチャー",
+	rpg: "RPG",
+	"action-rpg": "アクションRPG",
+	srpg: "シミュレーションRPG",
+	adventure: "アドベンチャー",
+	shooter: "シューティング(STG)",
+	fps: "FPS・TPS",
+	fighting: "対戦格闘",
+	puzzle: "パズル",
+	simulation: "シミュレーション",
+	strategy: "ストラテジー",
+	racing: "レース",
+	sports: "スポーツ",
+	horror: "ホラー",
+	rhythm: "リズム・音楽",
+	roguelike: "ローグライク",
+	metroidvania: "メトロイドヴァニア",
+	sandbox: "サンドボックス・クラフト",
+	stealth: "ステルス",
+	"open-world": "オープンワールド",
+	party: "パーティー・対戦",
+	online: "オンライン・MMO",
+	"visual-novel": "ノベル・物語",
+};
+
+export const PLATFORMS = {
+	arcade: "アーケード",
+	pc: "PC",
+	atari2600: "Atari 2600",
+	fc: "ファミコン",
+	fds: "ディスクシステム",
+	msx: "MSX",
+	pc88: "PC-8801",
+	sfc: "スーパーファミコン",
+	md: "メガドライブ",
+	pce: "PCエンジン",
+	neogeo: "ネオジオ",
+	gb: "ゲームボーイ",
+	n64: "NINTENDO64",
+	ps1: "PlayStation",
+	saturn: "セガサターン",
+	dc: "ドリームキャスト",
+	ps2: "PlayStation 2",
+	gc: "ゲームキューブ",
+	xbox: "Xbox",
+	gba: "ゲームボーイアドバンス",
+	ds: "ニンテンドーDS",
+	psp: "PSP",
+	wii: "Wii",
+	ps3: "PlayStation 3",
+	x360: "Xbox 360",
+	"3ds": "ニンテンドー3DS",
+	vita: "PS Vita",
+	wiiu: "Wii U",
+	ps4: "PlayStation 4",
+	xone: "Xbox One",
+	switch: "Nintendo Switch",
+	ps5: "PlayStation 5",
+	xsx: "Xbox Series X|S",
+	switch2: "Nintendo Switch 2",
+	mobile: "スマートフォン",
+	vr: "VR",
+};
+
+export const TIERS = {
+	essential: "必修",
+	recommended: "推薦",
+	deep: "通好み",
+};
+
+export function eraForYear(year) {
+	return ERAS.find((e) => year >= e.from && year <= e.to);
+}
