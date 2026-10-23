@@ -17,9 +17,16 @@
 | 特集 | `/posts`, `/posts/:slug` |
 | 検索 | `/search` |
 | このサイトについて | `/pages/about` |
+| 機種ガイド | `/hardware` |
+| 全ソフト名簿(30機種・約4.8万本) | `/catalog`, `/catalog/:機種`, `/catalog/:機種/:年` |
 | プライバシーポリシー | `/privacy` |
 
 ## データ
+
+- 厳選作品(953本)は `data/catalog.mjs` が全ファイルを集めて作る。追加分は `games-extra*.mjs`(`data/entry.mjs` の `n()` で書き、本文は「どんなゲーム/遊びどころ/ゲーム史の中で/こんな人におすすめ」の4見出し)
+- 発売年は `node scripts/check-years.mjs <ファイル>` で全ソフト名簿(日本発売日)と照合できる
+- 公開中のサイトへの反映は `node scripts/sync-remote.mjs --url <サイト>`(先に `npx emdash login`)
+- 全ソフト名簿の作り方は `scripts/catalog/README.md`
 
 - `data/games-classic.mjs`(〜1999年)と `data/games-modern.mjs`(2000年〜)に作品を定義
 - `data/taxonomies.mjs` に年代・ジャンル・機種・推し度を定義

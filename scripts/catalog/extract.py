@@ -46,7 +46,7 @@ for pf,tbs in out.items():
             if len(row)<=ti or row[0][1] and row[ti][1]: continue
             d=clean(row[0][0]); t=clean(row[ti][0]); p=clean(row[pi][0]) if pi is not None and len(row)>pi else ''
             if not t or t in hdr: continue
-            m2=re.match(r'^(.*?[ぁ-んァ-ヶ一-龥ー].*?)\s+/\s+[ -~’]+$',t)
+            m2=re.match(r'^(.*?[ぁ-んァ-ヶ一-龥ー].*?)\s+/\s+[ -~’À-ɏ]+$',t)
             if m2: t=m2.group(1).strip()
             t=re.sub(r'\s*[*＊]+$','',t)
             p=re.sub(r'\s*/\s*.*$','',p) if ' / ' in p else p
