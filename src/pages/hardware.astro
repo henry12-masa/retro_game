@@ -7,6 +7,8 @@ const { games, cacheHint } = await loadGames();
 if (Astro.cache?.enabled) Astro.cache.set(cacheHint);
 
 const OTHER = ["arcade", "pc", "mobile", "vr"];
+// 全ソフト名簿がある機種
+const CATALOG = new Set("fc fds pce md gb sfc neogeo ps1 saturn n64 dc ps2 gba gc xbox ds psp x360 ps3 wii 3ds vita wiiu ps4 xone switch ps5 xsx switch2".split(" "));
 
 const items = Object.entries(PLATFORMS)
 	.map(([slug, label]) => {
@@ -86,7 +88,12 @@ const groups = [
 									<div class="hw__actions">
 										{count > 0 && (
 											<a href={gamesUrl({ platform: slug })} class="btn btn--ghost btn--sm">
-												掲載作品 {count}本
+												厳選 {count}本
+											</a>
+										)}
+										{CATALOG.has(slug) && (
+											<a href={`/catalog/${slug}`} class="btn btn--ghost btn--sm">
+												全ソフト一覧
 											</a>
 										)}
 										{info.amazon && (

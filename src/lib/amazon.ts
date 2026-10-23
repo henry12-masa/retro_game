@@ -94,3 +94,10 @@ export function hardwareInfo(slug: string): HardwareInfo | null {
 		amazon: h.amazon ? { label: h.amazon.label, url: amazonSearchUrl(h.amazon.query) } : null,
 	};
 }
+
+/** 全ソフト名簿の1行のAmazon検索リンク(パッケージ版のある機種のみ) */
+export function amazonCatalogUrl(title: string, platform: string): string | null {
+	const label = platform === "gbc" ? "ゲームボーイカラー" : SOFT_PLATFORMS.find(([slug]) => slug === platform)?.[1];
+	if (!label) return null;
+	return amazonSearchUrl(`${title} ${label}`);
+}

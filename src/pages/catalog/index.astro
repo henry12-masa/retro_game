@@ -1,0 +1,116 @@
+---
+import Base from "../../layouts/Base.astro";
+import { loadCatalogIndex } from "../../lib/catalog";
+import { hardwareInfo } from "../../lib/amazon";
+
+const index = await loadCatalogIndex(Astro.url.origin);
+if (!index) return new Response("名簿データを読み込めませんでした", { status: 500 });
+Astro.response.headers.set("Cache-Control", "public, max-age=3600");
+
+const fmt = new Intl.NumberFormat("ja-JP");
+const items = index.platforms.map((p) => {
+	const info = hardwareInfo(p.slug === "gbc" ? "gb" : p.slug);
+	const first = p.years[0]?.[0];
+	const last = p.years.at(-1)?.[0];
+	return { ...p, maker: info?.maker ?? "", range: first === last ? `${first}` : `${first}〜${last}` };
+});
+---
+
+<Base title="全ソフト名簿" description={`ファミコンからPS5・Switch 2まで、日本で発売された家庭用ゲーム${fmt.format(index.total)}本を機種・年ごとにまとめた名簿。`}>
+	<header class="band intro">
+		<div class="frame">
+			<p class="eyebrow">All Releases</p>
+			<h1 class="intro__title">全ソフト名簿</h1>
+			<p class="intro__lead">
+				ファミコンからPS5・Nintendo Switch 2まで、日本で発売された家庭用ゲーム<strong>{fmt.format(index.total)}本</strong>を、機種と発売年ごとに並べました。名作だけでなく、知る人ぞ知る1本や、あの頃遊んだ思い出のソフトも探せます。解説付きの厳選作品には「厳選」の印が付いています。
+			</p>
+		</div>
+	</header>
+
+	<section class="band section" aria-label="機種一覧">
+		<div class="frame">
+			<ul class="pf-grid">
+				{
+					items.map((p) => (
+						<li>
+							<a href={`/catalog/${p.slug}`} class="pf">
+								<span class="pf__name">{p.label}</span>
+								<span class="pf__meta">
+									{p.maker && `${p.maker} · `}
+									{p.range}年
+								</span>
+								<span class="pf__count">
+									{fmt.format(p.count)}
+									<small>本</small>
+								</span>
+								{p.dl > 0 && <span class="pf__dl">うちダウンロード専売 {fmt.format(p.dl)}本</span>}
+							</a>
+						</li>
+					))
+				}
+			</ul>
+			<p class="source">
+				出典:日本語版ウィキペディア「各機種のゲームタイトル一覧」(<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja" rel="noopener" target="_blank">CC BY-SA 4.0</a>)をもとに、{index.updated}時点で日本で発売済みのソフトを整理しました。非売品・体験版・発売中止のソフトは含みません。ダウンロード専売ソフトは、元の一覧に載っている範囲だけを収録しています。
+			</p>
+		</div>
+	</section>
+</Base>
+
+<style>
+	.pf-grid {
+		list-style: none;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+		gap: var(--spacing-3);
+	}
+
+	.pf {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-1);
+		height: 100%;
+		padding: var(--spacing-4) var(--spacing-5);
+		background: var(--color-surface);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-card);
+		color: var(--color-text);
+		text-decoration: none;
+		transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+	}
+
+	.pf:hover {
+		transform: translateY(-2px);
+	}
+
+	.pf__name {
+		font-size: var(--font-size-lg);
+		font-weight: 600;
+	}
+
+	.pf__meta,
+	.pf__dl {
+		font-size: var(--font-size-xs);
+		color: var(--color-muted);
+	}
+
+	.pf__count {
+		margin-top: var(--spacing-2);
+		font-family: var(--font-mono);
+		font-size: var(--font-size-2xl);
+		font-weight: 500;
+	}
+
+	.pf__count small {
+		margin-left: 0.15em;
+		font-family: var(--font-body);
+		font-size: var(--font-size-sm);
+		color: var(--color-muted);
+	}
+
+	.source {
+		margin-top: var(--spacing-8);
+		font-size: var(--font-size-xs);
+		line-height: 1.8;
+		color: var(--color-muted);
+	}
+</style>

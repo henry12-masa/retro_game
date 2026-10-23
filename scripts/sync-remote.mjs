@@ -186,17 +186,17 @@ async function syncGames() {
 }
 
 // ---- 4. メニュー(機種ガイド)
-async function ensureMenuItem() {
+async function ensureMenuItem(label, url, after) {
 	const menu = await api("GET", "/menus/primary");
 	const items = menu.items ?? [];
-	if (items.some((item) => (item.customUrl ?? item.url) === "/hardware")) return "既存";
+	if (items.some((item) => (item.customUrl ?? item.url) === url)) return "既存";
 	if (DRY) return "追加予定";
-	const timeline = items.find((item) => (item.customUrl ?? item.url) === "/timeline");
+	const anchor = items.find((item) => (item.customUrl ?? item.url) === after);
 	await api("POST", "/menus/primary/items", {
 		type: "custom",
-		label: "機種ガイド",
-		customUrl: "/hardware",
-		sortOrder: timeline ? (timeline.sortOrder ?? 1) + 1 : items.length,
+		label,
+		customUrl: url,
+		sortOrder: anchor ? (anchor.sortOrder ?? 1) + 1 : items.length,
 	});
 	return "追加";
 }
@@ -206,10 +206,11 @@ console.log(`同期先: ${BASE}(認証: ${how})${DRY ? " [dry-run]" : ""}`);
 console.log(`項目 amazon_query: ${await ensureFields()}`);
 const terms = await ensureTerms();
 console.log(`用語の追加: ${terms.length ? terms.join(", ") : "なし"}`);
-const result = await syncGames();
+const result = args.includes("--menu-only") ? { created: 0, updated: 0, failures: [], total: 0 } : await syncGames();
 console.log(`作品: 新規 ${result.created} / 更新 ${result.updated} / 全 ${result.total}`);
 if (result.failures.length) {
 	console.log(`失敗 ${result.failures.length}件:`);
 	for (const f of result.failures.slice(0, 20)) console.log("  " + f);
 }
-console.log(`メニュー「機種ガイド」: ${await ensureMenuItem()}`);
+console.log(`メニュー「機種ガイド」: ${await ensureMenuItem("機種ガイド", "/hardware", "/timeline")}`);
+console.log(`メニュー「全ソフト名簿」: ${await ensureMenuItem("全ソフト名簿", "/catalog", "/hardware")}`);
