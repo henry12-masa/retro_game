@@ -19,6 +19,8 @@ const argValue = (name) => {
 };
 const BASE = (argValue("--url") ?? "http://localhost:4330").replace(/\/$/, "");
 const DRY = args.includes("--dry-run");
+// --only slug1,slug2 で、指定したものだけを同期する(定期更新で全件を書き直さないため)
+const ONLY = argValue("--only")?.split(",").map((s) => s.trim()).filter(Boolean);
 const isLocal = /^https?:\/\/(localhost|127\.0\.0\.1)(:|\/|$)/.test(BASE);
 
 // ---- 認証
@@ -158,7 +160,12 @@ async function syncGames() {
 	let created = 0;
 	let updated = 0;
 	const failures = [];
-	for (const [i, game] of games.entries()) {
+	const targets = ONLY ? games.filter((g) => ONLY.includes(g.slug)) : games;
+	if (ONLY) {
+		const missing = ONLY.filter((slug) => !targets.some((g) => g.slug === slug));
+		if (missing.length) throw new Error(`--only に data/ にない slug があります: ${missing.join(", ")}`);
+	}
+	for (const [i, game] of targets.entries()) {
 		const payload = payloadFor(game);
 		const current = existing.get(game.slug);
 		try {
@@ -180,9 +187,9 @@ async function syncGames() {
 		} catch (error) {
 			failures.push(`${game.slug}: ${error.message}`);
 		}
-		if ((i + 1) % 50 === 0) console.log(`  ...${i + 1}/${games.length}`);
+		if ((i + 1) % 50 === 0) console.log(`  ...${i + 1}/${targets.length}`);
 	}
-	return { created, updated, failures, total: games.length };
+	return { created, updated, failures, total: targets.length };
 }
 
 // ---- 4. メニュー(機種ガイド)

@@ -5,7 +5,12 @@
 import { mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { games } from "../data/catalog.mjs";
 
-const raw = JSON.parse(readFileSync(new URL("../data/catalog/raw.json", import.meta.url), "utf8"));
+const read = (name) => JSON.parse(readFileSync(new URL(`../data/catalog/${name}`, import.meta.url), "utf8"));
+// additions.json は、ウィキペディアから取った後に出た新作などを手で足す分({機種: [{t, d, p, dl}]} の形)
+const raw = read("raw.json");
+for (const [pf, list] of Object.entries(read("additions.json"))) raw[pf] = [...(raw[pf] ?? []), ...list];
+// 名簿の更新日(日本時間)
+const TODAY = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const OUT = new URL("../public/catalog-data/", import.meta.url);
 
 // 機種の表示名と並び順(発売順)
@@ -93,5 +98,5 @@ for (const [pf, label] of CATALOG_PLATFORMS) {
 	total += list.length;
 	index.push({ slug: pf, label, count: list.length, dl: list.filter((e) => e.dl).length, years });
 }
-writeFileSync(new URL("index.json", OUT), JSON.stringify({ updated: "2026-10-23", total, platforms: index }));
+writeFileSync(new URL("index.json", OUT), JSON.stringify({ updated: TODAY, total, platforms: index }));
 console.log(`全ソフト名簿: ${total}本 / ${index.length}機種(厳選作品へのリンク ${linked}件)`);

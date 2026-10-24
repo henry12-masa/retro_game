@@ -25,6 +25,7 @@ import x28 from "./games-extra2-current.mjs";
 import x3r from "./games-extra3-retro.mjs";
 import x3a from "./games-extra3-a.mjs";
 import x3b from "./games-extra3-b.mjs";
+import updates from "./games-updates.mjs";
 
 const reviews = { ...reviewsClassic, ...reviewsModernA, ...reviewsModernB };
 const reviewExtras = { ...rx1, ...rx2, ...rx3, ...rx4 };
@@ -59,6 +60,7 @@ export const games = [
 	...x3r,
 	...x3a,
 	...x3b,
+	...updates,
 ]
 	.map((g) => ({
 		...g,

@@ -4,7 +4,9 @@ import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
 import { resolve } from "node:path";
 
-const raw = JSON.parse(readFileSync(new URL("../data/catalog/raw.json", import.meta.url), "utf8"));
+const read = (name) => JSON.parse(readFileSync(new URL(`../data/catalog/${name}`, import.meta.url), "utf8"));
+const raw = read("raw.json");
+for (const [pf, list] of Object.entries(read("additions.json"))) raw[pf] = [...(raw[pf] ?? []), ...list];
 const norm = (t) => t.normalize("NFKC").toLowerCase().replace(/[\s・:：\-－―‐~〜!！?？'’"「」『』()（）\[\]【】.,、。&＆/]/g, "");
 const index = new Map();
 for (const [pf, list] of Object.entries(raw)) for (const e of list) {

@@ -35,6 +35,10 @@
 
 seed は空のデータベースにだけ適用されます。公開後の作品の追加・修正は管理画面(`/_emdash/admin`)から行います。
 
+## 定期更新
+
+週2回(火・金)、`curation-sites-update` スキルで最新情報を反映する。新しい厳選は `data/games-updates.mjs` に足し、名簿の追加は `data/catalog/additions.json`(raw.json と同じ形)に入れる。本番DBへは `node scripts/sync-remote.mjs --url <サイト> --only <slug,...>` で変えたものだけを同期する(`--only` のときは特集・固定ページは書き直さない)。コミットの先頭は `[curation-update]`。
+
 ## 開発とデプロイ
 
 ```bash
