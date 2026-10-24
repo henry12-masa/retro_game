@@ -3,6 +3,8 @@ import { PortableText, Image } from "emdash/ui";
 import Base from "../../layouts/Base.astro";
 import GameCard from "../../components/GameCard.astro";
 import AmazonBox from "../../components/AmazonBox.astro";
+import AdUnit from "../../components/AdUnit.astro";
+import { splitAtHeading } from "../../lib/ads";
 import { amazonForGame, hardwareInfo } from "../../lib/amazon";
 import { TIERS, eraBySlug, gamesUrl, loadGames, relatedGames } from "../../lib/games";
 
@@ -20,6 +22,8 @@ const sameYear = games.filter((g) => g.year === game.year && g.slug !== game.slu
 const prev = games[index - 1];
 const next = games[index + 1];
 const hasContent = Array.isArray(game.content) && game.content.length > 0;
+// 本文の2つ目の見出しの前に記事内広告を挟む
+const [contentHead, contentTail] = hasContent ? splitAtHeading(game.content as any[]) : [[], []];
 const amazonSoft = amazonForGame(game);
 // 対応機種の本体・関連機器(重複と「扱いなし」を除いて最大3件)
 // アーケード・PC・スマホ・VRは本体の案内として不自然なので、作品ページでは出さない(機種ガイドには出す)
@@ -66,6 +70,7 @@ const hardwareLinks = game.platforms
 
 	<section class="band section">
 		<div class="frame game-body">
+			<div class="game-side">
 			<dl class="facts">
 				<div>
 					<dt>推し度</dt>
@@ -117,6 +122,8 @@ const hardwareLinks = game.platforms
 					)
 				}
 			</dl>
+			<AdUnit kind="side" class="game-side__ad" />
+			</div>
 
 			<div class="game-main">
 				{
@@ -132,7 +139,9 @@ const hardwareLinks = game.platforms
 						<section class="review" aria-labelledby="review-heading">
 							<h2 id="review-heading" class="sub-title">解説</h2>
 							<div class="prose">
-								<PortableText value={game.content as any} />
+								<PortableText value={contentHead} />
+								<AdUnit kind="article" />
+								{contentTail.length > 0 && <PortableText value={contentTail} />}
 							</div>
 						</section>
 					)
@@ -273,6 +282,18 @@ const hardwareLinks = game.platforms
 		align-items: start;
 	}
 
+	.game-side {
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-8);
+		align-self: stretch;
+	}
+
+	.game-side__ad {
+		position: sticky;
+		top: var(--spacing-6);
+	}
+
 	.facts {
 		display: flex;
 		flex-direction: column;
@@ -403,6 +424,11 @@ const hardwareLinks = game.platforms
 
 		.game-head__cover {
 			max-width: 360px;
+		}
+
+		/* 1列のときは本文中の広告だけにする */
+		.game-side__ad {
+			display: none;
 		}
 	}
 </style>
