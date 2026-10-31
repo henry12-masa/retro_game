@@ -11,6 +11,7 @@ import { homedir } from "node:os";
 import { join } from "node:path";
 import { ERAS, GENRES, PLATFORMS, eraForYear } from "../data/taxonomies.mjs";
 import { games, bodyToPortableText } from "../data/catalog.mjs";
+import { aboutPage } from "../data/features.mjs";
 
 const args = process.argv.slice(2);
 const argValue = (name) => {
@@ -192,6 +193,28 @@ async function syncGames() {
 	return { created, updated, failures, total: targets.length };
 }
 
+// ---- 固定ページ「このサイトについて」
+async function syncAboutPage() {
+	let current;
+	let cursor;
+	do {
+		const qs = new URLSearchParams({ limit: "100", status: "all" });
+		if (cursor) qs.set("cursor", cursor);
+		const result = await api("GET", `/content/pages?${qs}`);
+		current = (result.items ?? []).find((item) => item.slug === aboutPage.slug) ?? current;
+		cursor = result.nextCursor;
+	} while (cursor && !current);
+	if (DRY) return current ? "更新予定" : "作成予定";
+	if (current) {
+		await api("PUT", `/content/pages/${current.id}`, { data: aboutPage.data });
+		await api("POST", `/content/pages/${current.id}/publish`, {});
+		return "更新";
+	}
+	const result = await api("POST", "/content/pages", { data: aboutPage.data, slug: aboutPage.slug });
+	await api("POST", `/content/pages/${result.item?.id ?? result.id}/publish`, {});
+	return "作成";
+}
+
 // ---- 4. メニュー(機種ガイド)
 async function ensureMenuItem(label, url, after) {
 	const menu = await api("GET", "/menus/primary");
@@ -213,6 +236,8 @@ console.log(`同期先: ${BASE}(認証: ${how})${DRY ? " [dry-run]" : ""}`);
 console.log(`項目 amazon_query: ${await ensureFields()}`);
 const terms = await ensureTerms();
 console.log(`用語の追加: ${terms.length ? terms.join(", ") : "なし"}`);
+// --about で「このサイトについて」(data/features.mjs の aboutPage)も書き直す。--menu-only と組み合わせるとこのページだけ
+if (args.includes("--about")) console.log(`固定ページ「このサイトについて」: ${await syncAboutPage()}`);
 const result = args.includes("--menu-only") ? { created: 0, updated: 0, failures: [], total: 0 } : await syncGames();
 console.log(`作品: 新規 ${result.created} / 更新 ${result.updated} / 全 ${result.total}`);
 if (result.failures.length) {
