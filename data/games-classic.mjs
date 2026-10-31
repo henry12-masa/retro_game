@@ -123,7 +123,7 @@ export default [
 	g("famista", "プロ野球ファミリースタジアム", "Family Stadium", 1986, "ナムコ", "fc", "sports", "deep",
 		"実在球団をもじったチームで戦う野球ゲーム。シンプルな操作で対戦が熱い。",
 		"家庭用スポーツゲームの「友だちと対戦」文化はここから広がった。"),
-	g("dragon-quest-3", "ドラゴンクエストIII そして伝説へ…", "Dragon Quest III", 1988, "エニックス / ハートビート", "fc sfc", "rpg", "essential",
+	g("dragon-quest-3", "ドラゴンクエストIII そして伝説へ…", "Dragon Quest III", 1988, "エニックス / チュンソフト", "fc sfc", "rpg", "essential",
 		"仲間を酒場で集め、職業を選んで世界を巡る。発売日に行列ができ、社会現象になった。",
 		"転職システムと昼夜の切り替え、そしてタイトルの意味がわかる終盤。シリーズ最高傑作に推す声も多い。"),
 	g("super-mario-bros-3", "スーパーマリオブラザーズ3", "Super Mario Bros. 3", 1988, "任天堂", "fc", "platformer", "essential",

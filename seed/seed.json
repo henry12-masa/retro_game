@@ -5967,6 +5967,147 @@
 				}
 			},
 			{
+				"id": "game-star-force",
+				"slug": "star-force",
+				"status": "published",
+				"data": {
+					"title": "スターフォース",
+					"title_en": "Star Force",
+					"release_year": 1984,
+					"developer": "テーカン(FC版はハドソン)",
+					"tier": "deep",
+					"summary": "高速で流れる宇宙を飛び、敵や地上物を撃ち落とす縦スクロールシューティング。ファミコンでのヒットで「シューティングブーム」を作った。",
+					"curator_note": "高橋名人の16連射と「キャラバン」の大会文化は、ここから始まった。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "star-force-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8g",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8h",
+									"text": "縦にスクロールする宇宙空間を進み、空中の敵と地上の建造物を同じショットで撃ち落とす。パワーアップの「パーサー」を取ると自機が速くなり、連射も強くなる。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8i",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8j",
+									"text": "地上に隠されたボーナスキャラクターを撃ち当てると高得点が入る。どこに何が隠れているかを覚え、スコアを競う楽しさが大きい。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8k",
+									"text": "ゲーム史の中で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8l",
+									"text": "アーケード版を移植したハドソンは、このソフトを使った全国キャラバン大会を開いた。連射の名人がテレビに出るなど、ゲームの大会が子どもの憧れになったきっかけのひとつ。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8m",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "star-force-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "star-force-s8n",
+									"text": "スコアを詰める遊び方が好きな人、80年代のゲーム文化に興味がある人に。シンプルで、数分遊んだだけでも手応えがある。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"8bit"
+					],
+					"genre": [
+						"shooter"
+					],
+					"platform": [
+						"fc",
+						"arcade"
+					]
+				}
+			},
+			{
 				"id": "game-spartan-x",
 				"slug": "spartan-x",
 				"status": "published",
@@ -5987,7 +6128,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8g",
+									"_key": "spartan-x-s8o",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6001,7 +6142,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8h",
+									"_key": "spartan-x-s8p",
 									"text": "左右から押し寄せる敵を、パンチとキックの上段・下段を使い分けて倒していく。各階の最後にはボスが待ち構えている。",
 									"marks": []
 								}
@@ -6015,7 +6156,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8i",
+									"_key": "spartan-x-s8q",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -6029,7 +6170,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8j",
+									"_key": "spartan-x-s8r",
 									"text": "組み付いてくる敵を振りほどく操作など、格闘を題材にしたアクションの基本が詰まっている。ファミコン版も人気を集めた。",
 									"marks": []
 								}
@@ -6043,7 +6184,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8k",
+									"_key": "spartan-x-s8s",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6057,7 +6198,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8l",
+									"_key": "spartan-x-s8t",
 									"text": "上段と下段の攻撃を使い分け、組み付いてくる敵を振りほどく。各階のボスとの戦いも手強い。",
 									"marks": []
 								}
@@ -6071,7 +6212,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8m",
+									"_key": "spartan-x-s8u",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6085,7 +6226,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "spartan-x-s8n",
+									"_key": "spartan-x-s8v",
 									"text": "カンフー映画が好きな人に。",
 									"marks": []
 								}
@@ -6129,7 +6270,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8o",
+									"_key": "tetris-s8w",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6143,7 +6284,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8p",
+									"_key": "tetris-s8x",
 									"text": "7種類のブロックが上から落ちてくる。回転させながら隙間なく並べ、横一列がそろうとその列が消える。積み上がって画面の上まで届いたら終わり。",
 									"marks": []
 								}
@@ -6157,7 +6298,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8q",
+									"_key": "tetris-s8y",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -6171,7 +6312,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8r",
+									"_key": "tetris-s8z",
 									"text": "ソ連の研究者が作った小さなゲームが、1989年のゲームボーイ版をきっかけに世界中へ広まった。単純なルールの中に無限の奥深さがあり、今も新作と大会が絶えない、世界で最も知られたゲームのひとつ。",
 									"marks": []
 								}
@@ -6185,7 +6326,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8s",
+									"_key": "tetris-s90",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6199,7 +6340,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8t",
+									"_key": "tetris-s91",
 									"text": "棒のブロックを待って4列を一気に消す「テトリス」を狙うか、確実に消していくか。積み方の判断が奥深い。",
 									"marks": []
 								}
@@ -6213,7 +6354,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8u",
+									"_key": "tetris-s92",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6227,7 +6368,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tetris-s8v",
+									"_key": "tetris-s93",
 									"text": "誰でも遊べて一生遊べるゲームを探している人に。",
 									"marks": []
 								}
@@ -6272,7 +6413,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s8w",
+									"_key": "tower-of-druaga-s94",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6286,7 +6427,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s8x",
+									"_key": "tower-of-druaga-s95",
 									"text": "騎士ギルが、60階建ての塔の最上階に囚われた巫女カイを救いに向かう。各階で鍵を拾って扉に入れば次の階へ進める。",
 									"marks": []
 								}
@@ -6300,7 +6441,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s8y",
+									"_key": "tower-of-druaga-s96",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -6314,7 +6455,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s8z",
+									"_key": "tower-of-druaga-s97",
 									"text": "各階には宝箱が隠されていて、出現させる条件はノーヒント。宝を取り逃すと先に進めなくなることもあり、攻略情報はゲームセンターのノートや口コミで共有された。遊び手のコミュニティそのものが攻略の一部だった。",
 									"marks": []
 								}
@@ -6328,7 +6469,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s90",
+									"_key": "tower-of-druaga-s98",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6342,7 +6483,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s91",
+									"_key": "tower-of-druaga-s99",
 									"text": "各階に隠された宝箱の出し方を見つけ出す。攻略情報を集めて少しずつ上の階を目指す。",
 									"marks": []
 								}
@@ -6356,7 +6497,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s92",
+									"_key": "tower-of-druaga-s9a",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6370,7 +6511,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tower-of-druaga-s93",
+									"_key": "tower-of-druaga-s9b",
 									"text": "隠し要素の多いゲームに挑戦したい人に。",
 									"marks": []
 								}
@@ -6413,7 +6554,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s94",
+									"_key": "hydlide-s9c",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6427,7 +6568,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s95",
+									"_key": "hydlide-s9d",
 									"text": "勇者ジムがフィールドを歩き回り、敵に体当たりして倒していく。攻撃モードと防御モードを切り替える戦い方が特徴。",
 									"marks": []
 								}
@@ -6441,7 +6582,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s96",
+									"_key": "hydlide-s9e",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -6455,7 +6596,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s97",
+									"_key": "hydlide-s9f",
 									"text": "その場で止まっていると体力が回復する仕組みは、のちの多くのゲームに受け継がれた。日本のパソコンで生まれた最初期のアクションRPGとして、『イース』や『ゼルダの伝説』と並ぶジャンルの開拓者。",
 									"marks": []
 								}
@@ -6469,7 +6610,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s98",
+									"_key": "hydlide-s9g",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6483,7 +6624,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s99",
+									"_key": "hydlide-s9h",
 									"text": "攻撃と防御のモードを切り替えて敵と戦い、休んで体力を回復しながら進む。",
 									"marks": []
 								}
@@ -6497,7 +6638,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s9a",
+									"_key": "hydlide-s9i",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6511,7 +6652,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hydlide-s9b",
+									"_key": "hydlide-s9j",
 									"text": "初期のアクションRPGを体験したい人に。",
 									"marks": []
 								}
@@ -6555,7 +6696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9c",
+									"_key": "pac-land-s9k",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6569,7 +6710,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9d",
+									"_key": "pac-land-s9l",
 									"text": "パックマンは左右に走り、ジャンプで障害物を越えて進む。消火栓を押すと隠れたアイテムが出ることもある。",
 									"marks": []
 								}
@@ -6583,7 +6724,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9e",
+									"_key": "pac-land-s9m",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6597,7 +6738,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9f",
+									"_key": "pac-land-s9n",
 									"text": "町から森、砂漠と景色が移り変わり、最後に妖精の国にたどり着く。",
 									"marks": []
 								}
@@ -6611,7 +6752,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9g",
+									"_key": "pac-land-s9o",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -6625,7 +6766,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9h",
+									"_key": "pac-land-s9p",
 									"text": "『スーパーマリオブラザーズ』に影響を与えた作品のひとつとも言われている。",
 									"marks": []
 								}
@@ -6639,7 +6780,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9i",
+									"_key": "pac-land-s9q",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6653,7 +6794,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pac-land-s9j",
+									"_key": "pac-land-s9r",
 									"text": "横スクロールアクションの歴史に興味がある人に。",
 									"marks": []
 								}
@@ -6696,7 +6837,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9k",
+									"_key": "ice-climber-s9s",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6710,7 +6851,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9l",
+									"_key": "ice-climber-s9t",
 									"text": "頭上の床をハンマーで割って穴を開け、ジャンプで上の段へ登る。画面は上に向かってスクロールし、遅れると画面外に取り残される。",
 									"marks": []
 								}
@@ -6724,7 +6865,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9m",
+									"_key": "ice-climber-s9u",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -6738,7 +6879,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9n",
+									"_key": "ice-climber-s9v",
 									"text": "2人同時に遊ぶと、どちらが先に頂上へ着くかの競争にもなる。独特のジャンプの重さに慣れるのが攻略のカギ。",
 									"marks": []
 								}
@@ -6752,7 +6893,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9o",
+									"_key": "ice-climber-s9w",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6766,7 +6907,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9p",
+									"_key": "ice-climber-s9x",
 									"text": "床の割れ目を作りながら、上のフロアへ跳び移る。2人で遊ぶと競争になって熱い。",
 									"marks": []
 								}
@@ -6780,7 +6921,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9q",
+									"_key": "ice-climber-s9y",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6794,7 +6935,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ice-climber-s9r",
+									"_key": "ice-climber-s9z",
 									"text": "縦方向のアクションが好きな人に。",
 									"marks": []
 								}
@@ -6836,7 +6977,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9s",
+									"_key": "yie-ar-kung-fu-sa0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6850,7 +6991,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9t",
+									"_key": "yie-ar-kung-fu-sa1",
 									"text": "上下左右とボタンの組み合わせで、パンチとキックを打ち分けて戦う。",
 									"marks": []
 								}
@@ -6864,7 +7005,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9u",
+									"_key": "yie-ar-kung-fu-sa2",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -6878,7 +7019,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9v",
+									"_key": "yie-ar-kung-fu-sa3",
 									"text": "敵は棒や鎖、扇子などそれぞれの武器を使い、攻撃の癖も違う。",
 									"marks": []
 								}
@@ -6892,7 +7033,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9w",
+									"_key": "yie-ar-kung-fu-sa4",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -6906,7 +7047,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9x",
+									"_key": "yie-ar-kung-fu-sa5",
 									"text": "『ストリートファイター』以前の対戦格闘ゲームの先駆けとして、ゲーム史に名を残している。",
 									"marks": []
 								}
@@ -6920,7 +7061,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9y",
+									"_key": "yie-ar-kung-fu-sa6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -6934,7 +7075,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yie-ar-kung-fu-s9z",
+									"_key": "yie-ar-kung-fu-sa7",
 									"text": "格闘ゲームの歴史をたどりたい人に。",
 									"marks": []
 								}
@@ -6978,7 +7119,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa0",
+									"_key": "gradius-sa8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -6992,7 +7133,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa1",
+									"_key": "gradius-sa9",
 									"text": "敵を倒して手に入るカプセルを集め、画面下のゲージから好きな強化を選ぶ。スピードアップ、ミサイル、ダブル、レーザー、オプション、バリアの順に並んでいる。",
 									"marks": []
 								}
@@ -7006,7 +7147,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa2",
+									"_key": "gradius-saa",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -7020,7 +7161,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa3",
+									"_key": "gradius-sab",
 									"text": "どの順番で強化するかを自分で決められる仕組みは画期的だった。自機の動きを追いかけて一緒に撃つ「オプション」や、ステージに並ぶモアイ像など、シリーズの象徴もここから。コナミの横シューティングの原点。",
 									"marks": []
 								}
@@ -7034,7 +7175,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa4",
+									"_key": "gradius-sac",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -7048,7 +7189,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa5",
+									"_key": "gradius-sad",
 									"text": "カプセルをためて、どのパワーアップを取るかを決める。オプションを揃えると一気に強くなる。",
 									"marks": []
 								}
@@ -7062,7 +7203,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa6",
+									"_key": "gradius-sae",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -7076,7 +7217,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gradius-sa7",
+									"_key": "gradius-saf",
 									"text": "横シューティングの基本を味わいたい人に。",
 									"marks": []
 								}
@@ -7119,7 +7260,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sa8",
+									"_key": "xanadu-sag",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -7133,7 +7274,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sa9",
+									"_key": "xanadu-sah",
 									"text": "横から見た地下迷宮を探索し、敵と戦って経験値を得ながら、竜王を目指す。装備や魔法、カルマ(善悪の値)の管理が重要になる。",
 									"marks": []
 								}
@@ -7147,7 +7288,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-saa",
+									"_key": "xanadu-sai",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -7161,7 +7302,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sab",
+									"_key": "xanadu-saj",
 									"text": "経験値やお金の使い方を考えないと先に進めなくなる、リソース管理の厳しさがある。日本ファルコムの名を一躍有名にし、当時のパソコンゲームとして記録的な売り上げとなった。",
 									"marks": []
 								}
@@ -7175,7 +7316,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sac",
+									"_key": "xanadu-sak",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -7189,7 +7330,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sad",
+									"_key": "xanadu-sal",
 									"text": "経験値とお金の使い道を考え、カルマに気をつけながら地下へ潜っていく。",
 									"marks": []
 								}
@@ -7203,7 +7344,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-sae",
+									"_key": "xanadu-sam",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -7217,7 +7358,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xanadu-saf",
+									"_key": "xanadu-san",
 									"text": "手応えのあるアクションRPGに挑戦したい人に。",
 									"marks": []
 								}
@@ -7260,7 +7401,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sag",
+									"_key": "super-mario-bros-sao",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -7274,7 +7415,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sah",
+									"_key": "super-mario-bros-sap",
 									"text": "マリオを操作して、走り、跳び、キノコで大きくなり、ファイアフラワーで炎を投げながら、クッパにさらわれたピーチ姫を助けに行く。全8ワールド32コース。",
 									"marks": []
 								}
@@ -7288,7 +7429,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sai",
+									"_key": "super-mario-bros-saq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -7302,7 +7443,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-saj",
+									"_key": "super-mario-bros-sar",
 									"text": "ダッシュしながらのジャンプで飛距離が伸びるなど、操作の手触りがとにかく気持ちいい。最初のコースは、説明なしでもプレイヤーが自然に遊び方を学べるように設計されている。家庭用ゲームを世界に広めた、すべての横スクロールアクションの教科書。",
 									"marks": []
 								}
@@ -7316,7 +7457,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sak",
+									"_key": "super-mario-bros-sas",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -7330,7 +7471,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sal",
+									"_key": "super-mario-bros-sat",
 									"text": "隠しブロックやワープ土管を見つけ、ダッシュジャンプで穴を跳び越える。何度遊んでも新しい発見がある。",
 									"marks": []
 								}
@@ -7344,7 +7485,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-sam",
+									"_key": "super-mario-bros-sau",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -7358,7 +7499,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-bros-san",
+									"_key": "super-mario-bros-sav",
 									"text": "すべての人に。ゲームの基本がここにある。",
 									"marks": []
 								}
@@ -7376,147 +7517,6 @@
 					],
 					"platform": [
 						"fc"
-					]
-				}
-			},
-			{
-				"id": "game-star-force",
-				"slug": "star-force",
-				"status": "published",
-				"data": {
-					"title": "スターフォース",
-					"title_en": "Star Force",
-					"release_year": 1985,
-					"developer": "ハドソン(原作:テーカン)",
-					"tier": "deep",
-					"summary": "高速で流れる宇宙を飛び、敵や地上物を撃ち落とす縦スクロールシューティング。ファミコンでのヒットで「シューティングブーム」を作った。",
-					"curator_note": "高橋名人の16連射と「キャラバン」の大会文化は、ここから始まった。",
-					"content": [
-						{
-							"_type": "block",
-							"_key": "star-force-b0",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sao",
-									"text": "どんなゲーム",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b1",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sap",
-									"text": "縦にスクロールする宇宙空間を進み、空中の敵と地上の建造物を同じショットで撃ち落とす。パワーアップの「パーサー」を取ると自機が速くなり、連射も強くなる。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b2",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-saq",
-									"text": "遊びどころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b3",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sar",
-									"text": "地上に隠されたボーナスキャラクターを撃ち当てると高得点が入る。どこに何が隠れているかを覚え、スコアを競う楽しさが大きい。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b4",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sas",
-									"text": "ゲーム史の中で",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b5",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sat",
-									"text": "アーケード版を移植したハドソンは、このソフトを使った全国キャラバン大会を開いた。連射の名人がテレビに出るなど、ゲームの大会が子どもの憧れになったきっかけのひとつ。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b6",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sau",
-									"text": "こんな人におすすめ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "star-force-b7",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "star-force-sav",
-									"text": "スコアを詰める遊び方が好きな人、80年代のゲーム文化に興味がある人に。シンプルで、数分遊んだだけでも手応えがある。",
-									"marks": []
-								}
-							]
-						}
-					],
-					"amazon_query": ""
-				},
-				"taxonomies": {
-					"era": [
-						"8bit"
-					],
-					"genre": [
-						"shooter"
-					],
-					"platform": [
-						"fc",
-						"arcade"
 					]
 				}
 			},
@@ -15268,7 +15268,7 @@
 					"title": "ドラゴンクエストIII そして伝説へ…",
 					"title_en": "Dragon Quest III",
 					"release_year": 1988,
-					"developer": "エニックス / ハートビート",
+					"developer": "エニックス / チュンソフト",
 					"tier": "essential",
 					"summary": "仲間を酒場で集め、職業を選んで世界を巡る。発売日に行列ができ、社会現象になった。",
 					"curator_note": "転職システムと昼夜の切り替え、そしてタイトルの意味がわかる終盤。シリーズ最高傑作に推す声も多い。",
@@ -22155,6 +22155,148 @@
 				}
 			},
 			{
+				"id": "game-metroid-2",
+				"slug": "metroid-2",
+				"status": "published",
+				"data": {
+					"title": "メトロイドII RETURN OF SAMUS",
+					"title_en": "Metroid II: Return of Samus",
+					"release_year": 1991,
+					"developer": "任天堂",
+					"tier": "deep",
+					"summary": "サムスがメトロイドの故郷・惑星SR388に乗り込み、メトロイドを全滅させる任務に挑む。",
+					"curator_note": "手のひらの中の探索。のちに3DSで『サムスリターンズ』としてリメイクされた。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "metroid-2-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy0",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy1",
+									"text": "惑星の地下を探索し、成長段階の違うメトロイドを倒していく。新しい装備で行ける場所が広がる。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy2",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy3",
+									"text": "ゲームボーイの小さな画面ながら、孤独な探索の雰囲気がよく表現されている。物語の最後に出会うメトロイドの赤ちゃんが、次の作品につながる。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy4",
+									"text": "ゲーム史の中で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy5",
+									"text": "『スーパーメトロイド』の前日譚にあたる作品。2017年の3DS版リメイクで大幅に作り直された。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy6",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-2-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-2-sy7",
+									"text": "メトロイドシリーズを順番に遊びたい人に。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"action-adventure",
+						"metroidvania"
+					],
+					"platform": [
+						"gb",
+						"3ds"
+					]
+				}
+			},
+			{
 				"id": "game-lemmings",
 				"slug": "lemmings",
 				"status": "published",
@@ -22175,7 +22317,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy0",
+									"_key": "lemmings-sy8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22189,7 +22331,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy1",
+									"_key": "lemmings-sy9",
 									"text": "レミングたちは崖でも水でも構わず歩き続ける。限られた数の役割を、正しいレミングに正しいタイミングで与えて、規定の数を出口まで連れて行く。",
 									"marks": []
 								}
@@ -22203,7 +22345,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy2",
+									"_key": "lemmings-sya",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -22217,7 +22359,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy3",
+									"_key": "lemmings-syb",
 									"text": "ちょこまか動くキャラクターの愛らしさと、ひらめきが求められるステージの数々で世界的にヒットした。多くの機種に移植されている。",
 									"marks": []
 								}
@@ -22231,7 +22373,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy4",
+									"_key": "lemmings-syc",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22245,7 +22387,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy5",
+									"_key": "lemmings-syd",
 									"text": "限られた役割を、正しいレミングに正しいタイミングで与える。ひらめきが求められる。",
 									"marks": []
 								}
@@ -22259,7 +22401,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy6",
+									"_key": "lemmings-sye",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22273,7 +22415,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "lemmings-sy7",
+									"_key": "lemmings-syf",
 									"text": "パズル好きの人に。",
 									"marks": []
 								}
@@ -22316,7 +22458,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-sy8",
+									"_key": "rent-a-hero-syg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22330,7 +22472,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-sy9",
+									"_key": "rent-a-hero-syh",
 									"text": "主人公はヒーロー派遣会社から依頼を受け、町の困りごとを解決していく。スーツは電池で動いており、電池代も自分で払う。",
 									"marks": []
 								}
@@ -22344,7 +22486,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-sya",
+									"_key": "rent-a-hero-syi",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22358,7 +22500,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-syb",
+									"_key": "rent-a-hero-syj",
 									"text": "戦闘はアクション形式で、パンチやキックで敵と戦う。町の人々の会話やイベントにギャグが多く、気軽に楽しめる。",
 									"marks": []
 								}
@@ -22372,7 +22514,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-syc",
+									"_key": "rent-a-hero-syk",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -22386,7 +22528,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-syd",
+									"_key": "rent-a-hero-syl",
 									"text": "のちにドリームキャスト版も作られた、セガらしい遊び心のある作品。",
 									"marks": []
 								}
@@ -22400,7 +22542,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-sye",
+									"_key": "rent-a-hero-sym",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22414,7 +22556,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rent-a-hero-syf",
+									"_key": "rent-a-hero-syn",
 									"text": "笑えるRPGを遊びたい人に。",
 									"marks": []
 								}
@@ -22457,7 +22599,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syg",
+									"_key": "super-castlevania-4-syo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22471,7 +22613,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syh",
+									"_key": "super-castlevania-4-syp",
 									"text": "シモンはムチを斜め方向にも振れるようになり、ムチを引っかけてぶら下がることもできる。操作の自由度が大きく上がった。",
 									"marks": []
 								}
@@ -22485,7 +22627,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syi",
+									"_key": "super-castlevania-4-syq",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22499,7 +22641,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syj",
+									"_key": "super-castlevania-4-syr",
 									"text": "部屋全体が回転するステージや、奥行きのある背景など、スーパーファミコンの機能を生かした演出が続く。音楽の評価も非常に高い。",
 									"marks": []
 								}
@@ -22513,7 +22655,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syk",
+									"_key": "super-castlevania-4-sys",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -22527,7 +22669,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syl",
+									"_key": "super-castlevania-4-syt",
 									"text": "ファミコン版第1作を下敷きにした作品で、海外では『Super Castlevania IV』として知られる。",
 									"marks": []
 								}
@@ -22541,7 +22683,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-sym",
+									"_key": "super-castlevania-4-syu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22555,7 +22697,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-castlevania-4-syn",
+									"_key": "super-castlevania-4-syv",
 									"text": "往年の名作をじっくり味わいたい人に。",
 									"marks": []
 								}
@@ -22598,7 +22740,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syo",
+									"_key": "fatal-fury-syw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22612,7 +22754,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syp",
+									"_key": "fatal-fury-syx",
 									"text": "3人の主人公から1人を選び、大会の対戦相手を倒していく。画面の奥と手前を行き来する「ライン移動」で攻撃をかわせる。",
 									"marks": []
 								}
@@ -22626,7 +22768,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syq",
+									"_key": "fatal-fury-syy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22640,7 +22782,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syr",
+									"_key": "fatal-fury-syz",
 									"text": "2人で協力してコンピューターと戦うこともでき、途中で乱入して対戦することもできる。",
 									"marks": []
 								}
@@ -22654,7 +22796,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-sys",
+									"_key": "fatal-fury-sz0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -22668,7 +22810,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syt",
+									"_key": "fatal-fury-sz1",
 									"text": "SNKの格闘ゲームシリーズの始まりで、テリーたちはのちに『KOF』や『スマブラ』にも登場する人気キャラクターになった。",
 									"marks": []
 								}
@@ -22682,7 +22824,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syu",
+									"_key": "fatal-fury-sz2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22696,7 +22838,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fatal-fury-syv",
+									"_key": "fatal-fury-sz3",
 									"text": "格闘ゲームの歴史をたどりたい人に。",
 									"marks": []
 								}
@@ -22739,7 +22881,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-syw",
+									"_key": "seiken-gaiden-sz4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22753,7 +22895,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-syx",
+									"_key": "seiken-gaiden-sz5",
 									"text": "見下ろし視点で剣やモーニングスターを振るって戦う。武器ごとに、草を刈ったり、鎖で引っかけたりと使い方が違う。",
 									"marks": []
 								}
@@ -22767,7 +22909,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-syy",
+									"_key": "seiken-gaiden-sz6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22781,7 +22923,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-syz",
+									"_key": "seiken-gaiden-sz7",
 									"text": "ヒロインとの旅と別れを描く物語は、当時の子どもたちの心に残った。チョコボやモーグリも登場する。",
 									"marks": []
 								}
@@ -22795,7 +22937,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-sz0",
+									"_key": "seiken-gaiden-sz8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -22809,7 +22951,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-sz1",
+									"_key": "seiken-gaiden-sz9",
 									"text": "『聖剣伝説2』へと続くシリーズの原点。2016年に『聖剣伝説 -ファイナルファンタジー外伝-』としてリメイクされた。",
 									"marks": []
 								}
@@ -22823,7 +22965,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-sz2",
+									"_key": "seiken-gaiden-sza",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22837,7 +22979,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "seiken-gaiden-sz3",
+									"_key": "seiken-gaiden-szb",
 									"text": "シリーズのルーツを知りたい人に。",
 									"marks": []
 								}
@@ -22880,7 +23022,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz4",
+									"_key": "chou-makaimura-szc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -22894,7 +23036,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz5",
+									"_key": "chou-makaimura-szd",
 									"text": "アーサーは二段ジャンプができるようになり、黄金の鎧を着るとボタンをためて強力な魔法を放てる。",
 									"marks": []
 								}
@@ -22908,7 +23050,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz6",
+									"_key": "chou-makaimura-sze",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -22922,7 +23064,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz7",
+									"_key": "chou-makaimura-szf",
 									"text": "敵の配置は意地悪で、少しの油断でパンツ姿にされる。パターンを覚えて少しずつ先へ進む喜びは格別。",
 									"marks": []
 								}
@@ -22936,7 +23078,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz8",
+									"_key": "chou-makaimura-szg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -22950,7 +23092,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sz9",
+									"_key": "chou-makaimura-szh",
 									"text": "『魔界村』『大魔界村』に続くシリーズ3作目。2021年には新作の『魔界村』リメイクも作られた。",
 									"marks": []
 								}
@@ -22964,7 +23106,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-sza",
+									"_key": "chou-makaimura-szi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -22978,7 +23120,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "chou-makaimura-szb",
+									"_key": "chou-makaimura-szj",
 									"text": "何度でも挑戦できる難しいアクションが好きな人に。",
 									"marks": []
 								}
@@ -23022,7 +23164,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szc",
+									"_key": "wolfenstein-3d-szk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23036,7 +23178,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szd",
+									"_key": "wolfenstein-3d-szl",
 									"text": "第二次世界大戦中、ナチスの城塞に捕らえられた兵士が脱出を目指す。一人称視点で迷路のような城を進み、敵を撃つ。",
 									"marks": []
 								}
@@ -23050,7 +23192,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-sze",
+									"_key": "wolfenstein-3d-szm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -23064,7 +23206,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szf",
+									"_key": "wolfenstein-3d-szn",
 									"text": "武器の切り替え、隠し部屋、ボス戦など、FPSの基本要素の多くがここで形になった。当時のパソコンで滑らかな3D風の画面を実現した技術も驚異的で、翌年の『DOOM』につながっていく。",
 									"marks": []
 								}
@@ -23078,7 +23220,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szg",
+									"_key": "wolfenstein-3d-szo",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23092,7 +23234,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szh",
+									"_key": "wolfenstein-3d-szp",
 									"text": "迷路のような城を探索し、隠し部屋を見つけながら脱出を目指す。",
 									"marks": []
 								}
@@ -23106,7 +23248,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szi",
+									"_key": "wolfenstein-3d-szq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23120,7 +23262,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wolfenstein-3d-szj",
+									"_key": "wolfenstein-3d-szr",
 									"text": "FPSの歴史をたどりたい人に。",
 									"marks": []
 								}
@@ -23162,7 +23304,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szk",
+									"_key": "kaeru-no-tame-szs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23176,7 +23318,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szl",
+									"_key": "kaeru-no-tame-szt",
 									"text": "王子は泉の水を浴びるとカエルやヘビの姿に変わり、その姿でしか行けない場所がある。変身を使い分けて謎を解く。",
 									"marks": []
 								}
@@ -23190,7 +23332,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szm",
+									"_key": "kaeru-no-tame-szu",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23204,7 +23346,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szn",
+									"_key": "kaeru-no-tame-szv",
 									"text": "戦闘は自動で進み、装備の強さで勝敗が決まる。会話のセリフにユーモアがあり、のんびりした冒険が楽しめる。",
 									"marks": []
 								}
@@ -23218,7 +23360,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szo",
+									"_key": "kaeru-no-tame-szw",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -23232,7 +23374,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szp",
+									"_key": "kaeru-no-tame-szx",
 									"text": "長く隠れた名作として語られてきたが、2019年からはSwitchのゲームボーイ配信でも遊べるようになった。",
 									"marks": []
 								}
@@ -23246,7 +23388,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szq",
+									"_key": "kaeru-no-tame-szy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23260,7 +23402,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kaeru-no-tame-szr",
+									"_key": "kaeru-no-tame-szz",
 									"text": "肩の力を抜いて遊べるアドベンチャーが好きな人に。",
 									"marks": []
 								}
@@ -23303,7 +23445,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szs",
+									"_key": "gate-of-thunder-s100",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23317,7 +23459,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szt",
+									"_key": "gate-of-thunder-s101",
 									"text": "3種類の武器を切り替え、自機の前後を守るオプションの向きを変えて戦う。",
 									"marks": []
 								}
@@ -23331,7 +23473,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szu",
+									"_key": "gate-of-thunder-s102",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23345,7 +23487,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szv",
+									"_key": "gate-of-thunder-s103",
 									"text": "CD音源の迫力あるロック音楽と、高速なスクロールが爽快。演出もド派手。",
 									"marks": []
 								}
@@ -23359,7 +23501,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szw",
+									"_key": "gate-of-thunder-s104",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -23373,7 +23515,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szx",
+									"_key": "gate-of-thunder-s105",
 									"text": "スーパーCD-ROM²の初期を代表する作品で、のちのシリーズ作にも影響を与えた。",
 									"marks": []
 								}
@@ -23387,7 +23529,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szy",
+									"_key": "gate-of-thunder-s106",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23401,7 +23543,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gate-of-thunder-szz",
+									"_key": "gate-of-thunder-s107",
 									"text": "音楽と一体になったシューティングを楽しみたい人に。",
 									"marks": []
 								}
@@ -23443,7 +23585,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s100",
+									"_key": "shining-force-s108",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23457,7 +23599,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s101",
+									"_key": "shining-force-s109",
 									"text": "マス目のマップで仲間を動かして戦う。町の中を歩いて買い物や会話をするRPGのパートと、戦闘のパートが交互に続く。",
 									"marks": []
 								}
@@ -23471,7 +23613,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s102",
+									"_key": "shining-force-s10a",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23485,7 +23627,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s103",
+									"_key": "shining-force-s10b",
 									"text": "仲間はケンタウロスや鳥人、ロボットなど個性豊か。倒れた仲間は教会で復活できるため、初心者でも遊びやすい。",
 									"marks": []
 								}
@@ -23499,7 +23641,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s104",
+									"_key": "shining-force-s10c",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -23513,7 +23655,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s105",
+									"_key": "shining-force-s10d",
 									"text": "セガのシミュレーションRPGシリーズの出発点で、シリーズは長く続いた。",
 									"marks": []
 								}
@@ -23527,7 +23669,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s106",
+									"_key": "shining-force-s10e",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23541,7 +23683,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shining-force-s107",
+									"_key": "shining-force-s10f",
 									"text": "気軽に遊べるシミュレーションRPGを探している人に。",
 									"marks": []
 								}
@@ -23583,7 +23725,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s108",
+									"_key": "super-mario-usa-s10g",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23597,7 +23739,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s109",
+									"_key": "super-mario-usa-s10h",
 									"text": "敵を踏むのではなく、持ち上げて投げて倒す。地面から野菜を引き抜いて投げることもできる。",
 									"marks": []
 								}
@@ -23611,7 +23753,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10a",
+									"_key": "super-mario-usa-s10i",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23625,7 +23767,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10b",
+									"_key": "super-mario-usa-s10j",
 									"text": "キャラクターごとに得意なことが違い、ルイージは高く跳び、ピーチは空中に浮ける。縦方向に広いステージなど、通常のマリオとは違う遊びが楽しめる。",
 									"marks": []
 								}
@@ -23639,7 +23781,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10c",
+									"_key": "super-mario-usa-s10k",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -23653,7 +23795,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10d",
+									"_key": "super-mario-usa-s10l",
 									"text": "ディスクシステムの『夢工場ドキドキパニック』を元に作られた。ヘイホーやボム兵など、のちのマリオシリーズの常連もここで登場した。",
 									"marks": []
 								}
@@ -23667,7 +23809,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10e",
+									"_key": "super-mario-usa-s10m",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23681,7 +23823,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-usa-s10f",
+									"_key": "super-mario-usa-s10n",
 									"text": "マリオの変わり種を遊んでみたい人に。キャラクターを選べるので、苦手な場所も工夫で越えられる。",
 									"marks": []
 								}
@@ -23723,7 +23865,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10g",
+									"_key": "super-mario-kart-s10o",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23737,7 +23879,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10h",
+									"_key": "super-mario-kart-s10p",
 									"text": "マリオたちがカートに乗ってレースをする。コース上のアイテムボックスから甲羅やバナナを取り出し、相手を妨害しながら走る。",
 									"marks": []
 								}
@@ -23751,7 +23893,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10i",
+									"_key": "super-mario-kart-s10q",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -23765,7 +23907,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10j",
+									"_key": "super-mario-kart-s10r",
 									"text": "2人同時プレイの対戦や、風船を割り合うバトルモードで、家族や友だちで遊ぶゲームの定番になった。カートレースというジャンルそのものを作った作品。",
 									"marks": []
 								}
@@ -23779,7 +23921,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10k",
+									"_key": "super-mario-kart-s10s",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23793,7 +23935,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10l",
+									"_key": "super-mario-kart-s10t",
 									"text": "コースのショートカットを覚え、アイテムで相手を邪魔しながら走る。",
 									"marks": []
 								}
@@ -23807,7 +23949,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10m",
+									"_key": "super-mario-kart-s10u",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23821,7 +23963,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-kart-s10n",
+									"_key": "super-mario-kart-s10v",
 									"text": "家族や友だちと対戦したい人に。",
 									"marks": []
 								}
@@ -23864,7 +24006,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10o",
+									"_key": "super-mario-land-2-s10w",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -23878,7 +24020,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10p",
+									"_key": "super-mario-land-2-s10x",
 									"text": "マップから好きな順番でステージを選び、6つのエリアのボスを倒して金貨を集める。ニンジンを取るとウサギの耳で空中に浮かべる。",
 									"marks": []
 								}
@@ -23892,7 +24034,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10q",
+									"_key": "super-mario-land-2-s10y",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -23906,7 +24048,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10r",
+									"_key": "super-mario-land-2-s10z",
 									"text": "巨大なカエルの中や月面など、ユニークなステージが多い。前作よりもマリオが大きく描かれ、動きも豊かになった。",
 									"marks": []
 								}
@@ -23920,7 +24062,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10s",
+									"_key": "super-mario-land-2-s110",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -23934,7 +24076,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10t",
+									"_key": "super-mario-land-2-s111",
 									"text": "ここで初登場したワリオは、その後『ワリオランド』や『メイド イン ワリオ』の主人公になっていく。",
 									"marks": []
 								}
@@ -23948,7 +24090,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10u",
+									"_key": "super-mario-land-2-s112",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -23962,7 +24104,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-land-2-s10v",
+									"_key": "super-mario-land-2-s113",
 									"text": "携帯機の名作マリオを遊びたい人に。",
 									"marks": []
 								}
@@ -24005,7 +24147,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s10w",
+									"_key": "soul-blader-s114",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24019,7 +24161,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s10x",
+									"_key": "soul-blader-s115",
 									"text": "魔物を生み出す巣を壊すと、閉じ込められていた人や動物、植物の魂が解放され、町に戻ってくる。",
 									"marks": []
 								}
@@ -24033,7 +24175,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s10y",
+									"_key": "soul-blader-s116",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24047,7 +24189,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s10z",
+									"_key": "soul-blader-s117",
 									"text": "町が少しずつ元の姿に戻っていく様子が、冒険の励みになる。",
 									"marks": []
 								}
@@ -24061,7 +24203,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s110",
+									"_key": "soul-blader-s118",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -24075,7 +24217,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s111",
+									"_key": "soul-blader-s119",
 									"text": "クインテットの3部作と呼ばれる作品の最初の一本。",
 									"marks": []
 								}
@@ -24089,7 +24231,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s112",
+									"_key": "soul-blader-s11a",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24103,7 +24245,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soul-blader-s113",
+									"_key": "soul-blader-s11b",
 									"text": "世界を取り戻していく物語が好きな人に。",
 									"marks": []
 								}
@@ -24145,7 +24287,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s114",
+									"_key": "sonic-2-s11c",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24159,7 +24301,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s115",
+									"_key": "sonic-2-s11d",
 									"text": "ソニックはリングを集めながら、ループや坂を駆け抜けてゴールを目指す。止まった状態から力をためて一気に加速するスピンダッシュが使えるようになった。",
 									"marks": []
 								}
@@ -24173,7 +24315,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s116",
+									"_key": "sonic-2-s11e",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24187,7 +24329,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s117",
+									"_key": "sonic-2-s11f",
 									"text": "2人目のプレイヤーがテイルスを操作して一緒に遊べるほか、画面を分割した対戦モードもある。カジノや化学工場など、ステージの雰囲気も多彩。",
 									"marks": []
 								}
@@ -24201,7 +24343,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s118",
+									"_key": "sonic-2-s11g",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -24215,7 +24357,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s119",
+									"_key": "sonic-2-s11h",
 									"text": "アメリカのセガの開発拠点と日本のスタッフが組んで作り、世界的な大ヒットになった。メガドライブ全盛期を象徴する一本。",
 									"marks": []
 								}
@@ -24229,7 +24371,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s11a",
+									"_key": "sonic-2-s11i",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24243,7 +24385,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "sonic-2-s11b",
+									"_key": "sonic-2-s11j",
 									"text": "スピード感のあるアクションを、2人で楽しみたい人に。",
 									"marks": []
 								}
@@ -24285,7 +24427,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11c",
+									"_key": "soldier-blade-s11k",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24299,7 +24441,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11d",
+									"_key": "soldier-blade-s11l",
 									"text": "3色のアイテムで武器が変わり、同じ色を取り続けると武器が強化される。強化をあえて捨てて強力な攻撃を出すこともできる。",
 									"marks": []
 								}
@@ -24313,7 +24455,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11e",
+									"_key": "soldier-blade-s11m",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24327,7 +24469,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11f",
+									"_key": "soldier-blade-s11n",
 									"text": "テンポのよいステージ構成と、迫力ある演出で、短い時間でも満足できる。",
 									"marks": []
 								}
@@ -24341,7 +24483,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11g",
+									"_key": "soldier-blade-s11o",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -24355,7 +24497,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11h",
+									"_key": "soldier-blade-s11p",
 									"text": "ハドソンの全国キャラバン大会の公式ソフトとして作られたシリーズの一本。",
 									"marks": []
 								}
@@ -24369,7 +24511,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11i",
+									"_key": "soldier-blade-s11q",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24383,7 +24525,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "soldier-blade-s11j",
+									"_key": "soldier-blade-s11r",
 									"text": "スコアを競うシューティングが好きな人に。",
 									"marks": []
 								}
@@ -24425,7 +24567,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11k",
+									"_key": "dragon-quest-5-s11s",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24439,7 +24581,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11l",
+									"_key": "dragon-quest-5-s11t",
 									"text": "主人公の少年時代から、青年期、そして父親になるまでの30年近い人生を描く。モンスターを仲間にできる仕組みが初めて取り入れられた。",
 									"marks": []
 								}
@@ -24453,7 +24595,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11m",
+									"_key": "dragon-quest-5-s11u",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -24467,7 +24609,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11n",
+									"_key": "dragon-quest-5-s11v",
 									"text": "結婚相手を選ぶ場面は、日本のゲームの歴史に残る名場面として語り継がれている。親子三代にわたる物語は、シリーズの中でも特に人気が高い。",
 									"marks": []
 								}
@@ -24481,7 +24623,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11o",
+									"_key": "dragon-quest-5-s11w",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24495,7 +24637,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11p",
+									"_key": "dragon-quest-5-s11x",
 									"text": "仲間モンスターを集め、人生の節目の選択をしながら長い物語を進める。",
 									"marks": []
 								}
@@ -24509,7 +24651,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11q",
+									"_key": "dragon-quest-5-s11y",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24523,7 +24665,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-5-s11r",
+									"_key": "dragon-quest-5-s11z",
 									"text": "人生を描くRPGを遊びたい人に。",
 									"marks": []
 								}
@@ -24565,7 +24707,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11s",
+									"_key": "fe-gaiden-s120",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24579,7 +24721,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11t",
+									"_key": "fe-gaiden-s121",
 									"text": "マップを移動して敵とぶつかると戦闘が始まる。ダンジョンを探索したり、村で話を聞いたりもできる。",
 									"marks": []
 								}
@@ -24593,7 +24735,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11u",
+									"_key": "fe-gaiden-s122",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24607,7 +24749,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11v",
+									"_key": "fe-gaiden-s123",
 									"text": "魔法を使うとHPが減る仕組みや、像に祈ってクラスチェンジする仕組みなど、独自の要素が多い。",
 									"marks": []
 								}
@@ -24621,7 +24763,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11w",
+									"_key": "fe-gaiden-s124",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -24635,7 +24777,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11x",
+									"_key": "fe-gaiden-s125",
 									"text": "2017年に3DSで『ファイアーエムブレム Echoes もうひとりの英雄王』として作り直された。",
 									"marks": []
 								}
@@ -24649,7 +24791,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11y",
+									"_key": "fe-gaiden-s126",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24663,7 +24805,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-gaiden-s11z",
+									"_key": "fe-gaiden-s127",
 									"text": "シリーズの変わり種を遊んでみたい人に。",
 									"marks": []
 								}
@@ -24706,7 +24848,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s120",
+									"_key": "final-fantasy-5-s128",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24720,7 +24862,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s121",
+									"_key": "final-fantasy-5-s129",
 									"text": "ものまね師、魔法剣士、召喚士など多くのジョブを自由に付け替え、覚えたアビリティを別のジョブに持ち込める。組み合わせ次第で強敵の攻略法が大きく変わる。",
 									"marks": []
 								}
@@ -24734,7 +24876,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s122",
+									"_key": "final-fantasy-5-s12a",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -24748,7 +24890,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s123",
+									"_key": "final-fantasy-5-s12b",
 									"text": "物語は明るく軽快だが、仲間との別れの場面も印象深い。育成と戦略の自由度の高さで、今も多くのファンに遊ばれている。",
 									"marks": []
 								}
@@ -24762,7 +24904,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s124",
+									"_key": "final-fantasy-5-s12c",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24776,7 +24918,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s125",
+									"_key": "final-fantasy-5-s12d",
 									"text": "ジョブとアビリティの組み合わせを工夫して、強敵に挑む戦略を立てる。",
 									"marks": []
 								}
@@ -24790,7 +24932,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s126",
+									"_key": "final-fantasy-5-s12e",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24804,7 +24946,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-5-s127",
+									"_key": "final-fantasy-5-s12f",
 									"text": "育成と戦略の自由度が高いRPGが好きな人に。",
 									"marks": []
 								}
@@ -24822,6 +24964,146 @@
 					],
 					"platform": [
 						"sfc"
+					]
+				}
+			},
+			{
+				"id": "game-bare-knuckle-2",
+				"slug": "bare-knuckle-2",
+				"status": "published",
+				"data": {
+					"title": "ベア・ナックルII 死闘への鎮魂歌",
+					"title_en": "Streets of Rage 2",
+					"release_year": 1992,
+					"developer": "セガ / エインシャント",
+					"tier": "recommended",
+					"summary": "前作から大きく進化したシリーズ第2作。キャラクターが大きくなり、技の種類も増えて、ベルトスクロールの名作になった。",
+					"curator_note": "ジャンルの最高傑作に挙げる人も多い。今遊んでも古びない手触り。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12g",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12h",
+									"text": "4人のキャラクターはそれぞれ動きの速さや技が違い、体力を使って出す強力な必殺技も追加された。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12i",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12j",
+									"text": "敵の種類が多く、ステージの演出も派手になった。2人同時プレイでの協力も楽しい。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12k",
+									"text": "ゲーム史の中で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12l",
+									"text": "音楽は前作に続いて古代祐三が担当し、より激しいテクノサウンドになった。ベルトスクロールアクションの到達点として今も評価が高い。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12m",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "bare-knuckle-2-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "bare-knuckle-2-s12n",
+									"text": "昔ながらの殴り合いアクションを、最高の形で味わいたい人に。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"16bit"
+					],
+					"genre": [
+						"beat-em-up"
+					],
+					"platform": [
+						"md"
 					]
 				}
 			},
@@ -24846,7 +25128,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s128",
+									"_key": "mario-paint-s12o",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -24860,7 +25142,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s129",
+									"_key": "mario-paint-s12p",
 									"text": "スーパーファミコン用のマウスが付属し、ペンやスタンプで絵を描ける。描いた絵をコマ送りにしてアニメーションも作れる。",
 									"marks": []
 								}
@@ -24874,7 +25156,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12a",
+									"_key": "mario-paint-s12q",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -24888,7 +25170,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12b",
+									"_key": "mario-paint-s12r",
 									"text": "作曲ツールでは、マリオやヨッシーなどの音を五線譜に置いて曲を作る。おまけのハエたたきゲームも人気だった。",
 									"marks": []
 								}
@@ -24902,7 +25184,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12c",
+									"_key": "mario-paint-s12s",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -24916,7 +25198,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12d",
+									"_key": "mario-paint-s12t",
 									"text": "ゲーム機を「遊ぶ」だけでなく「作る」道具にした先駆けで、のちの『メイド イン ワリオ』のツールや『スーパーマリオメーカー』にもつながる。",
 									"marks": []
 								}
@@ -24930,7 +25212,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12e",
+									"_key": "mario-paint-s12u",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -24944,7 +25226,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-paint-s12f",
+									"_key": "mario-paint-s12v",
 									"text": "何かを作ることが好きな人に。",
 									"marks": []
 								}
@@ -24962,148 +25244,6 @@
 					],
 					"platform": [
 						"sfc"
-					]
-				}
-			},
-			{
-				"id": "game-metroid-2",
-				"slug": "metroid-2",
-				"status": "published",
-				"data": {
-					"title": "メトロイドII RETURN OF SAMUS",
-					"title_en": "Metroid II: Return of Samus",
-					"release_year": 1992,
-					"developer": "任天堂",
-					"tier": "deep",
-					"summary": "サムスがメトロイドの故郷・惑星SR388に乗り込み、メトロイドを全滅させる任務に挑む。",
-					"curator_note": "手のひらの中の探索。のちに3DSで『サムスリターンズ』としてリメイクされた。",
-					"content": [
-						{
-							"_type": "block",
-							"_key": "metroid-2-b0",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12g",
-									"text": "どんなゲーム",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b1",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12h",
-									"text": "惑星の地下を探索し、成長段階の違うメトロイドを倒していく。新しい装備で行ける場所が広がる。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b2",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12i",
-									"text": "遊びどころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b3",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12j",
-									"text": "ゲームボーイの小さな画面ながら、孤独な探索の雰囲気がよく表現されている。物語の最後に出会うメトロイドの赤ちゃんが、次の作品につながる。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b4",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12k",
-									"text": "ゲーム史の中で",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b5",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12l",
-									"text": "『スーパーメトロイド』の前日譚にあたる作品。2017年の3DS版リメイクで大幅に作り直された。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b6",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12m",
-									"text": "こんな人におすすめ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-2-b7",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-2-s12n",
-									"text": "メトロイドシリーズを順番に遊びたい人に。",
-									"marks": []
-								}
-							]
-						}
-					],
-					"amazon_query": ""
-				},
-				"taxonomies": {
-					"era": [
-						"16bit"
-					],
-					"genre": [
-						"action-adventure",
-						"metroidvania"
-					],
-					"platform": [
-						"gb",
-						"3ds"
 					]
 				}
 			},
@@ -25128,7 +25268,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12o",
+									"_key": "mortal-kombat-s12w",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25142,7 +25282,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12p",
+									"_key": "mortal-kombat-s12x",
 									"text": "実際の俳優を撮影して取り込んだキャラクターが戦う対戦格闘。勝った後に相手にとどめを刺す「フェイタリティ」が話題になった。",
 									"marks": []
 								}
@@ -25156,7 +25296,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12q",
+									"_key": "mortal-kombat-s12y",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -25170,7 +25310,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12r",
+									"_key": "mortal-kombat-s12z",
 									"text": "その過激な表現はアメリカで議論を呼び、ゲームの年齢区分を決めるレーティング機関ESRBの設立のきっかけになった。作品そのものと社会への影響の両面で、ゲームの歴史を語る上で欠かせない。",
 									"marks": []
 								}
@@ -25184,7 +25324,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12s",
+									"_key": "mortal-kombat-s130",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25198,7 +25338,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12t",
+									"_key": "mortal-kombat-s131",
 									"text": "実写取り込みのキャラクターたちの必殺技とフェイタリティ。今見ても強烈な個性がある。",
 									"marks": []
 								}
@@ -25212,7 +25352,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12u",
+									"_key": "mortal-kombat-s132",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25226,7 +25366,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mortal-kombat-s12v",
+									"_key": "mortal-kombat-s133",
 									"text": "格闘ゲームの歴史に興味がある人に。",
 									"marks": []
 								}
@@ -25268,7 +25408,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s12w",
+									"_key": "landstalker-s134",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25282,7 +25422,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s12x",
+									"_key": "landstalker-s135",
 									"text": "斜めから見下ろした立体的な画面で、跳んだり箱を積んだりしながら進む。高さを見極めて跳び移るのが難しくも楽しい。",
 									"marks": []
 								}
@@ -25296,7 +25436,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s12y",
+									"_key": "landstalker-s136",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25310,7 +25450,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s12z",
+									"_key": "landstalker-s137",
 									"text": "ダンジョンには仕掛けが多く、相棒の妖精フライデーとの軽妙なやり取りが旅を楽しくしてくれる。",
 									"marks": []
 								}
@@ -25324,7 +25464,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s130",
+									"_key": "landstalker-s138",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -25338,7 +25478,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s131",
+									"_key": "landstalker-s139",
 									"text": "のちに『ダーク・セイヴァー』などを手がけるクライマックスの作品。",
 									"marks": []
 								}
@@ -25352,7 +25492,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s132",
+									"_key": "landstalker-s13a",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25366,7 +25506,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "landstalker-s133",
+									"_key": "landstalker-s13b",
 									"text": "立体的なパズルのような冒険が好きな人に。",
 									"marks": []
 								}
@@ -25408,7 +25548,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s134",
+									"_key": "romancing-saga-s13c",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25422,7 +25562,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s135",
+									"_key": "romancing-saga-s13d",
 									"text": "8人の主人公の中から1人を選び、広い世界で自由にイベントをこなしていく。どのイベントを、どの順番で体験するかはプレイヤー次第。",
 									"marks": []
 								}
@@ -25436,7 +25576,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s136",
+									"_key": "romancing-saga-s13e",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -25450,7 +25590,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s137",
+									"_key": "romancing-saga-s13f",
 									"text": "決められた一本道の物語がない「フリーシナリオ」は当時画期的だった。戦闘中に新しい技をひらめくシステムなど、サガシリーズらしい仕組みも多い。リマスター版で遊べる。",
 									"marks": []
 								}
@@ -25464,7 +25604,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s138",
+									"_key": "romancing-saga-s13g",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25478,7 +25618,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s139",
+									"_key": "romancing-saga-s13h",
 									"text": "どの主人公で、どのイベントを、どの順番で遊ぶか。自分だけの物語が生まれる。",
 									"marks": []
 								}
@@ -25492,7 +25632,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s13a",
+									"_key": "romancing-saga-s13i",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25506,7 +25646,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "romancing-saga-s13b",
+									"_key": "romancing-saga-s13j",
 									"text": "自由度の高いRPGが好きな人に。",
 									"marks": []
 								}
@@ -25548,7 +25688,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13c",
+									"_key": "yuna-s13k",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25562,7 +25702,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13d",
+									"_key": "yuna-s13l",
 									"text": "会話を進めて物語を楽しみ、戦闘ではカードのような仕組みで敵と戦う。",
 									"marks": []
 								}
@@ -25576,7 +25716,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13e",
+									"_key": "yuna-s13m",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25590,7 +25730,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13f",
+									"_key": "yuna-s13n",
 									"text": "人気声優たちの演技とアニメーションで、テレビアニメを見るような感覚で楽しめる。",
 									"marks": []
 								}
@@ -25604,7 +25744,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13g",
+									"_key": "yuna-s13o",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -25618,7 +25758,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13h",
+									"_key": "yuna-s13p",
 									"text": "キャラクターの魅力を前面に出した作品として人気を集め、アニメ化もされた。",
 									"marks": []
 								}
@@ -25632,7 +25772,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13i",
+									"_key": "yuna-s13q",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25646,7 +25786,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yuna-s13j",
+									"_key": "yuna-s13r",
 									"text": "90年代のアニメやゲームの雰囲気が好きな人に。",
 									"marks": []
 								}
@@ -25689,7 +25829,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13k",
+									"_key": "contra-spirits-s13s",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25703,7 +25843,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13l",
+									"_key": "contra-spirits-s13t",
 									"text": "2種類の武器を持ち替えながら戦い、壁にぶら下がったり、バイクで走り抜けたりする場面もある。上から見下ろす視点のステージも混ざる。",
 									"marks": []
 								}
@@ -25717,7 +25857,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13m",
+									"_key": "contra-spirits-s13u",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25731,7 +25871,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13n",
+									"_key": "contra-spirits-s13v",
 									"text": "ボスは巨大で、攻撃も激しい。2人で協力すると難しい場面も越えやすくなる。",
 									"marks": []
 								}
@@ -25745,7 +25885,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13o",
+									"_key": "contra-spirits-s13w",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -25759,7 +25899,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13p",
+									"_key": "contra-spirits-s13x",
 									"text": "ファミコン版『魂斗羅』に続くシリーズ作で、シリーズの最高傑作と言われることも多い。",
 									"marks": []
 								}
@@ -25773,7 +25913,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13q",
+									"_key": "contra-spirits-s13y",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25787,7 +25927,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "contra-spirits-s13r",
+									"_key": "contra-spirits-s13z",
 									"text": "撃ちまくる爽快なアクションを、2人で楽しみたい人に。",
 									"marks": []
 								}
@@ -25831,7 +25971,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13s",
+									"_key": "shin-megami-tensei-s140",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25845,7 +25985,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13t",
+									"_key": "shin-megami-tensei-s141",
 									"text": "近未来の東京が悪魔の出現で崩壊していく。主人公は悪魔と会話して仲魔にし、悪魔同士を合体させて強い仲魔を作る。",
 									"marks": []
 								}
@@ -25859,7 +25999,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13u",
+									"_key": "shin-megami-tensei-s142",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -25873,7 +26013,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13v",
+									"_key": "shin-megami-tensei-s143",
 									"text": "物語の途中で、秩序を重んじる「ロウ」、自由を求める「カオス」、そのどちらでもない「ニュートラル」の道を選ぶことになる。善と悪では割り切れない選択を問うRPGとして、のちの『ペルソナ』シリーズにもつながっている。",
 									"marks": []
 								}
@@ -25887,7 +26027,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13w",
+									"_key": "shin-megami-tensei-s144",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -25901,7 +26041,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13x",
+									"_key": "shin-megami-tensei-s145",
 									"text": "悪魔と会話して仲魔にし、合体させて強い悪魔を作る。選ぶ道によって世界の結末が変わる。",
 									"marks": []
 								}
@@ -25915,7 +26055,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13y",
+									"_key": "shin-megami-tensei-s146",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -25929,7 +26069,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "shin-megami-tensei-s13z",
+									"_key": "shin-megami-tensei-s147",
 									"text": "選択の重いRPGが好きな人に。",
 									"marks": []
 								}
@@ -25971,7 +26111,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s140",
+									"_key": "kirby-s148",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -25985,7 +26125,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s141",
+									"_key": "kirby-s149",
 									"text": "ピンクの丸いカービィが、空気を吸い込んで浮かび、敵を吸い込んで吐き出して戦う。デデデ大王に奪われた食べ物を取り戻す。",
 									"marks": []
 								}
@@ -25999,7 +26139,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s142",
+									"_key": "kirby-s14a",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -26013,7 +26153,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s143",
+									"_key": "kirby-s14b",
 									"text": "ゲームが苦手な人でも最後まで遊べるように作られていて、上級者向けの「エキストラゲーム」も用意されている。敵の能力をコピーする仕組みは、次作『夢の泉の物語』から登場する。",
 									"marks": []
 								}
@@ -26027,7 +26167,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s144",
+									"_key": "kirby-s14c",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26041,7 +26181,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s145",
+									"_key": "kirby-s14d",
 									"text": "空を飛んで穴を越え、敵を吸い込んで吐き出す。やさしい難易度で最後まで楽しめる。",
 									"marks": []
 								}
@@ -26055,7 +26195,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s146",
+									"_key": "kirby-s14e",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26069,7 +26209,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-s147",
+									"_key": "kirby-s14f",
 									"text": "アクションが苦手な人や小さな子どもに。",
 									"marks": []
 								}
@@ -26111,7 +26251,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s148",
+									"_key": "otogirisou-s14g",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26125,7 +26265,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s149",
+									"_key": "otogirisou-s14h",
 									"text": "主人公と恋人の奈美は、車の故障で古い洋館に迷い込む。画面に流れる文章を読み、選択肢を選ぶと物語が分岐し、異なる結末にたどり着く。",
 									"marks": []
 								}
@@ -26139,7 +26279,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14a",
+									"_key": "otogirisou-s14i",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -26153,7 +26293,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14b",
+									"_key": "otogirisou-s14j",
 									"text": "文章と効果音、背景の写真だけで恐怖を演出する手法は、のちの『かまいたちの夜』や多くのノベルゲームに受け継がれた。",
 									"marks": []
 								}
@@ -26167,7 +26307,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14c",
+									"_key": "otogirisou-s14k",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26181,7 +26321,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14d",
+									"_key": "otogirisou-s14l",
 									"text": "選択肢を選びながら、洋館で起きる怪異を読み進める。何度も読み直して違う結末を探す楽しさがある。",
 									"marks": []
 								}
@@ -26195,7 +26335,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14e",
+									"_key": "otogirisou-s14m",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26209,7 +26349,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "otogirisou-s14f",
+									"_key": "otogirisou-s14n",
 									"text": "読み物のホラーが好きな人に。",
 									"marks": []
 								}
@@ -26252,7 +26392,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14g",
+									"_key": "tengai-makyo-2-s14o",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26266,7 +26406,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14h",
+									"_key": "tengai-makyo-2-s14p",
 									"text": "歌舞伎を思わせる個性的な仲間たちと、ジパング各地を巡って根の一族を倒していく。ユーモアと人情に満ちたイベントが次々に起こる。",
 									"marks": []
 								}
@@ -26280,7 +26420,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14i",
+									"_key": "tengai-makyo-2-s14q",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -26294,7 +26434,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14j",
+									"_key": "tengai-makyo-2-s14r",
 									"text": "PCエンジンのCD-ROM²を生かし、アニメーションや声優の演技を大量に盛り込んだ。PCエンジンを代表する名作RPG。",
 									"marks": []
 								}
@@ -26308,7 +26448,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14k",
+									"_key": "tengai-makyo-2-s14s",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26322,7 +26462,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14l",
+									"_key": "tengai-makyo-2-s14t",
 									"text": "個性豊かな仲間とジパングを旅し、ユーモアと人情のイベントを楽しむ。",
 									"marks": []
 								}
@@ -26336,7 +26476,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14m",
+									"_key": "tengai-makyo-2-s14u",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26350,7 +26490,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tengai-makyo-2-s14n",
+									"_key": "tengai-makyo-2-s14v",
 									"text": "和風の大作RPGを遊びたい人に。",
 									"marks": []
 								}
@@ -26392,7 +26532,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14o",
+									"_key": "hanjuku-hero-s14w",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26406,7 +26546,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14p",
+									"_key": "hanjuku-hero-s14x",
 									"text": "将軍に兵を率いさせて城を攻め、ピンチになったらタマゴから怪物「エッグモンスター」を呼び出す。",
 									"marks": []
 								}
@@ -26420,7 +26560,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14q",
+									"_key": "hanjuku-hero-s14y",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26434,7 +26574,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14r",
+									"_key": "hanjuku-hero-s14z",
 									"text": "会話やイベントはギャグばかりで、遊んでいて思わず笑ってしまう。",
 									"marks": []
 								}
@@ -26448,7 +26588,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14s",
+									"_key": "hanjuku-hero-s150",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -26462,7 +26602,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14t",
+									"_key": "hanjuku-hero-s151",
 									"text": "シリーズ化され、PS2でも新作が作られた。",
 									"marks": []
 								}
@@ -26476,7 +26616,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14u",
+									"_key": "hanjuku-hero-s152",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26490,7 +26630,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hanjuku-hero-s14v",
+									"_key": "hanjuku-hero-s153",
 									"text": "笑える戦略ゲームを遊びたい人に。",
 									"marks": []
 								}
@@ -26532,7 +26672,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s14w",
+									"_key": "ryuuko-s154",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26546,7 +26686,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s14x",
+									"_key": "ryuuko-s155",
 									"text": "必殺技を出すと「気力」ゲージを消費し、ゲージがないと技が弱くなる。気力をためる駆け引きが独特。",
 									"marks": []
 								}
@@ -26560,7 +26700,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s14y",
+									"_key": "ryuuko-s156",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26574,7 +26714,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s14z",
+									"_key": "ryuuko-s157",
 									"text": "キャラクターが大きく描かれ、2人の距離によって画面が拡大・縮小する。殴られた顔がアザだらけになる演出も話題になった。",
 									"marks": []
 								}
@@ -26588,7 +26728,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s150",
+									"_key": "ryuuko-s158",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -26602,7 +26742,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s151",
+									"_key": "ryuuko-s159",
 									"text": "超必殺技を初めて取り入れた格闘ゲームとしても知られる。",
 									"marks": []
 								}
@@ -26616,7 +26756,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s152",
+									"_key": "ryuuko-s15a",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26630,7 +26770,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ryuuko-s153",
+									"_key": "ryuuko-s15b",
 									"text": "大迫力の格闘ゲームを体験したい人に。",
 									"marks": []
 								}
@@ -26673,7 +26813,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s154",
+									"_key": "doom-s15c",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26687,7 +26827,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s155",
+									"_key": "doom-s15d",
 									"text": "火星の衛星の基地に、地獄から悪魔があふれ出す。宇宙海兵隊員となって、ショットガンやチェーンソーで悪魔をなぎ倒していく。",
 									"marks": []
 								}
@@ -26701,7 +26841,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s156",
+									"_key": "doom-s15e",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -26715,7 +26855,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s157",
+									"_key": "doom-s15f",
 									"text": "ネットワーク対戦「デスマッチ」と、ユーザーが自分でステージを作れるMODの文化を広め、PCゲームのあり方を変えた。今でもさまざまな機器で動かす挑戦が行われるほど、象徴的な存在になっている。",
 									"marks": []
 								}
@@ -26729,7 +26869,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s158",
+									"_key": "doom-s15g",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26743,7 +26883,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s159",
+									"_key": "doom-s15h",
 									"text": "武器を切り替えて悪魔の群れをなぎ倒し、隠し部屋を探す。テンポのよい撃ち合いは今でも爽快。",
 									"marks": []
 								}
@@ -26757,7 +26897,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s15a",
+									"_key": "doom-s15i",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26771,7 +26911,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-s15b",
+									"_key": "doom-s15j",
 									"text": "FPSの原点を遊びたい人に。",
 									"marks": []
 								}
@@ -26813,7 +26953,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15c",
+									"_key": "myst-s15k",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26827,7 +26967,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15d",
+									"_key": "myst-s15l",
 									"text": "無人の島に降り立ち、静止画の風景をクリックしながら探索する。島に残された仕掛けや本から、ここで何があったのかを解き明かしていく。",
 									"marks": []
 								}
@@ -26841,7 +26981,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15e",
+									"_key": "myst-s15m",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -26855,7 +26995,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15f",
+									"_key": "myst-s15n",
 									"text": "説明はほとんどなく、メモを取りながら自分で仕組みを理解していく。CD-ROMの大容量を生かした美しい映像で大ヒットし、パソコンにCD-ROMドライブを普及させた。",
 									"marks": []
 								}
@@ -26869,7 +27009,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15g",
+									"_key": "myst-s15o",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26883,7 +27023,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15h",
+									"_key": "myst-s15p",
 									"text": "島の仕掛けを観察し、メモを取りながら、自分で仕組みを理解して謎を解く。",
 									"marks": []
 								}
@@ -26897,7 +27037,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15i",
+									"_key": "myst-s15q",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -26911,7 +27051,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "myst-s15j",
+									"_key": "myst-s15r",
 									"text": "じっくり考える謎解きが好きな人に。",
 									"marks": []
 								}
@@ -26954,7 +27094,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15k",
+									"_key": "gaia-gensouki-s15s",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -26968,7 +27108,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15l",
+									"_key": "gaia-gensouki-s15t",
 									"text": "ナスカの地上絵や万里の長城など、実在の遺跡をモチーフにした場所を冒険する。",
 									"marks": []
 								}
@@ -26982,7 +27122,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15m",
+									"_key": "gaia-gensouki-s15u",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -26996,7 +27136,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15n",
+									"_key": "gaia-gensouki-s15v",
 									"text": "テムは闇の騎士フリーダンに変身でき、場面に応じて姿を変えて戦う。",
 									"marks": []
 								}
@@ -27010,7 +27150,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15o",
+									"_key": "gaia-gensouki-s15w",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -27024,7 +27164,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15p",
+									"_key": "gaia-gensouki-s15x",
 									"text": "『ソウルブレイダー』『天地創造』と並ぶクインテットの作品。",
 									"marks": []
 								}
@@ -27038,7 +27178,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15q",
+									"_key": "gaia-gensouki-s15y",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27052,7 +27192,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gaia-gensouki-s15r",
+									"_key": "gaia-gensouki-s15z",
 									"text": "一風変わった冒険が好きな人に。",
 									"marks": []
 								}
@@ -27094,7 +27234,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15s",
+									"_key": "gunstar-heroes-s160",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27108,7 +27248,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15t",
+									"_key": "gunstar-heroes-s161",
 									"text": "ショット、レーザー、ホーミング、火炎の4種類から2つを組み合わせ、自分だけの武器を作れる。敵を投げたり滑り込んだりする格闘アクションもある。",
 									"marks": []
 								}
@@ -27122,7 +27262,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15u",
+									"_key": "gunstar-heroes-s162",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -27136,7 +27276,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15v",
+									"_key": "gunstar-heroes-s163",
 									"text": "画面いっぱいに動き回る巨大なボスや、すごろく形式のステージなど、アイデアが次々に飛び出す。アクションシューティングの名作として名高い。",
 									"marks": []
 								}
@@ -27150,7 +27290,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15w",
+									"_key": "gunstar-heroes-s164",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27164,7 +27304,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15x",
+									"_key": "gunstar-heroes-s165",
 									"text": "武器の組み合わせを試し、次々と現れる巨大なボスに挑む。",
 									"marks": []
 								}
@@ -27178,7 +27318,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15y",
+									"_key": "gunstar-heroes-s166",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27192,7 +27332,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gunstar-heroes-s15z",
+									"_key": "gunstar-heroes-s167",
 									"text": "派手なアクションシューティングが好きな人に。",
 									"marks": []
 								}
@@ -27235,7 +27375,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s160",
+									"_key": "samurai-shodown-s168",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27249,7 +27389,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s161",
+									"_key": "samurai-shodown-s169",
 									"text": "連続技よりも、相手の隙を見て放つ一太刀の重さが勝負を決める。武器を落とされると素手で戦わなければならない仕組みもある。",
 									"marks": []
 								}
@@ -27263,7 +27403,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s162",
+									"_key": "samurai-shodown-s16a",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -27277,7 +27417,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s163",
+									"_key": "samurai-shodown-s16b",
 									"text": "覇王丸や橘右京など個性的な剣士たちと、日本の伝統音楽を取り入れたサウンドで、格闘ゲームブームの中でも独自の地位を築いた。",
 									"marks": []
 								}
@@ -27291,7 +27431,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s164",
+									"_key": "samurai-shodown-s16c",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27305,7 +27445,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s165",
+									"_key": "samurai-shodown-s16d",
 									"text": "一太刀の重さを感じながら、相手の隙を待って斬り込む。",
 									"marks": []
 								}
@@ -27319,7 +27459,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s166",
+									"_key": "samurai-shodown-s16e",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27333,7 +27473,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "samurai-shodown-s167",
+									"_key": "samurai-shodown-s16f",
 									"text": "緊張感のある格闘ゲームが好きな人に。",
 									"marks": []
 								}
@@ -27376,7 +27516,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s168",
+									"_key": "joy-mech-fight-s16g",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27390,7 +27530,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s169",
+									"_key": "joy-mech-fight-s16h",
 									"text": "ロボットたちは36体以上いて、それぞれに必殺技がある。コマンドを入力して技を出す。",
 									"marks": []
 								}
@@ -27404,7 +27544,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16a",
+									"_key": "joy-mech-fight-s16i",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27418,7 +27558,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16b",
+									"_key": "joy-mech-fight-s16j",
 									"text": "手足を胴体から切り離して描くことで、ファミコンでも大きく滑らかに動くキャラクターを実現した。",
 									"marks": []
 								}
@@ -27432,7 +27572,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16c",
+									"_key": "joy-mech-fight-s16k",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -27446,7 +27586,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16d",
+									"_key": "joy-mech-fight-s16l",
 									"text": "日本でのみ発売された隠れた名作で、のちに配信で遊べるようになった。",
 									"marks": []
 								}
@@ -27460,7 +27600,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16e",
+									"_key": "joy-mech-fight-s16m",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27474,7 +27614,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "joy-mech-fight-s16f",
+									"_key": "joy-mech-fight-s16n",
 									"text": "レトロな格闘ゲームを遊びたい人に。",
 									"marks": []
 								}
@@ -27516,7 +27656,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16g",
+									"_key": "super-puyo-puyo-s16o",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27530,7 +27670,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16h",
+									"_key": "super-puyo-puyo-s16p",
 									"text": "同じ色のぷよを4つつなげると消え、消えた後に上のぷよが落ちてまた消えると連鎖になる。",
 									"marks": []
 								}
@@ -27544,7 +27684,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16i",
+									"_key": "super-puyo-puyo-s16q",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27558,7 +27698,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16j",
+									"_key": "super-puyo-puyo-s16r",
 									"text": "対戦では、連鎖の大きさに応じて相手の画面におじゃまぷよが降る。連鎖を組む速さと、相手の連鎖を見て崩すタイミングが勝負を分ける。",
 									"marks": []
 								}
@@ -27572,7 +27712,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16k",
+									"_key": "super-puyo-puyo-s16s",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -27586,7 +27726,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16l",
+									"_key": "super-puyo-puyo-s16t",
 									"text": "大ヒットとなり、家庭用の対戦パズルブームを作った。以後のシリーズはさまざまな機種で発売されている。",
 									"marks": []
 								}
@@ -27600,7 +27740,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16m",
+									"_key": "super-puyo-puyo-s16u",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27614,7 +27754,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-puyo-puyo-s16n",
+									"_key": "super-puyo-puyo-s16v",
 									"text": "ルールが簡単で奥の深い対戦ゲームを探している人に。",
 									"marks": []
 								}
@@ -27656,7 +27796,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16o",
+									"_key": "super-bomberman-s16w",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27670,7 +27810,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16p",
+									"_key": "super-bomberman-s16x",
 									"text": "ひとりで遊ぶストーリーモードに加えて、最大4人のバトルモードを搭載。爆弾で相手を追い込み、最後のひとりになった人が勝ち。",
 									"marks": []
 								}
@@ -27684,7 +27824,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16q",
+									"_key": "super-bomberman-s16y",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -27698,7 +27838,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16r",
+									"_key": "super-bomberman-s16z",
 									"text": "コントローラーを増やす周辺機器「スーパーマルチタップ」を同時に発売し、みんなで遊ぶゲームとして大人気になった。",
 									"marks": []
 								}
@@ -27712,7 +27852,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16s",
+									"_key": "super-bomberman-s170",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27726,7 +27866,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16t",
+									"_key": "super-bomberman-s171",
 									"text": "4人で爆弾を置き合い、相手を追い込む。アイテムの奪い合いも熱い。",
 									"marks": []
 								}
@@ -27740,7 +27880,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16u",
+									"_key": "super-bomberman-s172",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27754,7 +27894,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-bomberman-s16v",
+									"_key": "super-bomberman-s173",
 									"text": "大人数で遊べる対戦ゲームを探している人に。",
 									"marks": []
 								}
@@ -27797,7 +27937,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s16w",
+									"_key": "star-fox-s174",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27811,7 +27951,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s16x",
+									"_key": "star-fox-s175",
 									"text": "宇宙戦闘機アーウィンに乗り、敵の軍勢と戦いながら惑星ベノムを目指す。コースは難易度別に3つのルートがある。",
 									"marks": []
 								}
@@ -27825,7 +27965,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s16y",
+									"_key": "star-fox-s176",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -27839,7 +27979,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s16z",
+									"_key": "star-fox-s177",
 									"text": "カセットに積んだ「スーパーFXチップ」で、当時の家庭用機では珍しいポリゴン表示を実現した。シリーズはN64の『スターフォックス64』で大きく花開く。",
 									"marks": []
 								}
@@ -27853,7 +27993,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s170",
+									"_key": "star-fox-s178",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -27867,7 +28007,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s171",
+									"_key": "star-fox-s179",
 									"text": "ポリゴンで描かれた宇宙を飛び、ルートを選んで惑星ベノムを目指す。",
 									"marks": []
 								}
@@ -27881,7 +28021,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s172",
+									"_key": "star-fox-s17a",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -27895,7 +28035,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-fox-s173",
+									"_key": "star-fox-s17b",
 									"text": "3Dゲームの始まりに触れたい人に。",
 									"marks": []
 								}
@@ -27937,7 +28077,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s174",
+									"_key": "zelda-links-awakening-s17c",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -27951,7 +28091,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s175",
+									"_key": "zelda-links-awakening-s17d",
 									"text": "海で遭難したリンクが、謎の島コホリントに流れ着く。島を出るため、8つの楽器を集めて「風のさかな」を目覚めさせる。",
 									"marks": []
 								}
@@ -27965,7 +28105,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s176",
+									"_key": "zelda-links-awakening-s17e",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -27979,7 +28119,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s177",
+									"_key": "zelda-links-awakening-s17f",
 									"text": "マリオシリーズのキャラクターが登場するなど遊び心にあふれる一方で、島の秘密が明らかになる終盤は切ない。2019年のSwitch版はジオラマのような見た目で作り直され、今遊ぶならこちらがおすすめ。",
 									"marks": []
 								}
@@ -27993,7 +28133,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s178",
+									"_key": "zelda-links-awakening-s17g",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28007,7 +28147,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s179",
+									"_key": "zelda-links-awakening-s17h",
 									"text": "島のあちこちに散らばった謎を解き、楽器を集めていく。最後の展開が胸に残る。",
 									"marks": []
 								}
@@ -28021,7 +28161,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s17a",
+									"_key": "zelda-links-awakening-s17i",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28035,7 +28175,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-links-awakening-s17b",
+									"_key": "zelda-links-awakening-s17j",
 									"text": "物語の余韻が残るゼルダを遊びたい人に。",
 									"marks": []
 								}
@@ -28078,7 +28218,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17c",
+									"_key": "daytona-usa-s17k",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -28092,7 +28232,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17d",
+									"_key": "daytona-usa-s17l",
 									"text": "ギアを変えながら、オーバルコースや山岳コースを走る。最大8台の筐体をつないで対戦できた。",
 									"marks": []
 								}
@@ -28106,7 +28246,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17e",
+									"_key": "daytona-usa-s17m",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28120,7 +28260,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17f",
+									"_key": "daytona-usa-s17n",
 									"text": "ポリゴンで描かれた滑らかな映像と、歌の入った音楽が印象的。",
 									"marks": []
 								}
@@ -28134,7 +28274,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17g",
+									"_key": "daytona-usa-s17o",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -28148,7 +28288,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17h",
+									"_key": "daytona-usa-s17p",
 									"text": "アーケードで大ヒットし、セガサターンにも移植された。",
 									"marks": []
 								}
@@ -28162,7 +28302,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17i",
+									"_key": "daytona-usa-s17q",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28176,7 +28316,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "daytona-usa-s17j",
+									"_key": "daytona-usa-s17r",
 									"text": "ゲームセンターの熱気を感じたい人に。",
 									"marks": []
 								}
@@ -28219,7 +28359,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17k",
+									"_key": "dbz-butouden-s17s",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -28233,7 +28373,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17l",
+									"_key": "dbz-butouden-s17t",
 									"text": "悟空やベジータ、セルなどを操り、パンチやキックに加えて気功波を撃ち合う。2人が離れると画面が分割され、遠くからの撃ち合いになる。",
 									"marks": []
 								}
@@ -28247,7 +28387,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17m",
+									"_key": "dbz-butouden-s17u",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28261,7 +28401,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17n",
+									"_key": "dbz-butouden-s17v",
 									"text": "必殺技同士がぶつかると、ボタン連打で押し合う演出になる。原作の名場面を自分の手で再現できる。",
 									"marks": []
 								}
@@ -28275,7 +28415,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17o",
+									"_key": "dbz-butouden-s17w",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -28289,7 +28429,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17p",
+									"_key": "dbz-butouden-s17x",
 									"text": "格闘ゲームブームと原作の人気が重なって大ヒットし、シリーズ化された。",
 									"marks": []
 								}
@@ -28303,7 +28443,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17q",
+									"_key": "dbz-butouden-s17y",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28317,7 +28457,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dbz-butouden-s17r",
+									"_key": "dbz-butouden-s17z",
 									"text": "ドラゴンボールが好きな人に。",
 									"marks": []
 								}
@@ -28359,7 +28499,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17s",
+									"_key": "torneko-s180",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -28373,7 +28513,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17t",
+									"_key": "torneko-s181",
 									"text": "ダンジョンは入るたびに形が変わり、レベルは1からやり直し。拾ったアイテムを使いこなしながら、最深部にある宝を目指す。",
 									"marks": []
 								}
@@ -28387,7 +28527,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17u",
+									"_key": "torneko-s182",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -28401,7 +28541,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17v",
+									"_key": "torneko-s183",
 									"text": "海外のローグライクの遊びを、ドラクエのキャラクターと分かりやすいルールで日本に紹介した。ここからローグライクが日本の定番ジャンルになっていく。",
 									"marks": []
 								}
@@ -28415,7 +28555,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17w",
+									"_key": "torneko-s184",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28429,7 +28569,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17x",
+									"_key": "torneko-s185",
 									"text": "道具をうまく使って、危険なダンジョンの奥へ奥へと進む。",
 									"marks": []
 								}
@@ -28443,7 +28583,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17y",
+									"_key": "torneko-s186",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28457,7 +28597,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "torneko-s17z",
+									"_key": "torneko-s187",
 									"text": "ローグライクの入門に。",
 									"marks": []
 								}
@@ -28500,7 +28640,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s180",
+									"_key": "virtua-fighter-s188",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -28514,7 +28654,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s181",
+									"_key": "virtua-fighter-s189",
 									"text": "ポリゴンで描かれた格闘家たちが、リングの上で戦う。パンチ、キック、ガードの3ボタンのシンプルな操作に、本物の格闘技に近い技が詰まっている。",
 									"marks": []
 								}
@@ -28528,7 +28668,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s182",
+									"_key": "virtua-fighter-s18a",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -28542,7 +28682,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s183",
+									"_key": "virtua-fighter-s18b",
 									"text": "リングの外に落ちると負ける「リングアウト」や、カメラが滑らかに回り込む演出は、3Dゲームの時代の到来を告げた。家庭用の3D表現の発展に大きな影響を与えた作品。",
 									"marks": []
 								}
@@ -28556,7 +28696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s184",
+									"_key": "virtua-fighter-s18c",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28570,7 +28710,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s185",
+									"_key": "virtua-fighter-s18d",
 									"text": "3つのボタンで出せる技の読み合いと、リングアウトの緊張感。",
 									"marks": []
 								}
@@ -28584,7 +28724,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s186",
+									"_key": "virtua-fighter-s18e",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28598,7 +28738,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "virtua-fighter-s187",
+									"_key": "virtua-fighter-s18f",
 									"text": "3D格闘ゲームの原点を遊びたい人に。",
 									"marks": []
 								}
@@ -28641,7 +28781,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s188",
+									"_key": "phantasy-star-4-s18g",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -28655,7 +28795,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s189",
+									"_key": "phantasy-star-4-s18h",
 									"text": "ハンターのチャズと仲間たちが、太陽系に迫る危機に立ち向かう。物語は漫画のようなコマ割りの絵で演出される。",
 									"marks": []
 								}
@@ -28669,7 +28809,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18a",
+									"_key": "phantasy-star-4-s18i",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -28683,7 +28823,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18b",
+									"_key": "phantasy-star-4-s18j",
 									"text": "仲間同士の技を決まった順番で使うと、強力な連携技が発動する。戦闘のテンポもよく、遊びやすくなった。",
 									"marks": []
 								}
@@ -28697,7 +28837,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18c",
+									"_key": "phantasy-star-4-s18k",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -28711,7 +28851,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18d",
+									"_key": "phantasy-star-4-s18l",
 									"text": "シリーズ4作の物語をつなげて完結させた作品で、メガドライブのRPGの最高峰と言われる。",
 									"marks": []
 								}
@@ -28725,7 +28865,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18e",
+									"_key": "phantasy-star-4-s18m",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -28739,7 +28879,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "phantasy-star-4-s18f",
+									"_key": "phantasy-star-4-s18n",
 									"text": "シリーズを通して遊ぶか、SF RPGの名作に触れたい人に。",
 									"marks": []
 								}
@@ -28754,146 +28894,6 @@
 					],
 					"genre": [
 						"rpg"
-					],
-					"platform": [
-						"md"
-					]
-				}
-			},
-			{
-				"id": "game-bare-knuckle-2",
-				"slug": "bare-knuckle-2",
-				"status": "published",
-				"data": {
-					"title": "ベア・ナックルII 死闘への鎮魂歌",
-					"title_en": "Streets of Rage 2",
-					"release_year": 1993,
-					"developer": "セガ / エインシャント",
-					"tier": "recommended",
-					"summary": "前作から大きく進化したシリーズ第2作。キャラクターが大きくなり、技の種類も増えて、ベルトスクロールの名作になった。",
-					"curator_note": "ジャンルの最高傑作に挙げる人も多い。今遊んでも古びない手触り。",
-					"content": [
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b0",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18g",
-									"text": "どんなゲーム",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b1",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18h",
-									"text": "4人のキャラクターはそれぞれ動きの速さや技が違い、体力を使って出す強力な必殺技も追加された。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b2",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18i",
-									"text": "遊びどころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b3",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18j",
-									"text": "敵の種類が多く、ステージの演出も派手になった。2人同時プレイでの協力も楽しい。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b4",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18k",
-									"text": "ゲーム史の中で",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b5",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18l",
-									"text": "音楽は前作に続いて古代祐三が担当し、より激しいテクノサウンドになった。ベルトスクロールアクションの到達点として今も評価が高い。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b6",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18m",
-									"text": "こんな人におすすめ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "bare-knuckle-2-b7",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "bare-knuckle-2-s18n",
-									"text": "昔ながらの殴り合いアクションを、最高の形で味わいたい人に。",
-									"marks": []
-								}
-							]
-						}
-					],
-					"amazon_query": ""
-				},
-				"taxonomies": {
-					"era": [
-						"16bit"
-					],
-					"genre": [
-						"beat-em-up"
 					],
 					"platform": [
 						"md"
@@ -50462,7 +50462,7 @@
 					"title": "レガイア伝説",
 					"title_en": "Legend of Legaia",
 					"release_year": 1998,
-					"developer": "コンテイル / ソニー・コンピュータエンタテインメント",
+					"developer": "コントレイル / ソニー・コンピュータエンタテインメント",
 					"tier": "deep",
 					"summary": "霧に覆われ、人々が怪物に変えられてしまう世界で、少年ヴァンが霧を晴らすために旅をする。",
 					"curator_note": "方向キーで技を組み立てる戦闘「アーツ」。格闘ゲームのような RPG。",
@@ -62895,7 +62895,7 @@
 					"title": "ジェット セット ラジオ フューチャー",
 					"title_en": "Jet Set Radio Future",
 					"release_year": 2002,
-					"developer": "スミルビット / セガ",
+					"developer": "スマイルビット / セガ",
 					"tier": "deep",
 					"summary": "近未来のトーキョーで、ローラースケートの若者たちがグラフィティで街を彩る。前作の世界を広げた続編。",
 					"curator_note": "広くつながった街を、レールを滑って駆け抜ける。Xbox独自のセガ作品。",
@@ -64731,6 +64731,149 @@
 				}
 			},
 			{
+				"id": "game-metroid-fusion",
+				"slug": "metroid-fusion",
+				"status": "published",
+				"data": {
+					"title": "メトロイドフュージョン",
+					"title_en": "Metroid Fusion",
+					"release_year": 2002,
+					"developer": "任天堂",
+					"tier": "recommended",
+					"summary": "寄生生物Xに侵されたサムスが、宇宙ステーションで自分の姿をまねた強敵「SA-X」から逃げながら任務を果たす。",
+					"curator_note": "追ってくる自分自身の影。緊張感のある探索アクション。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t4",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t5",
+									"text": "司令官の指示を受けながら、ステーションの区画を一つずつ調べていく。倒した敵から出るXを吸収してパワーアップする。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t6",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t7",
+									"text": "自分と同じ力を持つSA-Xが現れると、逃げるしかない。追いかけられる恐怖が、探索にスリルを加えている。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t8",
+									"text": "ゲーム史の中で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2t9",
+									"text": "『スーパーメトロイド』の続編で、物語の流れは『メトロイド ドレッド』につながっている。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2ta",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "metroid-fusion-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "metroid-fusion-s2tb",
+									"text": "緊張感のある探索アクションを遊びたい人に。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"ps2"
+					],
+					"genre": [
+						"action-adventure",
+						"metroidvania"
+					],
+					"platform": [
+						"gba",
+						"wiiu",
+						"switch"
+					]
+				}
+			},
+			{
 				"id": "game-metroid-prime",
 				"slug": "metroid-prime",
 				"status": "published",
@@ -64751,7 +64894,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t4",
+									"_key": "metroid-prime-s2tc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -64765,7 +64908,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t5",
+									"_key": "metroid-prime-s2td",
 									"text": "サムスの目線で、惑星ターロンIVの遺跡や研究所を探索する。バイザーで物をスキャンすると、生き物や遺跡の情報が記録されていく。",
 									"marks": []
 								}
@@ -64779,7 +64922,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t6",
+									"_key": "metroid-prime-s2te",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -64793,7 +64936,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t7",
+									"_key": "metroid-prime-s2tf",
 									"text": "一人称視点でありながら、撃ち合いよりも探索と発見が中心。ヘルメットのバイザーに雨粒が付いたり、爆発の光でサムスの顔が映り込んだりと、「その場にいる」感覚の演出も見事。2023年のSwitch版リマスターで遊べる。",
 									"marks": []
 								}
@@ -64807,7 +64950,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t8",
+									"_key": "metroid-prime-s2tg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -64821,7 +64964,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2t9",
+									"_key": "metroid-prime-s2th",
 									"text": "バイザーで物をスキャンし、一人称視点で惑星の秘密を探っていく。",
 									"marks": []
 								}
@@ -64835,7 +64978,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2ta",
+									"_key": "metroid-prime-s2ti",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -64849,7 +64992,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "metroid-prime-s2tb",
+									"_key": "metroid-prime-s2tj",
 									"text": "探索が好きな人に。",
 									"marks": []
 								}
@@ -64893,7 +65036,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2tc",
+									"_key": "ragnarok-online-s2tk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -64907,7 +65050,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2td",
+									"_key": "ragnarok-online-s2tl",
 									"text": "ノービスから始まり、剣士や魔法使いなどの職業に転職して成長していく。プレイヤー同士の露店や、ギルド同士の攻城戦など、交流の場が豊富。",
 									"marks": []
 								}
@@ -64921,7 +65064,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2te",
+									"_key": "ragnarok-online-s2tm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -64935,7 +65078,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2tf",
+									"_key": "ragnarok-online-s2tn",
 									"text": "3Dの背景にドット絵のキャラクターを置いた見た目と、親しみやすい雰囲気で、多くの人にとって初めてのオンラインゲームになった。",
 									"marks": []
 								}
@@ -64949,7 +65092,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2tg",
+									"_key": "ragnarok-online-s2to",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -64963,7 +65106,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2th",
+									"_key": "ragnarok-online-s2tp",
 									"text": "転職して自分の職業を極め、露店やギルドで他のプレイヤーと交流する。",
 									"marks": []
 								}
@@ -64977,7 +65120,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2ti",
+									"_key": "ragnarok-online-s2tq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -64991,7 +65134,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ragnarok-online-s2tj",
+									"_key": "ragnarok-online-s2tr",
 									"text": "オンラインゲームの思い出に浸りたい人に。",
 									"marks": []
 								}
@@ -65034,7 +65177,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tk",
+									"_key": "ratchet-and-clank-s2ts",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65048,7 +65191,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tl",
+									"_key": "ratchet-and-clank-s2tt",
 									"text": "惑星ごとの冒険で集めたボルトを使って、さまざまな武器やガジェットを買い集める。敵を吸い込んで撃ち出す武器など、ユーモアのある武器が多い。",
 									"marks": []
 								}
@@ -65062,7 +65205,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tm",
+									"_key": "ratchet-and-clank-s2tu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -65076,7 +65219,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tn",
+									"_key": "ratchet-and-clank-s2tv",
 									"text": "アクションとシューティングと収集要素をバランスよく組み合わせた、PlayStationを代表するシリーズ。2021年には『パラレル・トラブル』が出ている。",
 									"marks": []
 								}
@@ -65090,7 +65233,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2to",
+									"_key": "ratchet-and-clank-s2tw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65104,7 +65247,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tp",
+									"_key": "ratchet-and-clank-s2tx",
 									"text": "次々と手に入る奇抜な武器を試しながら、惑星を冒険する。",
 									"marks": []
 								}
@@ -65118,7 +65261,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tq",
+									"_key": "ratchet-and-clank-s2ty",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65132,7 +65275,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ratchet-and-clank-s2tr",
+									"_key": "ratchet-and-clank-s2tz",
 									"text": "爽快なアクションを楽しみたい人に。",
 									"marks": []
 								}
@@ -65175,7 +65318,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2ts",
+									"_key": "wild-arms-3-s2u0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65189,7 +65332,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tt",
+									"_key": "wild-arms-3-s2u1",
 									"text": "4人の主人公が列車の上で出会うところから物語が始まる。全員が銃を使って戦う。",
 									"marks": []
 								}
@@ -65203,7 +65346,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tu",
+									"_key": "wild-arms-3-s2u2",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65217,7 +65360,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tv",
+									"_key": "wild-arms-3-s2u3",
 									"text": "荒野は何もない広さで、探索すると遺跡や町が見つかる。",
 									"marks": []
 								}
@@ -65231,7 +65374,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tw",
+									"_key": "wild-arms-3-s2u4",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -65245,7 +65388,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tx",
+									"_key": "wild-arms-3-s2u5",
 									"text": "シリーズ3作目で、PS2初のワイルドアームズ。",
 									"marks": []
 								}
@@ -65259,7 +65402,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2ty",
+									"_key": "wild-arms-3-s2u6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65273,7 +65416,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "wild-arms-3-s2tz",
+									"_key": "wild-arms-3-s2u7",
 									"text": "西部劇の雰囲気のRPGが好きな人に。",
 									"marks": []
 								}
@@ -65315,7 +65458,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u0",
+									"_key": "suikoden-3-s2u8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65329,7 +65472,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u1",
+									"_key": "suikoden-3-s2u9",
 									"text": "3人の主人公の章を好きな順番で遊び、同じ出来事を違う視点から見ることができる。",
 									"marks": []
 								}
@@ -65343,7 +65486,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u2",
+									"_key": "suikoden-3-s2ua",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65357,7 +65500,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u3",
+									"_key": "suikoden-3-s2ub",
 									"text": "108人の仲間を集める伝統はそのまま。戦闘は2人1組で行動する。",
 									"marks": []
 								}
@@ -65371,7 +65514,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u4",
+									"_key": "suikoden-3-s2uc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -65385,7 +65528,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u5",
+									"_key": "suikoden-3-s2ud",
 									"text": "シリーズ初のPS2作品で、3Dで描かれた。",
 									"marks": []
 								}
@@ -65399,7 +65542,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u6",
+									"_key": "suikoden-3-s2ue",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65413,7 +65556,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "suikoden-3-s2u7",
+									"_key": "suikoden-3-s2uf",
 									"text": "群像劇が好きな人に。",
 									"marks": []
 								}
@@ -65455,7 +65598,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2u8",
+									"_key": "steel-battalion-s2ug",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65469,7 +65612,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2u9",
+									"_key": "steel-battalion-s2uh",
 									"text": "機体の起動から始まり、ペダルとレバーで歩かせ、照準を合わせて撃つ。操作は本物の乗り物のように複雑。",
 									"marks": []
 								}
@@ -65483,7 +65626,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2ua",
+									"_key": "steel-battalion-s2ui",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65497,7 +65640,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2ub",
+									"_key": "steel-battalion-s2uj",
 									"text": "機体が撃破されそうになったら、脱出ボタンを押さないとセーブデータが消える緊張感がある。",
 									"marks": []
 								}
@@ -65511,7 +65654,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2uc",
+									"_key": "steel-battalion-s2uk",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -65525,7 +65668,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2ud",
+									"_key": "steel-battalion-s2ul",
 									"text": "専用コントローラー付きの高価なソフトとして、ゲーム史に名を残している。",
 									"marks": []
 								}
@@ -65539,7 +65682,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2ue",
+									"_key": "steel-battalion-s2um",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65553,7 +65696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "steel-battalion-s2uf",
+									"_key": "steel-battalion-s2un",
 									"text": "本格的なロボットの操縦を体験したい人に。",
 									"marks": []
 								}
@@ -65596,7 +65739,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2ug",
+									"_key": "touhou-eosd-s2uo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65610,7 +65753,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2uh",
+									"_key": "touhou-eosd-s2up",
 									"text": "幻想郷を覆った紅い霧の異変を解決するため、巫女の博麗霊夢と魔法使いの霧雨魔理沙が、紅魔館の主レミリアに挑む。",
 									"marks": []
 								}
@@ -65624,7 +65767,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2ui",
+									"_key": "touhou-eosd-s2uq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -65638,7 +65781,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2uj",
+									"_key": "touhou-eosd-s2ur",
 									"text": "画面を埋め尽くすほどの弾幕は、美しい模様を描くように設計されている。ボスとの戦いは「スペルカード」という技の披露のようなルールで行われる。ZUNひとりで作られたこの作品から、膨大な二次創作の文化が生まれた。",
 									"marks": []
 								}
@@ -65652,7 +65795,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2uk",
+									"_key": "touhou-eosd-s2us",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65666,7 +65809,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2ul",
+									"_key": "touhou-eosd-s2ut",
 									"text": "美しい弾幕のすき間を見つけて抜け、スペルカードを攻略する。",
 									"marks": []
 								}
@@ -65680,7 +65823,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2um",
+									"_key": "touhou-eosd-s2uu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65694,7 +65837,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "touhou-eosd-s2un",
+									"_key": "touhou-eosd-s2uv",
 									"text": "弾幕シューティングに挑戦したい人に。",
 									"marks": []
 								}
@@ -65736,7 +65879,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2uo",
+									"_key": "f-zero-gx-s2uw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65750,7 +65893,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2up",
+									"_key": "f-zero-gx-s2ux",
 									"text": "30台のマシンが超高速で走り、コースはチューブやループなど立体的に入り組んでいる。",
 									"marks": []
 								}
@@ -65764,7 +65907,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2uq",
+									"_key": "f-zero-gx-s2uy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65778,7 +65921,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2ur",
+									"_key": "f-zero-gx-s2uz",
 									"text": "ストーリーモードではキャプテン・ファルコンが様々な課題に挑む。難易度が非常に高いことで知られる。",
 									"marks": []
 								}
@@ -65792,7 +65935,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2us",
+									"_key": "f-zero-gx-s2v0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -65806,7 +65949,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2ut",
+									"_key": "f-zero-gx-s2v1",
 									"text": "アーケード版『F-ZERO AX』と連動できた。シリーズの最新作として長く愛されている。",
 									"marks": []
 								}
@@ -65820,7 +65963,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2uu",
+									"_key": "f-zero-gx-s2v2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65834,7 +65977,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "f-zero-gx-s2uv",
+									"_key": "f-zero-gx-s2v3",
 									"text": "スピードと難しさに挑戦したい人に。",
 									"marks": []
 								}
@@ -65876,7 +66019,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2uw",
+									"_key": "siren-s2v4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -65890,7 +66033,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2ux",
+									"_key": "siren-s2v5",
 									"text": "複数の主人公の視点で、3日間の出来事を断片的に描く。敵の視界をのぞいて位置を知り、見つからないように進む。",
 									"marks": []
 								}
@@ -65904,7 +66047,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2uy",
+									"_key": "siren-s2v6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -65918,7 +66061,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2uz",
+									"_key": "siren-s2v7",
 									"text": "屍人はうろつき、話し、時には武器を持って襲ってくる。日本の田舎の景色が、不気味な恐怖に変わる。",
 									"marks": []
 								}
@@ -65932,7 +66075,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2v0",
+									"_key": "siren-s2v8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -65946,7 +66089,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2v1",
+									"_key": "siren-s2v9",
 									"text": "『サイレントヒル』の外山圭一郎が手がけた作品で、続編やリメイクも作られた。",
 									"marks": []
 								}
@@ -65960,7 +66103,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2v2",
+									"_key": "siren-s2va",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -65974,7 +66117,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "siren-s2v3",
+									"_key": "siren-s2vb",
 									"text": "じっとりとした和製ホラーが好きな人に。",
 									"marks": []
 								}
@@ -66018,7 +66161,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v4",
+									"_key": "kirby-air-ride-s2vc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66032,7 +66175,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v5",
+									"_key": "kirby-air-ride-s2vd",
 									"text": "スティックで進む方向を決めるだけで、マシンは自動で走る。ボタンでブレーキとチャージをする。",
 									"marks": []
 								}
@@ -66046,7 +66189,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v6",
+									"_key": "kirby-air-ride-s2ve",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66060,7 +66203,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v7",
+									"_key": "kirby-air-ride-s2vf",
 									"text": "シティトライアルでは、街を走ってアイテムを集め、マシンを強くしてから最後の競技に挑む。",
 									"marks": []
 								}
@@ -66074,7 +66217,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v8",
+									"_key": "kirby-air-ride-s2vg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -66088,7 +66231,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2v9",
+									"_key": "kirby-air-ride-s2vh",
 									"text": "『スマブラ』の桜井政博が手がけた作品で、2025年に続編『カービィのエアライダー』がSwitch 2で発売された。",
 									"marks": []
 								}
@@ -66102,7 +66245,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2va",
+									"_key": "kirby-air-ride-s2vi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66116,7 +66259,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-air-ride-s2vb",
+									"_key": "kirby-air-ride-s2vj",
 									"text": "大人数で盛り上がれるレースゲームを探している人に。",
 									"marks": []
 								}
@@ -66159,7 +66302,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vc",
+									"_key": "aria-of-sorrow-s2vk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66173,7 +66316,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vd",
+									"_key": "aria-of-sorrow-s2vl",
 									"text": "敵を倒すと、まれにその敵の魂が手に入り、能力として使えるようになる。魂の種類は100以上あり、集めるだけでも楽しい。",
 									"marks": []
 								}
@@ -66187,7 +66330,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2ve",
+									"_key": "aria-of-sorrow-s2vm",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66201,7 +66344,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vf",
+									"_key": "aria-of-sorrow-s2vn",
 									"text": "広い悪魔城を探索し、新しい能力で行ける場所を広げていく。近未来という設定と、意外な物語も魅力。",
 									"marks": []
 								}
@@ -66215,7 +66358,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vg",
+									"_key": "aria-of-sorrow-s2vo",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -66229,7 +66372,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vh",
+									"_key": "aria-of-sorrow-s2vp",
 									"text": "続編の『蒼月の十字架』がDSで作られた。現在は『アドバンスコレクション』で遊べる。",
 									"marks": []
 								}
@@ -66243,7 +66386,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vi",
+									"_key": "aria-of-sorrow-s2vq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66257,7 +66400,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "aria-of-sorrow-s2vj",
+									"_key": "aria-of-sorrow-s2vr",
 									"text": "探索型の悪魔城を1本遊ぶなら、という人に。",
 									"marks": []
 								}
@@ -66305,7 +66448,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vk",
+									"_key": "call-of-duty-s2vs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66319,7 +66462,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vl",
+									"_key": "call-of-duty-s2vt",
 									"text": "第二次世界大戦を、アメリカ・イギリス・ソ連の兵士の視点で描くFPS。仲間の兵士とともに戦場を進む。",
 									"marks": []
 								}
@@ -66333,7 +66476,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vm",
+									"_key": "call-of-duty-s2vu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -66347,7 +66490,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vn",
+									"_key": "call-of-duty-s2vv",
 									"text": "ひとりの英雄が敵をなぎ倒すのではなく、大勢の兵士の一人として戦う臨場感を重視した。のちに世界最大級のシリーズになり、毎年新作が発売されている。",
 									"marks": []
 								}
@@ -66361,7 +66504,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vo",
+									"_key": "call-of-duty-s2vw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66375,7 +66518,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vp",
+									"_key": "call-of-duty-s2vx",
 									"text": "仲間の兵士とともに、大規模な戦場を進む臨場感。",
 									"marks": []
 								}
@@ -66389,7 +66532,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vq",
+									"_key": "call-of-duty-s2vy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66403,7 +66546,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "call-of-duty-s2vr",
+									"_key": "call-of-duty-s2vz",
 									"text": "戦争を描いたFPSの原点を遊びたい人に。",
 									"marks": []
 								}
@@ -66445,7 +66588,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vs",
+									"_key": "silent-hill-3-s2w0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66459,7 +66602,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vt",
+									"_key": "silent-hill-3-s2w1",
 									"text": "ヘザーは武器を手に、モールや地下鉄、病院を進む。場所が突然、異界の姿に変わる演出が恐ろしい。",
 									"marks": []
 								}
@@ -66473,7 +66616,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vu",
+									"_key": "silent-hill-3-s2w2",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66487,7 +66630,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vv",
+									"_key": "silent-hill-3-s2w3",
 									"text": "初代『サイレントヒル』の主人公の娘をめぐる物語で、謎が解けていく。",
 									"marks": []
 								}
@@ -66501,7 +66644,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vw",
+									"_key": "silent-hill-3-s2w4",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -66515,7 +66658,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vx",
+									"_key": "silent-hill-3-s2w5",
 									"text": "のちにHDコレクションで再発売された。",
 									"marks": []
 								}
@@ -66529,7 +66672,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vy",
+									"_key": "silent-hill-3-s2w6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66543,7 +66686,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "silent-hill-3-s2vz",
+									"_key": "silent-hill-3-s2w7",
 									"text": "シリーズを通して物語を知りたい人に。",
 									"marks": []
 								}
@@ -66587,7 +66730,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w0",
+									"_key": "star-ocean-3-s2w8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66601,7 +66744,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w1",
+									"_key": "star-ocean-3-s2w9",
 									"text": "戦闘はリアルタイムのアクションで、技を組み合わせてコンボをつなぐ。アイテムの合成や製作のやり込みも深い。",
 									"marks": []
 								}
@@ -66615,7 +66758,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w2",
+									"_key": "star-ocean-3-s2wa",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66629,7 +66772,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w3",
+									"_key": "star-ocean-3-s2wb",
 									"text": "物語の終盤に明かされる世界の秘密は、当時のファンの間で大きな議論を呼んだ。",
 									"marks": []
 								}
@@ -66643,7 +66786,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w4",
+									"_key": "star-ocean-3-s2wc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -66657,7 +66800,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w5",
+									"_key": "star-ocean-3-s2wd",
 									"text": "PS4でもリマスター版が配信されている。",
 									"marks": []
 								}
@@ -66671,7 +66814,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w6",
+									"_key": "star-ocean-3-s2we",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66685,7 +66828,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "star-ocean-3-s2w7",
+									"_key": "star-ocean-3-s2wf",
 									"text": "アクション性の高いRPGが好きな人に。",
 									"marks": []
 								}
@@ -66728,7 +66871,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2w8",
+									"_key": "tales-of-symphonia-s2wg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66742,7 +66885,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2w9",
+									"_key": "tales-of-symphonia-s2wh",
 									"text": "戦闘はリアルタイムで、仲間と連携して技をつなぐ。3Dで描かれた画面での戦闘は、シリーズで初めて。",
 									"marks": []
 								}
@@ -66756,7 +66899,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2wa",
+									"_key": "tales-of-symphonia-s2wi",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66770,7 +66913,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2wb",
+									"_key": "tales-of-symphonia-s2wj",
 									"text": "世界を救う旅のはずが、その裏にある真実が少しずつ明らかになる。仲間たちとの会話「スキット」も楽しい。",
 									"marks": []
 								}
@@ -66784,7 +66927,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2wc",
+									"_key": "tales-of-symphonia-s2wk",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -66798,7 +66941,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2wd",
+									"_key": "tales-of-symphonia-s2wl",
 									"text": "ゲームキューブで発売され、のちに多くの機種に移植された。",
 									"marks": []
 								}
@@ -66812,7 +66955,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2we",
+									"_key": "tales-of-symphonia-s2wm",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66826,7 +66969,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-symphonia-s2wf",
+									"_key": "tales-of-symphonia-s2wn",
 									"text": "王道のファンタジーRPGを遊びたい人に。",
 									"marks": []
 								}
@@ -66874,7 +67017,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wg",
+									"_key": "drakengard-s2wo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -66888,7 +67031,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wh",
+									"_key": "drakengard-s2wp",
 									"text": "地上では剣で大量の敵をなぎ倒し、空ではドラゴンに乗って敵の部隊を焼き払う。物語は重く、登場人物の多くが心に闇を抱えている。",
 									"marks": []
 								}
@@ -66902,7 +67045,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wi",
+									"_key": "drakengard-s2wq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -66916,7 +67059,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wj",
+									"_key": "drakengard-s2wr",
 									"text": "周回するごとに新たな結末が現れ、最後の結末は語り草になっている。のちの『NieR』シリーズはこの作品の結末の一つから生まれた。",
 									"marks": []
 								}
@@ -66930,7 +67073,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wk",
+									"_key": "drakengard-s2ws",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -66944,7 +67087,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wl",
+									"_key": "drakengard-s2wt",
 									"text": "地上で大群をなぎ倒し、空ではドラゴンで敵を焼き払う。物語の結末に驚く。",
 									"marks": []
 								}
@@ -66958,7 +67101,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wm",
+									"_key": "drakengard-s2wu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -66972,7 +67115,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "drakengard-s2wn",
+									"_key": "drakengard-s2wv",
 									"text": "ダークな物語が好きな人に。",
 									"marks": []
 								}
@@ -67014,7 +67157,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wo",
+									"_key": "donkey-konga-s2ww",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67028,7 +67171,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wp",
+									"_key": "donkey-konga-s2wx",
 									"text": "画面に流れてくるマークに合わせて、左右のタルを叩いたり、手をたたいたりする。",
 									"marks": []
 								}
@@ -67042,7 +67185,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wq",
+									"_key": "donkey-konga-s2wy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67056,7 +67199,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wr",
+									"_key": "donkey-konga-s2wz",
 									"text": "J-POPやアニメの曲、任天堂のゲーム音楽など、幅広い曲が遊べる。",
 									"marks": []
 								}
@@ -67070,7 +67213,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2ws",
+									"_key": "donkey-konga-s2x0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -67084,7 +67227,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wt",
+									"_key": "donkey-konga-s2x1",
 									"text": "『太鼓の達人』のナムコと任天堂が組んで作った作品。",
 									"marks": []
 								}
@@ -67098,7 +67241,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wu",
+									"_key": "donkey-konga-s2x2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67112,7 +67255,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "donkey-konga-s2wv",
+									"_key": "donkey-konga-s2x3",
 									"text": "家族でワイワイ遊べる音楽ゲームを探している人に。",
 									"marks": []
 								}
@@ -67155,7 +67298,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2ww",
+									"_key": "re-outbreak-s2x4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67169,7 +67312,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2wx",
+									"_key": "re-outbreak-s2x5",
 									"text": "警官、記者、大学生など、特技の違う市民から選んで遊ぶ。ウイルスの感染が進むと、時間制限がある。",
 									"marks": []
 								}
@@ -67183,7 +67326,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2wy",
+									"_key": "re-outbreak-s2x6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67197,7 +67340,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2wz",
+									"_key": "re-outbreak-s2x7",
 									"text": "オンラインでほかのプレイヤーと協力でき、声ではなく決まったセリフで意思を伝える。",
 									"marks": []
 								}
@@ -67211,7 +67354,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2x0",
+									"_key": "re-outbreak-s2x8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -67225,7 +67368,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2x1",
+									"_key": "re-outbreak-s2x9",
 									"text": "記者のアリッサは、のちの『バイオハザード レクイエム』の主人公グレースの母として描かれた。",
 									"marks": []
 								}
@@ -67239,7 +67382,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2x2",
+									"_key": "re-outbreak-s2xa",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67253,7 +67396,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "re-outbreak-s2x3",
+									"_key": "re-outbreak-s2xb",
 									"text": "シリーズの意外な一面を知りたい人に。",
 									"marks": []
 								}
@@ -67296,7 +67439,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x4",
+									"_key": "baten-kaitos-s2xc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67310,7 +67453,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x5",
+									"_key": "baten-kaitos-s2xd",
 									"text": "戦闘はカードを組み合わせて行う。カードに書かれた数字を並べると、ボーナスが加わる。",
 									"marks": []
 								}
@@ -67324,7 +67467,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x6",
+									"_key": "baten-kaitos-s2xe",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67338,7 +67481,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x7",
+									"_key": "baten-kaitos-s2xf",
 									"text": "プレイヤーは主人公の心に宿る精霊として物語に関わり、ある場面で驚くべき展開が待っている。",
 									"marks": []
 								}
@@ -67352,7 +67495,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x8",
+									"_key": "baten-kaitos-s2xg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -67366,7 +67509,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2x9",
+									"_key": "baten-kaitos-s2xh",
 									"text": "2023年にSwitchで、続編とともにリマスター版が発売された。",
 									"marks": []
 								}
@@ -67380,7 +67523,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2xa",
+									"_key": "baten-kaitos-s2xi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67394,7 +67537,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "baten-kaitos-s2xb",
+									"_key": "baten-kaitos-s2xj",
 									"text": "カードを使うRPGが好きな人に。",
 									"marks": []
 								}
@@ -67437,7 +67580,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xc",
+									"_key": "viewtiful-joe-s2xk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67451,7 +67594,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xd",
+									"_key": "viewtiful-joe-s2xl",
 									"text": "スローにすると敵の弾をかわし攻撃を重くでき、早送りにすると手数が増える。ズームすると派手な技が使える。この能力を切り替えながら敵や仕掛けを攻略する。",
 									"marks": []
 								}
@@ -67465,7 +67608,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xe",
+									"_key": "viewtiful-joe-s2xm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -67479,7 +67622,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xf",
+									"_key": "viewtiful-joe-s2xn",
 									"text": "アメコミと特撮を混ぜたような見た目と、手応えのあるアクションで高く評価された。",
 									"marks": []
 								}
@@ -67493,7 +67636,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xg",
+									"_key": "viewtiful-joe-s2xo",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67507,7 +67650,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xh",
+									"_key": "viewtiful-joe-s2xp",
 									"text": "スローと早送りを切り替えて、敵の攻撃をかわし、反撃する。",
 									"marks": []
 								}
@@ -67521,7 +67664,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xi",
+									"_key": "viewtiful-joe-s2xq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67535,7 +67678,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "viewtiful-joe-s2xj",
+									"_key": "viewtiful-joe-s2xr",
 									"text": "変わったアクションを遊びたい人に。",
 									"marks": []
 								}
@@ -67578,7 +67721,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xk",
+									"_key": "beyond-good-and-evil-s2xs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67592,7 +67735,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xl",
+									"_key": "beyond-good-and-evil-s2xt",
 									"text": "惑星ヒリスに暮らすジェイドは、生き物の写真を撮る仕事をしながら、軍の不審な動きを追う。潜入や戦闘、乗り物での移動を行き来しながら物語が進む。",
 									"marks": []
 								}
@@ -67606,7 +67749,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xm",
+									"_key": "beyond-good-and-evil-s2xu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -67620,7 +67763,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xn",
+									"_key": "beyond-good-and-evil-s2xv",
 									"text": "発売当時は売れなかったが、魅力的なキャラクターと世界観で評価が高まり、今では名作として語られている。",
 									"marks": []
 								}
@@ -67634,7 +67777,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xo",
+									"_key": "beyond-good-and-evil-s2xw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67648,7 +67791,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xp",
+									"_key": "beyond-good-and-evil-s2xx",
 									"text": "写真撮影、潜入、ホバークラフトでの移動を行き来しながら、陰謀の証拠を集める。",
 									"marks": []
 								}
@@ -67662,7 +67805,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xq",
+									"_key": "beyond-good-and-evil-s2xy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67676,7 +67819,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "beyond-good-and-evil-s2xr",
+									"_key": "beyond-good-and-evil-s2xz",
 									"text": "隠れた名作を探している人に。",
 									"marks": []
 								}
@@ -67721,7 +67864,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xs",
+									"_key": "fire-emblem-rekka-s2y0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67735,7 +67878,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xt",
+									"_key": "fire-emblem-rekka-s2y1",
 									"text": "リン、エリウッド、ヘクトルの3人の主人公の視点で物語が進む。最初の章は操作に慣れるための導入になっており、初めての人でも入りやすい。",
 									"marks": []
 								}
@@ -67749,7 +67892,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xu",
+									"_key": "fire-emblem-rekka-s2y2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -67763,7 +67906,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xv",
+									"_key": "fire-emblem-rekka-s2y3",
 									"text": "この作品の海外での成功をきっかけに、ファイアーエムブレムは世界的なシリーズになった。",
 									"marks": []
 								}
@@ -67777,7 +67920,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xw",
+									"_key": "fire-emblem-rekka-s2y4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67791,7 +67934,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xx",
+									"_key": "fire-emblem-rekka-s2y5",
 									"text": "丁寧な導入で操作を覚え、3人の主人公の物語を通して戦略を学べる。",
 									"marks": []
 								}
@@ -67805,7 +67948,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xy",
+									"_key": "fire-emblem-rekka-s2y6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67819,7 +67962,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fire-emblem-rekka-s2xz",
+									"_key": "fire-emblem-rekka-s2y7",
 									"text": "シミュレーションRPGの入門に。",
 									"marks": []
 								}
@@ -67861,7 +68004,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y0",
+									"_key": "ffx-2-s2y8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -67875,7 +68018,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y1",
+									"_key": "ffx-2-s2y9",
 									"text": "戦闘中でもドレスフィアを付け替えて、ガンナーや黒魔道士などのジョブに着替えられる。",
 									"marks": []
 								}
@@ -67889,7 +68032,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y2",
+									"_key": "ffx-2-s2ya",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -67903,7 +68046,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y3",
+									"_key": "ffx-2-s2yb",
 									"text": "ミッション形式で好きな場所を巡れる自由な構成。前作の後の世界と、仲間たちのその後が描かれる。",
 									"marks": []
 								}
@@ -67917,7 +68060,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y4",
+									"_key": "ffx-2-s2yc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -67931,7 +68074,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y5",
+									"_key": "ffx-2-s2yd",
 									"text": "『X』とセットになったHDリマスター版で今も遊べる。",
 									"marks": []
 								}
@@ -67945,7 +68088,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y6",
+									"_key": "ffx-2-s2ye",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -67959,7 +68102,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ffx-2-s2y7",
+									"_key": "ffx-2-s2yf",
 									"text": "『X』の物語の続きを見たい人に。",
 									"marks": []
 								}
@@ -68004,7 +68147,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2y8",
+									"_key": "fft-advance-s2yg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68018,7 +68161,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2y9",
+									"_key": "fft-advance-s2yh",
 									"text": "クランのメンバーを集め、ジョブとアビリティを組み合わせて育てる。戦闘ごとに禁止された行動「ロウ」があり、破ると罰を受ける。",
 									"marks": []
 								}
@@ -68032,7 +68175,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2ya",
+									"_key": "fft-advance-s2yi",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68046,7 +68189,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2yb",
+									"_key": "fft-advance-s2yj",
 									"text": "たくさんのミッションをこなしながら、仲間を自分好みに育てる楽しさがある。種族によって就けるジョブも違う。",
 									"marks": []
 								}
@@ -68060,7 +68203,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2yc",
+									"_key": "fft-advance-s2yk",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -68074,7 +68217,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2yd",
+									"_key": "fft-advance-s2yl",
 									"text": "『FFT』の世界観を携帯機向けに作り直した作品で、続編はDSで作られた。",
 									"marks": []
 								}
@@ -68088,7 +68231,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2ye",
+									"_key": "fft-advance-s2ym",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68102,7 +68245,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fft-advance-s2yf",
+									"_key": "fft-advance-s2yn",
 									"text": "育成とやり込みが好きな人に。",
 									"marks": []
 								}
@@ -68145,7 +68288,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yg",
+									"_key": "prince-of-persia-sot-s2yo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68159,7 +68302,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yh",
+									"_key": "prince-of-persia-sot-s2yp",
 									"text": "柱を登り、壁を走り、罠をくぐり抜けて宮殿を進む。落ちたり罠にかかったりしても、短剣の力で数秒前に巻き戻せる。",
 									"marks": []
 								}
@@ -68173,7 +68316,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yi",
+									"_key": "prince-of-persia-sot-s2yq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -68187,7 +68330,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yj",
+									"_key": "prince-of-persia-sot-s2yr",
 									"text": "1989年の原作の精神を3Dで蘇らせた作品。ここで培われたアクロバティックな移動は、『アサシン クリード』シリーズへと受け継がれた。",
 									"marks": []
 								}
@@ -68201,7 +68344,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yk",
+									"_key": "prince-of-persia-sot-s2ys",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68215,7 +68358,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yl",
+									"_key": "prince-of-persia-sot-s2yt",
 									"text": "壁を走り、柱を登り、失敗したら時間を巻き戻す。アクロバットの気持ちよさ。",
 									"marks": []
 								}
@@ -68229,7 +68372,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2ym",
+									"_key": "prince-of-persia-sot-s2yu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68243,7 +68386,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prince-of-persia-sot-s2yn",
+									"_key": "prince-of-persia-sot-s2yv",
 									"text": "流れるような移動のアクションが好きな人に。",
 									"marks": []
 								}
@@ -68289,7 +68432,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yo",
+									"_key": "boktai-s2yw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68303,7 +68446,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yp",
+									"_key": "boktai-s2yx",
 									"text": "太陽少年ジャンゴは、太陽の光を集めた銃で敵と戦い、吸血鬼を太陽の光で浄化する。ゲーム内の太陽の強さは、現実の日差しで決まる。",
 									"marks": []
 								}
@@ -68317,7 +68460,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yq",
+									"_key": "boktai-s2yy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68331,7 +68474,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yr",
+									"_key": "boktai-s2yz",
 									"text": "日が出ている時間帯や天気によって攻略の仕方が変わる。潜入やトラップなど、メタルギアに通じる仕組みもある。",
 									"marks": []
 								}
@@ -68345,7 +68488,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2ys",
+									"_key": "boktai-s2z0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -68359,7 +68502,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yt",
+									"_key": "boktai-s2z1",
 									"text": "ゲームと現実をつなげる仕掛けとして話題になり、シリーズはDSまで続いた。",
 									"marks": []
 								}
@@ -68373,7 +68516,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yu",
+									"_key": "boktai-s2z2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68387,7 +68530,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "boktai-s2yv",
+									"_key": "boktai-s2z3",
 									"text": "ほかにない仕掛けのゲームを遊んでみたい人に。",
 									"marks": []
 								}
@@ -68429,7 +68572,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2yw",
+									"_key": "mario-luigi-rpg-s2z4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68443,7 +68586,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2yx",
+									"_key": "mario-luigi-rpg-s2z5",
 									"text": "マリオをAボタン、ルイージをBボタンで操作する。戦闘でも、敵の攻撃に合わせてジャンプしたりハンマーで反撃したりできる。",
 									"marks": []
 								}
@@ -68457,7 +68600,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2yy",
+									"_key": "mario-luigi-rpg-s2z6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68471,7 +68614,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2yz",
+									"_key": "mario-luigi-rpg-s2z7",
 									"text": "兄弟で協力するブラザーアクションでフィールドの謎を解く。ルイージをいじるギャグなど、セリフのユーモアも楽しい。",
 									"marks": []
 								}
@@ -68485,7 +68628,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2z0",
+									"_key": "mario-luigi-rpg-s2z8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -68499,7 +68642,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2z1",
+									"_key": "mario-luigi-rpg-s2z9",
 									"text": "人気シリーズになり、のちに3DSでリメイクされた。",
 									"marks": []
 								}
@@ -68513,7 +68656,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2z2",
+									"_key": "mario-luigi-rpg-s2za",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68527,7 +68670,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-luigi-rpg-s2z3",
+									"_key": "mario-luigi-rpg-s2zb",
 									"text": "笑えて遊びやすいRPGを探している人に。",
 									"marks": []
 								}
@@ -68570,7 +68713,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z4",
+									"_key": "mkdd-s2zc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68584,7 +68727,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z5",
+									"_key": "mkdd-s2zd",
 									"text": "前に座るキャラクターが運転し、後ろのキャラクターがアイテムを投げる。途中で前後を入れ替えられる。",
 									"marks": []
 								}
@@ -68598,7 +68741,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z6",
+									"_key": "mkdd-s2ze",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68612,7 +68755,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z7",
+									"_key": "mkdd-s2zf",
 									"text": "キャラクターごとに専用のアイテムがあり、組み合わせで戦い方が変わる。2人で1台のカートを操作するモードも楽しい。",
 									"marks": []
 								}
@@ -68626,7 +68769,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z8",
+									"_key": "mkdd-s2zg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -68640,7 +68783,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2z9",
+									"_key": "mkdd-s2zh",
 									"text": "ゲームキューブで発売された唯一のマリオカート。",
 									"marks": []
 								}
@@ -68654,7 +68797,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2za",
+									"_key": "mkdd-s2zi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68668,7 +68811,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mkdd-s2zb",
+									"_key": "mkdd-s2zj",
 									"text": "友だちと協力して遊べるレースゲームを探している人に。",
 									"marks": []
 								}
@@ -68711,7 +68854,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zc",
+									"_key": "warioware-s2zk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -68725,7 +68868,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zd",
+									"_key": "warioware-s2zl",
 									"text": "画面に短い指示が出たら、数秒以内にそのとおりに操作する。鼻をほじる、猫をよける、指をはめるなど、内容は奇想天外。",
 									"marks": []
 								}
@@ -68739,7 +68882,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2ze",
+									"_key": "warioware-s2zm",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -68753,7 +68896,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zf",
+									"_key": "warioware-s2zn",
 									"text": "テンポがだんだん速くなり、何が起きているか分かった瞬間に操作する気持ちよさがある。ワリオの仲間たちのステージごとに雰囲気も違う。",
 									"marks": []
 								}
@@ -68767,7 +68910,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zg",
+									"_key": "warioware-s2zo",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -68781,7 +68924,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zh",
+									"_key": "warioware-s2zp",
 									"text": "ここから人気シリーズになり、タッチペンや体を動かす操作など、新しいハードのたびに新作が作られている。",
 									"marks": []
 								}
@@ -68795,7 +68938,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zi",
+									"_key": "warioware-s2zq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -68809,7 +68952,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "warioware-s2zj",
+									"_key": "warioware-s2zr",
 									"text": "短い時間でスカッと遊びたい人に。",
 									"marks": []
 								}
@@ -68827,149 +68970,6 @@
 					],
 					"platform": [
 						"gba"
-					]
-				}
-			},
-			{
-				"id": "game-metroid-fusion",
-				"slug": "metroid-fusion",
-				"status": "published",
-				"data": {
-					"title": "メトロイドフュージョン",
-					"title_en": "Metroid Fusion",
-					"release_year": 2003,
-					"developer": "任天堂",
-					"tier": "recommended",
-					"summary": "寄生生物Xに侵されたサムスが、宇宙ステーションで自分の姿をまねた強敵「SA-X」から逃げながら任務を果たす。",
-					"curator_note": "追ってくる自分自身の影。緊張感のある探索アクション。",
-					"content": [
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b0",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zk",
-									"text": "どんなゲーム",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b1",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zl",
-									"text": "司令官の指示を受けながら、ステーションの区画を一つずつ調べていく。倒した敵から出るXを吸収してパワーアップする。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b2",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zm",
-									"text": "遊びどころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b3",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zn",
-									"text": "自分と同じ力を持つSA-Xが現れると、逃げるしかない。追いかけられる恐怖が、探索にスリルを加えている。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b4",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zo",
-									"text": "ゲーム史の中で",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b5",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zp",
-									"text": "『スーパーメトロイド』の続編で、物語の流れは『メトロイド ドレッド』につながっている。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b6",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zq",
-									"text": "こんな人におすすめ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "metroid-fusion-b7",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "metroid-fusion-s2zr",
-									"text": "緊張感のある探索アクションを遊びたい人に。",
-									"marks": []
-								}
-							]
-						}
-					],
-					"amazon_query": ""
-				},
-				"taxonomies": {
-					"era": [
-						"ps2"
-					],
-					"genre": [
-						"action-adventure",
-						"metroidvania"
-					],
-					"platform": [
-						"gba",
-						"wiiu",
-						"switch"
 					]
 				}
 			},
@@ -84856,7 +84856,7 @@
 					"title": "3Dドットゲームヒーローズ",
 					"title_en": "3D Dot Game Heroes",
 					"release_year": 2009,
-					"developer": "シルバースタジオ / フロム・ソフトウェア",
+					"developer": "シリコンスタジオ / フロム・ソフトウェア",
 					"tier": "deep",
 					"summary": "昔のゲームのドット絵を立体にしたような世界で冒険するアクションRPG。懐かしのゲームへのオマージュが満載。",
 					"curator_note": "ドットでできた立体の世界。ゼルダ風の冒険へのラブレター。",
@@ -86836,7 +86836,7 @@
 					"title": "ファンタシースターポータブル2",
 					"title_en": "Phantasy Star Portable 2",
 					"release_year": 2009,
-					"developer": "セガ",
+					"developer": "アルファ・システム / セガ",
 					"tier": "deep",
 					"summary": "携帯機で最大4人と協力して冒険できるファンタシースター。インターネットを通じたマルチプレイにも対応した。",
 					"curator_note": "携帯機で集まって遊ぶPSOの流れ。武器集めのやり込みが熱い。",

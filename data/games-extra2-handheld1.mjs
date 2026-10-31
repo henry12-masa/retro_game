@@ -48,7 +48,7 @@ export default [
 			"長く隠れた名作として語られてきたが、2019年からはSwitchのゲームボーイ配信でも遊べるようになった。",
 			"肩の力を抜いて遊べるアドベンチャーが好きな人に。",
 		]),
-	n("metroid-2", "メトロイドII RETURN OF SAMUS", "Metroid II: Return of Samus", 1992, "任天堂", "gb 3ds", "action-adventure metroidvania", "deep",
+	n("metroid-2", "メトロイドII RETURN OF SAMUS", "Metroid II: Return of Samus", 1991, "任天堂", "gb 3ds", "action-adventure metroidvania", "deep",
 		"サムスがメトロイドの故郷・惑星SR388に乗り込み、メトロイドを全滅させる任務に挑む。",
 		"手のひらの中の探索。のちに3DSで『サムスリターンズ』としてリメイクされた。",
 		[
@@ -140,7 +140,7 @@ export default [
 			"続く『烈火の剣』はこの作品の20年前を描く前日譚になっている。",
 			"携帯機で本格的なシミュレーションRPGを遊びたい人に。",
 		]),
-	n("metroid-fusion", "メトロイドフュージョン", "Metroid Fusion", 2003, "任天堂", "gba wiiu switch", "action-adventure metroidvania", "recommended",
+	n("metroid-fusion", "メトロイドフュージョン", "Metroid Fusion", 2002, "任天堂", "gba wiiu switch", "action-adventure metroidvania", "recommended",
 		"寄生生物Xに侵されたサムスが、宇宙ステーションで自分の姿をまねた強敵「SA-X」から逃げながら任務を果たす。",
 		"追ってくる自分自身の影。緊張感のある探索アクション。",
 		[
