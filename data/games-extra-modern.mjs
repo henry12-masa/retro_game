@@ -508,7 +508,7 @@ Switchの普及とともに大ヒットし、多くの人が毎日のように�
 		`8人の旅人から1人を選んで旅を始め、旅先で他の主人公を仲間にしていく。敵の弱点を突いてガードを崩す「ブレイク」が戦闘の基本。
 
 ドット絵の温かみと現代の光の表現を組み合わせた映像は、多くの作品に影響を与えた。続編『II』も出ている。`),
-	g("subnautica", "Subnautica", "Subnautica", 2018, "Unknown Worlds", "pc ps4 xone switch", "sandbox horror", "recommended",
+	g("subnautica", "Subnautica", "Subnautica", 2014, "Unknown Worlds", "pc ps4 xone switch", "sandbox horror", "recommended",
 		"未知の惑星の海に不時着した主人公が、海中で資源を集め、基地や潜水艇を作って生き延びる。",
 		"美しく、そして深く潜るほど恐ろしい海。探検の怖さと楽しさが同居する。",
 		`浅瀬で資源を集めて道具を作り、少しずつ深い海へ進出していく。深海には巨大な生き物が潜んでおり、暗闇の向こうから聞こえる声に緊張する。
@@ -526,7 +526,7 @@ Switchの普及とともに大ヒットし、多くの人が毎日のように�
 		`石炭を燃やして都市を暖め、食料や資材を確保しながら寒さをしのぐ。人々の不満と希望を管理するために、法律を制定していく。
 
 生存のために倫理的に厳しい選択を迫られる、他にない都市運営ゲーム。続編『2』も出ている。`),
-	g("rimworld", "RimWorld", "RimWorld", 2018, "Ludeon Studios", "pc ps4 xone", "simulation", "deep",
+	g("rimworld", "RimWorld", "RimWorld", 2016, "Ludeon Studios", "pc ps4 xone", "simulation", "deep",
 		"辺境の惑星に不時着した入植者たちを導き、コロニーを築いて生き延びさせる。物語を生み出すシミュレーション。",
 		"AIの「語り手」が事件を起こし、毎回違う物語が生まれる。",
 		`入植者に建築、栽培、料理、戦闘などの仕事を割り当て、コロニーを運営する。入植者には性格や人間関係があり、思わぬ事件が起きる。
@@ -594,7 +594,7 @@ Switchの普及とともに大ヒットし、多くの人が毎日のように�
 		`街を自由に歩き、身体改造や銃、ハッキングを駆使して依頼をこなす。キアヌ・リーブス演じるジョニー・シルヴァーハンドとの関係が物語の核になる。
 
 発売当初は不具合が多く批判されたが、その後の大型アップデートと拡張『仮初めの自由』で評価を大きく上げた。`),
-	g("factorio", "Factorio", "Factorio", 2020, "Wube Software", "pc switch", "simulation strategy", "recommended",
+	g("factorio", "Factorio", "Factorio", 2016, "Wube Software", "pc switch", "simulation strategy", "recommended",
 		"未知の惑星に不時着した技術者が、資源を掘り、ベルトコンベアで工場をつなぎ、ロケットを打ち上げる。",
 		"自動化の快感。「あと少しだけ効率化を」が止まらない。",
 		`最初は手作業で採掘し、やがて採掘機とベルトコンベア、組立機を組み合わせて生産を自動化していく。規模が大きくなるほど設計の工夫が求められる。
@@ -756,7 +756,7 @@ Switchの普及とともに大ヒットし、多くの人が毎日のように�
 		`原作の物語と構成を大切にしながら、戦闘や探索を現代的に作り直した。霧の町と異形の世界の表現は、より生々しく恐ろしいものになっている。
 
 原作の作曲家・山岡晃が音楽を手がけている。原作を知る人にも、初めての人にも勧められる。`),
-	g("satisfactory", "Satisfactory", "Satisfactory", 2024, "Coffee Stain Studios", "pc ps5 xsx", "simulation sandbox", "deep",
+	g("satisfactory", "Satisfactory", "Satisfactory", 2019, "Coffee Stain Studios", "pc ps5 xsx", "simulation sandbox", "deep",
 		"異星の美しい大地で、一人称視点で巨大な工場を建設していく。早期アクセスを経て2024年に正式版になった。",
 		"自分の作った工場の中を歩き回れる。巨大な建造物を作る達成感。",
 		`資源を掘り、ベルトコンベアで機械をつないで生産を自動化する。一人称視点のため、自分で作った工場の大きさを実感できる。
