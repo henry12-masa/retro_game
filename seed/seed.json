@@ -101603,148 +101603,6 @@
 				}
 			},
 			{
-				"id": "game-mario-kart-8",
-				"slug": "mario-kart-8",
-				"status": "published",
-				"data": {
-					"title": "マリオカート8 デラックス",
-					"title_en": "Mario Kart 8 Deluxe",
-					"release_year": 2014,
-					"developer": "任天堂",
-					"tier": "essential",
-					"summary": "コースの壁や天井を走る「反重力」が加わったマリオカート。Switch版の『デラックス』はシリーズ最大のヒット作。",
-					"curator_note": "追加コースで遊びが10年以上広がり続けた。今からでも遊ぶ価値がある定番。",
-					"content": [
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b0",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4ew",
-									"text": "どんなゲーム",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b1",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4ex",
-									"text": "反重力の区間では、壁や天井を走りながら、ほかのカートにぶつかって加速できる。ハンドル操作を補助する機能もあり、子どもでも楽しめる。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b2",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4ey",
-									"text": "見どころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b3",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4ez",
-									"text": "Wii U版に追加要素を加えたSwitch版『デラックス』は、追加コースの配信もあって長く遊ばれ、Switchで最も売れたソフトのひとつになった。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b4",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4f0",
-									"text": "遊びどころ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b5",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4f1",
-									"text": "反重力の区間で壁や天井を走り、アイテムで逆転を狙う。",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b6",
-							"style": "h3",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4f2",
-									"text": "こんな人におすすめ",
-									"marks": []
-								}
-							]
-						},
-						{
-							"_type": "block",
-							"_key": "mario-kart-8-b7",
-							"style": "normal",
-							"markDefs": [],
-							"children": [
-								{
-									"_type": "span",
-									"_key": "mario-kart-8-s4f3",
-									"text": "誰とでも遊べるレースゲームを探している人に。",
-									"marks": []
-								}
-							]
-						}
-					],
-					"amazon_query": ""
-				},
-				"taxonomies": {
-					"era": [
-						"indie"
-					],
-					"genre": [
-						"racing",
-						"party"
-					],
-					"platform": [
-						"wiiu",
-						"switch"
-					]
-				}
-			},
-			{
 				"id": "game-monument-valley",
 				"slug": "monument-valley",
 				"status": "published",
@@ -101765,7 +101623,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f4",
+									"_key": "monument-valley-s4ew",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -101779,7 +101637,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f5",
+									"_key": "monument-valley-s4ex",
 									"text": "静かな王女アイダが、不思議な建物の中を進んでいく。建物の一部を回転させたりずらしたりすると、つながっていなかった道がつながる。",
 									"marks": []
 								}
@@ -101793,7 +101651,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f6",
+									"_key": "monument-valley-s4ey",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -101807,7 +101665,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f7",
+									"_key": "monument-valley-s4ez",
 									"text": "エッシャーの騙し絵のような、目の錯覚を使った建築が美しい。1時間ほどで遊び終えられる短い作品だが、ひとつひとつのステージがまるで美術作品のよう。スマートフォンならではの指で触れる遊びを生かした名作。",
 									"marks": []
 								}
@@ -101821,7 +101679,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f8",
+									"_key": "monument-valley-s4f0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -101835,7 +101693,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4f9",
+									"_key": "monument-valley-s4f1",
 									"text": "建物を回転させてずらし、目の錯覚を使って道をつなげる。",
 									"marks": []
 								}
@@ -101849,7 +101707,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4fa",
+									"_key": "monument-valley-s4f2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -101863,7 +101721,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monument-valley-s4fb",
+									"_key": "monument-valley-s4f3",
 									"text": "美しいパズルを短時間で楽しみたい人に。",
 									"marks": []
 								}
@@ -101905,7 +101763,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fc",
+									"_key": "captain-toad-s4f4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -101919,7 +101777,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fd",
+									"_key": "captain-toad-s4f5",
 									"text": "ステージは小さな立体の箱庭になっていて、カメラを回して隠れた道やお宝を探す。",
 									"marks": []
 								}
@@ -101933,7 +101791,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fe",
+									"_key": "captain-toad-s4f6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -101947,7 +101805,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4ff",
+									"_key": "captain-toad-s4f7",
 									"text": "隊長はジャンプができないため、仕掛けを動かしたり、道を見つけたりして進む。",
 									"marks": []
 								}
@@ -101961,7 +101819,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fg",
+									"_key": "captain-toad-s4f8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -101975,7 +101833,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fh",
+									"_key": "captain-toad-s4f9",
 									"text": "『スーパーマリオ3Dワールド』のミニゲームから生まれた作品で、Switchでも遊べる。",
 									"marks": []
 								}
@@ -101989,7 +101847,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fi",
+									"_key": "captain-toad-s4fa",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102003,7 +101861,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "captain-toad-s4fj",
+									"_key": "captain-toad-s4fb",
 									"text": "じっくり考えるパズルが好きな人に。",
 									"marks": []
 								}
@@ -102048,7 +101906,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fk",
+									"_key": "kirby-triple-deluxe-s4fc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102062,7 +101920,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fl",
+									"_key": "kirby-triple-deluxe-s4fd",
 									"text": "ステージの奥と手前を行き来しながら進み、3DSの立体視を生かした仕掛けが多い。",
 									"marks": []
 								}
@@ -102076,7 +101934,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fm",
+									"_key": "kirby-triple-deluxe-s4fe",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102090,7 +101948,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fn",
+									"_key": "kirby-triple-deluxe-s4ff",
 									"text": "特別な果実を食べると「ビッグバン吸い込み」で、巨大な物まで吸い込めるようになる。",
 									"marks": []
 								}
@@ -102104,7 +101962,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fo",
+									"_key": "kirby-triple-deluxe-s4fg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -102118,7 +101976,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fp",
+									"_key": "kirby-triple-deluxe-s4fh",
 									"text": "3DSの本編カービィの第1作で、続編『ロボボプラネット』も作られた。",
 									"marks": []
 								}
@@ -102132,7 +101990,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fq",
+									"_key": "kirby-triple-deluxe-s4fi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102146,7 +102004,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "kirby-triple-deluxe-s4fr",
+									"_key": "kirby-triple-deluxe-s4fj",
 									"text": "カービィの王道アクションを遊びたい人に。",
 									"marks": []
 								}
@@ -102188,7 +102046,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fs",
+									"_key": "smash-3ds-s4fk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102202,7 +102060,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4ft",
+									"_key": "smash-3ds-s4fl",
 									"text": "多くのファイターが参戦し、オンラインでの対戦にも対応した。",
 									"marks": []
 								}
@@ -102216,7 +102074,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fu",
+									"_key": "smash-3ds-s4fm",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102230,7 +102088,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fv",
+									"_key": "smash-3ds-s4fn",
 									"text": "フィールドスマッシュでは、5分間で敵を倒して能力を上げ、最後に対戦する。",
 									"marks": []
 								}
@@ -102244,7 +102102,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fw",
+									"_key": "smash-3ds-s4fo",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -102258,7 +102116,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fx",
+									"_key": "smash-3ds-s4fp",
 									"text": "Wii U版とセットで作られ、のちの『SPECIAL』へとつながった。",
 									"marks": []
 								}
@@ -102272,7 +102130,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fy",
+									"_key": "smash-3ds-s4fq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102286,7 +102144,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "smash-3ds-s4fz",
+									"_key": "smash-3ds-s4fr",
 									"text": "スマブラを持ち歩いて遊びたかった人に。",
 									"marks": []
 								}
@@ -102330,7 +102188,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g0",
+									"_key": "bloodborne-s4fs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102344,7 +102202,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g1",
+									"_key": "bloodborne-s4ft",
 									"text": "獣の病が蔓延する古都ヤーナムに、治療を求めて訪れた狩人。夜の街には、獣と化した住民たちがさまよっている。",
 									"marks": []
 								}
@@ -102358,7 +102216,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g2",
+									"_key": "bloodborne-s4fu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -102372,7 +102230,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g3",
+									"_key": "bloodborne-s4fv",
 									"text": "盾を持たず、攻撃を受けた直後に反撃すると体力を取り戻せる「リゲイン」の仕組みで、攻め続けることが求められる。ゴシックホラーから宇宙的な恐怖へと移り変わる世界観は、ほかに類を見ない。PS4向けにしか発売されていない(PS5でも遊べる)。",
 									"marks": []
 								}
@@ -102386,7 +102244,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g4",
+									"_key": "bloodborne-s4fw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102400,7 +102258,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g5",
+									"_key": "bloodborne-s4fx",
 									"text": "盾を持たずに攻め続け、攻撃を受けた直後の反撃で体力を取り戻す。",
 									"marks": []
 								}
@@ -102414,7 +102272,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g6",
+									"_key": "bloodborne-s4fy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102428,7 +102286,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "bloodborne-s4g7",
+									"_key": "bloodborne-s4fz",
 									"text": "攻めの高難度アクションに挑戦したい人に。",
 									"marks": []
 								}
@@ -102471,7 +102329,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4g8",
+									"_key": "fallout-4-s4g0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102485,7 +102343,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4g9",
+									"_key": "fallout-4-s4g1",
 									"text": "荒廃したボストンを探索しながら、拾ったガラクタを分解して武器を改造したり、居住地を建設したりできる。",
 									"marks": []
 								}
@@ -102499,7 +102357,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4ga",
+									"_key": "fallout-4-s4g2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -102513,7 +102371,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4gb",
+									"_key": "fallout-4-s4g3",
 									"text": "ドラマ版の放送をきっかけに再び注目を集めた。オープンワールドの探索とクラフトを好む人に向いた作品。",
 									"marks": []
 								}
@@ -102527,7 +102385,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4gc",
+									"_key": "fallout-4-s4g4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102541,7 +102399,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4gd",
+									"_key": "fallout-4-s4g5",
 									"text": "廃材を集めて武器を改造し、居住地を建設する。",
 									"marks": []
 								}
@@ -102555,7 +102413,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4ge",
+									"_key": "fallout-4-s4g6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102569,7 +102427,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fallout-4-s4gf",
+									"_key": "fallout-4-s4g7",
 									"text": "クラフトとオープンワールドが好きな人に。",
 									"marks": []
 								}
@@ -102615,7 +102473,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gg",
+									"_key": "fgo-s4g8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102629,7 +102487,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gh",
+									"_key": "fgo-s4g9",
 									"text": "カードを選んで攻撃するコマンドバトルで、サーヴァントの宝具(必殺技)を放つ。",
 									"marks": []
 								}
@@ -102643,7 +102501,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gi",
+									"_key": "fgo-s4ga",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102657,7 +102515,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gj",
+									"_key": "fgo-s4gb",
 									"text": "章ごとに歴史上の時代や伝説を舞台にした物語があり、そのボリュームと熱さで人気を集めた。",
 									"marks": []
 								}
@@ -102671,7 +102529,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gk",
+									"_key": "fgo-s4gc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -102685,7 +102543,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gl",
+									"_key": "fgo-s4gd",
 									"text": "2015年から長く運営が続く、日本のスマートフォンゲームを代表する作品のひとつ。",
 									"marks": []
 								}
@@ -102699,7 +102557,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gm",
+									"_key": "fgo-s4ge",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102713,7 +102571,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fgo-s4gn",
+									"_key": "fgo-s4gf",
 									"text": "長い物語を楽しめるスマホゲームを探している人に。",
 									"marks": []
 								}
@@ -102755,7 +102613,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4go",
+									"_key": "ori-blind-forest-s4gg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102769,7 +102627,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gp",
+									"_key": "ori-blind-forest-s4gh",
 									"text": "森の精霊オリが、枯れてしまった森を蘇らせるために旅をする。2D探索アクションで、新しい能力を得て行ける場所を広げていく。",
 									"marks": []
 								}
@@ -102783,7 +102641,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gq",
+									"_key": "ori-blind-forest-s4gi",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -102797,7 +102655,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gr",
+									"_key": "ori-blind-forest-s4gj",
 									"text": "絵画のような美しい映像と、オーケストラによる音楽が感情を揺さぶる。特に冒頭の数分間は、多くの人が涙したと言われる。ジャンプと移動の気持ちよさも抜群で、続編『Will of the Wisps』も高く評価されている。",
 									"marks": []
 								}
@@ -102811,7 +102669,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gs",
+									"_key": "ori-blind-forest-s4gk",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102825,7 +102683,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gt",
+									"_key": "ori-blind-forest-s4gl",
 									"text": "新しい能力を手に入れて、美しい森の奥へと進む探索アクション。",
 									"marks": []
 								}
@@ -102839,7 +102697,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gu",
+									"_key": "ori-blind-forest-s4gm",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102853,7 +102711,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ori-blind-forest-s4gv",
+									"_key": "ori-blind-forest-s4gn",
 									"text": "感動的な2Dアクションを遊びたい人に。",
 									"marks": []
 								}
@@ -102898,7 +102756,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4gw",
+									"_key": "undertale-s4go",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -102912,7 +102770,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4gx",
+									"_key": "undertale-s4gp",
 									"text": "地底の世界に落ちた子どもが、モンスターたちの住む国を抜けて地上に帰ろうとする。戦闘では敵の弾をかわしながら、戦うか、会話して見逃すかを選べる。",
 									"marks": []
 								}
@@ -102926,7 +102784,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4gy",
+									"_key": "undertale-s4gq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -102940,7 +102798,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4gz",
+									"_key": "undertale-s4gr",
 									"text": "誰も殺さずにクリアすることもできる。プレイヤーの行動はゲームに記憶されていて、やり直してもキャラクターが覚えていることがある。トビー・フォックスがほぼひとりで作り、音楽も手がけた。RPGの「お約束」を問い直した作品。",
 									"marks": []
 								}
@@ -102954,7 +102812,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4h0",
+									"_key": "undertale-s4gs",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -102968,7 +102826,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4h1",
+									"_key": "undertale-s4gt",
 									"text": "戦うか、見逃すか。プレイヤーの選択をゲームが覚えている。",
 									"marks": []
 								}
@@ -102982,7 +102840,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4h2",
+									"_key": "undertale-s4gu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -102996,7 +102854,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "undertale-s4h3",
+									"_key": "undertale-s4gv",
 									"text": "RPGの常識を疑ってみたい人に。",
 									"marks": []
 								}
@@ -103040,7 +102898,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h4",
+									"_key": "witcher-3-s4gw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103054,7 +102912,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h5",
+									"_key": "witcher-3-s4gx",
 									"text": "怪物狩りを生業とするウィッチャーのゲラルトが、戦乱の大陸で行方不明の養女シリを探す。",
 									"marks": []
 								}
@@ -103068,7 +102926,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h6",
+									"_key": "witcher-3-s4gy",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -103082,7 +102940,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h7",
+									"_key": "witcher-3-s4gz",
 									"text": "メインの物語だけでなく、寄り道のサブクエストの一つひとつに、短編小説のような深い物語がある。怪物の弱点を調べて準備を整える狩りも楽しい。2つの大型拡張も傑作で、現世代機向けの完全版で遊べる。",
 									"marks": []
 								}
@@ -103096,7 +102954,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h8",
+									"_key": "witcher-3-s4h0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103110,7 +102968,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4h9",
+									"_key": "witcher-3-s4h1",
 									"text": "寄り道のクエストひとつひとつに短編小説のような物語がある。",
 									"marks": []
 								}
@@ -103124,7 +102982,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4ha",
+									"_key": "witcher-3-s4h2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103138,7 +102996,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "witcher-3-s4hb",
+									"_key": "witcher-3-s4h3",
 									"text": "物語の濃いオープンワールドを遊びたい人に。",
 									"marks": []
 								}
@@ -103185,7 +103043,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hc",
+									"_key": "cities-skylines-s4h4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103199,7 +103057,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hd",
+									"_key": "cities-skylines-s4h5",
 									"text": "道路を引き、住宅・商業・工業の区画を指定し、電気や水道、公共交通を整えていく。人口が増えると交通渋滞が大きな課題になる。",
 									"marks": []
 								}
@@ -103213,7 +103071,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4he",
+									"_key": "cities-skylines-s4h6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -103227,7 +103085,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hf",
+									"_key": "cities-skylines-s4h7",
 									"text": "『シムシティ』の系譜を受け継ぎ、より大規模で細かい街づくりを実現した。ユーザーが作るMODの豊富さも魅力。",
 									"marks": []
 								}
@@ -103241,7 +103099,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hg",
+									"_key": "cities-skylines-s4h8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103255,7 +103113,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hh",
+									"_key": "cities-skylines-s4h9",
 									"text": "道路と交通網を工夫して、渋滞の少ない大都市を作る。",
 									"marks": []
 								}
@@ -103269,7 +103127,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hi",
+									"_key": "cities-skylines-s4ha",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103283,7 +103141,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cities-skylines-s4hj",
+									"_key": "cities-skylines-s4hb",
 									"text": "街づくりが好きな人に。",
 									"marks": []
 								}
@@ -103328,7 +103186,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hk",
+									"_key": "super-mario-maker-s4hc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103342,7 +103200,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hl",
+									"_key": "super-mario-maker-s4hd",
 									"text": "ブロックや敵、土管を自由に配置して、自分だけのマリオのステージを作る。作ったステージはインターネットで公開でき、世界中の人が遊べる。",
 									"marks": []
 								}
@@ -103356,7 +103214,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hm",
+									"_key": "super-mario-maker-s4he",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -103370,7 +103228,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hn",
+									"_key": "super-mario-maker-s4hf",
 									"text": "職人たちの手による超難関ステージや、音楽を奏でるステージなど、プレイヤーの想像力が爆発した。続編『2』がSwitchで出ている。",
 									"marks": []
 								}
@@ -103384,7 +103242,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4ho",
+									"_key": "super-mario-maker-s4hg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103398,7 +103256,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hp",
+									"_key": "super-mario-maker-s4hh",
 									"text": "自分でコースを作り、世界中の人が作ったコースに挑戦する。",
 									"marks": []
 								}
@@ -103412,7 +103270,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hq",
+									"_key": "super-mario-maker-s4hi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103426,7 +103284,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-maker-s4hr",
+									"_key": "super-mario-maker-s4hj",
 									"text": "作ることが好きな人に。",
 									"marks": []
 								}
@@ -103470,7 +103328,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hs",
+									"_key": "splatoon-s4hk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103484,7 +103342,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4ht",
+									"_key": "splatoon-s4hl",
 									"text": "ヒトの姿とイカの姿を切り替えられる「インクリング」たちが、インクを塗り合って戦う。制限時間内に地面をより多く塗ったチームの勝ち。",
 									"marks": []
 								}
@@ -103498,7 +103356,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hu",
+									"_key": "splatoon-s4hm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -103512,7 +103370,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hv",
+									"_key": "splatoon-s4hn",
 									"text": "イカの姿になると自分のインクの中を素早く泳げる。撃ち合いが苦手でも、塗ることでチームに貢献できる。シューティングを子どもから大人まで楽しめる遊びにした、任天堂の新しい看板シリーズの始まり。",
 									"marks": []
 								}
@@ -103526,7 +103384,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hw",
+									"_key": "splatoon-s4ho",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103540,7 +103398,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hx",
+									"_key": "splatoon-s4hp",
 									"text": "撃ち合いが苦手でも、塗ることでチームに貢献できる。",
 									"marks": []
 								}
@@ -103554,7 +103412,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hy",
+									"_key": "splatoon-s4hq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103568,7 +103426,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-s4hz",
+									"_key": "splatoon-s4hr",
 									"text": "チームで遊ぶ対戦ゲームを探している人に。",
 									"marks": []
 								}
@@ -103612,7 +103470,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i0",
+									"_key": "xenoblade-x-s4hs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103626,7 +103484,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i1",
+									"_key": "xenoblade-x-s4ht",
 									"text": "5つの大陸からなる惑星を自由に探索し、調査のための装置を設置して情報を集める。",
 									"marks": []
 								}
@@ -103640,7 +103498,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i2",
+									"_key": "xenoblade-x-s4hu",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103654,7 +103512,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i3",
+									"_key": "xenoblade-x-s4hv",
 									"text": "物語の途中から人型兵器ドールに乗れるようになり、やがて空も飛べるようになる。",
 									"marks": []
 								}
@@ -103668,7 +103526,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i4",
+									"_key": "xenoblade-x-s4hw",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -103682,7 +103540,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i5",
+									"_key": "xenoblade-x-s4hx",
 									"text": "2025年にSwitchで追加要素を加えた『ディフィニティブエディション』が発売された。",
 									"marks": []
 								}
@@ -103696,7 +103554,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i6",
+									"_key": "xenoblade-x-s4hy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103710,7 +103568,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-x-s4i7",
+									"_key": "xenoblade-x-s4hz",
 									"text": "広大な世界をとことん探索したい人に。",
 									"marks": []
 								}
@@ -103754,7 +103612,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4i8",
+									"_key": "fe-if-s4i0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103768,7 +103626,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4i9",
+									"_key": "fe-if-s4i1",
 									"text": "主人公がどちらの王国に付くかで物語と仲間が変わる。暗夜王国の物語は特に難易度が高い。",
 									"marks": []
 								}
@@ -103782,7 +103640,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4ia",
+									"_key": "fe-if-s4i2",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103796,7 +103654,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4ib",
+									"_key": "fe-if-s4i3",
 									"text": "自分の城「マイキャッスル」を作り、仲間との交流を楽しめる。",
 									"marks": []
 								}
@@ -103810,7 +103668,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4ic",
+									"_key": "fe-if-s4i4",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -103824,7 +103682,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4id",
+									"_key": "fe-if-s4i5",
 									"text": "3本の物語を合わせて遊ぶ構成で、シリーズの人気をさらに広げた。",
 									"marks": []
 								}
@@ -103838,7 +103696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4ie",
+									"_key": "fe-if-s4i6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103852,7 +103710,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-if-s4if",
+									"_key": "fe-if-s4i7",
 									"text": "物語の選択と戦略の両方を楽しみたい人に。",
 									"marks": []
 								}
@@ -103894,7 +103752,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4ig",
+									"_key": "mgs5-s4i8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -103908,7 +103766,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4ih",
+									"_key": "mgs5-s4i9",
 									"text": "広い地域に点在する敵の拠点へ、昼夜や天候、潜入ルートを自分で選んで挑む。敵兵を気球で回収して自分の基地の仲間にすることもできる。",
 									"marks": []
 								}
@@ -103922,7 +103780,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4ii",
+									"_key": "mgs5-s4ia",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -103936,7 +103794,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4ij",
+									"_key": "mgs5-s4ib",
 									"text": "潜入の自由度の高さとゲームとしての完成度は非常に高い。小島秀夫がコナミで手がけた最後のシリーズ作品。",
 									"marks": []
 								}
@@ -103950,7 +103808,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4ik",
+									"_key": "mgs5-s4ic",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -103964,7 +103822,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4il",
+									"_key": "mgs5-s4id",
 									"text": "拠点への潜入ルート、時間、装備を自分で選び、任務を自由にこなす。",
 									"marks": []
 								}
@@ -103978,7 +103836,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4im",
+									"_key": "mgs5-s4ie",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -103992,7 +103850,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mgs5-s4in",
+									"_key": "mgs5-s4if",
 									"text": "自由度の高いステルスゲームが好きな人に。",
 									"marks": []
 								}
@@ -104039,7 +103897,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4io",
+									"_key": "mhx-s4ig",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104053,7 +103911,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4ip",
+									"_key": "mhx-s4ih",
 									"text": "ギルド、ストライカー、エリアル、ブシドーの4つのスタイルから選び、武器の使い方を変えられる。",
 									"marks": []
 								}
@@ -104067,7 +103925,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4iq",
+									"_key": "mhx-s4ii",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104081,7 +103939,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4ir",
+									"_key": "mhx-s4ij",
 									"text": "狩技を使うと強力な攻撃や回復ができる。過去作の村も登場する。",
 									"marks": []
 								}
@@ -104095,7 +103953,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4is",
+									"_key": "mhx-s4ik",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -104109,7 +103967,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4it",
+									"_key": "mhx-s4il",
 									"text": "3DSで人気を集め、強化版の『ダブルクロス』はSwitchでも発売された。",
 									"marks": []
 								}
@@ -104123,7 +103981,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4iu",
+									"_key": "mhx-s4im",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104137,7 +103995,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mhx-s4iv",
+									"_key": "mhx-s4in",
 									"text": "いろいろな戦い方を試したい人に。",
 									"marks": []
 								}
@@ -104180,7 +104038,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4iw",
+									"_key": "yoshi-woolly-world-s4io",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104194,7 +104052,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4ix",
+									"_key": "yoshi-woolly-world-s4ip",
 									"text": "敵を飲み込んで毛糸のタマにし、投げて攻撃したり、仕掛けを動かしたりする。",
 									"marks": []
 								}
@@ -104208,7 +104066,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4iy",
+									"_key": "yoshi-woolly-world-s4iq",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104222,7 +104080,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4iz",
+									"_key": "yoshi-woolly-world-s4ir",
 									"text": "苦手な人向けに、空を飛べる「ふんわりモード」もある。2人で協力して遊べる。",
 									"marks": []
 								}
@@ -104236,7 +104094,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4j0",
+									"_key": "yoshi-woolly-world-s4is",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -104250,7 +104108,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4j1",
+									"_key": "yoshi-woolly-world-s4it",
 									"text": "3DS版も作られ、のちのSwitch『クラフトワールド』へと続いた。",
 									"marks": []
 								}
@@ -104264,7 +104122,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4j2",
+									"_key": "yoshi-woolly-world-s4iu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104278,7 +104136,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yoshi-woolly-world-s4j3",
+									"_key": "yoshi-woolly-world-s4iv",
 									"text": "かわいい世界でのんびり遊びたい人に。",
 									"marks": []
 								}
@@ -104321,7 +104179,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j4",
+									"_key": "rocket-league-s4iw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104335,7 +104193,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j5",
+									"_key": "rocket-league-s4ix",
 									"text": "ジャンプやブーストで空を飛べる車を操り、巨大なボールをゴールに入れるサッカー。3対3の対戦が基本。",
 									"marks": []
 								}
@@ -104349,7 +104207,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j6",
+									"_key": "rocket-league-s4iy",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -104363,7 +104221,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j7",
+									"_key": "rocket-league-s4iz",
 									"text": "ルールは見ればすぐ分かるが、空中でボールを操る技術は果てしなく奥深い。上手な人の空中プレイは曲芸のよう。現在は基本無料で遊べ、eスポーツとしても人気がある。",
 									"marks": []
 								}
@@ -104377,7 +104235,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j8",
+									"_key": "rocket-league-s4j0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104391,7 +104249,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4j9",
+									"_key": "rocket-league-s4j1",
 									"text": "ブーストで空を飛び、空中でボールを叩いてゴールを狙う。",
 									"marks": []
 								}
@@ -104405,7 +104263,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4ja",
+									"_key": "rocket-league-s4j2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104419,7 +104277,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rocket-league-s4jb",
+									"_key": "rocket-league-s4j3",
 									"text": "スポーツと車の両方が好きな人に。",
 									"marks": []
 								}
@@ -104465,7 +104323,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jc",
+									"_key": "tokyo-mirage-sessions-s4j4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104479,7 +104337,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jd",
+									"_key": "tokyo-mirage-sessions-s4j5",
 									"text": "芸能界で活動しながら、異界の敵と戦う。ファイアーエムブレムのキャラクターがパートナーとして登場する。",
 									"marks": []
 								}
@@ -104493,7 +104351,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4je",
+									"_key": "tokyo-mirage-sessions-s4j6",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104507,7 +104365,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jf",
+									"_key": "tokyo-mirage-sessions-s4j7",
 									"text": "弱点を突くと仲間が連続で攻撃する「セッション」で、派手な連携が決まる。",
 									"marks": []
 								}
@@ -104521,7 +104379,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jg",
+									"_key": "tokyo-mirage-sessions-s4j8",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -104535,7 +104393,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jh",
+									"_key": "tokyo-mirage-sessions-s4j9",
 									"text": "Switchでは追加要素を加えた『Encore』が発売された。",
 									"marks": []
 								}
@@ -104549,7 +104407,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4ji",
+									"_key": "tokyo-mirage-sessions-s4ja",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104563,7 +104421,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tokyo-mirage-sessions-s4jj",
+									"_key": "tokyo-mirage-sessions-s4jb",
 									"text": "華やかな雰囲気のRPGが好きな人に。",
 									"marks": []
 								}
@@ -104606,7 +104464,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jk",
+									"_key": "dai-gyakuten-saiban-s4jc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104620,7 +104478,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jl",
+									"_key": "dai-gyakuten-saiban-s4jd",
 									"text": "英国の法廷では、陪審員たちの意見を変えさせる「陪審員裁判」で勝負する。",
 									"marks": []
 								}
@@ -104634,7 +104492,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jm",
+									"_key": "dai-gyakuten-saiban-s4je",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104648,7 +104506,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jn",
+									"_key": "dai-gyakuten-saiban-s4jf",
 									"text": "ホームズとの「共同推理」では、彼の大げさな推理の間違いを正していく。",
 									"marks": []
 								}
@@ -104662,7 +104520,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jo",
+									"_key": "dai-gyakuten-saiban-s4jg",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -104676,7 +104534,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jp",
+									"_key": "dai-gyakuten-saiban-s4jh",
 									"text": "続編とあわせた2部作が、2021年に現行機で発売された。",
 									"marks": []
 								}
@@ -104690,7 +104548,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jq",
+									"_key": "dai-gyakuten-saiban-s4ji",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104704,7 +104562,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dai-gyakuten-saiban-s4jr",
+									"_key": "dai-gyakuten-saiban-s4jj",
 									"text": "推理と法廷ものが好きな人に。",
 									"marks": []
 								}
@@ -104749,7 +104607,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4js",
+									"_key": "tekken-7-s4jk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104763,7 +104621,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jt",
+									"_key": "tekken-7-s4jl",
 									"text": "体力が少なくなると「レイジ」状態になり、強力な逆転技が使える。最後まで勝負の行方が分からない。",
 									"marks": []
 								}
@@ -104777,7 +104635,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4ju",
+									"_key": "tekken-7-s4jm",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104791,7 +104649,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jv",
+									"_key": "tekken-7-s4jn",
 									"text": "物語モードでは三島平八と一八の親子の戦いが描かれる。他社のキャラクターも参戦した。",
 									"marks": []
 								}
@@ -104805,7 +104663,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jw",
+									"_key": "tekken-7-s4jo",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -104819,7 +104677,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jx",
+									"_key": "tekken-7-s4jp",
 									"text": "アーケードで始まり、家庭用ではオンライン対戦で長く人気を保った。",
 									"marks": []
 								}
@@ -104833,7 +104691,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jy",
+									"_key": "tekken-7-s4jq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104847,7 +104705,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tekken-7-s4jz",
+									"_key": "tekken-7-s4jr",
 									"text": "3D格闘ゲームを遊びたい人に。",
 									"marks": []
 								}
@@ -104893,7 +104751,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k0",
+									"_key": "yakuza-0-s4js",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -104907,7 +104765,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k1",
+									"_key": "yakuza-0-s4jt",
 									"text": "喧嘩アクションで街のチンピラを倒しながら、二人の主人公の物語を交互に進める。街にはカラオケ、ディスコ、レトロゲームなど遊びが詰まっている。",
 									"marks": []
 								}
@@ -104921,7 +104779,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k2",
+									"_key": "yakuza-0-s4ju",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -104935,7 +104793,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k3",
+									"_key": "yakuza-0-s4jv",
 									"text": "シリーズの前日譚で、ここから始めても物語がよく分かる。海外でもシリーズの人気を広げるきっかけになった作品。",
 									"marks": []
 								}
@@ -104949,7 +104807,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k4",
+									"_key": "yakuza-0-s4jw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -104963,7 +104821,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k5",
+									"_key": "yakuza-0-s4jx",
 									"text": "バブル時代の街で喧嘩と寄り道を楽しみ、2人の主人公の重厚なドラマを見届ける。",
 									"marks": []
 								}
@@ -104977,7 +104835,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k6",
+									"_key": "yakuza-0-s4jy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -104991,7 +104849,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "yakuza-0-s4k7",
+									"_key": "yakuza-0-s4jz",
 									"text": "龍が如くシリーズの入門に。",
 									"marks": []
 								}
@@ -105037,7 +104895,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4k8",
+									"_key": "doom-2016-s4k0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105051,7 +104909,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4k9",
+									"_key": "doom-2016-s4k1",
 									"text": "弱った敵に近づいてとどめを刺すと体力が回復し、チェーンソーで倒すと弾薬が補給される。隠れるより攻め続けた方が生き残れる仕組み。",
 									"marks": []
 								}
@@ -105065,7 +104923,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4ka",
+									"_key": "doom-2016-s4k2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105079,7 +104937,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4kb",
+									"_key": "doom-2016-s4k3",
 									"text": "ヘヴィメタルの音楽に乗って戦う爽快感で、FPSの原点の気持ちよさを現代に蘇らせた。続編『Eternal』『The Dark Ages』へ続く。",
 									"marks": []
 								}
@@ -105093,7 +104951,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4kc",
+									"_key": "doom-2016-s4k4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105107,7 +104965,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4kd",
+									"_key": "doom-2016-s4k5",
 									"text": "止まらず攻め続け、グローリーキルで体力を取り戻しながら悪魔を倒す。",
 									"marks": []
 								}
@@ -105121,7 +104979,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4ke",
+									"_key": "doom-2016-s4k6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105135,7 +104993,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "doom-2016-s4kf",
+									"_key": "doom-2016-s4k7",
 									"text": "爽快なFPSが好きな人に。",
 									"marks": []
 								}
@@ -105180,7 +105038,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kg",
+									"_key": "factorio-s4k8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105194,7 +105052,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kh",
+									"_key": "factorio-s4k9",
 									"text": "最初は手作業で採掘し、やがて採掘機とベルトコンベア、組立機を組み合わせて生産を自動化していく。規模が大きくなるほど設計の工夫が求められる。",
 									"marks": []
 								}
@@ -105208,7 +105066,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4ki",
+									"_key": "factorio-s4ka",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105222,7 +105080,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kj",
+									"_key": "factorio-s4kb",
 									"text": "物流と生産ラインを設計するパズルとして、エンジニアにも愛される。2024年には大型拡張『Space Age』も出ている。",
 									"marks": []
 								}
@@ -105236,7 +105094,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kk",
+									"_key": "factorio-s4kc",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105250,7 +105108,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kl",
+									"_key": "factorio-s4kd",
 									"text": "採掘から組立までを自動化し、ベルトコンベアで工場を設計する。",
 									"marks": []
 								}
@@ -105264,7 +105122,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4km",
+									"_key": "factorio-s4ke",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105278,7 +105136,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "factorio-s4kn",
+									"_key": "factorio-s4kf",
 									"text": "効率化と設計が好きな人に。",
 									"marks": []
 								}
@@ -105322,7 +105180,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4ko",
+									"_key": "inside-s4kg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105336,7 +105194,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4kp",
+									"_key": "inside-s4kh",
 									"text": "赤いシャツの少年が、森から謎の施設の奥深くへと潜り込んでいく。言葉は一切なく、施設の中では人々が何かに操られている。",
 									"marks": []
 								}
@@ -105350,7 +105208,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4kq",
+									"_key": "inside-s4ki",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105364,7 +105222,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4kr",
+									"_key": "inside-s4kj",
 									"text": "物理を使ったパズルを解きながら進む。前作『LIMBO』と同じスタジオの作品で、映像も物語の見せ方もさらに洗練された。誰もが驚く結末へと、プレイヤーを静かに導いていく。",
 									"marks": []
 								}
@@ -105378,7 +105236,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4ks",
+									"_key": "inside-s4kk",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105392,7 +105250,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4kt",
+									"_key": "inside-s4kl",
 									"text": "言葉のない世界で、物理パズルを解きながら施設の奥へと進む。",
 									"marks": []
 								}
@@ -105406,7 +105264,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4ku",
+									"_key": "inside-s4km",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105420,7 +105278,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "inside-s4kv",
+									"_key": "inside-s4kn",
 									"text": "印象に残る短いゲームを遊びたい人に。",
 									"marks": []
 								}
@@ -105466,7 +105324,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4kw",
+									"_key": "pokemon-go-s4ko",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105480,7 +105338,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4kx",
+									"_key": "pokemon-go-s4kp",
 									"text": "スマートフォンを持って実際の街を歩くと、地図の上にポケモンが現れる。カメラを通して見ると、目の前にポケモンがいるように見える。",
 									"marks": []
 								}
@@ -105494,7 +105352,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4ky",
+									"_key": "pokemon-go-s4kq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105508,7 +105366,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4kz",
+									"_key": "pokemon-go-s4kr",
 									"text": "公園や駅などに置かれたポケストップでアイテムを手に入れ、ジムで戦う。外を歩くことが遊びになり、世界中の人を外に連れ出した。今も多くの人が散歩の相棒として遊んでいる。",
 									"marks": []
 								}
@@ -105522,7 +105380,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4l0",
+									"_key": "pokemon-go-s4ks",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105536,7 +105394,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4l1",
+									"_key": "pokemon-go-s4kt",
 									"text": "散歩しながらポケモンを捕まえ、ポケストップやジムを巡る。",
 									"marks": []
 								}
@@ -105550,7 +105408,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4l2",
+									"_key": "pokemon-go-s4ku",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105564,7 +105422,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-go-s4l3",
+									"_key": "pokemon-go-s4kv",
 									"text": "外を歩くのが好きな人に。",
 									"marks": []
 								}
@@ -105607,7 +105465,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l4",
+									"_key": "rimworld-s4kw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105621,7 +105479,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l5",
+									"_key": "rimworld-s4kx",
 									"text": "入植者に建築、栽培、料理、戦闘などの仕事を割り当て、コロニーを運営する。入植者には性格や人間関係があり、思わぬ事件が起きる。",
 									"marks": []
 								}
@@ -105635,7 +105493,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l6",
+									"_key": "rimworld-s4ky",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105649,7 +105507,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l7",
+									"_key": "rimworld-s4kz",
 									"text": "プレイヤーごとにまったく違うドラマが生まれる作品として、多くのファンを持つ。",
 									"marks": []
 								}
@@ -105663,7 +105521,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l8",
+									"_key": "rimworld-s4l0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105677,7 +105535,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4l9",
+									"_key": "rimworld-s4l1",
 									"text": "入植者の性格と人間関係が、予想外の事件と物語を生む。",
 									"marks": []
 								}
@@ -105691,7 +105549,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4la",
+									"_key": "rimworld-s4l2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105705,7 +105563,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "rimworld-s4lb",
+									"_key": "rimworld-s4l3",
 									"text": "物語が生まれるシミュレーションが好きな人に。",
 									"marks": []
 								}
@@ -105749,7 +105607,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4lc",
+									"_key": "the-witness-s4l4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105763,7 +105621,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4ld",
+									"_key": "the-witness-s4l5",
 									"text": "パネルに線を引く単純なパズルだが、島の地域ごとに新しいルールが登場する。説明はなく、簡単なパネルから順に解くことで自然にルールを理解していく。",
 									"marks": []
 								}
@@ -105777,7 +105635,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4le",
+									"_key": "the-witness-s4l6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105791,7 +105649,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4lf",
+									"_key": "the-witness-s4l7",
 									"text": "周囲の風景そのものに隠されたパズルなど、気づいた瞬間の驚きが大きい。『Braid』の作者の作品。",
 									"marks": []
 								}
@@ -105805,7 +105663,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4lg",
+									"_key": "the-witness-s4l8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105819,7 +105677,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4lh",
+									"_key": "the-witness-s4l9",
 									"text": "島の各地のパネルに隠されたルールを、自分の力で発見していく。",
 									"marks": []
 								}
@@ -105833,7 +105691,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4li",
+									"_key": "the-witness-s4la",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105847,7 +105705,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "the-witness-s4lj",
+									"_key": "the-witness-s4lb",
 									"text": "ひらめきのパズルが好きな人に。",
 									"marks": []
 								}
@@ -105891,7 +105749,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lk",
+									"_key": "uncharted-4-s4lc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -105905,7 +105763,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4ll",
+									"_key": "uncharted-4-s4ld",
 									"text": "ロープで崖を振り子のように渡り、車で広い地域を移動しながら、海賊王の秘宝の手がかりを追う。見せ場の連続はシリーズの集大成。",
 									"marks": []
 								}
@@ -105919,7 +105777,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lm",
+									"_key": "uncharted-4-s4le",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -105933,7 +105791,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4ln",
+									"_key": "uncharted-4-s4lf",
 									"text": "冒険を楽しむ主人公が、家族のために冒険を終わらせる物語は、多くのファンの心を打った。",
 									"marks": []
 								}
@@ -105947,7 +105805,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lo",
+									"_key": "uncharted-4-s4lg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -105961,7 +105819,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lp",
+									"_key": "uncharted-4-s4lh",
 									"text": "ロープで崖を渡り、車で広い地域を巡りながら、海賊王の秘宝を追う。",
 									"marks": []
 								}
@@ -105975,7 +105833,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lq",
+									"_key": "uncharted-4-s4li",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -105989,7 +105847,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "uncharted-4-s4lr",
+									"_key": "uncharted-4-s4lj",
 									"text": "冒険活劇の締めくくりを見届けたい人に。",
 									"marks": []
 								}
@@ -106033,7 +105891,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4ls",
+									"_key": "overwatch-s4lk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106047,7 +105905,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lt",
+									"_key": "overwatch-s4ll",
 									"text": "個性的な能力を持つヒーローを選び、6人(現在は5人)のチームで目標を巡って戦う。攻撃、防御、回復など役割がはっきり分かれている。",
 									"marks": []
 								}
@@ -106061,7 +105919,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lu",
+									"_key": "overwatch-s4lm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -106075,7 +105933,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lv",
+									"_key": "overwatch-s4ln",
 									"text": "ヒーローを試合の途中で切り替えて、相手の構成に対応することもできる。カラフルな見た目と、キャラクターの背景にある物語で人気を集めた。現在は基本無料の『オーバーウォッチ2』に移行している。",
 									"marks": []
 								}
@@ -106089,7 +105947,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lw",
+									"_key": "overwatch-s4lo",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106103,7 +105961,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lx",
+									"_key": "overwatch-s4lp",
 									"text": "ヒーローの役割を理解し、試合中に切り替えて相手に対応する。",
 									"marks": []
 								}
@@ -106117,7 +105975,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4ly",
+									"_key": "overwatch-s4lq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106131,7 +105989,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "overwatch-s4lz",
+									"_key": "overwatch-s4lr",
 									"text": "チームで戦うシューティングが好きな人に。",
 									"marks": []
 								}
@@ -106176,7 +106034,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m0",
+									"_key": "stardew-valley-s4ls",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106190,7 +106048,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m1",
+									"_key": "stardew-valley-s4lt",
 									"text": "都会での仕事に疲れた主人公が、祖父から譲り受けた農場で新しい暮らしを始める。畑を耕し、作物を育て、家畜を飼う。",
 									"marks": []
 								}
@@ -106204,7 +106062,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m2",
+									"_key": "stardew-valley-s4lu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -106218,7 +106076,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m3",
+									"_key": "stardew-valley-s4lv",
 									"text": "町の住人と交流して仲良くなったり、結婚したり、鉱山を探検したりと、やりたいことを自由に選べる。エリック・バロンがひとりで4年以上かけて作り、無料アップデートで今も遊びが増え続けている。",
 									"marks": []
 								}
@@ -106232,7 +106090,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m4",
+									"_key": "stardew-valley-s4lw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106246,7 +106104,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m5",
+									"_key": "stardew-valley-s4lx",
 									"text": "畑仕事、釣り、鉱山探検、町の人との交流。何をするかは自分で決める。",
 									"marks": []
 								}
@@ -106260,7 +106118,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m6",
+									"_key": "stardew-valley-s4ly",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106274,7 +106132,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "stardew-valley-s4m7",
+									"_key": "stardew-valley-s4lz",
 									"text": "のんびりした暮らしのゲームが好きな人に。",
 									"marks": []
 								}
@@ -106320,7 +106178,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4m8",
+									"_key": "titanfall-2-s4m0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106334,7 +106192,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4m9",
+									"_key": "titanfall-2-s4m1",
 									"text": "壁走りや二段ジャンプで素早く動き回り、巨大ロボットに乗り込んでの戦闘も楽しめる。ステージごとに全く違うアイデアが盛り込まれている。",
 									"marks": []
 								}
@@ -106348,7 +106206,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4ma",
+									"_key": "titanfall-2-s4m2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -106362,7 +106220,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4mb",
+									"_key": "titanfall-2-s4m3",
 									"text": "短いながら密度の高い一人用キャンペーンは、FPSの物語モードの傑作として評価が高い。",
 									"marks": []
 								}
@@ -106376,7 +106234,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4mc",
+									"_key": "titanfall-2-s4m4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106390,7 +106248,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4md",
+									"_key": "titanfall-2-s4m5",
 									"text": "壁走りの素早い移動と、巨大ロボットBTとの絆の物語。",
 									"marks": []
 								}
@@ -106404,7 +106262,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4me",
+									"_key": "titanfall-2-s4m6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106418,7 +106276,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "titanfall-2-s4mf",
+									"_key": "titanfall-2-s4m7",
 									"text": "物語のあるFPSを遊びたい人に。",
 									"marks": []
 								}
@@ -106462,7 +106320,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mg",
+									"_key": "tales-of-berseria-s4m8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106476,7 +106334,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mh",
+									"_key": "tales-of-berseria-s4m9",
 									"text": "戦闘はリアルタイムのアクションで、ボタンごとに技を割り当てて連続攻撃をつなぐ。",
 									"marks": []
 								}
@@ -106490,7 +106348,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mi",
+									"_key": "tales-of-berseria-s4ma",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106504,7 +106362,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mj",
+									"_key": "tales-of-berseria-s4mb",
 									"text": "正義と感情、理と欲望のぶつかり合いを描く物語は重く、仲間たちとの関係も一筋縄ではいかない。",
 									"marks": []
 								}
@@ -106518,7 +106376,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mk",
+									"_key": "tales-of-berseria-s4mc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -106532,7 +106390,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4ml",
+									"_key": "tales-of-berseria-s4md",
 									"text": "『ゼスティリア』の過去を描いた作品で、シリーズの中でも物語の評価が高い。",
 									"marks": []
 								}
@@ -106546,7 +106404,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mm",
+									"_key": "tales-of-berseria-s4me",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106560,7 +106418,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "tales-of-berseria-s4mn",
+									"_key": "tales-of-berseria-s4mf",
 									"text": "ダークな物語のRPGを遊びたい人に。",
 									"marks": []
 								}
@@ -106604,7 +106462,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mo",
+									"_key": "dq-builders-s4mg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106618,7 +106476,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mp",
+									"_key": "dq-builders-s4mh",
 									"text": "素材を集めてブロックや道具を作り、町を建てて人々を呼び戻していく。",
 									"marks": []
 								}
@@ -106632,7 +106490,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mq",
+									"_key": "dq-builders-s4mi",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106646,7 +106504,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mr",
+									"_key": "dq-builders-s4mj",
 									"text": "初代『ドラゴンクエスト』で勇者が竜王の誘いに乗ってしまった世界、という設定が面白い。",
 									"marks": []
 								}
@@ -106660,7 +106518,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4ms",
+									"_key": "dq-builders-s4mk",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -106674,7 +106532,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mt",
+									"_key": "dq-builders-s4ml",
 									"text": "続編『2』も作られ、シリーズの人気になった。",
 									"marks": []
 								}
@@ -106688,7 +106546,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mu",
+									"_key": "dq-builders-s4mm",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106702,7 +106560,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dq-builders-s4mv",
+									"_key": "dq-builders-s4mn",
 									"text": "ものづくりとドラクエの両方が好きな人に。",
 									"marks": []
 								}
@@ -106749,7 +106607,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4mw",
+									"_key": "firewatch-s4mo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106763,7 +106621,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4mx",
+									"_key": "firewatch-s4mp",
 									"text": "森の中を歩き回り、無線で上司のデライラと話しながら仕事をこなす。会話の選択肢によって二人の関係が少しずつ変わっていく。",
 									"marks": []
 								}
@@ -106777,7 +106635,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4my",
+									"_key": "firewatch-s4mq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -106791,7 +106649,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4mz",
+									"_key": "firewatch-s4mr",
 									"text": "イラストのような美しい風景と、大人の孤独を描いた物語で評価された。数時間で遊び終えられる。",
 									"marks": []
 								}
@@ -106805,7 +106663,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4n0",
+									"_key": "firewatch-s4ms",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106819,7 +106677,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4n1",
+									"_key": "firewatch-s4mt",
 									"text": "森の中を歩き、無線越しの会話で関係を築いていく。",
 									"marks": []
 								}
@@ -106833,7 +106691,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4n2",
+									"_key": "firewatch-s4mu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106847,7 +106705,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "firewatch-s4n3",
+									"_key": "firewatch-s4mv",
 									"text": "静かな物語を味わいたい人に。",
 									"marks": []
 								}
@@ -106892,7 +106750,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n4",
+									"_key": "final-fantasy-15-s4mw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -106906,7 +106764,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n5",
+									"_key": "final-fantasy-15-s4mx",
 									"text": "車で広い世界をドライブし、夜はキャンプで食事をとって休む。戦闘はリアルタイムのアクションで、瞬間移動しながら敵と戦う。",
 									"marks": []
 								}
@@ -106920,7 +106778,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n6",
+									"_key": "final-fantasy-15-s4my",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -106934,7 +106792,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n7",
+									"_key": "final-fantasy-15-s4mz",
 									"text": "仲間との旅の空気感が魅力で、仲間が撮る写真が旅の思い出として残っていく。",
 									"marks": []
 								}
@@ -106948,7 +106806,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n8",
+									"_key": "final-fantasy-15-s4n0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -106962,7 +106820,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4n9",
+									"_key": "final-fantasy-15-s4n1",
 									"text": "仲間との車の旅と、キャンプでの食事。旅の何気ない時間を楽しむ。",
 									"marks": []
 								}
@@ -106976,7 +106834,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4na",
+									"_key": "final-fantasy-15-s4n2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -106990,7 +106848,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "final-fantasy-15-s4nb",
+									"_key": "final-fantasy-15-s4n3",
 									"text": "仲間との旅を描く作品が好きな人に。",
 									"marks": []
 								}
@@ -107035,7 +106893,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4nc",
+									"_key": "persona-5-s4n4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107049,7 +106907,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4nd",
+									"_key": "persona-5-s4n5",
 									"text": "東京に越してきた高校生の主人公は、歪んだ大人たちの心の中にある「パレス」に入り込み、その「オタカラ」を盗んで改心させる怪盗団を結成する。",
 									"marks": []
 								}
@@ -107063,7 +106921,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4ne",
+									"_key": "persona-5-s4n6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -107077,7 +106935,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4nf",
+									"_key": "persona-5-s4n7",
 									"text": "1年間の東京での高校生活を送りながら、仲間や街の人々と絆を深める。メニュー画面からバトルまで、すべてが赤と黒のスタイリッシュなデザインで統一されている。追加要素を加えた『ザ・ロイヤル』が今遊ぶなら決定版。",
 									"marks": []
 								}
@@ -107091,7 +106949,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4ng",
+									"_key": "persona-5-s4n8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107105,7 +106963,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4nh",
+									"_key": "persona-5-s4n9",
 									"text": "東京での高校生活を送りながら、怪盗団として大人たちの心を盗む。",
 									"marks": []
 								}
@@ -107119,7 +106977,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4ni",
+									"_key": "persona-5-s4na",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107133,7 +106991,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "persona-5-s4nj",
+									"_key": "persona-5-s4nb",
 									"text": "スタイリッシュなRPGを遊びたい人に。",
 									"marks": []
 								}
@@ -107176,7 +107034,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nk",
+									"_key": "pokemon-sun-moon-s4nc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107190,7 +107048,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nl",
+									"_key": "pokemon-sun-moon-s4nd",
 									"text": "島めぐりでは、キャプテンが出す課題をこなして、ぬしポケモンと戦う。強力な技「Zワザ」が使える。",
 									"marks": []
 								}
@@ -107204,7 +107062,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nm",
+									"_key": "pokemon-sun-moon-s4ne",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107218,7 +107076,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nn",
+									"_key": "pokemon-sun-moon-s4nf",
 									"text": "アローラ地方の環境に合わせて姿を変えた「リージョンフォーム」のポケモンが登場した。",
 									"marks": []
 								}
@@ -107232,7 +107090,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4no",
+									"_key": "pokemon-sun-moon-s4ng",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -107246,7 +107104,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4np",
+									"_key": "pokemon-sun-moon-s4nh",
 									"text": "シリーズ20周年の作品で、それまでのジム巡りの形を大きく変えた。",
 									"marks": []
 								}
@@ -107260,7 +107118,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nq",
+									"_key": "pokemon-sun-moon-s4ni",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107274,7 +107132,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-sun-moon-s4nr",
+									"_key": "pokemon-sun-moon-s4nj",
 									"text": "南国の雰囲気のポケモンを遊びたい人に。",
 									"marks": []
 								}
@@ -107316,7 +107174,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4ns",
+									"_key": "mh-stories-s4nk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107330,7 +107188,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nt",
+									"_key": "mh-stories-s4nl",
 									"text": "巣から卵を持ち帰り、生まれたモンスターを「オトモン」として育てる。戦闘はパワー、スピード、テクニックの3すくみ。",
 									"marks": []
 								}
@@ -107344,7 +107202,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nu",
+									"_key": "mh-stories-s4nm",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107358,7 +107216,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nv",
+									"_key": "mh-stories-s4nn",
 									"text": "オトモンに乗ってフィールドを移動し、能力を使って行ける場所を広げていく。",
 									"marks": []
 								}
@@ -107372,7 +107230,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nw",
+									"_key": "mh-stories-s4no",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -107386,7 +107244,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nx",
+									"_key": "mh-stories-s4np",
 									"text": "続編が作られ、2026年には第3作が発売された。",
 									"marks": []
 								}
@@ -107400,7 +107258,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4ny",
+									"_key": "mh-stories-s4nq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107414,7 +107272,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mh-stories-s4nz",
+									"_key": "mh-stories-s4nr",
 									"text": "アクションが苦手でもモンハンの世界を楽しみたい人に。",
 									"marks": []
 								}
@@ -107459,7 +107317,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o0",
+									"_key": "1-2-switch-s4ns",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107473,7 +107331,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o1",
+									"_key": "1-2-switch-s4nt",
 									"text": "2人でJoy-Conを持ち、合図に合わせて早撃ちしたり、Joy-Conの振動で箱の中の玉の数を当てたりする。",
 									"marks": []
 								}
@@ -107487,7 +107345,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o2",
+									"_key": "1-2-switch-s4nu",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107501,7 +107359,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o3",
+									"_key": "1-2-switch-s4nv",
 									"text": "画面を見ないで遊ぶことで、相手の表情や動きを楽しむ新しいパーティーゲーム。",
 									"marks": []
 								}
@@ -107515,7 +107373,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o4",
+									"_key": "1-2-switch-s4nw",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -107529,7 +107387,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o5",
+									"_key": "1-2-switch-s4nx",
 									"text": "Switchの発売と同時に発売された作品。",
 									"marks": []
 								}
@@ -107543,7 +107401,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o6",
+									"_key": "1-2-switch-s4ny",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107557,7 +107415,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "1-2-switch-s4o7",
+									"_key": "1-2-switch-s4nz",
 									"text": "大勢で盛り上がるゲームを探している人に。",
 									"marks": []
 								}
@@ -107599,7 +107457,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4o8",
+									"_key": "arms-s4o0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107613,7 +107471,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4o9",
+									"_key": "arms-s4o1",
 									"text": "左右のパンチを曲げながら打ち、相手のガードの隙を狙う。腕の部品「アーム」を付け替えて戦い方を変えられる。",
 									"marks": []
 								}
@@ -107627,7 +107485,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4oa",
+									"_key": "arms-s4o2",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107641,7 +107499,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4ob",
+									"_key": "arms-s4o3",
 									"text": "Joy-Conを両手に持ってパンチの動きをすると、そのまま操作になる。",
 									"marks": []
 								}
@@ -107655,7 +107513,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4oc",
+									"_key": "arms-s4o4",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -107669,7 +107527,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4od",
+									"_key": "arms-s4o5",
 									"text": "Switchの初期に発売された、任天堂の新しい対戦ゲーム。",
 									"marks": []
 								}
@@ -107683,7 +107541,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4oe",
+									"_key": "arms-s4o6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107697,7 +107555,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "arms-s4of",
+									"_key": "arms-s4o7",
 									"text": "体を動かして遊べる対戦ゲームを探している人に。",
 									"marks": []
 								}
@@ -107740,7 +107598,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4og",
+									"_key": "cuphead-s4o8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107754,7 +107612,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4oh",
+									"_key": "cuphead-s4o9",
 									"text": "悪魔との賭けに負けたカップヘッドとマグマンが、借金を返すため、悪魔に借りのある住人たちを倒して回る。",
 									"marks": []
 								}
@@ -107768,7 +107626,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4oi",
+									"_key": "cuphead-s4oa",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -107782,7 +107640,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4oj",
+									"_key": "cuphead-s4ob",
 									"text": "ボス戦が中心で、どのボスも次々と形を変えて攻撃してくる。1930年代のアニメーションの手法を再現し、すべて手描きで作られた映像は、それだけで見る価値がある。難しいが、2人協力で挑むこともできる。",
 									"marks": []
 								}
@@ -107796,7 +107654,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4ok",
+									"_key": "cuphead-s4oc",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107810,7 +107668,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4ol",
+									"_key": "cuphead-s4od",
 									"text": "ボスの攻撃パターンを見抜き、2人で協力して突破する。手描きのアニメーションも見どころ。",
 									"marks": []
 								}
@@ -107824,7 +107682,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4om",
+									"_key": "cuphead-s4oe",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107838,7 +107696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "cuphead-s4on",
+									"_key": "cuphead-s4of",
 									"text": "難しいアクションと美しい絵が好きな人に。",
 									"marks": []
 								}
@@ -107884,7 +107742,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4oo",
+									"_key": "dead-cells-s4og",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -107898,7 +107756,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4op",
+									"_key": "dead-cells-s4oh",
 									"text": "牢獄の島で目覚めた謎の生き物が、毎回形の変わるステージを進んでいく。死ぬと最初からやり直しだが、手に入れた設計図などは引き継がれる。",
 									"marks": []
 								}
@@ -107912,7 +107770,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4oq",
+									"_key": "dead-cells-s4oi",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -107926,7 +107784,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4or",
+									"_key": "dead-cells-s4oj",
 									"text": "武器やスキルの組み合わせが豊富で、毎回違う戦い方ができる。手触りのいい高速アクションと、少しずつ強くなっていく達成感で、「ローグヴァニア」と呼ばれるジャンルの代表作になった。",
 									"marks": []
 								}
@@ -107940,7 +107798,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4os",
+									"_key": "dead-cells-s4ok",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -107954,7 +107812,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4ot",
+									"_key": "dead-cells-s4ol",
 									"text": "毎回違う武器の組み合わせで、少しずつ強くなりながら牢獄の島を進む。",
 									"marks": []
 								}
@@ -107968,7 +107826,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4ou",
+									"_key": "dead-cells-s4om",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -107982,7 +107840,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dead-cells-s4ov",
+									"_key": "dead-cells-s4on",
 									"text": "ローグライクのアクションが好きな人に。",
 									"marks": []
 								}
@@ -108028,7 +107886,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4ow",
+									"_key": "gravity-rush-2-s4oo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108042,7 +107900,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4ox",
+									"_key": "gravity-rush-2-s4op",
 									"text": "重力の向きを変えて、空中や壁を自由に移動する。新しく、体を軽くしたり重くしたりする重力スタイルが加わった。",
 									"marks": []
 								}
@@ -108056,7 +107914,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4oy",
+									"_key": "gravity-rush-2-s4oq",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108070,7 +107928,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4oz",
+									"_key": "gravity-rush-2-s4or",
 									"text": "空に浮かぶ都市を自由に探検し、人々の依頼をこなす。バンド・デシネのような絵柄が美しい。",
 									"marks": []
 								}
@@ -108084,7 +107942,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4p0",
+									"_key": "gravity-rush-2-s4os",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -108098,7 +107956,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4p1",
+									"_key": "gravity-rush-2-s4ot",
 									"text": "PS Vitaの前作の続編で、PS4のオリジナル作品として作られた。",
 									"marks": []
 								}
@@ -108112,7 +107970,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4p2",
+									"_key": "gravity-rush-2-s4ou",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108126,7 +107984,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "gravity-rush-2-s4p3",
+									"_key": "gravity-rush-2-s4ov",
 									"text": "空を飛ぶアクションが好きな人に。",
 									"marks": []
 								}
@@ -108168,7 +108026,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p4",
+									"_key": "hellblade-s4ow",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108182,7 +108040,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p5",
+									"_key": "hellblade-s4ox",
 									"text": "剣で敵と戦いながら、風景の中に隠されたルーン文字を探して道を開く。セヌアの頭の中では常に複数の声がささやいている。",
 									"marks": []
 								}
@@ -108196,7 +108054,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p6",
+									"_key": "hellblade-s4oy",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108210,7 +108068,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p7",
+									"_key": "hellblade-s4oz",
 									"text": "精神医学の専門家の協力のもとで、精神病の症状を表現した。ヘッドホンでの体験が推奨されている。",
 									"marks": []
 								}
@@ -108224,7 +108082,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p8",
+									"_key": "hellblade-s4p0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108238,7 +108096,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4p9",
+									"_key": "hellblade-s4p1",
 									"text": "ルーン文字を風景の中から見つけ、頭の中の声に耳を傾けながら進む。",
 									"marks": []
 								}
@@ -108252,7 +108110,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4pa",
+									"_key": "hellblade-s4p2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108266,7 +108124,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hellblade-s4pb",
+									"_key": "hellblade-s4p3",
 									"text": "ヘッドホンで没入する体験をしたい人に。",
 									"marks": []
 								}
@@ -108310,7 +108168,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pc",
+									"_key": "hollow-knight-s4p4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108324,7 +108182,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pd",
+									"_key": "hollow-knight-s4p5",
 									"text": "滅びた虫の王国ハロウネストの地下に、小さな騎士が降り立つ。広大な地下世界を探索し、新しい能力を得ながら王国の秘密に迫る。",
 									"marks": []
 								}
@@ -108338,7 +108196,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pe",
+									"_key": "hollow-knight-s4p6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108352,7 +108210,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pf",
+									"_key": "hollow-knight-s4p7",
 									"text": "地図は自分で買い、書き込んでいく必要があり、迷うことそのものが冒険になる。手描きの美しい絵と、手応えのあるボス戦が魅力。3人の小さなチームが作ったとは思えない規模で、続編『Silksong』は2025年に発売された。",
 									"marks": []
 								}
@@ -108366,7 +108224,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pg",
+									"_key": "hollow-knight-s4p8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108380,7 +108238,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4ph",
+									"_key": "hollow-knight-s4p9",
 									"text": "自分で地図を手に入れ、広大な地下王国を迷いながら探索する。ボス戦も手強い。",
 									"marks": []
 								}
@@ -108394,7 +108252,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pi",
+									"_key": "hollow-knight-s4pa",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108408,7 +108266,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "hollow-knight-s4pj",
+									"_key": "hollow-knight-s4pb",
 									"text": "探索型アクションの傑作を遊びたい人に。",
 									"marks": []
 								}
@@ -108454,7 +108312,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pk",
+									"_key": "horizon-zero-dawn-s4pc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108468,7 +108326,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pl",
+									"_key": "horizon-zero-dawn-s4pd",
 									"text": "機械の獣の弱点の部位を弓矢で狙い撃ち、罠やワイヤーを使って狩る。倒した機械からは素材が手に入り、装備を強化できる。",
 									"marks": []
 								}
@@ -108482,7 +108340,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pm",
+									"_key": "horizon-zero-dawn-s4pe",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108496,7 +108354,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pn",
+									"_key": "horizon-zero-dawn-s4pf",
 									"text": "美しい自然と機械の獣という対比、そして世界が滅んだ理由が明かされていく物語で、高い評価を得た。続編『Forbidden West』がある。",
 									"marks": []
 								}
@@ -108510,7 +108368,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4po",
+									"_key": "horizon-zero-dawn-s4pg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108524,7 +108382,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pp",
+									"_key": "horizon-zero-dawn-s4ph",
 									"text": "機械獣の弱点を見極めて弓で狙い撃ち、罠を仕掛けて狩る。",
 									"marks": []
 								}
@@ -108538,7 +108396,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pq",
+									"_key": "horizon-zero-dawn-s4pi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108552,7 +108410,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "horizon-zero-dawn-s4pr",
+									"_key": "horizon-zero-dawn-s4pj",
 									"text": "狩りとオープンワールドが好きな人に。",
 									"marks": []
 								}
@@ -108597,7 +108455,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4ps",
+									"_key": "nier-automata-s4pk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108611,7 +108469,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4pt",
+									"_key": "nier-automata-s4pl",
 									"text": "遠い未来、人類は月に逃れ、地球は機械生命体に支配されていた。アンドロイドの2Bと9Sは、地球を取り戻すために戦う。",
 									"marks": []
 								}
@@ -108625,7 +108483,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4pu",
+									"_key": "nier-automata-s4pm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108639,7 +108497,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4pv",
+									"_key": "nier-automata-s4pn",
 									"text": "アクションはプラチナゲームズが手がけ、華麗な戦いが楽しめる。シューティングの要素も混ざる。1周目のエンディングは物語の始まりにすぎず、周回するごとに別の視点から真実が明かされていく。ヨコオタロウによる物語と、岡部啓一の音楽が心に残る。",
 									"marks": []
 								}
@@ -108653,7 +108511,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4pw",
+									"_key": "nier-automata-s4po",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108667,7 +108525,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4px",
+									"_key": "nier-automata-s4pp",
 									"text": "華麗なアクションで戦いながら、周回するたびに明かされる真実を追う。",
 									"marks": []
 								}
@@ -108681,7 +108539,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4py",
+									"_key": "nier-automata-s4pq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108695,7 +108553,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nier-automata-s4pz",
+									"_key": "nier-automata-s4pr",
 									"text": "物語に驚きたい人に。",
 									"marks": []
 								}
@@ -108740,7 +108598,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q0",
+									"_key": "prey-2017-s4ps",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108754,7 +108612,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q1",
+									"_key": "prey-2017-s4pt",
 									"text": "敵の異星生物は椅子やコップなどの物に化けて潜んでいる。物を固める銃で足場を作るなど、道具の使い方次第で自由に道を切り開ける。",
 									"marks": []
 								}
@@ -108768,7 +108626,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q2",
+									"_key": "prey-2017-s4pu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108782,7 +108640,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q3",
+									"_key": "prey-2017-s4pv",
 									"text": "『システムショック』の流れを汲む作品として、高い評価を得た。",
 									"marks": []
 								}
@@ -108796,7 +108654,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q4",
+									"_key": "prey-2017-s4pw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108810,7 +108668,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q5",
+									"_key": "prey-2017-s4px",
 									"text": "物に化けた敵を疑い、道具の使い方を工夫して自分だけの道を切り開く。",
 									"marks": []
 								}
@@ -108824,7 +108682,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q6",
+									"_key": "prey-2017-s4py",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108838,7 +108696,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "prey-2017-s4q7",
+									"_key": "prey-2017-s4pz",
 									"text": "自由度の高いSFホラーが好きな人に。",
 									"marks": []
 								}
@@ -108883,7 +108741,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4q8",
+									"_key": "pubg-s4q0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -108897,7 +108755,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4q9",
+									"_key": "pubg-s4q1",
 									"text": "最大100人のプレイヤーが、飛行機から島に降下する。武器も防具も現地で拾い集め、時間とともに狭まる安全地帯の中で、最後の1人(1チーム)まで生き残ることを目指す。",
 									"marks": []
 								}
@@ -108911,7 +108769,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qa",
+									"_key": "pubg-s4q2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -108925,7 +108783,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qb",
+									"_key": "pubg-s4q3",
 									"text": "広い島のどこに降りるか、いつ移動するかの判断が勝敗を分ける。「バトルロイヤル」というジャンルを世界的なブームにした作品で、現在は基本無料で遊べる。",
 									"marks": []
 								}
@@ -108939,7 +108797,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qc",
+									"_key": "pubg-s4q4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -108953,7 +108811,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qd",
+									"_key": "pubg-s4q5",
 									"text": "どこに降りて、いつ移動するか。安全地帯の縮小を見ながら最後の1人を目指す。",
 									"marks": []
 								}
@@ -108967,7 +108825,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qe",
+									"_key": "pubg-s4q6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -108981,7 +108839,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pubg-s4qf",
+									"_key": "pubg-s4q7",
 									"text": "バトルロイヤルを体験したい人に。",
 									"marks": []
 								}
@@ -109027,7 +108885,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qg",
+									"_key": "slay-the-spire-s4q8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109041,7 +108899,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qh",
+									"_key": "slay-the-spire-s4q9",
 									"text": "塔を登りながら戦い、報酬でカードを手に入れて自分のデッキを強くしていく。死ぬと最初からやり直し。",
 									"marks": []
 								}
@@ -109055,7 +108913,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qi",
+									"_key": "slay-the-spire-s4qa",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109069,7 +108927,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qj",
+									"_key": "slay-the-spire-s4qb",
 									"text": "どのカードを取るか、どのルートを進むか、どの遺物を手に入れるか。毎回違う組み合わせが生まれ、何百回でも遊べる。「デッキ構築ローグライク」というジャンルを作った作品で、続編『2』が2026年3月に早期アクセスで始まった。",
 									"marks": []
 								}
@@ -109083,7 +108941,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qk",
+									"_key": "slay-the-spire-s4qc",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109097,7 +108955,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4ql",
+									"_key": "slay-the-spire-s4qd",
 									"text": "カードを選び、ルートを選び、遺物を集めて、塔の頂上を目指す。",
 									"marks": []
 								}
@@ -109111,7 +108969,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qm",
+									"_key": "slay-the-spire-s4qe",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109125,7 +108983,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "slay-the-spire-s4qn",
+									"_key": "slay-the-spire-s4qf",
 									"text": "何度でも遊べるカードゲームが好きな人に。",
 									"marks": []
 								}
@@ -109172,7 +109030,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qo",
+									"_key": "super-mario-odyssey-s4qg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109186,7 +109044,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qp",
+									"_key": "super-mario-odyssey-s4qh",
 									"text": "帽子の精霊キャッピーとともに、帽子の飛行船オデッセイ号で世界中の国を巡り、クッパの結婚式を阻止する。",
 									"marks": []
 								}
@@ -109200,7 +109058,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qq",
+									"_key": "super-mario-odyssey-s4qi",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109214,7 +109072,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qr",
+									"_key": "super-mario-odyssey-s4qj",
 									"text": "帽子を投げて敵や物に当てると、その姿に変身して操作できる「キャプチャー」で、遊び方が無限に広がる。国ごとに隠されたパワームーンは800以上。どこを探しても何かがある、箱庭型3Dマリオの集大成。",
 									"marks": []
 								}
@@ -109228,7 +109086,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qs",
+									"_key": "super-mario-odyssey-s4qk",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109242,7 +109100,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qt",
+									"_key": "super-mario-odyssey-s4ql",
 									"text": "帽子を投げていろいろなものに変身し、国ごとに隠されたパワームーンを探す。",
 									"marks": []
 								}
@@ -109256,7 +109114,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qu",
+									"_key": "super-mario-odyssey-s4qm",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109270,7 +109128,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "super-mario-odyssey-s4qv",
+									"_key": "super-mario-odyssey-s4qn",
 									"text": "3Dマリオの集大成を遊びたい人に。",
 									"marks": []
 								}
@@ -109312,7 +109170,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4qw",
+									"_key": "splatoon-2-s4qo",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109326,7 +109184,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4qx",
+									"_key": "splatoon-2-s4qp",
 									"text": "インクで塗った面積を競うナワバリバトルに加え、ガチマッチや、仲間と協力して敵を倒す「サーモンラン」も遊べる。",
 									"marks": []
 								}
@@ -109340,7 +109198,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4qy",
+									"_key": "splatoon-2-s4qq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109354,7 +109212,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4qz",
+									"_key": "splatoon-2-s4qr",
 									"text": "Switchの普及とともに大ヒットし、多くの人が毎日のように遊んだ。最新作は『3』。",
 									"marks": []
 								}
@@ -109368,7 +109226,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4r0",
+									"_key": "splatoon-2-s4qs",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109382,7 +109240,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4r1",
+									"_key": "splatoon-2-s4qt",
 									"text": "ナワバリバトルに加えて、協力して戦うサーモンランも楽しい。",
 									"marks": []
 								}
@@ -109396,7 +109254,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4r2",
+									"_key": "splatoon-2-s4qu",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109410,7 +109268,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "splatoon-2-s4r3",
+									"_key": "splatoon-2-s4qv",
 									"text": "チームで遊ぶ対戦ゲームが好きな人に。",
 									"marks": []
 								}
@@ -109454,7 +109312,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r4",
+									"_key": "xenoblade-2-s4qw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109468,7 +109326,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r5",
+									"_key": "xenoblade-2-s4qx",
 									"text": "「ブレイド」と呼ばれる仲間と契約して戦う。ブレイドを切り替えながら、属性をつなげて大技を放つ。",
 									"marks": []
 								}
@@ -109482,7 +109340,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r6",
+									"_key": "xenoblade-2-s4qy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109496,7 +109354,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r7",
+									"_key": "xenoblade-2-s4qz",
 									"text": "巨神獣の上にある国々を旅し、それぞれの文化や政治に触れていく。",
 									"marks": []
 								}
@@ -109510,7 +109368,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r8",
+									"_key": "xenoblade-2-s4r0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -109524,7 +109382,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4r9",
+									"_key": "xenoblade-2-s4r1",
 									"text": "Switchで発売された大作RPGで、のちの『3』へとつながる。",
 									"marks": []
 								}
@@ -109538,7 +109396,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4ra",
+									"_key": "xenoblade-2-s4r2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109552,7 +109410,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "xenoblade-2-s4rb",
+									"_key": "xenoblade-2-s4r3",
 									"text": "大冒険の物語が好きな人に。",
 									"marks": []
 								}
@@ -109594,7 +109452,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rc",
+									"_key": "zelda-botw-s4r4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109608,7 +109466,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rd",
+									"_key": "zelda-botw-s4r5",
 									"text": "100年の眠りから目覚めたリンクが、厄災ガノンに滅ぼされたハイラルを救う。目覚めた場所から見えるすべての場所に、自由に行ける。",
 									"marks": []
 								}
@@ -109622,7 +109480,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4re",
+									"_key": "zelda-botw-s4r6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109636,7 +109494,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rf",
+									"_key": "zelda-botw-s4r7",
 									"text": "崖はどこでも登れ、パラグライダーで空を飛べる。火は草を燃やして上昇気流を生み、金属の武器は雷を引き寄せる。物理と化学のルールで世界が動いていて、謎の解き方もプレイヤーの発想次第。オープンワールドの考え方を大きく変えた作品。",
 									"marks": []
 								}
@@ -109650,7 +109508,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rg",
+									"_key": "zelda-botw-s4r8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109664,7 +109522,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rh",
+									"_key": "zelda-botw-s4r9",
 									"text": "崖を登り、空を滑り、化学と物理のルールで謎を自由に解く。",
 									"marks": []
 								}
@@ -109678,7 +109536,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4ri",
+									"_key": "zelda-botw-s4ra",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109692,7 +109550,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "zelda-botw-s4rj",
+									"_key": "zelda-botw-s4rb",
 									"text": "自由な冒険を求めるすべての人に。",
 									"marks": []
 								}
@@ -109736,7 +109594,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rk",
+									"_key": "ddlc-s4rc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109750,7 +109608,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rl",
+									"_key": "ddlc-s4rd",
 									"text": "部員の少女たちと詩を交換し合いながら、穏やかな部活の日々を過ごす。しかし、物語はやがて思いもよらない方向へ進んでいく。",
 									"marks": []
 								}
@@ -109764,7 +109622,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rm",
+									"_key": "ddlc-s4re",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109778,7 +109636,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rn",
+									"_key": "ddlc-s4rf",
 									"text": "心理的に重い描写があるため、苦手な人は注意が必要。ゲームのファイルまでも演出に使う仕掛けが話題になった。",
 									"marks": []
 								}
@@ -109792,7 +109650,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4ro",
+									"_key": "ddlc-s4rg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109806,7 +109664,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rp",
+									"_key": "ddlc-s4rh",
 									"text": "穏やかな部活の日々に、少しずつ違和感が混ざっていく。心の準備をしてから遊ぼう。",
 									"marks": []
 								}
@@ -109820,7 +109678,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rq",
+									"_key": "ddlc-s4ri",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109834,7 +109692,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "ddlc-s4rr",
+									"_key": "ddlc-s4rj",
 									"text": "仕掛けのある物語に挑戦したい人に。",
 									"marks": []
 								}
@@ -109879,7 +109737,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rs",
+									"_key": "dragon-quest-11-s4rk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -109893,7 +109751,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rt",
+									"_key": "dragon-quest-11-s4rl",
 									"text": "16歳の誕生日に、自分が伝説の勇者の生まれ変わりだと知った主人公。しかし王国からは「悪魔の子」と呼ばれ、追われる身になる。",
 									"marks": []
 								}
@@ -109907,7 +109765,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4ru",
+									"_key": "dragon-quest-11-s4rm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -109921,7 +109779,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rv",
+									"_key": "dragon-quest-11-s4rn",
 									"text": "シリーズの伝統的なコマンドバトルで、仲間とともに世界の謎に迫っていく。過去のシリーズを思わせる演出も多く、30年の歴史の集大成と言える物語。『S』版では、3Dと2Dの表示を切り替えて遊べる。",
 									"marks": []
 								}
@@ -109935,7 +109793,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rw",
+									"_key": "dragon-quest-11-s4ro",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -109949,7 +109807,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rx",
+									"_key": "dragon-quest-11-s4rp",
 									"text": "王道のコマンドバトルと、シリーズの歴史を思わせる物語。",
 									"marks": []
 								}
@@ -109963,7 +109821,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4ry",
+									"_key": "dragon-quest-11-s4rq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -109977,7 +109835,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "dragon-quest-11-s4rz",
+									"_key": "dragon-quest-11-s4rr",
 									"text": "ドラクエを1本遊ぶなら、という人に。",
 									"marks": []
 								}
@@ -110021,7 +109879,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s0",
+									"_key": "night-in-the-woods-s4rs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110035,7 +109893,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s1",
+									"_key": "night-in-the-woods-s4rt",
 									"text": "町を歩き回り、幼なじみたちと会話し、バンドの練習をする。何気ない日常の中で、少しずつ不思議な事件の真相に近づいていく。",
 									"marks": []
 								}
@@ -110049,7 +109907,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s2",
+									"_key": "night-in-the-woods-s4ru",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -110063,7 +109921,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s3",
+									"_key": "night-in-the-woods-s4rv",
 									"text": "衰退する地方の町や心の不調を、動物のキャラクターを通して優しく描いた。音楽も魅力的。",
 									"marks": []
 								}
@@ -110077,7 +109935,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s4",
+									"_key": "night-in-the-woods-s4rw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110091,7 +109949,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s5",
+									"_key": "night-in-the-woods-s4rx",
 									"text": "幼なじみとの会話や町の散歩を楽しみながら、不穏な秘密に近づいていく。",
 									"marks": []
 								}
@@ -110105,7 +109963,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s6",
+									"_key": "night-in-the-woods-s4ry",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110119,7 +109977,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "night-in-the-woods-s4s7",
+									"_key": "night-in-the-woods-s4rz",
 									"text": "若者の物語が好きな人に。",
 									"marks": []
 								}
@@ -110164,7 +110022,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4s8",
+									"_key": "resident-evil-7-s4s0",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110178,7 +110036,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4s9",
+									"_key": "resident-evil-7-s4s1",
 									"text": "閉ざされた屋敷の中で、どこまでも追いかけてくる一家の父親から逃げながら、鍵や道具を探して脱出を目指す。弾や回復薬は限られている。",
 									"marks": []
 								}
@@ -110192,7 +110050,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4sa",
+									"_key": "resident-evil-7-s4s2",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -110206,7 +110064,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4sb",
+									"_key": "resident-evil-7-s4s3",
 									"text": "アクション寄りになっていたシリーズを、初代のような「怖さ」へと立ち返らせた作品。この視点は『ヴィレッジ』に引き継がれた。",
 									"marks": []
 								}
@@ -110220,7 +110078,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4sc",
+									"_key": "resident-evil-7-s4s4",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110234,7 +110092,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4sd",
+									"_key": "resident-evil-7-s4s5",
 									"text": "一人称視点で屋敷の一家から逃げ、限られた道具で生き延びる。",
 									"marks": []
 								}
@@ -110248,7 +110106,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4se",
+									"_key": "resident-evil-7-s4s6",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110262,7 +110120,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "resident-evil-7-s4sf",
+									"_key": "resident-evil-7-s4s7",
 									"text": "怖さを重視したホラーを遊びたい人に。",
 									"marks": []
 								}
@@ -110307,7 +110165,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sg",
+									"_key": "fe-echoes-s4s8",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110321,7 +110179,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sh",
+									"_key": "fe-echoes-s4s9",
 									"text": "2人の主人公の軍を交互に動かし、マス目の戦闘とダンジョンの探索を行き来する。",
 									"marks": []
 								}
@@ -110335,7 +110193,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4si",
+									"_key": "fe-echoes-s4sa",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110349,7 +110207,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sj",
+									"_key": "fe-echoes-s4sb",
 									"text": "時間を巻き戻せる「ミラの歯車」で、失敗をやり直すこともできる。",
 									"marks": []
 								}
@@ -110363,7 +110221,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sk",
+									"_key": "fe-echoes-s4sc",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -110377,7 +110235,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sl",
+									"_key": "fe-echoes-s4sd",
 									"text": "原作の物語を大きく膨らませ、声優の演技で描き直した。",
 									"marks": []
 								}
@@ -110391,7 +110249,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sm",
+									"_key": "fe-echoes-s4se",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110405,7 +110263,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fe-echoes-s4sn",
+									"_key": "fe-echoes-s4sf",
 									"text": "ファイアーエムブレムの物語を楽しみたい人に。",
 									"marks": []
 								}
@@ -110447,7 +110305,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4so",
+									"_key": "edith-finch-s4sg",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110461,7 +110319,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4sp",
+									"_key": "edith-finch-s4sh",
 									"text": "屋敷の中の部屋を巡り、家族の遺品に触れると、その人の最期の瞬間を追体験する。物語ごとに操作方法や表現ががらりと変わる。",
 									"marks": []
 								}
@@ -110475,7 +110333,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4sq",
+									"_key": "edith-finch-s4si",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -110489,7 +110347,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4sr",
+									"_key": "edith-finch-s4sj",
 									"text": "特に缶詰工場で働く兄の物語は、ゲームでしか表現できない場面として高く評価されている。",
 									"marks": []
 								}
@@ -110503,7 +110361,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4ss",
+									"_key": "edith-finch-s4sk",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110517,7 +110375,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4st",
+									"_key": "edith-finch-s4sl",
 									"text": "家族一人ひとりの最期の物語を、毎回違う遊び方で追体験する。",
 									"marks": []
 								}
@@ -110531,7 +110389,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4su",
+									"_key": "edith-finch-s4sm",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110545,7 +110403,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "edith-finch-s4sv",
+									"_key": "edith-finch-s4sn",
 									"text": "短く濃い物語体験をしたい人に。",
 									"marks": []
 								}
@@ -110590,7 +110448,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4sw",
+									"_key": "fortnite-s4so",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110604,7 +110462,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4sx",
+									"_key": "fortnite-s4sp",
 									"text": "建物や壁を素早く建築しながら戦うバトルロイヤル。100人で島に降りて、最後の1人を目指す。",
 									"marks": []
 								}
@@ -110618,7 +110476,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4sy",
+									"_key": "fortnite-s4sq",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -110632,7 +110490,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4sz",
+									"_key": "fortnite-s4sr",
 									"text": "シーズンごとに島の地形や遊びが大きく変わり、映画やアニメ、アーティストとのコラボも多い。ゲーム内でライブが開かれるなど、「遊ぶ場所」として巨大なプラットフォームになっている。",
 									"marks": []
 								}
@@ -110646,7 +110504,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4t0",
+									"_key": "fortnite-s4ss",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110660,7 +110518,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4t1",
+									"_key": "fortnite-s4st",
 									"text": "素早く建築して身を守り、シーズンごとに変わる島で戦う。",
 									"marks": []
 								}
@@ -110674,7 +110532,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4t2",
+									"_key": "fortnite-s4su",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110688,7 +110546,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "fortnite-s4t3",
+									"_key": "fortnite-s4sv",
 									"text": "友だちと遊べる人気のゲームを探している人に。",
 									"marks": []
 								}
@@ -110738,7 +110596,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t4",
+									"_key": "mario-rabbids-s4sw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -110752,7 +110610,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t5",
+									"_key": "mario-rabbids-s4sx",
 									"text": "マス目のマップで、物陰に隠れながら敵を撃つ。仲間を踏み台にしてジャンプする移動も使える。",
 									"marks": []
 								}
@@ -110766,7 +110624,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t6",
+									"_key": "mario-rabbids-s4sy",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -110780,7 +110638,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t7",
+									"_key": "mario-rabbids-s4sz",
 									"text": "見た目はかわいいが、戦術の手応えはしっかりしている。",
 									"marks": []
 								}
@@ -110794,7 +110652,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t8",
+									"_key": "mario-rabbids-s4t0",
 									"text": "ゲーム史の中で",
 									"marks": []
 								}
@@ -110808,7 +110666,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4t9",
+									"_key": "mario-rabbids-s4t1",
 									"text": "Ubisoftと任天堂が組んだ作品で、続編も作られた。",
 									"marks": []
 								}
@@ -110822,7 +110680,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4ta",
+									"_key": "mario-rabbids-s4t2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -110836,7 +110694,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-rabbids-s4tb",
+									"_key": "mario-rabbids-s4t3",
 									"text": "気軽に始められる戦術ゲームを探している人に。",
 									"marks": []
 								}
@@ -110854,6 +110712,148 @@
 						"strategy"
 					],
 					"platform": [
+						"switch"
+					]
+				}
+			},
+			{
+				"id": "game-mario-kart-8",
+				"slug": "mario-kart-8",
+				"status": "published",
+				"data": {
+					"title": "マリオカート8 デラックス",
+					"title_en": "Mario Kart 8 Deluxe",
+					"release_year": 2017,
+					"developer": "任天堂",
+					"tier": "essential",
+					"summary": "コースの壁や天井を走る「反重力」が加わったマリオカート。Switch版の『デラックス』はシリーズ最大のヒット作。",
+					"curator_note": "追加コースで遊びが10年以上広がり続けた。今からでも遊ぶ価値がある定番。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t4",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t5",
+									"text": "反重力の区間では、壁や天井を走りながら、ほかのカートにぶつかって加速できる。ハンドル操作を補助する機能もあり、子どもでも楽しめる。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t6",
+									"text": "見どころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t7",
+									"text": "Wii U版に追加要素を加えたSwitch版『デラックス』は、追加コースの配信もあって長く遊ばれ、Switchで最も売れたソフトのひとつになった。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t8",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4t9",
+									"text": "反重力の区間で壁や天井を走り、アイテムで逆転を狙う。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4ta",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "mario-kart-8-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "mario-kart-8-s4tb",
+									"text": "誰とでも遊べるレースゲームを探している人に。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"indie"
+					],
+					"genre": [
+						"racing",
+						"party"
+					],
+					"platform": [
+						"wiiu",
 						"switch"
 					]
 				}
