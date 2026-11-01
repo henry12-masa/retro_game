@@ -134846,6 +134846,150 @@
 				}
 			},
 			{
+				"id": "game-ff-resonance",
+				"slug": "ff-resonance",
+				"status": "published",
+				"data": {
+					"title": "ファイナルファンタジー レゾナンス",
+					"title_en": "Final Fantasy Resonance",
+					"release_year": 2026,
+					"developer": "スクウェア・エニックス / ランカース",
+					"tier": "recommended",
+					"summary": "「もしFFがドットのまま進化していたら」をコンセプトにした、シリーズ初のHD-2DのRPG。",
+					"curator_note": "ドットのキャラクターと、ターン制のコマンドバトル。原点の手ざわりを今の表現で。",
+					"content": [
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b0",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5uo",
+									"text": "どんなゲーム",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b1",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5up",
+									"text": "2026年10月に発売された、スクウェア・エニックスの新作RPG。開発はランカース。クリスタルをめぐる「復讐と絆の物語」を、シリーズで初めてHD-2Dのグラフィックで描く。主人公はレイン。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b2",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5uq",
+									"text": "遊びどころ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b3",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5ur",
+									"text": "戦闘はおなじみのターン制コマンドバトルで、ジョブシステムを備える。歴代『FF』の主人公たちの想いの結晶「ビジョン」を装備して戦い、ビジョンと共鳴して必殺技を放てる。幻獣との共闘や、チョコボ・飛空艇での世界の探索もある。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b4",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5us",
+									"text": "ゲーム史の中で",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b5",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5ut",
+									"text": "「もし『ファイナルファンタジー』がドットのまま進化を遂げていたら」というコンセプトで作られた作品。ドットのキャラクターが動くHD-2Dの世界に加え、ムービーやイベントシーンでは3DCGをドット絵のように見せる表現も使っている。",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b6",
+							"style": "h3",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5uu",
+									"text": "こんな人におすすめ",
+									"marks": []
+								}
+							]
+						},
+						{
+							"_type": "block",
+							"_key": "ff-resonance-b7",
+							"style": "normal",
+							"markDefs": [],
+							"children": [
+								{
+									"_type": "span",
+									"_key": "ff-resonance-s5uv",
+									"text": "ドット絵の頃の『FF』が好きな人、ジョブを組み合わせてパーティを育てるRPGが好きな人に。",
+									"marks": []
+								}
+							]
+						}
+					],
+					"amazon_query": ""
+				},
+				"taxonomies": {
+					"era": [
+						"now"
+					],
+					"genre": [
+						"rpg"
+					],
+					"platform": [
+						"switch2",
+						"switch",
+						"ps5",
+						"pc",
+						"xsx"
+					]
+				}
+			},
+			{
 				"id": "game-pokemon-pokopia",
 				"slug": "pokemon-pokopia",
 				"status": "published",
@@ -134866,7 +135010,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5uo",
+									"_key": "pokemon-pokopia-s5uw",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -134880,7 +135024,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5up",
+									"_key": "pokemon-pokopia-s5ux",
 									"text": "ポケモンたちの技を覚えて、地形を整えたり建物を作ったりしながら、ポケモンたちが暮らせる場所を広げていく。",
 									"marks": []
 								}
@@ -134894,7 +135038,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5uq",
+									"_key": "pokemon-pokopia-s5uy",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -134908,7 +135052,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5ur",
+									"_key": "pokemon-pokopia-s5uz",
 									"text": "2026年3月にSwitch 2で発売された。開発はコーエーテクモゲームスのω-Forceで、『ドラゴンクエストビルダーズ2』の開発者も参加している。",
 									"marks": []
 								}
@@ -134922,7 +135066,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5us",
+									"_key": "pokemon-pokopia-s5v0",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -134936,7 +135080,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5ut",
+									"_key": "pokemon-pokopia-s5v1",
 									"text": "ポケモンの技を使って地形を整え、ポケモンたちが暮らす場所を作る。",
 									"marks": []
 								}
@@ -134950,7 +135094,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5uu",
+									"_key": "pokemon-pokopia-s5v2",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -134964,7 +135108,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "pokemon-pokopia-s5uv",
+									"_key": "pokemon-pokopia-s5v3",
 									"text": "戦わないポケモンを楽しみたい人に。",
 									"marks": []
 								}
@@ -135007,7 +135151,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5uw",
+									"_key": "mario-tennis-fever-s5v4",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -135021,7 +135165,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5ux",
+									"_key": "mario-tennis-fever-s5v5",
 									"text": "ショットの打ち分けに加え、ラケットごとに違う特殊なショットを使って試合の流れを変えられる。",
 									"marks": []
 								}
@@ -135035,7 +135179,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5uy",
+									"_key": "mario-tennis-fever-s5v6",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -135049,7 +135193,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5uz",
+									"_key": "mario-tennis-fever-s5v7",
 									"text": "2026年2月にSwitch 2で発売された。家族や友だちと遊ぶパーティーゲームとしても楽しめる。",
 									"marks": []
 								}
@@ -135063,7 +135207,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5v0",
+									"_key": "mario-tennis-fever-s5v8",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -135077,7 +135221,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5v1",
+									"_key": "mario-tennis-fever-s5v9",
 									"text": "フィーバーラケットの特殊なショットで、試合の流れを変える。",
 									"marks": []
 								}
@@ -135091,7 +135235,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5v2",
+									"_key": "mario-tennis-fever-s5va",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -135105,7 +135249,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "mario-tennis-fever-s5v3",
+									"_key": "mario-tennis-fever-s5vb",
 									"text": "家族で遊べるスポーツゲームを探している人に。",
 									"marks": []
 								}
@@ -135148,7 +135292,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v4",
+									"_key": "monster-hunter-stories-3-s5vc",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -135162,7 +135306,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v5",
+									"_key": "monster-hunter-stories-3-s5vd",
 									"text": "モンスターの巣から卵を持ち帰って育て、仲間にして一緒に戦う。戦闘は3すくみの攻撃を読み合うコマンドバトル。",
 									"marks": []
 								}
@@ -135176,7 +135320,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v6",
+									"_key": "monster-hunter-stories-3-s5ve",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -135190,7 +135334,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v7",
+									"_key": "monster-hunter-stories-3-s5vf",
 									"text": "2026年3月に発売された。アクションが苦手な人でもモンハンの世界を楽しめるシリーズ。",
 									"marks": []
 								}
@@ -135204,7 +135348,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v8",
+									"_key": "monster-hunter-stories-3-s5vg",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -135218,7 +135362,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5v9",
+									"_key": "monster-hunter-stories-3-s5vh",
 									"text": "卵から育てたモンスターと、3すくみの読み合いで戦う。",
 									"marks": []
 								}
@@ -135232,7 +135376,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5va",
+									"_key": "monster-hunter-stories-3-s5vi",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -135246,7 +135390,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "monster-hunter-stories-3-s5vb",
+									"_key": "monster-hunter-stories-3-s5vj",
 									"text": "アクションが苦手でもモンハンを楽しみたい人に。",
 									"marks": []
 								}
@@ -135291,7 +135435,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vc",
+									"_key": "crimson-desert-s5vk",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -135305,7 +135449,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vd",
+									"_key": "crimson-desert-s5vl",
 									"text": "広大な大陸を馬で駆け、さまざまな武器や体術を組み合わせて戦う。巨大なボスとの戦闘や、見ごたえのある自然の描写が特徴。",
 									"marks": []
 								}
@@ -135319,7 +135463,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5ve",
+									"_key": "crimson-desert-s5vm",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -135333,7 +135477,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vf",
+									"_key": "crimson-desert-s5vn",
 									"text": "長い延期を経て、2026年3月に発売された。",
 									"marks": []
 								}
@@ -135347,7 +135491,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vg",
+									"_key": "crimson-desert-s5vo",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -135361,7 +135505,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vh",
+									"_key": "crimson-desert-s5vp",
 									"text": "馬で広大な大陸を駆け、多彩な武器と体術で巨大なボスに挑む。",
 									"marks": []
 								}
@@ -135375,7 +135519,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vi",
+									"_key": "crimson-desert-s5vq",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -135389,7 +135533,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "crimson-desert-s5vj",
+									"_key": "crimson-desert-s5vr",
 									"text": "圧倒的な規模の世界を冒険したい人に。",
 									"marks": []
 								}
@@ -135434,7 +135578,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vk",
+									"_key": "nioh-3-s5vs",
 									"text": "どんなゲーム",
 									"marks": []
 								}
@@ -135448,7 +135592,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vl",
+									"_key": "nioh-3-s5vt",
 									"text": "武器と技を駆使する侍のスタイルと、素早い身のこなしと忍術を使う忍者のスタイルを切り替えて戦う。広い地域を探索できるようにもなった。",
 									"marks": []
 								}
@@ -135462,7 +135606,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vm",
+									"_key": "nioh-3-s5vu",
 									"text": "見どころ",
 									"marks": []
 								}
@@ -135476,7 +135620,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vn",
+									"_key": "nioh-3-s5vv",
 									"text": "2026年2月に発売。『仁王』シリーズの高い難易度と、やり込みの深さを受け継いでいる。",
 									"marks": []
 								}
@@ -135490,7 +135634,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vo",
+									"_key": "nioh-3-s5vw",
 									"text": "遊びどころ",
 									"marks": []
 								}
@@ -135504,7 +135648,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vp",
+									"_key": "nioh-3-s5vx",
 									"text": "侍と忍者の2つのスタイルを切り替えて、戦国の妖怪と戦う。",
 									"marks": []
 								}
@@ -135518,7 +135662,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vq",
+									"_key": "nioh-3-s5vy",
 									"text": "こんな人におすすめ",
 									"marks": []
 								}
@@ -135532,7 +135676,7 @@
 							"children": [
 								{
 									"_type": "span",
-									"_key": "nioh-3-s5vr",
+									"_key": "nioh-3-s5vz",
 									"text": "シリーズのファンに。",
 									"marks": []
 								}
@@ -137374,7 +137518,7 @@
 								{
 									"_type": "span",
 									"_key": "k6x",
-									"text": "発売年や機種は初出時の情報と主要な移植先を記載しています。誤りに気づいたら、ぜひ教えてください。",
+									"text": "発売年は世界で最初に発売された年(アーケードや海外が先ならその年、早期アクセスで先に出た作品はその開始年)、機種は初出時の機種と主要な移植先を記載しています。誤りに気づいたら、ぜひ教えてください。",
 									"marks": []
 								}
 							]
